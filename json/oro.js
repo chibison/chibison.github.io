@@ -5,6 +5,7 @@ const oro={
   "lugares": [
     {
       "nombre": "Pueblo Primavera",
+      "lema": "El pueblo donde soplan vientos de un nuevo amanecer.",
       "inicial":[
         {
           "numero": 152,
@@ -146,6 +147,7 @@ const oro={
     },
     {
       "nombre": "Ciudad Cerezo",
+      "lema": "La ciudad de las flores bonitas y fragantes.",
       "surf":[
         {
           "numero": 72,
@@ -460,6 +462,7 @@ const oro={
     },
     {
       "nombre":"Ciudad Malva",
+      "lema": "La ciudad de los aromas nostálgicos.",
       "surf":[
         {
           "numero": 60,
@@ -1125,6 +1128,7 @@ const oro={
     },
     {
       "nombre": "Pueblo Azalea",
+      "lema": "Donde la gente y los Pokémon viven en feliz armonía.",
       "cabeza":[
               {
                 "numero": 10,
@@ -1406,6 +1410,7 @@ const oro={
     },
     {
       "nombre": "Ciudad Trigal",
+      "lema": "La alegre ciudad de rico encanto.",
       "intercambio": [
         {
           "numero": 66,
@@ -1700,6 +1705,7 @@ const oro={
     },
     {
       "nombre": "Ciudad Iris",
+      "lema": "Una ciudad donde conviven el pasado y el presente.",
       "surf":[
         {
           "numero": 60,
@@ -1943,6 +1949,7 @@ const oro={
     },
     {
       "nombre":"Ciudad Olivo",
+      "lema": "El puerto a tierras lejanas.",
       "plantas": [
         {
           "nombre": "Ciudad",
@@ -2123,6 +2130,7 @@ const oro={
     },
     {
       "nombre": "Ciudad Orquídea",
+      "lema": "Un puerto rodeado de agitadas aguas.",
       "surf":[
         {
           "numero": 72,
@@ -2528,6 +2536,7 @@ const oro={
     },
     {
       "nombre": "Pueblo Caoba",
+      "lema":"Bienvenido al hogar de los Ninja.",
       "plantas": [
         {
           "nombre": "Escondite del Team Rocket",
@@ -2856,6 +2865,7 @@ const oro={
     },
     {
       "nombre": "Ciudad Endrino",
+      "lema": "Un tranquilo refugio de montaña.",
       "surf":[
         {
           "numero": 129,

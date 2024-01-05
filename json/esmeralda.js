@@ -168,6 +168,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Petalia",
+			"lema": "Donde las personas viven en armonía con el lugar.",
 			"surf": [
 				{
 					"numero": 183,
@@ -280,6 +281,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Férrica",
+			"lema": "La ciudad tecnológica que respeta el medio ambiente.",
 			"intercambio": [
 				{
 					"numero": 273,
@@ -344,6 +346,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Pueblo Azuliza",
+			"lema": "Una isla en medio del mar.",
 			"surf": [
 				{
 					"numero": 72,
@@ -475,6 +478,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Portual",
+			"lema": "El puerto donde se cruzan los caminos de entrenadores y Pokémon.",
 			"surf": [
 				{
 					"numero": 72,
@@ -1111,6 +1115,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Pueblo Lavacalda",
+			"lema": "¡No hay nada más relajante!",
 			"huevo": [
 				{
 					"numero": 360,
@@ -1553,6 +1558,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Arborada",
+			"lema": "La ciudad arbórea que juega con la naturaleza.",
 			"intercambio": [
 				{
 					"numero": 311,
@@ -2068,6 +2074,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Calagua",
+			"lema": "Allí donde acaba la tierra y empieza el mar.",
 			"surf": [
 				{
 					"numero": 72,
@@ -2370,6 +2377,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Algaria",
+			"lema": "Nuestra divisa: ¡quiere a los Pokémon!",
 			"surf": [
 				{
 					"numero": 72,
@@ -3002,6 +3010,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Pueblo Oromar",
+			"lema": "Donde el radiante sol ilumina las aguas cada día.",
 			"surf": [
 				{
 					"numero": 72,
@@ -3172,6 +3181,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Ciudad Colosalia",
+			"lema": "El paraíso de las flores, el mar y los Pokémon.",
 			"surf": [
 				{
 					"numero": 72,
@@ -3351,6 +3361,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Villa Raíz",
+			"lema": "Un pueblo poco colorido.",
 			"escoger": [
 				{
 					"numero": 152,

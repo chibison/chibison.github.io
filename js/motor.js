@@ -448,6 +448,7 @@ function leerLugares(json){
 
   document.getElementById("cuerpo").classList=json.nombre;
   document.getElementById("busqueda").classList=json.nombre;
+  document.getElementById("titulo").classList=json.nombre;
   document.getElementById("btnArriba").classList="boton "+json.nombre;
 
   if(document.getElementsByClassName("marcador").length > 0){
@@ -462,12 +463,22 @@ function dibujarLugar(lugar){
 
   var h1Lugar = document.createElement("H1");
   h1Lugar.innerHTML = lugar.nombre;
+
   h1Lugar.onclick = function() {
-    for (l of document.getElementsByTagName("H1")){
-      l.classList = [];
+    for (l of document.getElementById("cuerpo").getElementsByTagName("H1")){
+      if(this!==l){
+        l.classList.remove("marcador");
+      }
+      else{
+        this.classList.toggle("marcador");
+        if(!this.classList.contains("marcador")){
+          localizaciones[juego] = "";
+        }
+        else {
+          localizaciones[juego] = lugar.nombre;
+        }
+      }
     }
-    this.classList.toggle("marcador");
-    localizaciones[juego] = lugar.nombre;
     window.localStorage.setItem("localizaciones",JSON.stringify(localizaciones));
   };
 
@@ -485,6 +496,7 @@ function dibujarLugar(lugar){
 
   var divContenedor = document.createElement("DIV");
   divContenedor.classList = "lugarCont";
+
   //divContenedor.style.backgroundImage = "url('img/lugares/"+lugar.nombre+".png')";
 
   if(lugar.hasOwnProperty("observaciones")){
@@ -1222,37 +1234,35 @@ function procesarProbabilidad(probabilidad, divPok){
 
 function ocultarNoCoincidentes(texto){
   if(juego!='nacional'){
-    let lugares = document.getElementsByClassName("lugar");
-    for(let i=0; i<lugares.length; i++){
-      lugares[i].classList.add("oculto");
-      for(let j=0; j<lugares[i].children[1].children.length; j++){
-        lugares[i].children[1].children[j].classList.add("oculto");
-      }
-    }
+    let lugarEncontrado = false;
 
-    let pok = document.getElementsByClassName("pok");
-    for(let i=0; i<pok.length; i++){
-      if(pok[i].getElementsByTagName("P")[0].innerText.toLowerCase().includes(texto)){
-        pok[i].classList.remove("oculto");
-        desocultarPadre(pok[i]);
-        pok[i].parentElement.previousElementSibling.classList.remove("oculto");
+    let lugares = document.getElementById("cuerpo").children;
+    for(let i=0; i<lugares.length; i++){
+      if(!lugares[i].children[0].innerText.toLowerCase().includes(texto.toLowerCase())){
+        lugares[i].classList.add("oculto");
       }
       else {
-        pok[i].classList.add("oculto");
+        lugares[i].classList.remove("oculto");
+        desocultarHijos(lugares[i]);
+        lugarEncontrado = true;
       }
     }
 
-    for(let i=0; i<lugares.length; i++){
-      if(lugares[i].children[0].innerText.toLowerCase().includes(texto)){
-        for(let j=0; j<lugares[i].children[1].children.length; j++){
-          for(let k=0; k<lugares[i].children[1].children[j].getElementsByClassName("pok").length; k++){
-            lugares[i].children[1].children[j].getElementsByClassName("pok")[k].classList.remove("oculto");
-            desocultarPadre(lugares[i].children[1].children[j].getElementsByClassName("pok")[k]);
-          }
+    if(!lugarEncontrado){
+      let pok = document.getElementsByClassName("pok");
+      for(let i=0; i<pok.length; i++){
+        if(pok[i].getElementsByTagName("P")[0].innerText.toLowerCase().includes(texto.toLowerCase())){
+          pok[i].classList.remove("oculto");
+          desocultarPadre(pok[i]);
+          pok[i].parentElement.previousElementSibling.classList.remove("oculto");
+        }
+        else {
+          pok[i].classList.add("oculto");
         }
       }
     }
   }
+
   else{
     let nombre="";
     let numero="";
@@ -1389,6 +1399,16 @@ function desocultarPadre(div){
   }
 }
 
+function desocultarHijos(div){
+  if(div.hasChildNodes()){
+    div.classList.remove("oculto");
+    var elementos = div.children;
+    for(let e of elementos){
+      desocultarHijos(e);
+    }
+  }
+}
+
 function construirArrayObtenidos(pJuego){
   let arrayObtenidos = [];
 
@@ -1409,72 +1429,31 @@ function comprobarTrofeos(){
   if (obtenidos) {
     let divJuego = document.querySelector("#juegosGen [juego="+juego+"]");
     let arrayObtenidos = construirArrayObtenidos(divJuego);
+    let nJuegos =0;
+    let offset = 200;
 
     if(arrayObtenidos.length == divJuego.parentElement.getAttribute("ntotal")){
-      switch(juego){
-        case "rojo": if(!trofeosObtenidos.includes("0")) {
-                            //let promesa = new Promise(resolve => {crearTrofeo(trofeos.listado[0])});
-                            //setTimeout(()=>{},5600);
-                            //setTimeout(() => {divTrofeo.ocultar();}, 5600);
-                            //await promesa;
-                            crearTrofeo(trofeos.listado[0]);//.then(setTimeout(() => {}, 1000));
-                            /*while(!continuarEje){ /* esperar a que finalice trofeo */
-                            //}
-                            //trofeosObtenidos.push("0");
-                          }
-                          if(!trofeosObtenidos.includes("4")) {
-                            crearTrofeo(trofeos.listado[4]);//.then(setTimeout(() => {}, 5600));
-                            //trofeosObtenidos.push("4");
-                          }
-                         break;
-        case "azul": if(!trofeosObtenidos.includes("0")) {
-                            crearTrofeo(trofeos.listado[0]);
-                            trofeosObtenidos.push("0");
-                          }
-                     if(!trofeosObtenidos.includes("5")) {
-                            crearTrofeo(trofeos.listado[5]);
-                            trofeosObtenidos.push("5");
-                          }
-                         break;
-        case "amarillo": if(!trofeosObtenidos.includes("0")) {
-                            crearTrofeo(trofeos.listado[0]);
-                            trofeosObtenidos.push("0");
-                          }
-        if(!trofeosObtenidos.includes("6")) {
-                            crearTrofeo(trofeos.listado[6]);
-                            trofeosObtenidos.push("6");
-                          }
-                         break;
-        case "oro":
-        case "plata":
-        case "cristal": if(!trofeosObtenidos.includes("1")) {
-                          crearTrofeo(trofeos.listado[1]);
-                          trofeosObtenidos.push("1");
-                        }
-                        break;
-        case "rubi":
-        case "zafiro":
-        case "esmeralda": if(!trofeosObtenidos.includes("2")) {
-                          crearTrofeo(trofeos.listado[2]);
-                          trofeosObtenidos.push("2");
-                        }
-                        break;
-        case "diamante":
-        case "perla":
-        case "platino": if(!trofeosObtenidos.includes("3")) {
-                          crearTrofeo(trofeos.listado[3]);
-                          trofeosObtenidos.push("3");
-                        }
-                        break;
-      }
+      trofeos.listado.forEach((t) =>{
+        if(t.nombre.toLowerCase() == ("gen"+generacion) && !trofeosObtenidos.includes(t.nombre.toLowerCase())){
+          crearTrofeo(t, nJuegos*offset);
+          nJuegos++;
+          trofeosObtenidos.push(t.nombre.toLowerCase());
+        }
+        if(t.nombre.toLowerCase() == juego && !trofeosObtenidos.includes(t.nombre.toLowerCase())){
+          crearTrofeo(t, nJuegos*offset);
+          nJuegos++;
+          trofeosObtenidos.push(t.nombre.toLowerCase());
+        }
+      });
       window.localStorage.setItem("trofeosObtenidos", JSON.stringify(trofeosObtenidos));
     }
   }
 }
 
-function crearTrofeo(trofeo){
+function crearTrofeo(trofeo, offset){
     let divTrofeo = document.createElement("DIV");
     divTrofeo.classList.add("trofeo");
+    divTrofeo.style.bottom = (offset+10)+"px";
 
     let imgTrofeo = document.createElement("IMG");
     imgTrofeo.src=trofeo.img;
@@ -1512,27 +1491,29 @@ function cargarTrofeos(){
   document.getElementById("titulo").innerText='Trofeos';
   document.getElementById("titulo").classList = "trofeos";
 
-  for(let i=0; i<trofeosObtenidos.length; i++){
-    let divTrofeo = document.createElement("DIV");
-    divTrofeo.classList.add("trofeoEstatico");
+  trofeos.listado.forEach((t, i) => {
+    if(trofeosObtenidos.includes(t.nombre.toLowerCase())){
+      let divTrofeo = document.createElement("DIV");
+      divTrofeo.classList.add("trofeoEstatico");
 
-    let imgTrofeo = document.createElement("IMG");
-    imgTrofeo.src=trofeos.listado[trofeosObtenidos[i]].img;
-    imgTrofeo.alt=trofeos.listado[trofeosObtenidos[i]].desc,
-    imgTrofeo.title =trofeos.listado[trofeosObtenidos[i]].nombre;
+      let imgTrofeo = document.createElement("IMG");
+      imgTrofeo.src=t.img;
+      imgTrofeo.alt=t.desc,
+      imgTrofeo.title =t.nombre;
 
-    let hTrofeo = document.createElement("H3");
-    hTrofeo.innerText = trofeos.listado[trofeosObtenidos[i]].nombre;
+      let hTrofeo = document.createElement("H3");
+      hTrofeo.innerText = t.nombre;
 
-    let pTrofeo = document.createElement("P");
-    pTrofeo.innerText = trofeos.listado[trofeosObtenidos[i]].desc;
+      let pTrofeo = document.createElement("P");
+      pTrofeo.innerText = t.desc;
 
-    divTrofeo.append(imgTrofeo);
-    divTrofeo.append(hTrofeo);
-    divTrofeo.append(pTrofeo);
+      divTrofeo.append(imgTrofeo);
+      divTrofeo.append(hTrofeo);
+      divTrofeo.append(pTrofeo);
 
-    document.getElementById("cuerpo").append(divTrofeo);
-  }
+      document.getElementById("cuerpo").append(divTrofeo);
+    }
+  });
 }
 
 function revisar(){

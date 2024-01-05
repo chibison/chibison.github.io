@@ -5,6 +5,7 @@ const perla = {
   "lugares":[
     {
       "nombre": "Pueblo Hojaverde",
+      "lema": "¡Fresco y libre!",
       "surf": [
         {
           "numero": 54,
@@ -398,6 +399,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Pirita",
+      "lema": "Ciudad de la energía.",
       "intercambio": [
         {
         	"numero": 63,
@@ -1144,6 +1146,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Vetusta",
+      "lema": "La historia viva.",
       "surf": [
         {
         	"numero": 54,
@@ -1495,6 +1498,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Corazón",
+      "lema": "Acogedora y hospitalaria.",
       "regalo": [
         {
         	"numero": 133,
@@ -2285,6 +2289,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Pradera",
+      "lema": "La ciudad de los pantanos.",
       "surf": [
         {
           "numero": 72,
@@ -2899,6 +2904,7 @@ const perla = {
     },
     {
       "nombre": "Pueblo Caelestis",
+      "lema": "El pasado vive.",
       "surf": [
         {
           "numero": 54,
@@ -3455,6 +3461,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Canal",
+      "lema": "Puerto de transporte.",
       "surf": [
         {
         	"numero": 72,
@@ -3958,6 +3965,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Puntaneva",
+      "lema": "Donde vive la nieve.",
       "intercambio": [
         {
           "numero": 93,
@@ -4608,6 +4616,7 @@ const perla = {
     },
     {
       "nombre": "Ciudad Marina",
+      "lema": "¡Con energía solar!",
       "surf":[
         {
         	"numero": 73,

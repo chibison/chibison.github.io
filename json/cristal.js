@@ -5,6 +5,7 @@ const cristal={
   "lugares": [
     {
       "nombre": "Pueblo Primavera",
+      "lema": "El pueblo donde soplan vientos de un nuevo amanecer.",
       "inicial":[
         {
           "numero": 152,
@@ -170,6 +171,7 @@ const cristal={
     },
     {
       "nombre": "Ciudad Cerezo",
+      "lema": "La ciudad de las flores bonitas y fragantes.",
       "surf":[
         {
           "numero": 72,
@@ -533,6 +535,7 @@ const cristal={
     },
     {
       "nombre":"Ciudad Malva",
+      "lema": "La ciudad de los aromas nostálgicos.",
       "surf":[
         {
           "numero": 60,
@@ -1231,6 +1234,7 @@ const cristal={
     },
     {
       "nombre": "Pueblo Azalea",
+      "lema": "Donde la gente y los Pokémon viven en feliz armonía.",
       "cabeza":[
         {
           "numero": 163,
@@ -1594,6 +1598,7 @@ const cristal={
     },
     {
       "nombre": "Ciudad Trigal",
+      "lema": "La alegre ciudad de rico encanto.",
       "intercambio": [
         {
           "numero": 66,
@@ -1889,26 +1894,26 @@ const cristal={
         }
       ],
       "cabeza":[
-	{
-	  "numero": 21,
-	  "nivel": 10,
-	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":80},"especial":{"porcentaje":50}}
-	},
-	{
-	  "numero": 190,
-	  "nivel": 10,
-	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":20},"especial":{"porcentaje":20}}
-	},
-	{
-	  "numero": 214,
-	  "nivel": 10,
-	  "probabilidad": {"tipo": "arbol","especial":{"porcentaje":30}}
-	}
-  ]
-
+      	{
+      	  "numero": 21,
+      	  "nivel": 10,
+      	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":80},"especial":{"porcentaje":50}}
+      	},
+      	{
+      	  "numero": 190,
+      	  "nivel": 10,
+      	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":20},"especial":{"porcentaje":20}}
+      	},
+      	{
+      	  "numero": 214,
+      	  "nivel": 10,
+      	  "probabilidad": {"tipo": "arbol","especial":{"porcentaje":30}}
+      	}
+      ]
     },
     {
       "nombre": "Ciudad Iris",
+      "lema": "Una ciudad donde conviven el pasado y el presente.",
       "surf":[
         {
           "numero": 60,
@@ -2088,26 +2093,26 @@ const cristal={
         }
       ],
       "cabeza":[
-	{
-	  "numero": 21,
-	  "nivel": 10,
-	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":80},"especial":{"porcentaje":50}}
-	},
-	{
-	  "numero": 190,
-	  "nivel": 10,
-	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":20},"especial":{"porcentaje":20}}
-	},
-	{
-	  "numero": 214,
-	  "nivel": 10,
-	  "probabilidad": {"tipo": "arbol","especial":{"porcentaje":30}}
-	}
-  ]
-
+      	{
+      	  "numero": 21,
+      	  "nivel": 10,
+      	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":80},"especial":{"porcentaje":50}}
+      	},
+      	{
+      	  "numero": 190,
+      	  "nivel": 10,
+      	  "probabilidad": {"tipo": "arbol","normal":{"porcentaje":20},"especial":{"porcentaje":20}}
+      	},
+      	{
+      	  "numero": 214,
+      	  "nivel": 10,
+      	  "probabilidad": {"tipo": "arbol","especial":{"porcentaje":30}}
+      	}
+      ]
     },
     {
       "nombre":"Ciudad Olivo",
+      "lema": "El puerto a tierras lejanas.",
       "plantas": [
         {
           "nombre": "Ciudad",
@@ -2288,6 +2293,7 @@ const cristal={
     },
     {
       "nombre": "Ciudad Orquídea",
+      "lema": "Un puerto rodeado de agitadas aguas.",
       "surf":[
         {
           "numero": 72,
@@ -2704,6 +2710,7 @@ const cristal={
     },
     {
       "nombre": "Pueblo Caoba",
+      "lema":"Bienvenido al hogar de los Ninja.",
       "plantas": [
         {
           "nombre": "Escondite del Team Rocket",
@@ -3054,6 +3061,7 @@ const cristal={
     },
     {
       "nombre": "Ciudad Endrino",
+      "lema": "Un tranquilo refugio de montaña.",
       "surf":[
         {
           "numero": 129,

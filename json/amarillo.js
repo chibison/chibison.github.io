@@ -5,6 +5,7 @@ const amarillo = {
 	"lugares": [
 		{
 			"nombre": "Pueblo Paleta",
+			"lema": "¡Un lienzo en blanco de tu viaje!",
 			"inicial": [
 				{
 					"numero": 25,
@@ -51,6 +52,7 @@ const amarillo = {
 		},
 		{
 			"nombre":"Ciudad Verde",
+			"lema": "El paraíso del eterno verdor.",
 			"pesca":[
 				{
 					"numero": 129,
@@ -309,6 +311,7 @@ const amarillo = {
 		},
 		{
 			"nombre": "Ciudad Celeste",
+			"lema": "¡Una misteriosa aura azulada la rodea!",
 			"pesca" : [
 						{
 							"numero": 129,
@@ -536,6 +539,7 @@ const amarillo = {
 		},
 		{
 			"nombre": "Ciudad Carmín",
+			"lema": "El puerto de los ocasos exquisitos.",
 			"plantas": [
 				{
 					"nombre": "Ciudad",
@@ -993,6 +997,7 @@ const amarillo = {
 		},
 		{
 			"nombre":"Ciudad Azulona",
+			"lema":"La ciudad de los sueños de arco iris.",
 			"pesca":[
 				{
 					"numero": 129,
@@ -1427,6 +1432,7 @@ const amarillo = {
 		},
 		{
 			"nombre":"Ciudad Fucsia",
+			"lema":"¡La ciudad rosa!",
 			"pesca":[
 				{
 					"numero": 129,
@@ -1782,6 +1788,7 @@ const amarillo = {
 	},
 		{
 			"nombre":"Ciudad Azafrán",
+			"lema":"La brillante y dorada tierra del comercio.",
 			"escoger": [
 				{
 					"numero": 106,
@@ -2133,6 +2140,7 @@ const amarillo = {
 		},
 		{
 			"nombre":"Isla Canela",
+			"lema":"La feroz ciudad del ardiente deseo.",
 			"pesca":[
 				{
 					"numero": 129,

@@ -294,12 +294,13 @@ div.trofeo{
   background-color: white;
   padding: 5px;
   position: fixed;
-  bottom: 10px;
   left: 10px;
   animation: slidebottom 6s;
   display: grid;
   width: 30%;
-  column-gap: 0.3em;
+  column-gap: 0.5em;
+  height: 170px;
+  align-content: center;
 }
 
 div.trofeoEstatico{
@@ -315,6 +316,7 @@ div.trofeo > img, div.trofeoEstatico > img{
   width: 100%;
   grid-column:1;
   grid-row: span 2;
+  height: 150px;
 }
 
 div.trofeo > h3, div.trofeoEstatico > h3 {

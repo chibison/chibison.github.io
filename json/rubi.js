@@ -163,6 +163,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Petalia",
+			"lema": "Donde las personas viven en armonía con el lugar.",
 			"surf": [
 				{
 					"numero": 183,
@@ -270,6 +271,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Férrica",
+			"lema": "La ciudad tecnológica que respeta el medio ambiente.",
 			"intercambio": [
 				{
 					"numero": 296,
@@ -329,6 +331,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Pueblo Azuliza",
+			"lema": "Una isla en medio del mar.",
 			"surf": [
 				{
 					"numero": 72,
@@ -460,6 +463,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Portual",
+			"lema": "El puerto donde se cruzan los caminos de entrenadores y Pokémon.",
 			"surf": [
 				{
 					"numero": 72,
@@ -1041,6 +1045,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Pueblo Lavacalda",
+			"lema": "¡No hay nada más relajante!",
 			"huevo": [
 				{
 					"numero": 360,
@@ -1483,6 +1488,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Arborada",
+			"lema": "La ciudad arbórea que juega con la naturaleza.",
 			"intercambio": [
 				{
 					"numero": 300,
@@ -1861,6 +1867,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Calagua",
+			"lema": "Allí donde acaba la tierra y empieza el mar.",
 			"surf": [
 				{
 					"numero": 72,
@@ -2148,6 +2155,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Algaria",
+			"lema": "Nuestra divisa: ¡quiere a los Pokémon!",
 			"surf": [
 				{
 					"numero": 72,
@@ -2789,6 +2797,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Pueblo Oromar",
+			"lema": "Donde el radiante sol ilumina las aguas cada día.",
 			"surf": [
 				{
 					"numero": 72,
@@ -2959,6 +2968,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Ciudad Colosalia",
+			"lema": "El paraíso de las flores, el mar y los Pokémon.",
 			"surf": [
 				{
 					"numero": 72,
@@ -3143,6 +3153,7 @@ const rubi = {
 		},
 		{
       "nombre": "Villa Raíz",
+			"lema": "Un pueblo poco colorido.",
       "escoger": [
         {
           "numero": 152,
