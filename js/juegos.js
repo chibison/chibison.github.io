@@ -1,0 +1,47 @@
+var jsonObtenidos =
+{
+  "rojo":[],
+  "azul":[],
+  "amarillo":[],
+  "oro":[],
+  "plata":[],
+  "cristal":[],
+  "rubi":[],
+  "zafiro":[],
+  "esmeralda":[],
+  "rojofuego":[],
+  "verdehoja":[],
+  "diamante":[],
+  "perla":[],
+  "platino":[],
+  "heartgold":[],
+  "soulsilver":[],
+  "blanco":[],
+  "negro":[],
+  "blanco2":[],
+  "negro2":[]
+}
+
+var jsonLoc =
+{
+  "rojo":"",
+  "azul":"",
+  "amarillo":"",
+  "oro":"",
+  "plata":"",
+  "cristal":"",
+  "rubi":"",
+  "zafiro":"",
+  "esmeralda":"",
+  "rojofuego":"",
+  "verdehoja":"",
+  "diamante":"",
+  "perla":"",
+  "platino":"",
+  "heartgold":"",
+  "soulsilver":"",
+  "blanco":"",
+  "negro":"",
+  "blanco2":"",
+  "negro2":""
+}

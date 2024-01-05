@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Location Dex</title>
+    <script type="text/javascript" src="js/juegos.js"></script>
+    <script type="text/javascript" src="json/pk.js"></script>
+    <script type="text/javascript" src="json/rojo.js"></script>
+    <script type="text/javascript" src="json/azul.js"></script>
+    <script type="text/javascript" src="json/amarillo.js"></script>
+    <script type="text/javascript" src="json/oro.js"></script>
+    <script type="text/javascript" src="json/plata.js"></script>
+    <script type="text/javascript" src="json/cristal.js"></script>
+    <script type="text/javascript" src="json/rubi.js"></script>
+    <script type="text/javascript" src="json/zafiro.js"></script>
+    <script type="text/javascript" src="json/esmeralda.js"></script>
+    <script type="text/javascript" src="json/rojofuego.js"></script>
+    <script type="text/javascript" src="json/verdehoja.js"></script>
+    <script type="text/javascript" src="json/diamante.js"></script>
+    <script type="text/javascript" src="json/perla.js"></script>
+    <script type="text/javascript" src="json/platino.js"></script>
+    <script type="text/javascript" src="json/heartgold.js"></script>
+    <script type="text/javascript" src="json/soulsilver.js"></script>
+    <script type="text/javascript" src="json/blanco.js"></script>
+    <script type="text/javascript" src="json/negro.js"></script>
+    <script type="text/javascript" src="json/blanco2.js"></script>
+    <script type="text/javascript" src="json/negro2.js"></script>
+    <script type="text/javascript" src="json/trofeos.js"></script>
+    <script type="text/javascript" src="js/motor.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>LocationDex</h1>
+    </header>
+    <div id="generaciones">
+      <img src="img/gen/gen1.png" title="Generación 1" alt="Generación 1" onclick="mostrarGeneracion(1);" class="boton">
+      <img src="img/gen/gen2.png" title="Generación 2" alt="Generación 2" onclick="mostrarGeneracion(2);" class="boton">
+      <img src="img/gen/gen3.png" title="Generación 3" alt="Generación 3" onclick="mostrarGeneracion(3);" class="boton">
+      <img src="img/gen/gen4.png" title="Generación 4" alt="Generación 4" onclick="mostrarGeneracion(4);" class="boton">
+      <!--<img src="img/gen/gen5.png" title="Generación 5" alt="Generación 5" onclick="mostrarGeneracion(5);" class="boton">-->
+      <img id="iconoNacional" src="img/otros/nacional.png" onclick="leerNacional();" title="Pokédex Nacional" alt="Pokédex Nacional" class="boton">
+      <img id="iconoTrofeos" src="img/otros/trofeo.png" onclick="cargarTrofeos();" title="Trofeos" alt="Trofeos" class="boton">
+      <img id="iconoBorrar" src="img/otros/papelera.png" onclick="borrar();" title="Borrar datos" alt="Borrar datos" class="boton">
+
+
+
+    </div>
+    <div id="juegosGen" class="">
+      <div class="generacion oculto" gen="1" ntotal="151">
+        <div juego="rojo" onclick="leerLugares(rojo);"><img src="img/portada/rojo.webp" class="divPortada" alt="Rojo" title="Rojo" class="boton"><p></p></div>
+        <div juego="azul" onclick="leerLugares(azul);"><img src="img/portada/azul.webp" class="divPortada" alt="Azul" title="Azul" class="boton"><p></p></div>
+        <div juego="amarillo" onclick="leerLugares(amarillo);"><img src="img/portada/amarillo.webp" class="divPortada" alt="Amarillo" title="Amarillo" class="boton"><p></p></div>
+      </div>
+      <div class="generacion oculto" gen="2" ntotal="251">
+        <div juego="oro" onclick="leerLugares(oro);"><img src="img/portada/oro.webp" class="divPortada" alt="Oro" title="Oro" class="boton"><p></p></div>
+        <div juego="plata" onclick="leerLugares(plata);"><img src="img/portada/plata.webp" class="divPortada" alt="Plata" title="Plata" class="boton"><p></p></div>
+        <div juego="cristal" onclick="leerLugares(cristal);"><img src="img/portada/cristal.webp" class="divPortada" alt="Cristal" title="Cristal" class="boton"><p></p></div>
+      </div>
+      <div class="generacion oculto" gen="3" ntotal="386">
+        <div juego="rubi" onclick="leerLugares(rubi);"><img src="img/portada/rubi.webp" class="divPortada" alt="Rubí" title="Rubí" class="boton"><p></p></div>
+        <div juego="zafiro" onclick="leerLugares(zafiro);"><img src="img/portada/zafiro.webp" class="divPortada" alt="Zafiro" title="Zafiro" class="boton"><p></p></div>
+        <div juego="esmeralda" onclick="leerLugares(esmeralda);"><img src="img/portada/esmeralda.webp" class="divPortada" alt="Esmeralda" title="Esmeralda" class="boton"><p></p></div>
+        <div juego="rojofuego" onclick="leerLugares(rojofuego);"><img src="img/portada/rojofuego.webp" class="divPortada" alt="Rojo fuego" title="Rojo fuego" class="boton"><p></p></div>
+        <div juego="verdehoja" onclick="leerLugares(verdehoja);"><img src="img/portada/verdehoja.webp" class="divPortada" alt="Verde hoja" title="Verde hoja" class="boton"><p></p></div>
+      </div>
+      <div class="generacion oculto" gen="4" ntotal="493">
+        <div juego="diamante" onclick="leerLugares(diamante);"><img src="img/portada/diamante.webp" class="divPortada" alt="Diamante" title="Diamante" class="boton"><p></p></div>
+        <div juego="perla" onclick="leerLugares(perla);"><img src="img/portada/perla.webp" class="divPortada" alt="Perla" title="Perla" class="boton"><p></p></div>
+        <div juego="platino" onclick="leerLugares(platino);"><img src="img/portada/platino.webp" class="divPortada" alt="Platino" title="Platino" class="boton"><p></p></div>
+        <div juego="heartgold" onclick="leerLugares(heartgold);"><img src="img/portada/heartgold.webp" class="divPortada" alt="Oro Heartgold" title="Oro Heartgold" class="boton"><p></p></div>
+        <div juego="soulsilver" onclick="leerLugares(soulsilver);"><img src="img/portada/soulsilver.webp" class="divPortada" alt="Plata Soulsilver" title="Plata Soulsilver" class="boton"><p></p></div>
+      </div>
+      <div class="generacion oculto" gen="5" ntotal="649">
+        <div juego="blanco" onclick="leerLugares(blanco);"><img src="img/portada/blanco.webp" class="divPortada" alt="Blanco" title="Blanco" class="boton"><p></p></div>
+        <div juego="negro" onclick="leerLugares(negro);"><img src="img/portada/negro.webp" class="divPortada" alt="Negro" title="Negro" class="boton"><p></p></div>
+        <div juego="blanco2" onclick="leerLugares(blanco2);"><img src="img/portada/blanco2.webp" class="divPortada" alt="Blanco 2" title="Blanco 2" class="boton"><p></p></div>
+        <div juego="negro2" onclick="leerLugares(negro2);"><img src="img/portada/negro2.webp" class="divPortada" alt="Negro 2" title="Negro 2" class="boton"><p></p></div>
+      </div>
+    </div>
+    <div><h1 id="titulo"></h1></div>
+    <div id="divBusqueda" class="oculto">
+      <input id="busqueda" type="text" placeholder="Búsqueda" oninput="ocultarNoCoincidentes(this.value.toLowerCase());"/>
+    </div>
+    <div id="cuerpo"></div>
+    <button onclick="irArriba()" id="btnArriba" title="Ir arriba" class="boton">/\</button>
+    <footer>
+      <p>Imágenes e información obtenidas de <a target="_blank" href="https://www.wikidex.net/wiki/WikiDex">Wikidex</a> y <a target="_blank" href="https://pokemon.fandom.com/">Pokémon Wiki</a>.</p>
+      <p><a href="https://www.flaticon.com/free-icons/bookmark" title="bookmark icons">Bookmark icons created by Rizki Ahmad Fauzi - Flaticon</a></p>
+      <button onclick="revisar();">Revisar</button>
+    </footer>
+    <script type="text/javascript">
+      inicializar();
+    </script>
+  </body>
+</html>
