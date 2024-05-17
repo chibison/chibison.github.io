@@ -484,7 +484,13 @@ div.trofeo > p, div.trofeoEstatico > p {
 .legendario{border: 5px solid silver;}
 .singular{border: 5px solid gold;}
 
-@media (max-width: 900px) {
+@media (min-width: 320px) {
+  #cuerpo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 961px) {
   #cuerpo {
     width: 95%;
   }
