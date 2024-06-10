@@ -1947,11 +1947,6 @@ const esmeralda = {
 							"porcentaje": 30
 						},
 						{
-							"numero": 179,
-							"nivel": "34-36",
-							"porcentaje": 10
-						},
-						{
 							"numero": 165,
 							"nivel": 33,
 							"porcentaje": 10

@@ -501,6 +501,7 @@ function dibujarLugar(lugar){
 
   if(lugar.hasOwnProperty("observaciones")){
     let pObser = document.createElement("P");
+	pObser.classList.add("observaciones");
     pObser.innerHTML ='<i>'+ lugar.observaciones+ '</i>';
     divContenedor.append(pObser);
   }
@@ -752,6 +753,7 @@ function dibujarPok(div, pok){
   if(pok.hasOwnProperty("observaciones")){
     let divObser = document.createElement("DIV");
     let pObser = document.createElement("P");
+	pObser.classList.add("observaciones");
     pObser.innerHTML ='<i>'+ pok.observaciones +'</i>';
     divObser.append(pObser);
     divPok.append(divObser);
@@ -1021,6 +1023,7 @@ function dibujarCania(tipo, probabilidad, div){
 
   if(probabilidad.hasOwnProperty("observaciones")){
     let pObs = document.createElement("P");
+	pObs.classList.add("observaciones");
     pObs.innerHTML ='<i>'+ probabilidad.observaciones +'</i>';
     divElemento.append(pObs);
   }
@@ -1049,6 +1052,7 @@ function dibujarHora(tipo, probabilidad, div){
 
   if(probabilidad.hasOwnProperty("observaciones")){
     let pObs = document.createElement("P");
+	pObs.classList.add("observaciones");
     pObs.innerHTML = '<i>'+ probabilidad.observaciones +'</i>';
     divElemento.append(pObs);
   }
@@ -1105,6 +1109,7 @@ function dibujarEstacion(tipo, probabilidad, div){
 
   if(probabilidad.hasOwnProperty("observaciones")){
     let pObs = document.createElement("P");
+	pObs.classList.add("observaciones");
     pObs.innerHTML = '<i>'+ probabilidad.observaciones +'</i>';
     divElemento.append(pObs);
   }
@@ -1227,6 +1232,7 @@ function procesarProbabilidad(probabilidad, divPok){
 
   if(probabilidad.hasOwnProperty("observaciones")){
     let pObser = document.createElement("P");
+	pObser.classList.add("observaciones");
     pObser.innerHTML = '<i>'+probabilidad.observaciones+'</i>';
     divPok.append(pObser);
   }
