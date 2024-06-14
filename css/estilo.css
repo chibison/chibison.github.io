@@ -166,13 +166,25 @@ div > div > div > h1{
 }
 
 div.lugar>h1::before{
-  content:url('../img/otros/Cartel.png');
+  /*content:url('../img/otros/Cartel.png');*/
   margin-right: 0.25em;
+  background-image: url(../img/otros/Cartel.png);
+  background-size: 0.6em 0.6em;
+  display: inline-block;
+  width: 0.6em; 
+  height: 0.6em;
+  content:"";
 }
 
 div.lugar>h1.marcador::before{
-  content:url('../img/otros/marcador.png');
+  /*content:url('../img/otros/marcador.png');*/
   margin-right: 0.25em;
+  background-image:url('../img/otros/marcador.png');
+  background-size: 0.6em 0.6em;
+  display: inline-block;
+  width: 0.6em; 
+  height: 0.6em;
+  content:"";
 }
 
 div.lugarCont>h2{
@@ -515,7 +527,7 @@ div.trofeo > p, div.trofeoEstatico > p {
   }
 
   h2{
-	font-size: 1em;
+	font-size: 2em;
   } 
   
   p{
