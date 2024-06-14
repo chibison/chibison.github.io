@@ -501,7 +501,7 @@ function dibujarLugar(lugar){
 
   if(lugar.hasOwnProperty("observaciones")){
     let pObser = document.createElement("P");
-	pObser.classList.add("observaciones");
+	  pObser.classList.add("observaciones");
     pObser.innerHTML ='<i>'+ lugar.observaciones+ '</i>';
     divContenedor.append(pObser);
   }
@@ -905,6 +905,13 @@ function dibujarEvo(div, evo, variedad){
     let pLoc = document.createElement("P");
     pLoc.innerHTML =evo.localizacion;
     divEvo.append(pLoc);
+  }
+
+  if(evo.hasOwnProperty("observaciones")){
+    let pObser = document.createElement("P");
+    pObser.classList.add("observaciones");
+    pObser.innerHTML ='<i>'+ evo.observaciones+ '</i>';
+    divEvo.append(pObser);
   }
 
   dibujarGeneracion(divEvo, evo.en, variedad);

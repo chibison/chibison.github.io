@@ -2620,12 +2620,14 @@ const pk = {
       {
         "gen": 3,
         "nivel": 7,
-        "en": 266
+        "en": 266,
+        "observaciones": "Aleatoriamente"
       },
       {
         "gen":3,
         "nivel":7,
-        "en": 268
+        "en": 268,
+        "observaciones": "Aleatoriamente"
       }
     ]
   },
