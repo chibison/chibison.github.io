@@ -4,6 +4,12 @@ var generacion;
 var juego;
 var ultimo;
 
+const mapa ='<svg xmlns="http://www.w3.org/2000/svg" width="42.328mm" height="35.9788mm" viewBox="0 0 160 136">'+
+  '<path id="Ruta 1" fill="white" stroke="black" stroke-width="1" d="M 32.00,72.00 C 32.00,72.00 40.00,72.00 40.00,72.00 40.00,72.00 40.00,88.00 40.00,88.00'+
+             ' 40.00,88.00 32.00,88.00 32.00,88.00'+
+             ' 32.00,88.00 32.00,72.00 32.00,72.00 Z"'+
+	    	'onclick="ocultarNoCoincidentes(this.id);"/></svg>';
+
 function inicializar(){
   if(window.localStorage.getItem("obtenidos")){
     obtenidos = JSON.parse(window.localStorage.getItem("obtenidos"));
@@ -78,13 +84,15 @@ function actualizarEstJuego(pJuego){
 
     let arrayObtenidos = construirArrayObtenidos(pJuego);
 
-    if(arrayObtenidos.length == pJuego.parentElement.getAttribute("ntotal")){
-      pJuego.getElementsByTagName("IMG")[0].classList.add("completado");
+    if(arrayObtenidos!=undefined){
+      if(arrayObtenidos.length == pJuego.parentElement.getAttribute("ntotal")){
+        pJuego.getElementsByTagName("IMG")[0].classList.add("completado");
+      }
+      else{
+        pJuego.getElementsByTagName("IMG")[0].classList.remove("completado");
+      }
+      pJuego.getElementsByTagName("P")[0].innerText = arrayObtenidos.length + ' / '+ pJuego.parentElement.getAttribute("ntotal");
     }
-    else{
-      pJuego.getElementsByTagName("IMG")[0].classList.remove("completado");
-    }
-    pJuego.getElementsByTagName("P")[0].innerText = arrayObtenidos.length + ' / '+ pJuego.parentElement.getAttribute("ntotal");
   }
 }
 
@@ -335,6 +343,8 @@ function leerNacional(){
   document.getElementById("juegosGen").classList.add("oculto");
   document.getElementById("divBusqueda").classList.remove("oculto");
   document.getElementById("btnArriba").classList="boton nacional";
+  document.getElementById("titulo").innerText='Pokédex Nacional';
+  document.getElementById("mapa").classList.add("oculto");
   juego='nacional';
 
   generacion=document.getElementById("juegosGen").children.length;
@@ -354,7 +364,8 @@ function leerNacional(){
 function dibujarPokNacional(div, p, numero, variedad){
     let divPok = document.createElement("DIV");
     let tipo = obtenerTipo(numero+1, variedad);
-    divPok.classList="pok "+tipo;
+    divPok.classList="pok";
+    divPok.style.background = devolverCSS(tipo);
 
     darBorde(divPok, p);
 
@@ -395,8 +406,10 @@ function dibujarObtencion(div, p, i){
       imgThObt.title=j.attributes.juego.value;
       imgThObt.classList.add("portada");
 
-      if(!(obtenidos[j.attributes.juego.value].indexOf((i+1).toString())>-1)){
-        imgThObt.classList.add("noObtenido");
+      if(obtenidos[j.attributes.juego.value]!=undefined){
+        if(!(obtenidos[j.attributes.juego.value].indexOf((i+1).toString())>-1)){
+          imgThObt.classList.add("noObtenido");
+        }
       }
       divObt.append(imgThObt);
     }
@@ -421,7 +434,7 @@ function leerLugares(json){
   window.localStorage.setItem("ultimo",json.nombre);
 
   document.getElementById("divBusqueda").classList.remove("oculto");
-
+  document.getElementById("mapa").classList.remove("oculto");
   generacion=json.gen;
   juego = json.nombre;
   titulo = json.titulo;
@@ -440,6 +453,8 @@ function leerLugares(json){
   document.getElementById("titulo").innerText=titulo;
   document.getElementById("titulo").classList.add(juego);
 
+  document.getElementById("mapa").append(dibujarMapa());
+
   for(let i=0; i<json.lugares.length; i++){
     document.getElementById("cuerpo").append(dibujarLugar(json.lugares[i]));
   }
@@ -454,6 +469,21 @@ function leerLugares(json){
   if(document.getElementsByClassName("marcador").length > 0){
     document.getElementsByClassName("marcador")[0].scrollIntoView();
   }
+}
+
+function dibujarMapa(){
+  //let divMapa = document.createElement("DIV");
+  //divMapa.classList.add('mapa');
+
+  let imagenMapa = document.createElement("SVG");
+  //imagenMapa.type="image/svg+xml";
+  //imagenMapa.data = 'img/mapa/gen'+generacion+'.svg';
+  //imagenMapa = mapa;
+  //imagenMapa.style.width = "75%"
+
+
+  return mapa;
+
 }
 
 function dibujarLugar(lugar){
@@ -507,7 +537,7 @@ function dibujarLugar(lugar){
   }
 
   for(tipo_obt of Object.keys(lugar)){
-    if(tipo_obt!='nombre' && tipo_obt!='plantas' && tipo_obt!='observaciones' && tipo_obt!='lema')
+    if(tipo_obt!='nombre' && tipo_obt!='plantas' && tipo_obt!='observaciones' && tipo_obt!='lema' && tipo_obt!='coord')
       dibujarContenedor(divContenedor, lugar[tipo_obt], devolverTexto(tipo_obt), tipo_obt);
   }
 
@@ -600,7 +630,8 @@ function dibujarPok(div, pok){
   let divPok = document.createElement("DIV");
   let tipo = obtenerTipo(pok.numero, pok.variedad);
 
-  divPok.classList="pok "+tipo;
+  divPok.classList="pok";
+  divPok.style.background = devolverCSS(tipo);
   divPok.setAttribute("num",(pok.variedad!=undefined ? pok.numero+"_"+pok.variedad : pok.numero));
 
   darBorde(divPok, pk.listado[pok.numero-1]);
@@ -760,6 +791,39 @@ function dibujarPok(div, pok){
   }
 
   div.append(divPok);
+}
+
+function devolverCSS(tipo){
+  if(!tipo.includes(' ')){
+    return devolverColor(tipo);
+  }
+  else{
+    return "linear-gradient(90deg,"+devolverColor(tipo.substring(0,tipo.indexOf(" ")))+","+devolverColor(tipo.substring((tipo.indexOf(" ")+1)))+")";
+  }
+}
+
+function devolverColor(tipo){
+  switch (tipo){
+    case "acero": return "#B7B7CE";
+    case "agua": return "#6390F0";
+    case "bicho": return "#A6B91A";
+    case "dragon": return "#6F35FC";
+    case "electrico": return "#F7D02C";
+    case "fantasma": return "#EE8130";
+    case "fuego": return "#EE8130";
+    case "hada": return "#D685AD";
+    case "hielo": return "#96D9D6";
+    case "lucha": return "#C22E28";
+    case "normal": return "#A8A77A";
+    case "planta": return "#7AC74C";
+    case "psiquico": return "#F95587";
+    case "roca": return "#B6A136";
+    case "siniestro": return "#705746";
+    case "tierra": return "#E2BF65";
+    case "veneno": return "#A33EA1";
+    case "volador": return "#A98FF3";
+    default: return "";
+  }
 }
 
 function dibujarEvo(div, evo, variedad){
@@ -1353,7 +1417,10 @@ function marcarObtenido(numero){
 function limpiarCuerpo(){
   document.getElementById("busqueda").value = "";
   let nodo = document.getElementById("cuerpo");
-  document.getElementById("titulo").innerText='Pokédex Nacional';
+  while(nodo.firstChild){
+    nodo.removeChild(nodo.lastChild);
+  }
+  nodo = document.getElementById("mapa");
   while(nodo.firstChild){
     nodo.removeChild(nodo.lastChild);
   }
@@ -1425,17 +1492,19 @@ function desocultarHijos(div){
 function construirArrayObtenidos(pJuego){
   let arrayObtenidos = [];
 
-  for(let i=0; i < obtenidos[pJuego.getAttribute("juego")].length; i++){
-    if(obtenidos[pJuego.getAttribute("juego")][i].includes('_')){
-      if(!arrayObtenidos.includes(obtenidos[pJuego.getAttribute("juego")][i].substring(0, obtenidos[pJuego.getAttribute("juego")][i].indexOf('_')))){
-        arrayObtenidos.push(obtenidos[pJuego.getAttribute("juego")][i].substring(0, obtenidos[pJuego.getAttribute("juego")][i].indexOf('_')));
+  if(obtenidos[pJuego.getAttribute("juego")]!=undefined){
+    for(let i=0; i < obtenidos[pJuego.getAttribute("juego")].length; i++){
+      if(obtenidos[pJuego.getAttribute("juego")][i].includes('_')){
+        if(!arrayObtenidos.includes(obtenidos[pJuego.getAttribute("juego")][i].substring(0, obtenidos[pJuego.getAttribute("juego")][i].indexOf('_')))){
+          arrayObtenidos.push(obtenidos[pJuego.getAttribute("juego")][i].substring(0, obtenidos[pJuego.getAttribute("juego")][i].indexOf('_')));
+        }
+      }
+      else {
+        arrayObtenidos.push(obtenidos[pJuego.getAttribute("juego")][i]);
       }
     }
-    else {
-      arrayObtenidos.push(obtenidos[pJuego.getAttribute("juego")][i]);
-    }
+    return arrayObtenidos;
   }
-  return arrayObtenidos;
 }
 
 function comprobarTrofeos(){

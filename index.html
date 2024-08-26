@@ -38,7 +38,8 @@
       <img src="img/gen/gen2.png" title="Generación 2" alt="Generación 2" onclick="mostrarGeneracion(2);" class="boton">
       <img src="img/gen/gen3.png" title="Generación 3" alt="Generación 3" onclick="mostrarGeneracion(3);" class="boton">
       <img src="img/gen/gen4.png" title="Generación 4" alt="Generación 4" onclick="mostrarGeneracion(4);" class="boton">
-      <!--<img src="img/gen/gen5.png" title="Generación 5" alt="Generación 5" onclick="mostrarGeneracion(5);" class="boton">-->
+      <img src="img/gen/gen5.png" title="Generación 5" alt="Generación 5" onclick="mostrarGeneracion(5);" class="boton">
+      <img src="img/gen/gen6.png" title="Generación 6" alt="Generación 5" onclick="mostrarGeneracion(6);" class="boton">
       <img id="iconoNacional" src="img/otros/nacional.png" onclick="leerNacional();" title="Pokédex Nacional" alt="Pokédex Nacional" class="boton">
       <img id="iconoTrofeos" src="img/otros/trofeo.png" onclick="cargarTrofeos();" title="Trofeos" alt="Trofeos" class="boton">
       <img id="iconoBorrar" src="img/otros/papelera.png" onclick="borrar();" title="Borrar datos" alt="Borrar datos" class="boton">
@@ -77,12 +78,21 @@
         <div juego="blanco2" onclick="leerLugares(blanco2);"><img src="img/portada/blanco2.webp" class="divPortada" alt="Blanco 2" title="Blanco 2" class="boton"><p></p></div>
         <div juego="negro2" onclick="leerLugares(negro2);"><img src="img/portada/negro2.webp" class="divPortada" alt="Negro 2" title="Negro 2" class="boton"><p></p></div>
       </div>
+      <div class="generacion oculto" gen="6" ntotal="721">
+        <div juego="x" onclick="leerLugares(x);"><img src="img/portada/x.webp" class="divPortada" alt="X" title="X" class="boton"><p></p></div>
+        <div juego="y" onclick="leerLugares(y);"><img src="img/portada/y.webp" class="divPortada" alt="Y" title="Y" class="boton"><p></p></div>
+        <div juego="zafiroalfa" onclick="leerLugares(zafiroalfa);"><img src="img/portada/zafiroalfa.webp" class="divPortada" alt="Zafiro Alfa" title="Zafiro Alfa" class="boton"><p></p></div>
+        <div juego="rubiomega" onclick="leerLugares(rubiomega);"><img src="img/portada/rubiomega.webp" class="divPortada" alt="Rubí Omega" title="Rubí Omega" class="boton"><p></p></div>
+      </div>
     </div>
     <div><h1 id="titulo"></h1></div>
     <div id="divBusqueda" class="oculto">
       <input id="busqueda" type="text" placeholder="Búsqueda" oninput="ocultarNoCoincidentes(this.value.toLowerCase());"/>
     </div>
-    <div id="cuerpo"></div>
+    <div style="display:flex;">
+      <div id="mapa"></div>
+      <div id="cuerpo"></div>
+    </div>
     <button onclick="irArriba()" id="btnArriba" title="Ir arriba" class="boton">/\</button>
     <footer>
       <p>Imágenes e información obtenidas de <a target="_blank" href="https://www.wikidex.net/wiki/WikiDex">Wikidex</a> y <a target="_blank" href="https://pokemon.fandom.com/">Pokémon Wiki</a>.</p>

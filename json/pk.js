@@ -1310,6 +1310,12 @@ const pk = {
         "gen":4,
         "roca":"hielo",
         "en":471
+      },
+      {
+        "gen":6,
+        "amistad":"",
+        "en":700,
+        "observaciones": "movimiento tipo hada"
       }
     ]
   },
@@ -6106,5 +6112,702 @@ const pk = {
   "tipo": "bicho acero",
   "gen": 5,
   "singular": true
+},
+{
+  "nombre": "Chespin",
+  "tipo": "planta",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 16,
+      "en": 651
+    }
+  ]
+},
+{
+  "nombre": "Quilladin",
+  "tipo": "planta",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 36,
+      "en": 652
+    }
+  ]
+},
+{
+  "nombre": "Chesnaught",
+  "tipo": "planta lucha",
+  "gen": 6
+},
+{
+  "nombre": "Fennekin",
+  "tipo": "fuego",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 16,
+      "en": 654
+    }
+  ]
+},
+{
+  "nombre": "Braixen",
+  "tipo": "fuego",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 36,
+      "en": 655
+    }
+  ]
+},
+{
+  "nombre": "Delphox",
+  "tipo": "fuego psiquico",
+  "gen": 6
+},
+{
+  "nombre": "Froakie",
+  "tipo": "agua",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 16,
+      "en": 657
+    }
+  ]
+},
+{
+  "nombre": "Frogadier",
+  "tipo": "agua",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 36,
+      "en":658
+    }
+  ]
+},
+{
+  "nombre": "Greninja",
+  "tipo": "agua siniestro",
+  "gen": 6
+},
+{
+  "nombre": "Bunnelby",
+  "tipo": "normal",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 20,
+      "en": 660
+    }
+  ]
+},
+{
+  "nombre": "Diggersby",
+  "tipo": "normal tierra",
+  "gen": 6
+},
+{
+  "nombre": "Fletchling",
+  "tipo": "normal volador",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 17,
+      "en":662
+    }
+  ]
+},
+{
+  "nombre": "Fletchinder",
+  "tipo": "fuego volador",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 35,
+      "en":663
+    }
+  ]
+},
+{
+  "nombre": "Talonflame",
+  "tipo": "fuego volador",
+  "gen": 6
+},
+{
+  "nombre": "Scatterbug",
+  "tipo": "bicho",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 9,
+      "en": 665
+    }
+  ]
+},
+{
+  "nombre": "Spewpa",
+  "tipo": "bicho",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 12,
+      "en": 666
+    }
+  ]
+},
+{
+  "nombre": "Vivillon",
+  "tipo": "bicho volador",
+  "gen": 6
+},
+{
+  "nombre": "Litleo",
+  "tipo": "fuego normal",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 35,
+      "en": 668
+    }
+  ]
+},
+{
+  "nombre": "Pyroar",
+  "tipo": "fuego normal",
+  "gen": 6
+},
+{
+  "nombre": "Flabébé",
+  "tipo": "hada",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 19,
+      "en": 670
+    }
+  ],
+  "variedades": [
+	{
+		"gen": 6,
+		"nombre": "Flabébé_amarilla",
+		"tipo": "hada"
+	},
+	{
+		"gen": 6,
+		"nombre": "Flabébé_azul",
+		"tipo": "hada"
+	},
+  {
+    "gen": 6,
+    "nombre": "Flabébé_blanca",
+    "tipo": "hada"
+  },
+  {
+    "gen": 6,
+    "nombre": "Flabébé_naranja",
+    "tipo": "hada"
+  },
+  {
+    "gen": 6,
+    "nombre": "Flabébé_roja",
+    "tipo": "hada"
+  }
+]
+},
+{
+  "nombre": "Floette",
+  "tipo": "hada",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "piedra": "día",
+      "en": 671
+    }
+  ],
+  "variedades": [
+	{
+		"gen": 6,
+		"nombre": "Floette_amarilla",
+		"tipo": "hada"
+	},
+	{
+		"gen": 6,
+		"nombre": "Floette_azul",
+		"tipo": "hada"
+	},
+  {
+    "gen": 6,
+    "nombre": "Floette_blanca",
+    "tipo": "hada"
+  },
+  {
+    "gen": 6,
+    "nombre": "Floette_naranja",
+    "tipo": "hada"
+  },
+  {
+    "gen": 6,
+    "nombre": "Floette_roja",
+    "tipo": "hada"
+  }
+]
+},
+{
+  "nombre": "Florges",
+  "tipo": "hada",
+  "gen": 6,
+  "variedades": [
+	{
+		"gen": 6,
+		"nombre": "Florges_amarilla",
+		"tipo": "hada"
+	},
+	{
+		"gen": 6,
+		"nombre": "Florges_azul",
+		"tipo": "hada"
+	},
+  {
+    "gen": 6,
+    "nombre": "Florges_blanca",
+    "tipo": "hada"
+  },
+  {
+    "gen": 6,
+    "nombre": "Florges_naranja",
+    "tipo": "hada"
+  },
+  {
+    "gen": 6,
+    "nombre": "Florges_roja",
+    "tipo": "hada"
+  }
+]
+},
+{
+  "nombre": "Skiddo",
+  "tipo": "planta",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 32,
+      "en": 673
+    }
+  ]
+},
+{
+  "nombre": "Gogoat",
+  "tipo": "planta",
+  "gen": 6
+},
+{
+  "nombre": "Pancham",
+  "tipo": "lucha",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 32,
+      "en": 675,
+      "observaciones": "Con pokémon siniestro en el equipo"
+    }
+  ]
+},
+{
+  "nombre": "Pangoro",
+  "tipo": "lucha siniestro",
+  "gen": 6
+},
+{
+  "nombre": "Furfrou",
+  "tipo": "normal",
+  "gen": 6
+},
+{
+  "nombre": "Espurr",
+  "tipo": "psiquico",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 25,
+      "en": 678
+    }
+  ]
+},
+{
+  "nombre": "Meowstic",
+  "tipo": "psiquico",
+  "gen": 6
+},
+{
+  "nombre": "Honedge",
+  "tipo": "acero fantasma",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 35,
+      "en": 680
+    }
+  ]
+},
+{
+  "nombre": "Doublade",
+  "tipo": "acero fantasma",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "piedra": "noche",
+      "en": 681
+    }
+  ]
+},
+{
+  "nombre": "Aegislash",
+  "tipo": "acero fantasma",
+  "gen": 6,
+  "formas":[
+      {
+        "nombre": "Aegislash (escudo)",
+        "tipo": "acero fantasma",
+        "gen": 6
+      },
+      {
+        "nombre": "Aegislash (filo)",
+        "tipo": "acero fantasma",
+        "gen": 6
+      }
+  ]
+},
+{
+  "nombre": "Spritzee",
+  "tipo": "hada",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "intercambio": "saquito fragante",
+      "en": 683
+    }
+  ]
+},
+{
+  "nombre": "Aromatisse",
+  "tipo": "hada",
+  "gen": 6
+},
+{
+  "nombre": "Swirlix",
+  "tipo": "hada",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "intercambio": "dulce de nata",
+      "en": 685
+    }
+  ]
+},
+{
+  "nombre": "Slurpuff",
+  "tipo": "hada",
+  "gen": 6
+},
+{
+  "nombre": "Inkay",
+  "tipo": "siniestro psiquico",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 30,
+      "en": 687,
+      "observaciones": "Subir un nivel con la consola al revés"
+    }
+  ]
+},
+{
+  "nombre": "Malamar",
+  "tipo": "siniestro psiquico",
+  "gen": 6
+},
+{
+  "nombre": "Binacle",
+  "tipo": "roca agua",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 39,
+      "en": 689
+    }
+  ]
+},
+{
+  "nombre": "Barbaracle",
+  "tipo": "roca agua",
+  "gen": 6
+},
+{
+  "nombre": "Skrelp",
+  "tipo": "veneno agua",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 48,
+      "en": 690
+    }
+  ]
+},
+{
+  "nombre": "Dragalge",
+  "tipo": "veneno dragon",
+  "gen": 6
+},
+{
+  "nombre": "Clauncher",
+  "tipo": "agua",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 37,
+      "en": 693
+    }
+  ]
+},
+{
+  "nombre": "Clawitzer",
+  "tipo": "agua",
+  "gen": 6
+},
+{
+  "nombre": "Helioptile",
+  "tipo": "electrico normal",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "piedra": "solar",
+      "en": 695
+    }
+  ]
+},
+{
+  "nombre": "Heliolisk",
+  "tipo": "electrico normal",
+  "gen": 6
+},
+{
+  "nombre": "Tyrunt",
+  "tipo": "roca dragon",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 39,
+      "en": 697,
+      "observaciones": "Día"
+    }
+  ]
+},
+{
+  "nombre": "Amaura",
+  "tipo": "roca hielo",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 39,
+      "en": 699,
+      "observaciones": "noche"
+    }
+  ]
+},
+{
+  "nombre": "Aurorus",
+  "tipo": "roca hielo",
+  "gen": 6
+},
+{
+  "nombre": "Sylveon",
+  "tipo": "hada",
+  "gen": 6
+},
+{
+  "nombre": "Hawlucha",
+  "tipo": "lucha volador",
+  "gen": 6
+},
+{
+  "nombre": "Dedenne",
+  "tipo": "electrico hada",
+  "gen": 6
+},
+{
+  "nombre": "Carbink",
+  "tipo": "roca hada",
+  "gen": 6
+},
+{
+  "nombre": "Goomy",
+  "tipo": "dragon",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 40,
+      "en": 705
+    }
+  ]
+},
+{
+  "nombre": "Sliggoo",
+  "tipo": "dragon",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 50,
+      "en": 706,
+      "observaciones": "lluvia o niebla"
+    }
+  ]
+},
+{
+  "nombre": "Goodra",
+  "tipo": "dragon",
+  "gen": 6
+},
+{
+  "nombre": "Klefki",
+  "tipo": "acero hada",
+  "gen": 6
+},
+{
+  "nombre": "Phantump",
+  "tipo": "fantasma planta",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "intercambio": "",
+      "en": 709
+    }
+  ]
+},
+{
+  "nombre": "Trevenant",
+  "tipo": "fantasma planta",
+  "gen": 6
+},
+{
+  "nombre": "Pumpkaboo",
+  "tipo": "fantasma planta",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "intercambio": "",
+      "en": 711
+    }
+  ]
+},
+{
+  "nombre": "Gourgeist",
+  "tipo": "fantasma planta",
+  "gen": 6
+},
+{
+  "nombre": "Bergmite",
+  "tipo": "hielo",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 37,
+      "en": 713
+    }
+  ]
+},
+{
+  "nombre": "Avalugg",
+  "tipo": "hielo",
+  "gen": 6
+},
+{
+  "nombre": "Noibat",
+  "tipo": "volador dragon",
+  "gen": 6,
+  "evo":[
+    {
+      "gen": 6,
+      "nivel": 48,
+      "en":715
+    }
+  ]
+},
+{
+  "nombre": "Noivern",
+  "tipo": "volador dragon",
+  "gen": 6
+},
+{
+  "nombre": "Xerneas",
+  "tipo": "hada",
+  "legendario": true,
+  "gen": 6
+},
+{
+  "nombre": "Yveltal",
+  "tipo": "siniestro volador",
+  "legendario": true,
+  "gen": 6
+},
+{
+  "nombre": "Zygarde",
+  "tipo": "dragon tierra",
+  "legendario": true,
+  "gen": 6
+},
+{
+  "nombre": "Diancie",
+  "tipo": "roca hada",
+  "singular": true,
+  "gen": 6
+},
+{
+  "nombre": "Hoopa",
+  "tipo": "psiquico fantasma",
+  "singular": true,
+  "gen": 6
+},
+{
+  "nombre": "Volcanion",
+  "tipo": "fuego agua",
+  "singular": true,
+  "gen": 6
 }
 ]};
