@@ -4,12 +4,6 @@ var generacion;
 var juego;
 var ultimo;
 
-const mapa ='<svg xmlns="http://www.w3.org/2000/svg" width="42.328mm" height="35.9788mm" viewBox="0 0 160 136">'+
-  '<path id="Ruta 1" fill="white" stroke="black" stroke-width="1" d="M 32.00,72.00 C 32.00,72.00 40.00,72.00 40.00,72.00 40.00,72.00 40.00,88.00 40.00,88.00'+
-             ' 40.00,88.00 32.00,88.00 32.00,88.00'+
-             ' 32.00,88.00 32.00,72.00 32.00,72.00 Z"'+
-	    	'onclick="ocultarNoCoincidentes(this.id);"/></svg>';
-
 function inicializar(){
   if(window.localStorage.getItem("obtenidos")){
     obtenidos = JSON.parse(window.localStorage.getItem("obtenidos"));
@@ -434,7 +428,7 @@ function leerLugares(json){
   window.localStorage.setItem("ultimo",json.nombre);
 
   document.getElementById("divBusqueda").classList.remove("oculto");
-  document.getElementById("mapa").classList.remove("oculto");
+  //document.getElementById("mapa").classList.remove("oculto");
   generacion=json.gen;
   juego = json.nombre;
   titulo = json.titulo;
@@ -453,7 +447,7 @@ function leerLugares(json){
   document.getElementById("titulo").innerText=titulo;
   document.getElementById("titulo").classList.add(juego);
 
-  document.getElementById("mapa").append(dibujarMapa());
+  //document.getElementById("mapa").append(dibujarMapa());
 
   for(let i=0; i<json.lugares.length; i++){
     document.getElementById("cuerpo").append(dibujarLugar(json.lugares[i]));
@@ -830,7 +824,8 @@ function dibujarEvo(div, evo, variedad){
   let divEvo = document.createElement("DIV");
   let tipo = obtenerTipo(evo.en, variedad);
 
-  divEvo.classList="pok evo "+tipo;
+  divEvo.classList="pok evo";
+  divEvo.style.background = devolverCSS(tipo);
   divEvo.setAttribute("num",pk.listado[evo.en-1].variedades!==undefined ? evo.en+'_'+variedad : evo.en);
 
   dibujarImagen(divEvo, evo.en, variedad);
@@ -1420,10 +1415,10 @@ function limpiarCuerpo(){
   while(nodo.firstChild){
     nodo.removeChild(nodo.lastChild);
   }
-  nodo = document.getElementById("mapa");
+  /*nodo = document.getElementById("mapa");
   while(nodo.firstChild){
     nodo.removeChild(nodo.lastChild);
-  }
+  }*/
   document.getElementById("titulo").classList.remove(juego);
 }
 
