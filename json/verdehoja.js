@@ -4,7 +4,8 @@ const verdehoja =	{
 	"gen": 3,
 	"lugares": [{
 			"nombre": "Pueblo Paleta",
-			"inicial": [{
+			"inicial": [
+				{
 					"numero": 1,
 					"nivel": 5
 				},
@@ -17,12 +18,15 @@ const verdehoja =	{
 					"nivel": 5
 				}
 			],
-			"surf": [{
+			"surf": [
+				{
 				"numero": 72,
 				"nivel": "5-40",
 				"porcentaje": 100
-			}],
-			"pesca": [{
+			}
+		],
+			"pesca": [
+				{
 					"numero": 129,
 					"probabilidad": {
 						"tipo": "cania",
@@ -4173,7 +4177,6 @@ const verdehoja =	{
 				}
 			]
 		},
-
 		{
 			"nombre": "Central de energía",
 			"caminando": [{
@@ -4247,7 +4250,8 @@ const verdehoja =	{
 				"nivel": "20-40",
 				"porcentaje": 100
 			}],
-			"pesca": [{
+			"pesca": [
+				{
 					"numero": 129,
 					"probabilidad": {
 						"tipo": "cania",
@@ -4545,749 +4549,282 @@ const verdehoja =	{
 						}
 					}
 				}
-			]
-		},
-		{
-			"nombre":"Cueva Glaciada",
-			"plantas": [
+			],
+			"plantas":[
 				{
-					"nombre":"Planta baja (Sala 1)",
-					"caminando":[
+					"nombre":"Cueva Glaciada",
+					"plantas": [
 						{
-							"numero": 86,
-							"nivel": "43-47",
-							"porcentaje": 40
-						},
-						{
-							"numero": 42,
-							"nivel": "45-48",
-							"porcentaje":25
-						},
-						{
-							"numero": 87,
-							"nivel": "49-53",
-							"porcentaje":20
-						},
-						{
-							"numero": 41,
-							"nivel": 40,
-							"porcentaje": 10
-						},
-						{
-							"numero": 79,
-							"nivel": 41,
-							"porcentaje":5
-						}
-					],
-					"surf":[
-						{
-							"numero": 86,
-							"nivel": "5-35",
-							"porcentaje": 60
-						},
-						{
-							"numero": 79,
-							"nivel": "5-35",
-							"porcentaje": 30
-						},
-						{
-							"numero": 183,
-							"nivel": "5-35",
-							"porcentaje": 5
-						},
-						{
-							"numero": 87,
-							"nivel": "35-40",
-							"porcentaje": 5
-						}
-					],
-					"pesca": [
-						{
-							"numero": 129,
-							"probabilidad": {
-								"tipo": "cania",
-								"vieja": {
-									"nivel": "5",
-									"porcentaje": 100
+							"nombre":"Planta baja (Sala 1)",
+							"caminando":[
+								{
+									"numero": 86,
+									"nivel": "43-47",
+									"porcentaje": 40
 								},
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
+								{
+									"numero": 42,
+									"nivel": "45-48",
+									"porcentaje":25
+								},
+								{
+									"numero": 87,
+									"nivel": "49-53",
+									"porcentaje":20
+								},
+								{
+									"numero": 41,
+									"nivel": 40,
+									"porcentaje": 10
+								},
+								{
+									"numero": 79,
+									"nivel": 41,
+									"porcentaje":5
 								}
-							}
-						},
-						{
-							"numero": 118,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
+							],
+							"surf":[
+								{
+									"numero": 86,
+									"nivel": "5-35",
 									"porcentaje": 60
 								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 60,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 60
+								{
+									"numero": 79,
+									"nivel": "5-35",
+									"porcentaje": 30
 								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 61,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "20-30",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 130,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 15
-								}
-							}
-						},
-						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-35",
+								{
+									"numero": 183,
+									"nivel": "5-35",
+									"porcentaje": 5
+								},
+								{
+									"numero": 87,
+									"nivel": "35-40",
 									"porcentaje": 5
 								}
-							}
-						}
-					]
-				},
-				{
-					"nombre":"Sótano y Planta baja (Sala 2)",
-					"caminando":[
-						{
-							"numero": 220,
-							"nivel": "23-31",
-							"porcentaje": 50
-						},
-						{
-							"numero": 42,
-							"nivel": "45-48",
-							"porcentaje":25
-						},
-						{
-							"numero": 86,
-							"nivel": "45",
-							"porcentaje":10
-						},
-						{
-							"numero": 41,
-							"nivel": 40,
-							"porcentaje": 10
-						},
-						{
-							"numero": 215,
-							"nivel": 30,
-							"porcentaje":5
-						}
-					]
-				},
-				{
-					"nombre":"Planta baja (Sala 3)",
-					"caminando":[
-						{
-							"numero": 86,
-							"nivel": "43-47",
-							"porcentaje": 40
-						},
-						{
-							"numero": 42,
-							"nivel": "45-48",
-							"porcentaje":25
-						},
-						{
-							"numero": 87,
-							"nivel": "49-53",
-							"porcentaje":20
-						},
-						{
-							"numero": 41,
-							"nivel": 40,
-							"porcentaje": 10
-						},
-						{
-							"numero": 79,
-							"nivel": 41,
-							"porcentaje":5
-						}
-					],
-					"surf":[
-						{
-							"numero": 72,
-							"nivel": "5-45",
-							"porcentaje": 95
-						},
-						{
-							"numero": 73,
-							"nivel": "35-45",
-							"porcentaje": 4
-						},
-						{
-							"numero": 131,
-							"nivel": "30-45",
-							"porcentaje": 1
-						}
-					],
-					"pesca": [{
-							"numero": 129,
-							"probabilidad": {
-								"tipo": "cania",
-								"vieja": {
-									"nivel": "5",
-									"porcentaje": 100
+							],
+							"pesca": [
+								{
+									"numero": 129,
+									"probabilidad": {
+										"tipo": "cania",
+										"vieja": {
+											"nivel": "5",
+											"porcentaje": 100
+										},
+										"buena": {
+											"nivel": "5-15",
+											"porcentaje": 20
+										}
+									}
 								},
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
-								}
-							}
-						},
-						{
-							"numero": 98,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 80
+								{
+									"numero": 118,
+									"probabilidad": {
+										"tipo": "cania",
+										"buena": {
+											"nivel": "5-15",
+											"porcentaje": 60
+										},
+										"super": {
+											"nivel": "15-25",
+											"porcentaje": 40
+										}
+									}
 								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
+								{
+									"numero": 60,
+									"probabilidad": {
+										"tipo": "cania",
+										"buena": {
+											"nivel": "5-15",
+											"porcentaje": 60
+										},
+										"super": {
+											"nivel": "15-25",
+											"porcentaje": 40
+										}
+									}
+								},
+								{
+									"numero": 61,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "20-30",
+											"porcentaje": 40
+										}
+									}
+								},
+								{
+									"numero": 130,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "15-25",
+											"porcentaje": 15
+										}
+									}
+								},
+								{
+									"numero": 79,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "15-35",
+											"porcentaje": 5
+										}
+									}
 								}
-							}
+							]
 						},
 						{
-							"numero": 120,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
+							"nombre":"Sótano y Planta baja (Sala 2)",
+							"caminando":[
+								{
+									"numero": 220,
+									"nivel": "23-31",
+									"porcentaje": 50
+								},
+								{
+									"numero": 42,
+									"nivel": "45-48",
+									"porcentaje":25
+								},
+								{
+									"numero": 86,
+									"nivel": "45",
+									"porcentaje":10
+								},
+								{
+									"numero": 41,
+									"nivel": 40,
+									"porcentaje": 10
+								},
+								{
+									"numero": 215,
+									"nivel": 30,
+									"porcentaje":5
 								}
-							}
+							]
 						},
 						{
-							"numero": 99,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
+							"nombre":"Planta baja (Sala 3)",
+							"caminando":[
+								{
+									"numero": 86,
+									"nivel": "43-47",
+									"porcentaje": 40
+								},
+								{
+									"numero": 42,
+									"nivel": "45-48",
+									"porcentaje":25
+								},
+								{
+									"numero": 87,
+									"nivel": "49-53",
+									"porcentaje":20
+								},
+								{
+									"numero": 41,
+									"nivel": 40,
+									"porcentaje": 10
+								},
+								{
+									"numero": 79,
+									"nivel": 41,
+									"porcentaje":5
+								}
+							],
+							"surf":[
+								{
+									"numero": 72,
+									"nivel": "5-45",
+									"porcentaje": 95
+								},
+								{
+									"numero": 73,
+									"nivel": "35-45",
 									"porcentaje": 4
-								}
-							}
-						},
-						{
-							"numero": 130,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 15
-								}
-							}
-						},
-						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
+								},
+								{
+									"numero": 131,
+									"nivel": "30-45",
 									"porcentaje": 1
 								}
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"nombre": "Isla Exta",
-			"plantas": [
-				{
-					"nombre": "Bosquejo",
-					"hierba": [
-						{
-							"numero": 165,
-							"nivel": "9-14",
-							"porcentaje": 30
-						},
-						{
-							"numero": 11,
-							"nivel": 9,
-							"porcentaje": 20
-						},
-						{
-							"numero": 214,
-							"nivel": "15-30",
-							"porcentaje": 20
-						},
-						{
-							"numero": 10,
-							"nivel": 6,
-							"porcentaje": 10
-						},
-						{
-							"numero": 13,
-							"nivel": 6,
-							"porcentaje": 10
-						},
-						{
-							"numero": 167,
-							"nivel": "9-14",
-							"porcentaje":5
-						},
-						{
-							"numero": 14,
-							"nivel": 9,
-							"porcentaje":5
-						}
-					]
-				},
-				{
-					"nombre": "Vía Verde",
-					"surf":[
-						{
-							"numero": 72,
-							"nivel": "5-40",
-							"porcentaje": 65
-						},
-						{
-							"numero": 73,
-							"nivel": "35-40",
-							"porcentaje": 5
-						}
-					],
-					"pesca": [
-						{
-							"numero": 129,
-							"probabilidad": {
-								"tipo": "cania",
-								"vieja": {
-									"nivel": "5",
-									"porcentaje": 100
+							],
+							"pesca": [{
+									"numero": 129,
+									"probabilidad": {
+										"tipo": "cania",
+										"vieja": {
+											"nivel": "5",
+											"porcentaje": 100
+										},
+										"buena": {
+											"nivel": "5-15",
+											"porcentaje": 20
+										}
+									}
 								},
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
-								}
-							}
-						},
-						{
-							"numero": 98,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 80
+								{
+									"numero": 98,
+									"probabilidad": {
+										"tipo": "cania",
+										"buena": {
+											"nivel": "5-15",
+											"porcentaje": 80
+										},
+										"super": {
+											"nivel": "15-25",
+											"porcentaje": 40
+										}
+									}
 								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 223,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 99,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
-									"porcentaje": 4
-								}
-							}
-						},
-						{
-							"numero": 130,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 15
-								}
-							}
-						},
-						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
-									"porcentaje": 1
-								}
-							}
-						}
-					]
-				},
-				{
-					"nombre": "Vía Acuática",
-					"hierba":[
-						{
-							"numero": 161,
-							"nivel": "10-15",
-							"porcentaje":30
-						},
-						{
-							"numero": 21,
-							"nivel": 44,
-							"porcentaje": 20
-						},
-						{
-							"numero": 22,
-							"nivel": "48-50",
-							"porcentaje":15
-						},
-						{
-							"numero": 69,
-							"nivel": 44,
-							"porcentaje":10
-						},
-						{
-							"numero": 52,
-							"nivel": 41,
-							"porcentaje":10
-						},
-						{
-							"numero": 70,
-							"nivel": 48,
-							"porcentaje":5
-						},
-						{
-							"numero": 53,
-							"nivel": "47-50",
-							"porcentaje":5
-						},
-						{
-							"numero": 79,
-							"nivel": 41,
-							"porcentaje":5
-						}
-					],
-					"surf":[
-						{
-							"numero": 72,
-							"nivel": "5-40",
-							"porcentaje": 95
-						},
-						{
-							"numero": 73,
-							"nivel": "35-40",
-							"porcentaje": 5
-						}
-					],
-					"pesca": [
-						{
-							"numero": 129,
-							"probabilidad": {
-								"tipo": "cania",
-								"vieja": {
-									"nivel": "5",
-									"porcentaje": 100
+								{
+									"numero": 120,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "15-25",
+											"porcentaje": 40
+										}
+									}
 								},
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
-								}
-							}
-						},
-						{
-							"numero": 98,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 80
+								{
+									"numero": 99,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "25-35",
+											"porcentaje": 4
+										}
+									}
 								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 223,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 99,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
-									"porcentaje": 4
-								}
-							}
-						},
-						{
-							"numero": 130,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 15
-								}
-							}
-						},
-						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
-									"porcentaje": 1
-								}
-							}
-						}
-					]
-				},
-				{
-					"nombre": "Valle Ruinas",
-					"hierba": [
-						{
-							"numero": 177,
-							"nivel": "15-20",
-							"porcentaje": 25
-						},
-						{
-							"numero": 21,
-							"nivel": 44,
-							"porcentaje":20
-						},
-						{
-							"numero": 22,
-							"nivel": 49,
-							"porcentaje": 10
-						},
-						{
-							"numero": 52,
-							"nivel": 43,
-							"porcentaje": 10
-						},
-						{
-							"numero": 193,
-							"nivel": 18,
-							"porcentaje": 10
-						},
-						{
-							"numero": 183,
-							"nivel": 15,
-							"porcentaje": 10
-						},
-						{
-							"numero": 53,
-							"nivel": "49-52",
-							"porcentaje": 5
-						},
-						{
-							"numero": 79,
-							"nivel": 41,
-							"porcentaje": 5
-						},
-						{
-							"numero": 202,
-							"nivel": 25,
-							"porcentaje": 5
-						}
-					],
-					"surf":[
-						{
-							"numero": 183,
-							"nivel": "5-25",
-							"porcentaje": 100
-						}
-					],
-					"pesca": [
-						{
-							"numero": 129,
-							"probabilidad": {
-								"tipo": "cania",
-								"vieja": {
-									"nivel": "5",
-									"porcentaje": 100
+								{
+									"numero": 130,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "15-25",
+											"porcentaje": 15
+										}
+									}
 								},
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
+								{
+									"numero": 79,
+									"probabilidad": {
+										"tipo": "cania",
+										"super": {
+											"nivel": "25-35",
+											"porcentaje": 1
+										}
+									}
 								}
-							}
-						},
-						{
-							"numero": 60,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 60
-								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 118,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
-								}
-							}
-						},
-						{
-							"numero": 61,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "20-30",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 130,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 15
-								}
-							}
-						},
-						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-35",
-									"porcentaje": 5
-								}
-							}
-						}
-					]
-				},
-				{
-					"nombre": "Isla Aislada",
-					"surf":[
-						{
-							"numero": 72,
-							"nivel": "5-40",
-							"porcentaje": 95
-						},
-						{
-							"numero": 73,
-							"nivel": "35-40",
-							"porcentaje": 5
-						}
-					],
-					"pesca": [
-						{
-							"numero": 129,
-							"probabilidad": {
-								"tipo": "cania",
-								"vieja": {
-									"nivel": "5",
-									"porcentaje": 100
-								},
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
-								}
-							}
-						},
-						{
-							"numero": 98,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 80
-								},
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 223,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 40
-								}
-							}
-						},
-						{
-							"numero": 99,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
-									"porcentaje": 4
-								}
-							}
-						},
-						{
-							"numero": 130,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-25",
-									"porcentaje": 15
-								}
-							}
-						},
-						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "25-35",
-									"porcentaje": 1
-								}
-							}
+							]
 						}
 					]
 				}
@@ -5862,82 +5399,323 @@ const verdehoja =	{
 			]
 		},
 		{
-			"nombre": "Cueva Celeste",
+			"nombre": "Isla Exta",
 			"plantas": [
 				{
-					"nombre": "Planta baja",
-					"caminando": [
+					"nombre": "Bosquejo",
+					"hierba": [
 						{
-							"numero": 42,
-							"nivel": "46-55",
-							"porcentaje": 14
+							"numero": 165,
+							"nivel": "9-14",
+							"porcentaje": 30
 						},
 						{
-							"numero": 47,
-							"nivel": "49-58",
-							"porcentaje": 25
-						},
-						{
-							"numero": 57,
-							"nivel": "52-61",
-							"porcentaje": 11
-						},
-						{
-							"numero": 67,
-							"nivel": 46,
-							"porcentaje": 10
-						},
-						{
-							"numero": 82,
-							"nivel": 49,
+							"numero": 11,
+							"nivel": 9,
 							"porcentaje": 20
 						},
 						{
-							"numero": 132,
-							"nivel": "52-61",
-							"porcentaje": 11
+							"numero": 214,
+							"nivel": "15-30",
+							"porcentaje": 20
 						},
 						{
-							"numero": 101,
-							"nivel": 58,
-							"porcentaje": 5
+							"numero": 10,
+							"nivel": 6,
+							"porcentaje": 10
 						},
 						{
-							"numero": 202,
-							"nivel": 55,
-							"porcentaje": 4
+							"numero": 13,
+							"nivel": 6,
+							"porcentaje": 10
+						},
+						{
+							"numero": 167,
+							"nivel": "9-14",
+							"porcentaje":5
+						},
+						{
+							"numero": 14,
+							"nivel": 9,
+							"porcentaje":5
 						}
-					],
-					"roca": [
-						{
-							"numero": 74,
-							"nivel": "30-50",
-							"porcentaje": 65
-						},
-						{
-							"numero": 75,
-							"nivel": "40-55",
-							"porcentaje": 35
-						}
-					],
+					]
+				},
+				{
+					"nombre": "Vía Verde",
 					"surf":[
 						{
-							"numero": 79,
-							"nivel": "30-50",
+							"numero": 72,
+							"nivel": "5-40",
 							"porcentaje": 65
 						},
 						{
-							"numero": 80,
-							"nivel": "40-55",
-							"porcentaje": 35
+							"numero": 73,
+							"nivel": "35-40",
+							"porcentaje": 5
 						}
 					],
-					"pesca": [{
+					"pesca": [
+						{
 							"numero": 129,
 							"probabilidad": {
 								"tipo": "cania",
 								"vieja": {
-									"nivel": 5,
+									"nivel": "5",
+									"porcentaje": 100
+								},
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 20
+								}
+							}
+						},
+						{
+							"numero": 98,
+							"probabilidad": {
+								"tipo": "cania",
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 80
+								},
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 223,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 99,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "25-35",
+									"porcentaje": 4
+								}
+							}
+						},
+						{
+							"numero": 130,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 15
+								}
+							}
+						},
+						{
+							"numero": 79,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "25-35",
+									"porcentaje": 1
+								}
+							}
+						}
+					]
+				},
+				{
+					"nombre": "Vía Acuática",
+					"hierba":[
+						{
+							"numero": 161,
+							"nivel": "10-15",
+							"porcentaje":30
+						},
+						{
+							"numero": 21,
+							"nivel": 44,
+							"porcentaje": 20
+						},
+						{
+							"numero": 22,
+							"nivel": "48-50",
+							"porcentaje":15
+						},
+						{
+							"numero": 69,
+							"nivel": 44,
+							"porcentaje":10
+						},
+						{
+							"numero": 52,
+							"nivel": 41,
+							"porcentaje":10
+						},
+						{
+							"numero": 70,
+							"nivel": 48,
+							"porcentaje":5
+						},
+						{
+							"numero": 53,
+							"nivel": "47-50",
+							"porcentaje":5
+						},
+						{
+							"numero": 79,
+							"nivel": 41,
+							"porcentaje":5
+						}
+					],
+					"surf":[
+						{
+							"numero": 72,
+							"nivel": "5-40",
+							"porcentaje": 95
+						},
+						{
+							"numero": 73,
+							"nivel": "35-40",
+							"porcentaje": 5
+						}
+					],
+					"pesca": [
+						{
+							"numero": 129,
+							"probabilidad": {
+								"tipo": "cania",
+								"vieja": {
+									"nivel": "5",
+									"porcentaje": 100
+								},
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 20
+								}
+							}
+						},
+						{
+							"numero": 98,
+							"probabilidad": {
+								"tipo": "cania",
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 80
+								},
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 223,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 99,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "25-35",
+									"porcentaje": 4
+								}
+							}
+						},
+						{
+							"numero": 130,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 15
+								}
+							}
+						},
+						{
+							"numero": 79,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "25-35",
+									"porcentaje": 1
+								}
+							}
+						}
+					]
+				},
+				{
+					"nombre": "Valle Ruinas",
+					"hierba": [
+						{
+							"numero": 177,
+							"nivel": "15-20",
+							"porcentaje": 25
+						},
+						{
+							"numero": 21,
+							"nivel": 44,
+							"porcentaje":20
+						},
+						{
+							"numero": 22,
+							"nivel": 49,
+							"porcentaje": 10
+						},
+						{
+							"numero": 52,
+							"nivel": 43,
+							"porcentaje": 10
+						},
+						{
+							"numero": 193,
+							"nivel": 18,
+							"porcentaje": 10
+						},
+						{
+							"numero": 183,
+							"nivel": 15,
+							"porcentaje": 10
+						},
+						{
+							"numero": 53,
+							"nivel": "49-52",
+							"porcentaje": 5
+						},
+						{
+							"numero": 79,
+							"nivel": 41,
+							"porcentaje": 5
+						},
+						{
+							"numero": 202,
+							"nivel": 25,
+							"porcentaje": 5
+						}
+					],
+					"surf":[
+						{
+							"numero": 183,
+							"nivel": "5-25",
+							"porcentaje": 100
+						}
+					],
+					"pesca": [
+						{
+							"numero": 129,
+							"probabilidad": {
+								"tipo": "cania",
+								"vieja": {
+									"nivel": "5",
 									"porcentaje": 100
 								},
 								"buena": {
@@ -5971,16 +5749,6 @@ const verdehoja =	{
 							}
 						},
 						{
-							"numero": 79,
-							"probabilidad": {
-								"tipo": "cania",
-								"super": {
-									"nivel": "15-35",
-									"porcentaje": 5
-								}
-							}
-						},
-						{
 							"numero": 61,
 							"probabilidad": {
 								"tipo": "cania",
@@ -5999,140 +5767,40 @@ const verdehoja =	{
 									"porcentaje": 15
 								}
 							}
+						},
+						{
+							"numero": 79,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-35",
+									"porcentaje": 5
+								}
+							}
 						}
 					]
 				},
 				{
-					"nombre": "Primer piso",
-					"caminando": [
+					"nombre": "Isla Aislada",
+					"surf":[
 						{
-							"numero": 42,
-							"nivel": "49-58",
-							"porcentaje": 25
+							"numero": 72,
+							"nivel": "5-40",
+							"porcentaje": 95
 						},
 						{
-							"numero": 47,
-							"nivel": "52-61",
-							"porcentaje": 14
-						},
-						{
-							"numero": 64,
-							"nivel": "55-64",
-							"porcentaje": 11
-						},
-						{
-							"numero": 67,
-							"nivel": 49,
-							"porcentaje": 20
-						},
-						{
-							"numero": 82,
-							"nivel": 52,
-							"porcentaje": 10
-						},
-						{
-							"numero": 132,
-							"nivel": "55-64",
-							"porcentaje": 11
-						},
-						{
-							"numero": 101,
-							"nivel": 61,
-							"porcentaje": 4
-						},
-						{
-							"numero": 202,
-							"nivel": 58,
+							"numero": 73,
+							"nivel": "35-40",
 							"porcentaje": 5
 						}
 					],
-					"roca": [
+					"pesca": [
 						{
-							"numero": 74,
-							"nivel": "30-50",
-							"porcentaje": 65
-						},
-						{
-							"numero": 75,
-							"nivel": "40-55",
-							"porcentaje": 35
-						}
-					]
-				},
-				{
-					"nombre": "Sótano",
-					"caminando": [
-						{
-							"numero": 42,
-							"nivel": "52-61",
-							"porcentaje": 11
-						},
-						{
-							"numero": 47,
-							"nivel": "55-64",
-							"porcentaje": 14
-						},
-						{
-							"numero": 64,
-							"nivel": "58-67",
-							"porcentaje": 25
-						},
-						{
-							"numero": 67,
-							"nivel": 52,
-							"porcentaje": 10
-						},
-						{
-							"numero": 82,
-							"nivel": 55,
-							"porcentaje": 10
-						},
-						{
-							"numero": 132,
-							"nivel": "58-67",
-							"porcentaje": 25
-						},
-						{
-							"numero": 101,
-							"nivel": 64,
-							"porcentaje": 4
-						},
-						{
-							"numero": 202,
-							"nivel": 61,
-							"porcentaje": 1
-						}
-					],
-					"roca": [
-						{
-							"numero": 74,
-							"nivel": "40-60",
-							"porcentaje": 65
-						},
-						{
-							"numero": 75,
-							"nivel": "50-65",
-							"porcentaje": 35
-						}
-					],
-					"surf":[
-						{
-							"numero": 79,
-							"nivel": "40-60",
-							"porcentaje": 65
-						},
-						{
-							"numero": 80,
-							"nivel": "50-65",
-							"porcentaje": 35
-						}
-					],
-					"pesca": [{
 							"numero": 129,
 							"probabilidad": {
 								"tipo": "cania",
 								"vieja": {
-									"nivel": 5,
+									"nivel": "5",
 									"porcentaje": 100
 								},
 								"buena": {
@@ -6142,12 +5810,12 @@ const verdehoja =	{
 							}
 						},
 						{
-							"numero": 60,
+							"numero": 98,
 							"probabilidad": {
 								"tipo": "cania",
 								"buena": {
 									"nivel": "5-15",
-									"porcentaje": 60
+									"porcentaje": 80
 								},
 								"super": {
 									"nivel": "15-25",
@@ -6156,32 +5824,22 @@ const verdehoja =	{
 							}
 						},
 						{
-							"numero": 118,
-							"probabilidad": {
-								"tipo": "cania",
-								"buena": {
-									"nivel": "5-15",
-									"porcentaje": 20
-								}
-							}
-						},
-						{
-							"numero": 79,
+							"numero": 223,
 							"probabilidad": {
 								"tipo": "cania",
 								"super": {
 									"nivel": "15-25",
-									"porcentaje": 5
+									"porcentaje": 40
 								}
 							}
 						},
 						{
-							"numero": 61,
+							"numero": 99,
 							"probabilidad": {
 								"tipo": "cania",
 								"super": {
-									"nivel": "20-30",
-									"porcentaje": 40
+									"nivel": "25-35",
+									"porcentaje": 4
 								}
 							}
 						},
@@ -6190,16 +5848,20 @@ const verdehoja =	{
 							"probabilidad": {
 								"tipo": "cania",
 								"super": {
-									"nivel": "15-35",
+									"nivel": "15-25",
 									"porcentaje": 15
 								}
 							}
-						}
-					],
-					"legendario": [
+						},
 						{
-							"numero": 150,
-							"nivel": 70
+							"numero": 79,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "25-35",
+									"porcentaje": 1
+								}
+							}
 						}
 					]
 				}
@@ -6602,6 +6264,350 @@ const verdehoja =	{
 									"porcentaje": 1
 								}
 							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"nombre": "Cueva Celeste",
+			"plantas": [
+				{
+					"nombre": "Planta baja",
+					"caminando": [
+						{
+							"numero": 42,
+							"nivel": "46-55",
+							"porcentaje": 14
+						},
+						{
+							"numero": 47,
+							"nivel": "49-58",
+							"porcentaje": 25
+						},
+						{
+							"numero": 57,
+							"nivel": "52-61",
+							"porcentaje": 11
+						},
+						{
+							"numero": 67,
+							"nivel": 46,
+							"porcentaje": 10
+						},
+						{
+							"numero": 82,
+							"nivel": 49,
+							"porcentaje": 20
+						},
+						{
+							"numero": 132,
+							"nivel": "52-61",
+							"porcentaje": 11
+						},
+						{
+							"numero": 101,
+							"nivel": 58,
+							"porcentaje": 5
+						},
+						{
+							"numero": 202,
+							"nivel": 55,
+							"porcentaje": 4
+						}
+					],
+					"roca": [
+						{
+							"numero": 74,
+							"nivel": "30-50",
+							"porcentaje": 65
+						},
+						{
+							"numero": 75,
+							"nivel": "40-55",
+							"porcentaje": 35
+						}
+					],
+					"surf":[
+						{
+							"numero": 79,
+							"nivel": "30-50",
+							"porcentaje": 65
+						},
+						{
+							"numero": 80,
+							"nivel": "40-55",
+							"porcentaje": 35
+						}
+					],
+					"pesca": [{
+							"numero": 129,
+							"probabilidad": {
+								"tipo": "cania",
+								"vieja": {
+									"nivel": 5,
+									"porcentaje": 100
+								},
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 20
+								}
+							}
+						},
+						{
+							"numero": 60,
+							"probabilidad": {
+								"tipo": "cania",
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 60
+								},
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 118,
+							"probabilidad": {
+								"tipo": "cania",
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 20
+								}
+							}
+						},
+						{
+							"numero": 79,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-35",
+									"porcentaje": 5
+								}
+							}
+						},
+						{
+							"numero": 61,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "20-30",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 130,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 15
+								}
+							}
+						}
+					]
+				},
+				{
+					"nombre": "Primer piso",
+					"caminando": [
+						{
+							"numero": 42,
+							"nivel": "49-58",
+							"porcentaje": 25
+						},
+						{
+							"numero": 47,
+							"nivel": "52-61",
+							"porcentaje": 14
+						},
+						{
+							"numero": 64,
+							"nivel": "55-64",
+							"porcentaje": 11
+						},
+						{
+							"numero": 67,
+							"nivel": 49,
+							"porcentaje": 20
+						},
+						{
+							"numero": 82,
+							"nivel": 52,
+							"porcentaje": 10
+						},
+						{
+							"numero": 132,
+							"nivel": "55-64",
+							"porcentaje": 11
+						},
+						{
+							"numero": 101,
+							"nivel": 61,
+							"porcentaje": 4
+						},
+						{
+							"numero": 202,
+							"nivel": 58,
+							"porcentaje": 5
+						}
+					],
+					"roca": [
+						{
+							"numero": 74,
+							"nivel": "30-50",
+							"porcentaje": 65
+						},
+						{
+							"numero": 75,
+							"nivel": "40-55",
+							"porcentaje": 35
+						}
+					]
+				},
+				{
+					"nombre": "Sótano",
+					"caminando": [
+						{
+							"numero": 42,
+							"nivel": "52-61",
+							"porcentaje": 11
+						},
+						{
+							"numero": 47,
+							"nivel": "55-64",
+							"porcentaje": 14
+						},
+						{
+							"numero": 64,
+							"nivel": "58-67",
+							"porcentaje": 25
+						},
+						{
+							"numero": 67,
+							"nivel": 52,
+							"porcentaje": 10
+						},
+						{
+							"numero": 82,
+							"nivel": 55,
+							"porcentaje": 10
+						},
+						{
+							"numero": 132,
+							"nivel": "58-67",
+							"porcentaje": 25
+						},
+						{
+							"numero": 101,
+							"nivel": 64,
+							"porcentaje": 4
+						},
+						{
+							"numero": 202,
+							"nivel": 61,
+							"porcentaje": 1
+						}
+					],
+					"roca": [
+						{
+							"numero": 74,
+							"nivel": "40-60",
+							"porcentaje": 65
+						},
+						{
+							"numero": 75,
+							"nivel": "50-65",
+							"porcentaje": 35
+						}
+					],
+					"surf":[
+						{
+							"numero": 79,
+							"nivel": "40-60",
+							"porcentaje": 65
+						},
+						{
+							"numero": 80,
+							"nivel": "50-65",
+							"porcentaje": 35
+						}
+					],
+					"pesca": [{
+							"numero": 129,
+							"probabilidad": {
+								"tipo": "cania",
+								"vieja": {
+									"nivel": 5,
+									"porcentaje": 100
+								},
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 20
+								}
+							}
+						},
+						{
+							"numero": 60,
+							"probabilidad": {
+								"tipo": "cania",
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 60
+								},
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 118,
+							"probabilidad": {
+								"tipo": "cania",
+								"buena": {
+									"nivel": "5-15",
+									"porcentaje": 20
+								}
+							}
+						},
+						{
+							"numero": 79,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-25",
+									"porcentaje": 5
+								}
+							}
+						},
+						{
+							"numero": 61,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "20-30",
+									"porcentaje": 40
+								}
+							}
+						},
+						{
+							"numero": 130,
+							"probabilidad": {
+								"tipo": "cania",
+								"super": {
+									"nivel": "15-35",
+									"porcentaje": 15
+								}
+							}
+						}
+					],
+					"legendario": [
+						{
+							"numero": 150,
+							"nivel": 70
 						}
 					]
 				}
