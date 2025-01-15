@@ -19,7 +19,11 @@ var jsonObtenidos =
   "blanco":[],
   "negro":[],
   "blanco2":[],
-  "negro2":[]
+  "negro2":[],
+  "x":[],
+  "y":[],
+  "zafiroalfa": [],
+  "rubiomega": []
 }
 
 var jsonLoc =
@@ -43,5 +47,9 @@ var jsonLoc =
   "blanco":"",
   "negro":"",
   "blanco2":"",
-  "negro2":""
+  "negro2":"",
+  "x":"",
+  "y":"",
+  "zafiroalfa": "",
+  "rubiomega": ""
 }

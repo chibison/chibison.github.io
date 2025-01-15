@@ -56,7 +56,6 @@ function inicializar(){
       case 'negro2': leerLugares(negro2); mostrarGeneracion(5); break;
     }
   }
-
   document.getElementById("btnArriba").classList="boton "+(ultimo!==undefined ? ultimo : '');
 }
 
@@ -236,14 +235,14 @@ function procesarLugares(lugares, num_pok, num_variedad){
         for(p of l.plantas){
           for(lista of Object.keys(p)){
             if(objetoContenedor[lista])
-              calcularVariables(p[lista], l.nombre, p.nombre, num_pok, objetoContenedor[lista]);
+              calcularVariables(p[lista], l.nombre, p.nombre, num_pok, num_variedad, objetoContenedor[lista]);
           }
         }
       }
       else {
         for(lista of Object.keys(l)){
           if(objetoContenedor[lista])
-            calcularVariables(l[lista], l.nombre,'', num_pok, objetoContenedor[lista]);
+            calcularVariables(l[lista], l.nombre,'', num_pok, num_variedad, objetoContenedor[lista]);
         }
       }
     }
@@ -261,9 +260,9 @@ function procesarLugares(lugares, num_pok, num_variedad){
     }
 }
 
-function calcularVariables(listado, nom_lugar, nom_planta, num_pok, objeto) {
+function calcularVariables(listado, nom_lugar, nom_planta, num_pok, num_variedad, objeto) {
      for(let p of listado) {
-         if(p.numero == num_pok){
+         if(p.numero == num_pok && num_variedad==(p.variedad==undefined ? '' : p.variedad)){
             if((p.porcentaje) && (objeto.porcentaje < p.porcentaje)) {
               objeto.porcentaje = p.porcentaje;
               objeto.lugar = nom_lugar;
@@ -338,7 +337,7 @@ function leerNacional(){
   document.getElementById("divBusqueda").classList.remove("oculto");
   document.getElementById("btnArriba").classList="boton nacional";
   document.getElementById("titulo").innerText='Pokédex Nacional';
-  document.getElementById("mapa").classList.add("oculto");
+  //document.getElementById("mapa").classList.add("oculto");
   juego='nacional';
 
   generacion=document.getElementById("juegosGen").children.length;
@@ -396,8 +395,8 @@ function dibujarObtencion(div, p, i){
     if(j.parentElement.attributes.gen.value >= p.gen) {
       var imgThObt=document.createElement("IMG");
       imgThObt.src="img/portada/"+j.attributes.juego.value+".webp";
-      imgThObt.alt=j.attributes.juego.value;
-      imgThObt.title=j.attributes.juego.value;
+      imgThObt.alt=j.attributes.title.value;
+      imgThObt.title=j.attributes.title.value;
       imgThObt.classList.add("portada");
 
       if(obtenidos[j.attributes.juego.value]!=undefined){
@@ -514,7 +513,8 @@ function dibujarLugar(lugar){
 
   if(lugar.hasOwnProperty("lema")){
     let pLema = document.createElement("P");
-    pLema.innerHTML = '<i>'+ lugar.lema +'</i>';
+    pLema.classList.add('lema');
+    pLema.innerHTML = lugar.lema;
     divLugar.append(pLema);
   }
 
@@ -596,7 +596,9 @@ function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
 
   let divLugar = document.createElement("DIV");
   divLugar.classList.add("divCont");
-  divLugar.setAttribute("obtencion",tipo_obt)
+  divLugar.setAttribute("obtencion",tipo_obt);
+
+  divLugar.append(h2Lugar);
 
   //ordenarListado(listado);
   for(let i=0; i<listado.length; i++){
@@ -615,7 +617,6 @@ function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
     }
   }
 
-  divContenedor.append(h2Lugar);
   divContenedor.append(divLugar);
 }
 
@@ -1312,6 +1313,14 @@ function ocultarNoCoincidentes(texto){
     for(let i=0; i<lugares.length; i++){
       if(!lugares[i].children[0].innerText.toLowerCase().includes(texto.toLowerCase())){
         lugares[i].classList.add("oculto");
+        let obtencion = lugares[i].getElementsByClassName('divCont');
+        for(let j=0; j<obtencion.length; j++){
+          obtencion[j].classList.add("oculto");
+        }
+        let lugaresHijo = lugares[i].getElementsByClassName('lugar');
+        for(let j=0; j<lugaresHijo.length; j++){
+          lugaresHijo[j].classList.add("oculto");
+        }
       }
       else {
         lugares[i].classList.remove("oculto");
@@ -1326,7 +1335,6 @@ function ocultarNoCoincidentes(texto){
         if(pok[i].getElementsByTagName("P")[0].innerText.toLowerCase().includes(texto.toLowerCase())){
           pok[i].classList.remove("oculto");
           desocultarPadre(pok[i]);
-          pok[i].parentElement.previousElementSibling.classList.remove("oculto");
         }
         else {
           pok[i].classList.add("oculto");
@@ -1591,6 +1599,11 @@ function cargarTrofeos(){
       document.getElementById("cuerpo").append(divTrofeo);
     }
   });
+}
+
+function limpiarBusqueda(){
+  document.getElementById("busqueda").value = '';
+  ocultarNoCoincidentes('');
 }
 
 function revisar(){

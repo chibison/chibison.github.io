@@ -2,6 +2,7 @@ html,body{
   color: #333;
   font-family: Calibri;
   margin: 0;
+  font-size: 1em;
 }
 
 h1,h2{
@@ -91,6 +92,14 @@ h2{
 	cursor: pointer;
 }
 
+.boton.borrar{
+  border: none;
+  background: white;
+  color: #999;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
 #totales{
   text-align: center;
   margin-top: 2em;
@@ -141,6 +150,10 @@ h2{
   opacity: 0.5;
 }
 
+.lema{
+  font-style: italic;
+}
+
 footer{
   border-top: 5px solid black;
   text-align: center;
@@ -149,25 +162,26 @@ footer{
 
 #busqueda.nacional{border-color:#000;} #btnArriba.nacional{background-color: #DDD;}
 #cuerpo.nacional{background-color: #FFF}; #titulo.nacional{background-color: #000}
+
 #cuerpo.rojo, #btnArriba.rojo{background-color: #ff5b54;} #busqueda.rojo{border-color: #ff5b54;} #titulo.rojo{color: #ff5b54;}
-#cuerpo.azul, #btnArriba.azul{background-color: blue;} #btnArriba.azul{color:#FFFFFF} #busqueda.azul{border-color: blue;} #cuerpo.azul h1{color: white;} #titulo.azul{color: blue;}
+#cuerpo.azul, #btnArriba.azul{background-color: blue;} #btnArriba.azul{color:#FFFFFF} #busqueda.azul{border-color: blue;} #cuerpo.azul h1{color: white;} #titulo.azul{color: blue;} #cuerpo.azul .lema {color: white;}
 #cuerpo.amarillo, #btnArriba.amarillo{background-color: yellow;} #busqueda.amarillo{border-color: yellow;} #titulo.amarillo{color: yellow;}
 #cuerpo.oro, #btnArriba.oro{background-color: gold;} #busqueda.oro{border-color: gold;} #titulo.oro{color: gold;}
 #cuerpo.plata, #btnArriba.plata{background-color: silver;} #busqueda.plata{border-color: silver;} #titulo.plata{color: silver;}
 #cuerpo.cristal, #btnArriba.cristal{background-color: #4FD9FF;} #busqueda.cristal{border-color: #4FD9FF;} #titulo.cristal{color: #4FD9FF;}
 #cuerpo.rubi, #btnArriba.rubi{background-color: #E0115f;} #busqueda.rubi{border-color: #E0115f;} #titulo.rubi{color: #E0115f;}
-#cuerpo.zafiro, #btnArriba.zafiro{background-color: #0F52BA;} #busqueda.zafiro{border-color: #0F52BA;} #cuerpo.zafiro h1{color: white;} #titulo.zafiro{color: #0F52BA;}
+#cuerpo.zafiro, #btnArriba.zafiro{background-color: #0F52BA;} #busqueda.zafiro{border-color: #0F52BA;} #cuerpo.zafiro h1{color: white;} #titulo.zafiro{color: #0F52BA;} #cuerpo.zafiro .lema {color: white;}
 #cuerpo.esmeralda, #btnArriba.esmeralda{background-color: #50C878;} #busqueda.esmeralda{border-color: #50C878;} #titulo.esmeralda{color: #50C878;}
 #cuerpo.rojofuego, #btnArriba.rojofuego{background-color:#fb8a5d} #busqueda.rojofuego{border-color:#fb8a5d} #titulo.rojofuego{color: #fb8a5d;}
 #cuerpo.verdehoja, #btnArriba.verdehoja{background-color:#00BD00} #busqueda.verdehoja{border-color:#00BD00} #titulo.verdehoja{color: #00BD00;}
-#cuerpo.diamante, #btnArriba.diamante{background-color:#1058a8} #busqueda.diamante{border-color:#1058a8} #cuerpo.diamante h1{color: white;} #titulo.diamante{color: #1058a8;}
+#cuerpo.diamante, #btnArriba.diamante{background-color:#1058a8} #busqueda.diamante{border-color:#1058a8} #cuerpo.diamante h1{color: white;} #titulo.diamante{color: #1058a8;} #cuerpo.diamante .lema {color: white;}
 #cuerpo.perla, #btnArriba.perla{background-color:thistle} #busqueda.perla{border-color:thistle} #titulo.perla{color: thistle;}
 #cuerpo.platino, #btnArriba.platino{background-color:#adacab} #busqueda.platino{border-color:#adacab} #titulo.platino{color: #adacab;}
 #cuerpo.heartgold, #btnArriba.heartgold{background-color:goldenrod} #busqueda.heartgold{border-color:goldenrod} #titulo.heartgold{color: goldenrod;}
 #cuerpo.soulsilver, #btnArriba.soulsilver{background-color:#8e8585} #busqueda.soulsilver{border-color:#8e8585} #titulo.soulsilver{color: #8e8585;}
-#cuerpo.negro, #btnArriba.negro{background-color:#000000; color:#ffffff} #busqueda.negro{border-color:#000000} #titulo.negro{color: #000000;} #cuerpo.negro h1{color: white;}
+#cuerpo.negro, #btnArriba.negro{background-color:#000000; color:#ffffff} #busqueda.negro{border-color:#000000} #titulo.negro{color: #000000;} #cuerpo.negro h1{color: white;} #cuerpo.negro .lema {color: white;}
 #cuerpo.blanco, #btnArriba.blanco{background-color:#ffffff; border: 1px solid #000000;} #busqueda.blanco{border-color:#000000} #titulo.blanco{color: #000000;}
-#cuerpo.negro2, #btnArriba.negro2{background-color:#000000; color:#ffffff} #busqueda.negro2{border-color:#000000} #titulo.negro2{color: #000000;} #cuerpo.negro2 h1{color: white;}
+#cuerpo.negro2, #btnArriba.negro2{background-color:#000000; color:#ffffff} #busqueda.negro2{border-color:#000000} #titulo.negro2{color: #000000;} #cuerpo.negro2 h1{color: white;} #cuerpo.negro2 .lema {color: white;}
 #cuerpo.blanco2, #btnArriba.blanco2{background-color:#ffffff; border: 1px solid #000000;} #busqueda.blanco2{border-color:#000000} #titulo.blanco2{color: #000000;}
 
 /*div > div > div > h1{
@@ -178,10 +192,10 @@ div.lugar>h1::before{
   /*content:url('../img/otros/Cartel.png');*/
   margin-right: 0.25em;
   background-image: url(../img/otros/Cartel.png);
-  background-size: 0.6em 0.6em;
+  background-size: 2rem 2rem;
   display: inline-block;
-  width: 0.6em;
-  height: 0.6em;
+  width: 2rem;
+  height: 2rem;
   content:"";
 }
 
@@ -194,6 +208,10 @@ div.lugar>h1.marcador::before{
   width: 0.6em;
   height: 0.6em;
   content:"";
+}
+
+div.lugarCont > div.lugar > h1{
+    color: #000 !important;
 }
 
 div.lugarCont>h2{
@@ -362,53 +380,42 @@ div.trofeo > p, div.trofeoEstatico > p {
 .legendario{border: 5px solid silver;}
 .singular{border: 5px solid gold;}
 
-@media (min-width: 480px) and (max-width: 799px) {
+@media screen and (min-width: 480px) and (max-width: 799px) {
   #cuerpo {
     width: 95%;
   }
   h1{
-	font-size: 4em;
+	font-size: 4rem;
   }
 
   h2{
-	font-size: 3em;
-  }
-
-  p{
-	font-size: 2em;
+	font-size: 3rem;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1919px) {
+@media screen and (min-width: 800px) and (max-width: 1919px) {
   #cuerpo {
     width: 80%;
   }
   h1{
-	font-size: 3em;
+	font-size: 3rem;
   }
 
   h2{
-	font-size: 2em;
-  }
-
-  p{
-	font-size: 1em;
+	font-size: 2rem;
   }
 }
 
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   #cuerpo {
     width: 60%;
   }
   h1{
-	font-size: 3em;
+	font-size: 3rem;
   }
 
   h2{
-	font-size: 2em;
-  }
-  p{
-	font-size: 1em;
+	font-size: 2rem;
   }
 }
 
