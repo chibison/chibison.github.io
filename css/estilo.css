@@ -96,8 +96,9 @@ h2{
   border: none;
   background: white;
   color: #999;
-  margin-left: 1rem;
+  margin-left: -1.5em;
   font-size: 1.5rem;
+  height: 90%;
 }
 
 #totales{
@@ -109,12 +110,16 @@ h2{
   text-align: center;
   margin-bottom: 1em;
   margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 #busqueda {
   border: 2px solid;
   border-radius: 0.5em;
   height: 3em;
-  width: 50%;
+  width: 30%;
   text-align: center;
 }
 
@@ -135,6 +140,7 @@ h2{
   flex-wrap: wrap;
 }
 
+
 #btnArriba{
   display: none;
   position: fixed;
@@ -152,6 +158,10 @@ h2{
 
 .lema{
   font-style: italic;
+}
+
+.divFiltros{
+  text-align: right;
 }
 
 footer{
@@ -189,24 +199,21 @@ footer{
 }*/
 
 div.lugar>h1::before{
-  /*content:url('../img/otros/Cartel.png');*/
   margin-right: 0.25em;
-  background-image: url(../img/otros/Cartel.png);
-  background-size: 2rem 2rem;
+  background-image:url('../img/otros/Cartel.png');
+  background-size: 16px 16px;
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  width: 16px;
+  height: 16px;
   content:"";
 }
 
 div.lugar>h1.marcador::before{
-  /*content:url('../img/otros/marcador.png');*/
   margin-right: 0.25em;
   background-image:url('../img/otros/marcador.png');
-  background-size: 0.6em 0.6em;
   display: inline-block;
-  width: 0.6em;
-  height: 0.6em;
+  width: 16px;
+  height: 16px;
   content:"";
 }
 
@@ -372,7 +379,7 @@ div.trofeo > p, div.trofeoEstatico > p {
 }
 
 .oculto{display: none !important;}
-.obtenido{opacity: 50%;}
+.obtenido,.seleccionado{opacity: 50%;}
 .noObtenido{filter: grayscale(100%);}
 .portada{width: 32px; height: 32px; margin:0.2em;}
 
@@ -380,7 +387,8 @@ div.trofeo > p, div.trofeoEstatico > p {
 .legendario{border: 5px solid silver;}
 .singular{border: 5px solid gold;}
 
-@media screen and (min-width: 480px) and (max-width: 799px) {
+
+/*@media screen and (min-width: 480px) and (max-width: 799px) {
   #cuerpo {
     width: 95%;
   }
@@ -404,19 +412,19 @@ div.trofeo > p, div.trofeoEstatico > p {
   h2{
 	font-size: 2rem;
   }
-}
+}*/
 
 @media screen and (min-width: 1920px) {
   #cuerpo {
-    width: 60%;
+    width: 50%;
   }
-  h1{
+  /*h1{
 	font-size: 3rem;
   }
 
   h2{
 	font-size: 2rem;
-  }
+  }*/
 }
 
 

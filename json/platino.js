@@ -28,10 +28,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -66,6 +68,12 @@ const platino = {
         {
           "numero": 401,
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 10}, "noche": {"nivel": 3, "porcentaje": 10}}
+        },
+        {
+          "numero": 58,
+          "nivel": 2,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "radar":[
@@ -86,14 +94,6 @@ const platino = {
           "nivel": "2-3",
           "porcentaje": 40
         }
-      ],
-      "cartucho":[
-        {
-          "numero": 58,
-          "nivel": 2,
-          "porcentaje": 8,
-          "imagen": "Rojo Fuego"
-        }
       ]
     },
     {
@@ -108,6 +108,18 @@ const platino = {
           "numero": 399,
           "nivel": "2-4",
           "porcentaje": 50
+        },
+        {
+          "numero": 337,
+          "nivel": 4,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 338,
+          "nivel": 4,
+          "porcentaje": 8,
+          "imagen": "Rubí"
         }
       ],
       "surf": [
@@ -132,10 +144,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -145,20 +159,6 @@ const platino = {
           "numero": 202,
           "nivel": 4,
           "porcentaje": 22
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 337,
-          "nivel": 4,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
-        },
-        {
-          "numero": 338,
-          "nivel": 4,
-          "porcentaje": 8,
-          "imagen": "Rubí"
         }
       ]
     },
@@ -180,6 +180,12 @@ const platino = {
         {
         	"numero": 401,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
+        },
+        {
+          "numero": 58,
+          "nivel": 2,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "radar":[
@@ -194,14 +200,6 @@ const platino = {
         	"numero": 263,
         	"nivel": 3,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 58,
-        	"nivel": 2,
-        	"porcentaje": 8,
-          "imagen": "Rojo Fuego"
         }
       ]
     },
@@ -231,6 +229,24 @@ const platino = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 4, "porcentaje": 10}}
+        },
+        {
+          "numero": 273,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 270,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 204,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -255,10 +271,12 @@ const platino = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -268,26 +286,6 @@ const platino = {
         	"numero": 104,
         	"nivel": 4,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 273,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
-        },
-        {
-        	"numero": 270,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Zafiro"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -372,10 +370,12 @@ const platino = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 340,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -465,43 +465,11 @@ const platino = {
             {
               "numero": 265,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 4, "porcentaje": 10}, "dia": {"nivel": 4, "porcentaje": 10}}
-            }
-          ],
-          "surf": [
-            {
-              "numero": 54,
-              "nivel": "20-30",
-              "porcentaje": 90
             },
             {
-              "numero": 55,
-              "nivel": "20-40",
-              "porcentaje": 10
-            }
-          ],
-          "pesca":[
-            {
-              "numero": 129,
-              "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-15","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
-            },
-            {
-              "numero": 118,
-              "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
-            },
-            {
-              "numero": 130,
-              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
-            },
-            {
-              "numero": 119,
-              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 273,
-            	"nivel": 6,
-            	"porcentaje": 8,
+              "numero": 273,
+              "nivel": 6,
+              "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
@@ -527,6 +495,38 @@ const platino = {
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Verde Hoja"
+            }
+          ],
+          "surf": [
+            {
+              "numero": 54,
+              "nivel": "20-30",
+              "porcentaje": 90
+            },
+            {
+              "numero": 55,
+              "nivel": "20-40",
+              "porcentaje": 10
+            }
+          ],
+          "pesca":[
+            {
+              "numero": 129,
+              "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-15","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+            },
+            {
+              "numero": 118,
+              "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
+            },
+            {
+              "pokedex": "*",
+              "numero": 130,
+              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
+            },
+            {
+              "pokedex": "*",
+              "numero": 119,
+              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
             }
           ]
         },
@@ -560,33 +560,24 @@ const platino = {
             {
               "numero": 265,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 9, "porcentaje": 10}, "dia": {"nivel": 9, "porcentaje": 10}}
-            }
-          ],
-          "radar":[
-            {
-            	"numero": 191,
-            	"nivel": "9-11",
-            	"porcentaje": 22
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 273,
-            	"nivel": 10,
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
             },
             {
-            	"numero": 270,
-            	"nivel": 10,
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
+              "numero": 273,
+              "nivel": 10,
+              "porcentaje": 8,
+              "imagen": "Rubí"
             },
             {
-            	"numero": 204,
-            	"nivel": 10,
-            	"porcentaje": 8,
-            	"imagen": "Esmeralda"
+              "numero": 270,
+              "nivel": 10,
+              "porcentaje": 8,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 204,
+              "nivel": 10,
+              "porcentaje": 8,
+              "imagen": "Esmeralda"
             },
             {
               "numero": 10,
@@ -599,6 +590,13 @@ const platino = {
               "nivel": 10,
               "porcentaje": 8,
               "imagen": "Verde Hoja"
+            }
+          ],
+          "radar":[
+            {
+            	"numero": 191,
+            	"nivel": "9-11",
+            	"porcentaje": 22
             }
           ]
         }
@@ -650,10 +648,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -721,14 +721,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 90,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         }
@@ -821,14 +824,17 @@ const platino = {
             	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
             },
             {
+              "pokedex": "*",
             	"numero": 130,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
             },
             {
+              "pokedex": "*",
             	"numero": 457,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
             },
             {
+              "pokedex": "*",
               "numero": 90,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
             }
@@ -871,6 +877,12 @@ const platino = {
             {
               "numero": 269,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 1}, "dia": {"nivel": 15, "porcentaje": 1}, "noche": {"nivel": 15, "porcentaje": 1}}
+            },
+            {
+              "numero": 270,
+              "nivel": "13-14",
+              "porcentaje": 8,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -896,10 +908,12 @@ const platino = {
             	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
             	"numero": 130,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
             	"numero": 340,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
             }
@@ -909,14 +923,6 @@ const platino = {
               "numero": 79,
               "nivel": "13-15",
               "porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 270,
-            	"nivel": "13-14",
-            	"porcentaje": 8,
-              "imagen": "Zafiro"
             }
           ]
         }
@@ -981,14 +987,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 90,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         }
@@ -1059,6 +1068,42 @@ const platino = {
         {
         	"numero": 401,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 10, "porcentaje": 10}}
+        },
+        {
+          "numero": 10,
+          "nivel": 13,
+          "porcentaje": 4,
+          "imagen": "Rojo Fuego"
+        },
+        {
+          "numero": 11,
+          "nivel": 13,
+          "porcentaje": 4,
+          "imagen": "Rojo Fuego"
+        },
+        {
+          "numero": 13,
+          "nivel": 13,
+          "porcentaje": 4,
+          "imagen": "Verde Hoja"
+        },
+        {
+          "numero": 14,
+          "nivel": 13,
+          "porcentaje": 4,
+          "imagen": "Verde Hoja"
+        },
+        {
+          "numero": 273,
+          "nivel": 13,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 204,
+          "nivel": 13,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1074,44 +1119,6 @@ const platino = {
         	"nivel": "10-12",
         	"porcentaje": 40
         }
-      ],
-      "cartucho":[
-        {
-          "numero": 10,
-          "nivel": 13,
-          "porcentaje": 4,
-          "imagen": "Rojo Fuego"
-        },
-        {
-        	"numero": 11,
-        	"nivel": 13,
-        	"porcentaje": 4,
-        	"imagen": "Rojo Fuego"
-        },
-        {
-          "numero": 13,
-          "nivel": 13,
-          "porcentaje": 4,
-          "imagen": "Verde Hoja"
-        },
-        {
-        	"numero": 14,
-        	"nivel": 13,
-        	"porcentaje": 4,
-        	"imagen": "Verde Hoja"
-        },
-        {
-        	"numero": 273,
-        	"nivel": 13,
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 13,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
-        }
       ]
     },
     {
@@ -1121,9 +1128,7 @@ const platino = {
           "numero": 92,
           "nivel": "14-17",
           "porcentaje": 100
-        }
-      ],
-      "cartucho": [
+        },
         {
           "numero": 93,
           "nivel": 16,
@@ -1169,10 +1174,12 @@ const platino = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 35}}
         }
@@ -1335,10 +1342,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -1374,6 +1383,18 @@ const platino = {
         {
         	"numero": 41,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 19, "porcentaje": 10}}
+        },
+        {
+          "numero": 335,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 336,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -1398,10 +1419,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -1418,20 +1441,6 @@ const platino = {
         	"numero": 206,
         	"nivel": 18,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 335,
-        	"nivel": 20,
-        	"porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-        	"numero": 336,
-        	"nivel": 20,
-        	"porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -1479,6 +1488,12 @@ const platino = {
         {
           "numero": 355,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 10}}
+        },
+        {
+          "numero": 37,
+          "nivel": "17-20",
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -1503,10 +1518,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -1523,14 +1540,6 @@ const platino = {
         	"numero": 209,
         	"nivel": "18-19",
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 37,
-          "nivel": "17-20",
-          "porcentaje": 8,
-          "imagen": "Verde Hoja"
         }
       ],
       "especial":[
@@ -1882,21 +1891,7 @@ const platino = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 21, "porcentaje": 10}}
-        }
-      ],
-      "radar": [
-        {
-          "numero": 128,
-          "nivel": "19-20",
-          "porcentaje": 11
         },
-        {
-          "numero": 241,
-          "nivel": "19-20",
-          "porcentaje": 11
-        }
-      ],
-      "cartucho": [
         {
           "numero": 273,
           "nivel": 18,
@@ -1914,6 +1909,18 @@ const platino = {
           "nivel": "18-20",
           "porcentaje": 8,
           "imagen": "Esmeralda"
+        }
+      ],
+      "radar": [
+        {
+          "numero": 128,
+          "nivel": "19-20",
+          "porcentaje": 11
+        },
+        {
+          "numero": 241,
+          "nivel": "19-20",
+          "porcentaje": 11
         }
       ]
     },
@@ -1988,6 +1995,12 @@ const platino = {
         {
         	"numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 22, "porcentaje": 10}}
+        },
+        {
+          "numero": 37,
+          "nivel": 24,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -2012,10 +2025,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2032,14 +2047,6 @@ const platino = {
           "numero": 325,
           "nivel": "21-23",
           "porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 37,
-        	"nivel": 24,
-        	"porcentaje": 8,
-        	"imagen": "Verde Hoja"
         }
       ]
     },
@@ -2191,10 +2198,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2237,10 +2246,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2281,14 +2292,12 @@ const platino = {
             	"numero": 193,
             	"nivel": "30-31",
             	"porcentaje": 5
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": 30,
-            	"porcentaje": 8,
-            	"imagen": "Rojo Fuego"
+              "numero": 24,
+              "nivel": 30,
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
             }
           ]
         },
@@ -2325,14 +2334,12 @@ const platino = {
             {
             	"numero": 164,
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 27, "porcentaje": 10}}
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": 29,
-            	"porcentaje": 8,
-            	"imagen": "Rojo Fuego"
+              "numero": 24,
+              "nivel": 29,
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
             }
           ]
         },
@@ -2365,14 +2372,12 @@ const platino = {
             {
             	"numero": 193,
               "probabilidad": {"tipo":"hora", "noche": {"nivel": "27-29", "porcentaje": 15}}
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": 28,
-            	"porcentaje": 8,
-            	"imagen": "Rojo Fuego"
+              "numero": 24,
+              "nivel": 28,
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
             }
           ]
         },
@@ -2405,14 +2410,12 @@ const platino = {
             {
               "numero": 193,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": "27-30", "porcentaje": 25}, "dia": {"nivel": "27-30", "porcentaje": 25}, "noche": {"nivel": "27-29", "porcentaje": 15}}
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": 28,
-            	"porcentaje": 8,
-            	"imagen": "Rojo Fuego"
+              "numero": 24,
+              "nivel": 28,
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
             }
           ]
         }
@@ -2439,14 +2442,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 318,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         }
@@ -2564,6 +2570,18 @@ const platino = {
         	"numero": 400,
         	"nivel": "39-41",
         	"porcentaje": 35
+        },
+        {
+          "numero": 338,
+          "nivel": "40-41",
+          "porcentaje": 8,
+           "imagen": "Rubí"
+        },
+        {
+          "numero": 337,
+          "nivel": "40-41",
+          "porcentaje": 8,
+           "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -2588,10 +2606,12 @@ const platino = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2601,20 +2621,6 @@ const platino = {
         	"numero": 202,
         	"nivel": "38-40",
         	"porcentaje": 22
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 338,
-        	"nivel": "40-41",
-        	"porcentaje": 8,
-	         "imagen": "Rubí"
-        },
-        {
-        	"numero": 337,
-        	"nivel": "40-41",
-        	"porcentaje": 8,
-	         "imagen": "Zafiro"
         }
       ]
     },
@@ -2655,6 +2661,18 @@ const platino = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
+        },
+        {
+          "numero": 335,
+          "nivel": "29-30",
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 336,
+          "nivel": "29-30",
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -2679,10 +2697,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2692,20 +2712,6 @@ const platino = {
           "numero": 371,
           "nivel": "28-29",
           "porcentaje": 22
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 335,
-          "nivel": "29-30",
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 336,
-          "nivel": "29-30",
-          "porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -2734,18 +2740,22 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "15-35","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 341,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 342,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 5}}
         }
@@ -2855,6 +2865,12 @@ const platino = {
         {
           "numero": 163,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": "12-14",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -2862,14 +2878,6 @@ const platino = {
           "numero": 236,
           "nivel": "12-14",
           "porcentaje": 22
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 216,
-          "nivel": "12-14",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -2899,6 +2907,24 @@ const platino = {
               "numero": 453,
               "nivel": "24-25",
               "porcentaje": 10
+            },
+            {
+              "numero": 23,
+              "nivel": "23-26",
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
+            },
+            {
+              "numero": 270,
+              "nivel": 23,
+              "porcentaje": 4,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 271,
+              "nivel": 26,
+              "porcentaje": 4,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -2935,10 +2961,12 @@ const platino = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 224,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
             }
@@ -2948,26 +2976,6 @@ const platino = {
               "numero": 88,
               "nivel": "24-26",
               "porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-              "numero": 23,
-              "nivel": "23-26",
-              "porcentaje": 8,
-              "imagen": "Rojo Fuego"
-            },
-            {
-              "numero": 270,
-              "nivel": 23,
-              "porcentaje": 4,
-              "imagen": "Zafiro"
-            },
-            {
-              "numero": 271,
-              "nivel": 26,
-              "porcentaje": 4,
-              "imagen": "Zafiro"
             }
           ]
         },
@@ -3018,10 +3026,12 @@ const platino = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 119,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
             }
@@ -3217,10 +3227,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -3270,14 +3282,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 120,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         }
@@ -3320,14 +3335,17 @@ const platino = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
             },
             {
+              "pokedex": "*",
               "numero": 457,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 211,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 5}}
             }
@@ -3380,20 +3398,18 @@ const platino = {
               "numero": 95,
               "nivel": "31-33",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 302,
-            	"nivel": "30-33",
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
             },
             {
-            	"numero": 303,
-            	"nivel": "30-33",
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
+              "numero": 302,
+              "nivel": "30-33",
+              "porcentaje": 8,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 303,
+              "nivel": "30-33",
+              "porcentaje": 8,
+              "imagen": "Rubí"
             }
           ]
         },
@@ -3419,9 +3435,7 @@ const platino = {
               "numero": 95,
               "nivel": 32,
               "porcentaje": 30
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3458,9 +3472,7 @@ const platino = {
               "numero": 208,
               "nivel": "33-35",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3503,9 +3515,7 @@ const platino = {
               "numero": 208,
               "nivel": "33-35",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3604,9 +3614,7 @@ const platino = {
         {
           "numero": 361,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 10}}
-        }
-      ],
-      "cartucho": [
+        },
         {
           "numero": 217,
           "nivel": 35,
@@ -3634,6 +3642,12 @@ const platino = {
         {
           "numero": 361,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 20}}
+        },
+        {
+          "numero": 217,
+          "nivel": "35-36",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3649,14 +3663,6 @@ const platino = {
           "nivel": "32-33",
           "porcentaje": 40
         },
-      ],
-      "cartucho": [
-        {
-          "numero": 217,
-          "nivel": "35-36",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
-        }
       ]
     },
     {
@@ -3679,9 +3685,7 @@ const platino = {
         {
           "numero": 361,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "32-33", "porcentaje": 20}}
-        }
-      ],
-      "cartucho": [
+        },
         {
           "numero": 217,
           "nivel": 36,
@@ -3729,6 +3733,12 @@ const platino = {
         {
           "numero": 361,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "39-40", "porcentaje": 20}}
+        },
+        {
+          "numero": 216,
+          "nivel": "40-41",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -3753,20 +3763,14 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 5}, "super":{"nivel": "20-55","porcentaje": 45}}
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 216,
-          "nivel": "40-41",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3815,9 +3819,7 @@ const platino = {
               "numero": 299,
               "nivel": 37,
               "porcentaje": 5
-            }
-          ],
-          "cartucho":[
+            },
             {
               "numero": 338,
               "nivel": 38,
@@ -3853,18 +3855,22 @@ const platino = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
             },
             {
+              "pokedex": "*",
               "numero": 147,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "15-25","porcentaje": 30}}
             },
             {
+              "pokedex": "*",
               "numero": 148,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 5}}
             },
             {
+              "pokedex": "*",
               "numero": 340,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 5}}
             }
@@ -3931,10 +3937,12 @@ const platino = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 340,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
             }
@@ -3991,16 +3999,7 @@ const platino = {
             {
               "numero": 164,
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 39, "porcentaje": 10}}
-            }
-          ],
-          "radar": [
-            {
-              "numero": 294,
-              "nivel": "37-40",
-              "porcentaje": 12
-            }
-          ],
-          "cartucho":[
+            },
             {
               "numero": 338,
               "nivel": "38-39",
@@ -4012,6 +4011,13 @@ const platino = {
               "nivel": "38-39",
               "porcentaje": 8,
               "imagen": "Zafiro"
+            }
+          ],
+          "radar": [
+            {
+              "numero": 294,
+              "nivel": "37-40",
+              "porcentaje": 12
             }
           ]
         },
@@ -4100,10 +4106,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "15-20","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "25-35","porcentaje": 5}, "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -4136,21 +4144,23 @@ const platino = {
       "pesca":[
         {
           "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-15","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-15","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
         },
         {
           "numero": 456,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "15-20","porcentaje": 40}}
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "15-20","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
         },
         {
           "numero": 457,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "25-35","porcentaje": 5}, "super":{"nivel": "30-55","porcentaje": 45}}
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "25-35","porcentaje": 5}, "super":{"nivel": "30-55","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 170,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         }
@@ -4231,6 +4241,7 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "15-20","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
@@ -4313,10 +4324,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -4371,14 +4384,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 120,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         }
@@ -4413,6 +4429,7 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
@@ -4421,10 +4438,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "25-35","porcentaje": 5}, "super":{"nivel": "20-50","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 320,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 321,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         }
@@ -4563,6 +4582,7 @@ const platino = {
               "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-15","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 100}}
             }
@@ -4599,14 +4619,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-25" ,"porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4681,18 +4704,22 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 320,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 321,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         }
@@ -4751,6 +4778,24 @@ const platino = {
         {
           "numero": 168,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 50, "porcentaje": 20}}
+        },
+        {
+          "numero": 274,
+          "nivel": 48,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 271,
+          "nivel": 48,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 204,
+          "nivel": 48,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -4775,10 +4820,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-25" ,"porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         }
@@ -4800,26 +4847,6 @@ const platino = {
           "numero": 127,
           "nivel": "48-49",
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 274,
-          "nivel": 48,
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 271,
-          "nivel": 48,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
-        },
-        {
-          "numero": 204,
-          "nivel": 48,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -4852,6 +4879,12 @@ const platino = {
           "numero": 331,
           "nivel": 50,
           "porcentaje": 5
+        },
+        {
+          "numero": 28,
+          "nivel": "49-50",
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -4876,6 +4909,7 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "15-20","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
@@ -4889,14 +4923,6 @@ const platino = {
           "numero": 374,
           "nivel": "51-52",
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 28,
-          "nivel": "49-50",
-          "porcentaje": 8,
-          "imagen": "Verde Hoja"
         }
       ]
     },
@@ -4978,10 +5004,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -5174,14 +5202,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 117,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 369,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "15-50","porcentaje": 15}}
         }
@@ -5265,10 +5296,12 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -5345,6 +5378,12 @@ const platino = {
           "numero": 279,
           "nivel": 51,
           "porcentaje": 10
+        },
+        {
+          "numero": 213,
+          "nivel": 52,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf":[
@@ -5375,14 +5414,17 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 15}}
         }
@@ -5404,14 +5446,6 @@ const platino = {
           "numero": 177,
           "nivel": 50,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 213,
-          "nivel": 52,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -5443,6 +5477,18 @@ const platino = {
         {
         	"numero": 42,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 38, "porcentaje": 10}}
+        },
+        {
+          "numero": 337,
+          "nivel": "39-40",
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 338,
+          "nivel": "39-40",
+          "porcentaje": 8,
+          "imagen": "Rubí"
         }
       ],
       "surf": [
@@ -5462,26 +5508,14 @@ const platino = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25", "porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55", "porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55", "porcentaje": 45}}
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 337,
-          "nivel": "39-40",
-          "porcentaje": 8,
-          "imagen": "Zafiro"
-        },
-        {
-          "numero": 338,
-          "nivel": "39-40",
-          "porcentaje": 8,
-          "imagen": "Rubí"
         }
       ]
     },
@@ -5543,9 +5577,7 @@ const platino = {
             {
               "numero": 356,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 38, "porcentaje": 5}, "dia": {"nivel": 38, "porcentaje": 5}, "noche": {"nivel": "36-38", "porcentaje": 15}}
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 337,
               "nivel": 38,

@@ -16,6 +16,12 @@ const perla = {
           "numero": 55,
           "nivel": "20-40",
           "porcentaje": 10
+        },
+        {
+          "numero": 58,
+          "nivel": 2,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "pesca":[
@@ -28,10 +34,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-35","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -69,14 +77,6 @@ const perla = {
           "nivel": 2,
           "porcentaje": 40
         }
-      ],
-      "cartucho":[
-        {
-          "numero": 58,
-          "nivel": 2,
-          "porcentaje": 8,
-          "imagen": "Rojo Fuego"
-        }
       ]
     },
     {
@@ -103,53 +103,7 @@ const perla = {
         {
           "numero": 399,
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": "2-4", "porcentaje": 50}, "dia": {"nivel": "2-4", "porcentaje": 50}, "noche": {"nivel": "2-4", "porcentaje": 60}}
-        }
-      ],
-      "surf": [
-        {
-          "numero": 54,
-          "nivel": "20-40",
-          "porcentaje": 90
         },
-        {
-          "numero": 55,
-          "nivel": "20-40",
-          "porcentaje": 10
-        }
-      ],
-      "pesca":[
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
-        },
-        {
-          "numero": 118,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
-        },
-        {
-          "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
-        },
-        {
-          "numero": 119,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
-        }
-      ],
-      "masiva":[
-        {
-          "numero": 283,
-          "nivel": 2,
-          "porcentaje": 40
-        }
-      ],
-      "radar":[
-        {
-          "numero": 202,
-          "nivel": 4,
-          "porcentaje": 22
-        }
-      ],
-      "cartucho":[
         {
           "numero": 337,
           "nivel": 4,
@@ -174,6 +128,52 @@ const perla = {
           "porcentaje": 4,
           "imagen": "Rojo Fuego / Verde Hoja / Esmeralda"
         }
+      ],
+      "surf": [
+        {
+          "numero": 54,
+          "nivel": "20-40",
+          "porcentaje": 90
+        },
+        {
+          "numero": 55,
+          "nivel": "20-40",
+          "porcentaje": 10
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+        },
+        {
+          "numero": 118,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 130,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 119,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
+        }
+      ],
+      "masiva":[
+        {
+          "numero": 283,
+          "nivel": 2,
+          "porcentaje": 40
+        }
+      ],
+      "radar":[
+        {
+          "numero": 202,
+          "nivel": 4,
+          "porcentaje": 22
+        }
       ]
     },
     {
@@ -194,6 +194,12 @@ const perla = {
         {
         	"numero": 401,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "3-4", "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
+        },
+        {
+          "numero": 58,
+          "nivel": 2,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "radar":[
@@ -208,14 +214,6 @@ const perla = {
         	"numero": 263,
         	"nivel": 3,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 58,
-        	"nivel": 2,
-        	"porcentaje": 8,
-          "imagen": "Rojo Fuego"
         }
       ]
     },
@@ -245,6 +243,24 @@ const perla = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 5, "porcentaje": 10}}
+        },
+        {
+          "numero": 273,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 270,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 204,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -269,10 +285,12 @@ const perla = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-35","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -294,26 +312,6 @@ const perla = {
         	"numero": 104,
         	"nivel": 4,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 273,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
-        },
-        {
-        	"numero": 270,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Zafiro"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -388,10 +386,12 @@ const perla = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 340,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -477,55 +477,11 @@ const perla = {
             {
             	"numero": 401,
             	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 4, "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
-            }
-          ],
-          "surf": [
-            {
-              "numero": 54,
-              "nivel": "20-40",
-              "porcentaje": 90
             },
             {
-              "numero": 55,
-              "nivel": "20-40",
-              "porcentaje": 10
-            }
-          ],
-          "pesca":[
-            {
-              "numero": 129,
-              "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
-            },
-            {
-              "numero": 118,
-              "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-35","porcentaje": 35}}
-            },
-            {
-              "numero": 130,
-              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
-            },
-            {
-              "numero": 119,
-              "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
-            }
-          ],
-          "radar":[
-            {
-            	"numero": 280,
-            	"nivel": "4-6",
-            	"porcentaje": 21
-            },
-            {
-            	"numero": 281,
-            	"nivel": 6,
-            	"porcentaje": 1
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 273,
-            	"nivel": 6,
-            	"porcentaje": 8,
+              "numero": 273,
+              "nivel": 6,
+              "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
@@ -551,6 +507,50 @@ const perla = {
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Verde Hoja"
+            }
+          ],
+          "surf": [
+            {
+              "numero": 54,
+              "nivel": "20-40",
+              "porcentaje": 90
+            },
+            {
+              "numero": 55,
+              "nivel": "20-40",
+              "porcentaje": 10
+            }
+          ],
+          "pesca":[
+            {
+              "numero": 129,
+              "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+            },
+            {
+              "numero": 118,
+              "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-35","porcentaje": 35}}
+            },
+            {
+              "pokedex": "*",
+              "numero": 130,
+              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
+            },
+            {
+              "pokedex": "*",
+              "numero": 119,
+              "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
+            }
+          ],
+          "radar":[
+            {
+            	"numero": 280,
+            	"nivel": "4-6",
+            	"porcentaje": 21
+            },
+            {
+            	"numero": 281,
+            	"nivel": 6,
+            	"porcentaje": 1
             }
           ]
         },
@@ -580,6 +580,24 @@ const perla = {
             {
               "numero": 41,
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 10}}
+            },
+            {
+              "numero": 273,
+              "nivel": 8,
+              "porcentaje": 8,
+              "imagen": "Rubí"
+            },
+            {
+              "numero": 270,
+              "nivel": 8,
+              "porcentaje": 8,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 204,
+              "nivel": 8,
+              "porcentaje": 8,
+              "imagen": "Esmeralda"
             }
           ],
           "radar":[
@@ -587,26 +605,6 @@ const perla = {
             	"numero": 191,
             	"nivel": "6-8",
             	"porcentaje": 22
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 273,
-            	"nivel": 8,
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
-            },
-            {
-            	"numero": 270,
-            	"nivel": 8,
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
-            },
-            {
-            	"numero": 204,
-            	"nivel": 8,
-            	"porcentaje": 8,
-            	"imagen": "Esmeralda"
             }
           ]
         }
@@ -663,10 +661,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -695,6 +695,12 @@ const perla = {
           "variedad": 1,
           "nivel": "7-9",
           "porcentaje": 30
+        },
+        {
+          "numero": 239,
+          "nivel": 9,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "surf": [
@@ -758,14 +764,6 @@ const perla = {
           "porcentaje": 40
         }
       ],
-      "cartucho": [
-        {
-          "numero": 239,
-          "nivel": 9,
-          "porcentaje": 8,
-          "imagen": "Rojo Fuego"
-        }
-      ],
       "especial": [
         {
           "numero": 425,
@@ -801,6 +799,12 @@ const perla = {
               "numero": 417,
               "nivel": 9,
               "porcentaje": 10
+            },
+            {
+              "numero": 239,
+              "nivel": 10,
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
             }
           ],
           "surf": [
@@ -838,14 +842,17 @@ const perla = {
             	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
             },
             {
+              "pokedex": "*",
             	"numero": 130,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
             },
             {
+              "pokedex": "*",
             	"numero": 457,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
             },
             {
+              "pokedex": "*",
               "numero": 90,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
             }
@@ -855,14 +862,6 @@ const perla = {
             	"numero": 187,
             	"nivel": "9-10",
             	"porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 239,
-            	"nivel": 10,
-            	"porcentaje": 8,
-              "imagen": "Rojo Fuego"
             }
           ]
         },
@@ -885,6 +884,12 @@ const perla = {
             	"numero": 422,
               "variedad": 1,
             	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 11, "porcentaje": 10}, "dia": {"nivel": 11, "porcentaje": 10}, "noche": {"nivel": 11, "porcentaje": 10}}
+            },
+            {
+              "numero": 270,
+              "nivel": 12,
+              "porcentaje": 8,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -910,10 +915,12 @@ const perla = {
             	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
             	"numero": 130,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
             	"numero": 340,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -923,14 +930,6 @@ const perla = {
             	"numero": 79,
             	"nivel": "11-12",
             	"porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 270,
-            	"nivel": 12,
-            	"porcentaje": 8,
-              "imagen": "Zafiro"
             }
           ]
         }
@@ -1009,14 +1008,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 90,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -1070,6 +1072,30 @@ const perla = {
         {
         	"numero": 200,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "10-11", "porcentaje": 20}}
+        },
+        {
+          "numero": 11,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
+        },
+        {
+          "numero": 14,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
+        },
+        {
+          "numero": 273,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 204,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1085,32 +1111,6 @@ const perla = {
         	"nivel": "10-12",
         	"porcentaje": 40
         }
-      ],
-      "cartucho":[
-        {
-        	"numero": 11,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Rojo Fuego"
-        },
-        {
-        	"numero": 14,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Verde Hoja"
-        },
-        {
-        	"numero": 273,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
-        }
       ]
     },
     {
@@ -1120,9 +1120,7 @@ const perla = {
           "numero": 92,
           "nivel": "12-16",
           "porcentaje": 100
-        }
-      ],
-      "cartucho": [
+        },
         {
           "numero": 93,
           "nivel": 16,
@@ -1169,10 +1167,12 @@ const perla = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 35}}
         }
@@ -1211,6 +1211,12 @@ const perla = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
+        },
+        {
+          "numero": 207,
+          "nivel": 15,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1225,14 +1231,6 @@ const perla = {
           "numero": 299,
           "nivel": 14,
           "porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 207,
-          "nivel": 15,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -1256,13 +1254,11 @@ const perla = {
             	"numero": 436,
             	"nivel": "14-16",
             	"porcentaje": 40
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 27,
-            	"nivel": 16,
-            	"porcentaje": 8,
+              "numero": 27,
+              "nivel": 16,
+              "porcentaje": 8,
               "imagen": "Verde Hoja"
             }
           ]
@@ -1289,13 +1285,11 @@ const perla = {
               "numero": 443,
               "nivel": "15-17",
               "porcentaje": 5
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 27,
-            	"nivel": "16-17",
-            	"porcentaje": 8,
+              "numero": 27,
+              "nivel": "16-17",
+              "porcentaje": 8,
               "imagen": "Verde Hoja"
             }
           ]
@@ -1321,6 +1315,12 @@ const perla = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 10}}
+        },
+        {
+          "numero": 207,
+          "nivel": 7,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1335,14 +1335,6 @@ const perla = {
         	"numero": 231,
         	"nivel": 5,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 207,
-        	"nivel": 7,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -1397,10 +1389,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -1435,6 +1429,18 @@ const perla = {
         {
         	"numero": 41,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 20}}
+        },
+        {
+          "numero": 335,
+          "nivel": 18,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 336,
+          "nivel": 18,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -1459,10 +1465,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -1479,20 +1487,6 @@ const perla = {
         	"numero": 206,
         	"nivel": 16,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 335,
-        	"nivel": 18,
-        	"porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-        	"numero": 336,
-        	"nivel": 18,
-        	"porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -1544,6 +1538,12 @@ const perla = {
         {
         	"numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 10}}
+        },
+        {
+          "numero": 37,
+          "nivel": 16,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -1568,10 +1568,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -1593,14 +1595,6 @@ const perla = {
         	"numero": 209,
         	"nivel": 16,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 37,
-        	"nivel": 16,
-        	"porcentaje": 8,
-          "imagen": "Verde Hoja"
         }
       ],
       "especial":[
@@ -1946,21 +1940,7 @@ const perla = {
           "numero": 113,
           "nivel": "18-20",
           "porcentaje": 5
-        }
-      ],
-      "radar": [
-        {
-          "numero": 241,
-          "nivel": 18,
-          "porcentaje": 20
         },
-        {
-          "numero": 128,
-          "nivel": 20,
-          "porcentaje": 2
-        }
-      ],
-      "cartucho": [
         {
           "numero": 273,
           "nivel": 18,
@@ -1978,6 +1958,18 @@ const perla = {
           "nivel": "18-20",
           "porcentaje": 8,
           "imagen": "Esmeralda"
+        }
+      ],
+      "radar": [
+        {
+          "numero": 241,
+          "nivel": 18,
+          "porcentaje": 20
+        },
+        {
+          "numero": 128,
+          "nivel": 20,
+          "porcentaje": 2
         }
       ]
     },
@@ -2005,6 +1997,12 @@ const perla = {
         {
         	"numero": 402,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 20, "porcentaje": 10}, "dia": {"nivel": 20, "porcentaje": 10}, "noche": {"nivel": "20-22", "porcentaje": 30}}
+        },
+        {
+          "numero": 207,
+          "nivel": 22,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -2019,14 +2017,6 @@ const perla = {
         	"numero": 96,
         	"nivel": "20-22",
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 207,
-        	"nivel": 22,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -2059,6 +2049,18 @@ const perla = {
         {
         	"numero": 402,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 24, "porcentaje": 5}, "dia": {"nivel": 24, "porcentaje": 5}, "noche": {"nivel": "23-24", "porcentaje": 25}}
+        },
+        {
+          "numero": 207,
+          "nivel": 24,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
+        },
+        {
+          "numero": 37,
+          "nivel": 24,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -2083,10 +2085,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -2103,20 +2107,6 @@ const perla = {
           "numero": 325,
           "nivel": "22-23",
           "porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 207,
-        	"nivel": 24,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
-        },
-        {
-        	"numero": 37,
-        	"nivel": 24,
-        	"porcentaje": 8,
-        	"imagen": "Verde Hoja"
         }
       ]
     },
@@ -2274,14 +2264,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 319,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         }
@@ -2322,10 +2315,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -2387,14 +2382,12 @@ const perla = {
             {
             	"numero": 164,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 26, "porcentaje": 10}}
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": "24-26",
-            	"porcentaje": 8,
-            	"imagen": "Rojo fuego"
+              "numero": 24,
+              "nivel": "24-26",
+              "porcentaje": 8,
+              "imagen": "Rojo fuego"
             }
           ]
         },
@@ -2447,14 +2440,12 @@ const perla = {
             {
             	"numero": 163,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "22-24", "porcentaje": 20}}
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": "24-26",
-            	"porcentaje": 8,
-            	"imagen": "Rojo fuego"
+              "numero": 24,
+              "nivel": "24-26",
+              "porcentaje": 8,
+              "imagen": "Rojo fuego"
             }
           ]
         },
@@ -2502,9 +2493,7 @@ const perla = {
             {
             	"numero": 163,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 20}}
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 24,
               "nivel": "20-22",
@@ -2562,9 +2551,7 @@ const perla = {
             {
             	"numero": 163,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 20}}
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 24,
               "nivel": "20-22",
@@ -2610,10 +2597,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 5}, "super":{"nivel": "40-55","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "28-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 318,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "15-30","porcentaje": 45}}
         }
@@ -2754,6 +2743,18 @@ const perla = {
         {
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "34-36", "porcentaje": 20}}
+        },
+        {
+          "numero": 338,
+          "nivel": 35,
+          "porcentaje": 8,
+           "imagen": "Rubí"
+        },
+        {
+          "numero": 337,
+          "nivel": 35,
+          "porcentaje": 8,
+           "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -2778,10 +2779,12 @@ const perla = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2798,20 +2801,6 @@ const perla = {
         	"numero": 108,
         	"nivel": "34-36",
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 338,
-        	"nivel": 35,
-        	"porcentaje": 8,
-	         "imagen": "Rubí"
-        },
-        {
-        	"numero": 337,
-        	"nivel": 35,
-        	"porcentaje": 8,
-	         "imagen": "Zafiro"
         }
       ]
     },
@@ -2848,6 +2837,18 @@ const perla = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
+        },
+        {
+          "numero": 335,
+          "nivel": 26,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 336,
+          "nivel": 26,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -2872,10 +2873,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -2885,20 +2888,6 @@ const perla = {
           "numero": 371,
           "nivel": "25-26",
           "porcentaje": 22
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 335,
-          "nivel": 26,
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 336,
-          "nivel": 26,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -2927,18 +2916,22 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         },
         {
+          "pokedex": "*",
           "numero": 341,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 342,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 5}}
         }
@@ -2974,6 +2967,12 @@ const perla = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": "27",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -2981,14 +2980,6 @@ const perla = {
           "numero": 333,
           "nivel": "27-28",
           "porcentaje": 22
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 216,
-          "nivel": "27",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3042,10 +3033,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -3081,6 +3074,12 @@ const perla = {
         {
           "numero": 163,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 14, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": "12-14",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -3088,14 +3087,6 @@ const perla = {
           "numero": 236,
           "nivel": "12-14",
           "porcentaje": 22
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 216,
-          "nivel": "12-14",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3121,6 +3112,24 @@ const perla = {
             {
               "numero": 402,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 10}, "dia": {"nivel": 18, "porcentaje": 10}, "noche": {"nivel": "18-19", "porcentaje": 30}}
+            },
+            {
+              "numero": 23,
+              "nivel": "18-20",
+              "porcentaje": 8,
+              "imagen": "Rojo fuego"
+            },
+            {
+              "numero": 270,
+              "nivel": 18,
+              "porcentaje": 4,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 271,
+              "nivel": 20,
+              "porcentaje": 4,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -3145,10 +3154,12 @@ const perla = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 340,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -3158,26 +3169,6 @@ const perla = {
               "numero": 88,
               "nivel": "18-20",
               "porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-              "numero": 23,
-              "nivel": "18-20",
-              "porcentaje": 8,
-              "imagen": "Rojo fuego"
-            },
-            {
-              "numero": 270,
-              "nivel": 18,
-              "porcentaje": 4,
-              "imagen": "Zafiro"
-            },
-            {
-              "numero": 271,
-              "nivel": 20,
-              "porcentaje": 4,
-              "imagen": "Zafiro"
             }
           ]
         },
@@ -3230,10 +3221,12 @@ const perla = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 119,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -3436,10 +3429,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-35","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -3494,14 +3489,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "10-35","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 120,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -3544,14 +3542,17 @@ const perla = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
             },
             {
+              "pokedex": "*",
               "numero": 457,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 211,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 5}}
             }
@@ -3609,20 +3610,18 @@ const perla = {
               "numero": 95,
               "nivel": "32-33",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 302,
-            	"nivel": "30-33",
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
             },
             {
-            	"numero": 303,
-            	"nivel": "30-33",
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
+              "numero": 302,
+              "nivel": "30-33",
+              "porcentaje": 8,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 303,
+              "nivel": "30-33",
+              "porcentaje": 8,
+              "imagen": "Rubí"
             }
           ]
         },
@@ -3648,9 +3647,7 @@ const perla = {
               "numero": 95,
               "nivel": "31-33",
               "porcentaje": 30
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3692,9 +3689,7 @@ const perla = {
               "numero": 208,
               "nivel": "33-34",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3742,9 +3737,7 @@ const perla = {
               "numero": 208,
               "nivel": "33-34",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3829,6 +3822,12 @@ const perla = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 10}}
+        },
+        {
+          "numero": 217,
+          "nivel": "33-34",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3843,14 +3842,6 @@ const perla = {
           "numero": 225,
           "nivel": 32,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 217,
-          "nivel": "33-34",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3887,6 +3878,12 @@ const perla = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 35, "porcentaje": 10}}
+        },
+        {
+          "numero": 217,
+          "nivel": "35-36",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3901,14 +3898,6 @@ const perla = {
           "numero": 220,
           "nivel": 34,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 217,
-          "nivel": "35-36",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3945,6 +3934,12 @@ const perla = {
         {
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 35, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": 36,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3952,14 +3947,6 @@ const perla = {
           "numero": 361,
           "nivel": "34-36",
           "porcentaje": 12
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 216,
-          "nivel": 36,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3997,6 +3984,24 @@ const perla = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "34-36", "porcentaje": 20}}
+        },
+        {
+          "numero": 217,
+          "nivel": "34-36",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
+        },
+        {
+          "numero": 338,
+          "nivel": "34-36",
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 337,
+          "nivel": "34-36",
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -4021,10 +4026,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 45}}
         }
@@ -4041,26 +4048,6 @@ const perla = {
           "numero": 202,
           "nivel": "34-36",
           "porcentaje": 22
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 217,
-          "nivel": "34-36",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
-        },
-        {
-          "numero": 338,
-          "nivel": "34-36",
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 337,
-          "nivel": "34-36",
-          "porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -4109,20 +4096,18 @@ const perla = {
               "numero": 436,
               "nivel": 36,
               "porcentaje": 5
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 338,
-            	"nivel": "36-37",
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
             },
             {
-            	"numero": 337,
-            	"nivel": "36-37",
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
+              "numero": 338,
+              "nivel": "36-37",
+              "porcentaje": 8,
+              "imagen": "Rubí"
+            },
+            {
+              "numero": 337,
+              "nivel": "36-37",
+              "porcentaje": 8,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -4147,14 +4132,17 @@ const perla = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 147,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "15-20","porcentaje": 30}}
             },
             {
+              "pokedex": "*",
               "numero": 148,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "15-40","porcentaje": 5}}
             }
@@ -4212,10 +4200,12 @@ const perla = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 340,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -4272,16 +4262,7 @@ const perla = {
             {
               "numero": 164,
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 39, "porcentaje": 10}}
-            }
-          ],
-          "radar": [
-            {
-              "numero": 294,
-              "nivel": "39-40",
-              "porcentaje": 12
-            }
-          ],
-          "cartucho":[
+            },
             {
               "numero": 338,
               "nivel": "38-39",
@@ -4293,6 +4274,13 @@ const perla = {
               "nivel": "38-39",
               "porcentaje": 8,
               "imagen": "Zafiro"
+            }
+          ],
+          "radar": [
+            {
+              "numero": 294,
+              "nivel": "39-40",
+              "porcentaje": 12
             }
           ]
         }
@@ -4359,14 +4347,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 366,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4399,25 +4390,29 @@ const perla = {
       "pesca":[
         {
           "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
         },
         {
           "numero": 456,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 15}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 5}}
         },
         {
+          "pokedex": "*",
           "numero": 170,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "15-25","porcentaje": 40}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "15-25","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 171,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-45","porcentaje": 5}}
         }
@@ -4510,14 +4505,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 366,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4587,14 +4585,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-35","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 319,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         }
@@ -4644,14 +4645,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 120,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -4686,18 +4690,22 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 320,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 321,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "35-55","porcentaje": 5}}
         }
@@ -4823,6 +4831,7 @@ const perla = {
               "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 100}}
             }
@@ -4854,14 +4863,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-25" ,"porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4944,18 +4956,22 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 320,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 321,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "35-55","porcentaje": 5}}
         }
@@ -5023,6 +5039,24 @@ const perla = {
         {
           "numero": 168,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 52, "porcentaje": 20}}
+        },
+        {
+          "numero": 274,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 271,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 204,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -5043,6 +5077,7 @@ const perla = {
           "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 100}}
         }
@@ -5064,26 +5099,6 @@ const perla = {
         	"numero": 16,
         	"nivel": 51,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 274,
-        	"nivel": 20,
-        	"porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-        	"numero": 271,
-        	"nivel": 20,
-        	"porcentaje": 8,
-        	"imagen": "Zafiro"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 20,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -5116,6 +5131,12 @@ const perla = {
         	"numero": 331,
         	"nivel": "23-25",
         	"porcentaje": 5
+        },
+        {
+          "numero": 28,
+          "nivel": 23,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -5140,10 +5161,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         }
@@ -5165,14 +5188,6 @@ const perla = {
         	"numero": 374,
         	"nivel": 53,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 28,
-        	"nivel": 23,
-        	"porcentaje": 8,
-          "imagen": "Verde Hoja"
         }
       ]
     },
@@ -5224,6 +5239,18 @@ const perla = {
         {
           "numero": 354,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
+        },
+        {
+          "numero": 207,
+          "nivel": 22,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
+        },
+        {
+          "numero": 240,
+          "nivel": 22,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -5248,10 +5275,12 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -5268,20 +5297,6 @@ const perla = {
           "numero": 327,
           "nivel": 55,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 207,
-          "nivel": 22,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
-        },
-        {
-          "numero": 240,
-          "nivel": 22,
-          "porcentaje": 8,
-          "imagen": "Verde Hoja"
         }
       ]
     },
@@ -5336,16 +5351,7 @@ const perla = {
             {
             	"numero": 354,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
-            }
-          ],
-          "radar": [
-            {
-            	"numero": 324,
-            	"nivel": "51-56",
-            	"porcentaje": 22
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 207,
               "nivel": 22,
@@ -5357,6 +5363,13 @@ const perla = {
               "nivel": 22,
               "porcentaje": 8,
               "imagen": "Verde hoja"
+            }
+          ],
+          "radar": [
+            {
+            	"numero": 324,
+            	"nivel": "51-56",
+            	"porcentaje": 22
             }
           ]
         },
@@ -5407,9 +5420,7 @@ const perla = {
             	"numero": 323,
             	"nivel": "54-56",
             	"porcentaje": 5
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 240,
               "nivel": 27,
@@ -5498,14 +5509,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 117,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 369,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-50","porcentaje": 15}}
         }
@@ -5589,14 +5603,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 15}}
         }
@@ -5667,6 +5684,12 @@ const perla = {
           "variedad": 0,
         	"nivel": 23,
         	"porcentaje": 1
+        },
+        {
+          "numero": 213,
+          "nivel": 23,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf":[
@@ -5691,14 +5714,17 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 15}}
         }
@@ -5720,14 +5746,6 @@ const perla = {
         	"numero": 177,
         	"nivel": 53,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 213,
-        	"nivel": 23,
-        	"porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -5757,6 +5775,18 @@ const perla = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "52-54", "porcentaje": 20}}
+        },
+        {
+          "numero": 337,
+          "nivel": 52,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 338,
+          "nivel": 52,
+          "porcentaje": 8,
+          "imagen": "Rubí"
         }
       ],
       "surf": [
@@ -5776,26 +5806,14 @@ const perla = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25", "porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55", "porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50", "porcentaje": 45}}
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 337,
-          "nivel": 52,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
-        },
-        {
-          "numero": 338,
-          "nivel": 52,
-          "porcentaje": 8,
-          "imagen": "Rubí"
         }
       ]
     },
@@ -5821,20 +5839,18 @@ const perla = {
         	"numero": 437,
         	"nivel": "45-66",
         	"porcentaje": 35
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 337,
-        	"nivel": "44-66",
-        	"porcentaje": 8,
-        	"imagen": "Zafiro"
         },
         {
-        	"numero": 338,
-        	"nivel": "44-66",
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
+          "numero": 337,
+          "nivel": "44-66",
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 338,
+          "nivel": "44-66",
+          "porcentaje": 8,
+          "imagen": "Rubí"
         }
       ],
       "legendario": [

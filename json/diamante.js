@@ -28,10 +28,12 @@ const diamante = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -49,15 +51,23 @@ const diamante = {
         	"numero": 399,
           "nivel": "2-3",
           "porcentaje": 50
+        },
+        {
+          "numero": 58,
+          "nivel": 2,
+          "porcentaje": 8,
+          "imagen": "Rojo fuego"
         }
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 29,
         	"nivel": 3,
         	"porcentaje": 20
         },
         {
+          "pokedex": "*",
         	"numero": 32,
         	"nivel": 2,
         	"porcentaje": 2
@@ -65,17 +75,10 @@ const diamante = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 84,
         	"nivel": 2,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 58,
-        	"nivel": 2,
-        	"porcentaje": 8,
-          "imagen": "Rojo fuego"
         }
       ]
     },
@@ -103,53 +106,7 @@ const diamante = {
         {
           "numero": 399,
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": "2-4", "porcentaje": 50}, "dia": {"nivel": "2-4", "porcentaje": 50}, "noche": {"nivel": "2-4", "porcentaje": 60}}
-        }
-      ],
-      "surf": [
-        {
-        	"numero": 54,
-        	"nivel": "20-40",
-        	"porcentaje": 90
         },
-        {
-        	"numero": 55,
-        	"nivel": "20-40",
-        	"porcentaje": 10
-        }
-      ],
-      "pesca":[
-        {
-        	"numero": 129,
-        	"probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
-        },
-        {
-        	"numero": 118,
-        	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
-        },
-        {
-        	"numero": 130,
-        	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
-        },
-        {
-        	"numero": 119,
-        	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
-        }
-      ],
-      "masiva":[
-        {
-        	"numero": 283,
-        	"nivel": 2,
-        	"porcentaje": 40
-        }
-      ],
-      "radar":[
-        {
-          "numero": 202,
-          "nivel": 4,
-          "porcentaje": 22
-        }
-      ],
-      "cartucho":[
         {
           "numero": 337,
           "nivel": 4,
@@ -174,6 +131,52 @@ const diamante = {
           "porcentaje": 4,
           "imagen": "Rojo Fuego / Verde Hoja / Esmeralda"
         }
+      ],
+      "surf": [
+        {
+        	"numero": 54,
+        	"nivel": "20-40",
+        	"porcentaje": 90
+        },
+        {
+        	"numero": 55,
+        	"nivel": "20-40",
+        	"porcentaje": 10
+        }
+      ],
+      "pesca":[
+        {
+        	"numero": 129,
+        	"probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+        },
+        {
+        	"numero": 118,
+        	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
+        },
+        {
+          "pokedex": "*",
+        	"numero": 130,
+        	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
+        },
+        {
+          "pokedex": "*",
+        	"numero": 119,
+        	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
+        }
+      ],
+      "masiva":[
+        {
+        	"numero": 283,
+        	"nivel": 2,
+        	"porcentaje": 40
+        }
+      ],
+      "radar":[
+        {
+          "numero": 202,
+          "nivel": 4,
+          "porcentaje": 22
+        }
       ]
     },
     {
@@ -194,6 +197,12 @@ const diamante = {
         {
         	"numero": 401,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "3-4", "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
+        },
+        {
+          "numero": 58,
+          "nivel": 2,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "radar":[
@@ -208,14 +217,6 @@ const diamante = {
         	"numero": 263,
         	"nivel": 3,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 58,
-        	"nivel": 2,
-        	"porcentaje": 8,
-          "imagen": "Rojo Fuego"
         }
       ]
     },
@@ -245,6 +246,24 @@ const diamante = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 5, "porcentaje": 10}}
+        },
+        {
+          "numero": 273,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 270,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 204,
+          "nivel": 5,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -269,10 +288,12 @@ const diamante = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -294,26 +315,6 @@ const diamante = {
         	"numero": 104,
         	"nivel": 4,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 273,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
-        },
-        {
-        	"numero": 270,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Zafiro"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 5,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -388,10 +389,12 @@ const diamante = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
         	"numero": 340,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -477,55 +480,11 @@ const diamante = {
             {
             	"numero": 401,
             	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 4, "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
-            }
-          ],
-          "surf": [
-            {
-              "numero": 54,
-              "nivel": "20-40",
-              "porcentaje": 90
             },
             {
-              "numero": 55,
-              "nivel": "20-40",
-              "porcentaje": 10
-            }
-          ],
-          "pesca":[
-            {
-              "numero": 129,
-              "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
-            },
-            {
-              "numero": 118,
-              "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
-            },
-            {
-              "numero": 130,
-              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
-            },
-            {
-              "numero": 119,
-              "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
-            }
-          ],
-          "radar":[
-            {
-            	"numero": 280,
-            	"nivel": "4-6",
-            	"porcentaje": 21
-            },
-            {
-            	"numero": 281,
-            	"nivel": 6,
-            	"porcentaje": 1
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 273,
-            	"nivel": 6,
-            	"porcentaje": 8,
+              "numero": 273,
+              "nivel": 6,
+              "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
@@ -551,6 +510,50 @@ const diamante = {
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Verde Hoja"
+            }
+          ],
+          "surf": [
+            {
+              "numero": 54,
+              "nivel": "20-40",
+              "porcentaje": 90
+            },
+            {
+              "numero": 55,
+              "nivel": "20-40",
+              "porcentaje": 10
+            }
+          ],
+          "pesca":[
+            {
+              "numero": 129,
+              "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+            },
+            {
+              "numero": 118,
+              "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
+            },
+            {
+              "pokedex": "*",
+              "numero": 130,
+              "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
+            },
+            {
+              "pokedex": "*",
+              "numero": 119,
+              "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
+            }
+          ],
+          "radar":[
+            {
+            	"numero": 280,
+            	"nivel": "4-6",
+            	"porcentaje": 21
+            },
+            {
+            	"numero": 281,
+            	"nivel": 6,
+            	"porcentaje": 1
             }
           ]
         },
@@ -580,6 +583,24 @@ const diamante = {
             {
               "numero": 41,
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 10}}
+            },
+            {
+              "numero": 273,
+              "nivel": 8,
+              "porcentaje": 8,
+              "imagen": "Rubí"
+            },
+            {
+              "numero": 270,
+              "nivel": 8,
+              "porcentaje": 8,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 204,
+              "nivel": 8,
+              "porcentaje": 8,
+              "imagen": "Esmeralda"
             }
           ],
           "radar":[
@@ -587,26 +608,6 @@ const diamante = {
             	"numero": 191,
             	"nivel": "6-8",
             	"porcentaje": 22
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 273,
-            	"nivel": 8,
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
-            },
-            {
-            	"numero": 270,
-            	"nivel": 8,
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
-            },
-            {
-            	"numero": 204,
-            	"nivel": 8,
-            	"porcentaje": 8,
-            	"imagen": "Esmeralda"
             }
           ]
         }
@@ -663,10 +664,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -695,6 +698,12 @@ const diamante = {
           "variedad": 1,
           "nivel": "7-9",
           "porcentaje": 30
+        },
+        {
+          "numero": 239,
+          "nivel": 9,
+          "porcentaje": 8,
+          "imagen": "Rojo Fuego"
         }
       ],
       "surf": [
@@ -732,14 +741,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 90,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -756,14 +768,6 @@ const diamante = {
           "numero": 309,
           "nivel": "2-7",
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 239,
-          "nivel": 9,
-          "porcentaje": 8,
-          "imagen": "Rojo Fuego"
         }
       ],
       "especial":[
@@ -801,6 +805,12 @@ const diamante = {
               "numero": 417,
               "nivel": 9,
               "porcentaje": 10
+            },
+            {
+              "numero": 239,
+              "nivel": 10,
+              "porcentaje": 8,
+              "imagen": "Rojo Fuego"
             }
           ],
           "surf": [
@@ -837,14 +847,17 @@ const diamante = {
             	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
             },
             {
+              "pokedex": "*",
             	"numero": 130,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
             },
             {
+              "pokedex": "*",
             	"numero": 457,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
             },
             {
+              "pokedex": "*",
               "numero": 90,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
             }
@@ -854,14 +867,6 @@ const diamante = {
             	"numero": 187,
             	"nivel": "9-10",
             	"porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 239,
-            	"nivel": 10,
-            	"porcentaje": 8,
-              "imagen": "Rojo Fuego"
             }
           ]
         },
@@ -884,6 +889,12 @@ const diamante = {
             	"numero": 422,
               "variedad": 1,
             	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 11, "porcentaje": 10}, "dia": {"nivel": 11, "porcentaje": 10}, "noche": {"nivel": 11, "porcentaje": 10}}
+            },
+            {
+              "numero": 270,
+              "nivel": 12,
+              "porcentaje": 8,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -909,10 +920,12 @@ const diamante = {
             	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
             	"numero": 130,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
             	"numero": 340,
             	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -927,14 +940,6 @@ const diamante = {
               "numero": 188,
               "nivel": 12,
               "porcentaje": 2
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 270,
-            	"nivel": 12,
-            	"porcentaje": 8,
-              "imagen": "Zafiro"
             }
           ]
         }
@@ -1013,14 +1018,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 90,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -1069,6 +1077,30 @@ const diamante = {
         {
         	"numero": 198,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "10-11", "porcentaje": 20}}
+        },
+        {
+          "numero": 11,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Rojo fuego"
+        },
+        {
+          "numero": 14,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
+        },
+        {
+          "numero": 273,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 204,
+          "nivel": 12,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1084,32 +1116,6 @@ const diamante = {
         	"nivel": "10-12",
         	"porcentaje": 40
         }
-      ],
-      "cartucho":[
-        {
-        	"numero": 11,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Rojo fuego"
-        },
-        {
-        	"numero": 14,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Verde Hoja"
-        },
-        {
-        	"numero": 273,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
-        },
-        {
-        	"numero": 204,
-        	"nivel": 12,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
-        }
       ]
     },
     {
@@ -1119,9 +1125,7 @@ const diamante = {
           "numero": 92,
           "nivel": "12-16",
           "porcentaje": 100
-        }
-      ],
-      "cartucho": [
+        },
         {
           "numero": 93,
           "nivel": 16,
@@ -1168,10 +1172,12 @@ const diamante = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 35}}
         }
@@ -1214,6 +1220,12 @@ const diamante = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
+        },
+        {
+          "numero": 207,
+          "nivel": 15,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1228,14 +1240,6 @@ const diamante = {
           "numero": 299,
           "nivel": 14,
           "porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 207,
-          "nivel": 15,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -1259,13 +1263,11 @@ const diamante = {
             	"numero": 436,
             	"nivel": "14-16",
             	"porcentaje": 40
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 27,
-            	"nivel": 16,
-            	"porcentaje": 8,
+              "numero": 27,
+              "nivel": 16,
+              "porcentaje": 8,
               "imagen": "Verde Hoja"
             }
           ]
@@ -1292,13 +1294,11 @@ const diamante = {
               "numero": 443,
               "nivel": "15-17",
               "porcentaje": 5
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 27,
-            	"nivel": "16-17",
-            	"porcentaje": 8,
+              "numero": 27,
+              "nivel": "16-17",
+              "porcentaje": 8,
               "imagen": "Verde Hoja"
             }
           ]
@@ -1324,6 +1324,12 @@ const diamante = {
         {
           "numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 10}}
+        },
+        {
+          "numero": 207,
+          "nivel": 7,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -1338,14 +1344,6 @@ const diamante = {
           "numero": 231,
           "nivel": 5,
           "porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 207,
-          "nivel": 7,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -1400,10 +1398,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -1438,6 +1438,18 @@ const diamante = {
         {
         	"numero": 41,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 20}}
+        },
+        {
+          "numero": 335,
+          "nivel": 18,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 336,
+          "nivel": 18,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -1462,10 +1474,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -1482,20 +1496,6 @@ const diamante = {
         	"numero": 206,
         	"nivel": 16,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 335,
-        	"nivel": 18,
-        	"porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-        	"numero": 336,
-        	"nivel": 18,
-        	"porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -1548,6 +1548,12 @@ const diamante = {
         {
         	"numero": 41,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 10}}
+        },
+        {
+          "numero": 37,
+          "nivel": 16,
+          "porcentaje": 8,
+          "imagen": "Verde Hoja"
         }
       ],
       "surf": [
@@ -1572,10 +1578,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -1597,14 +1605,6 @@ const diamante = {
         	"numero": 209,
         	"nivel": 16,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 37,
-        	"nivel": 16,
-        	"porcentaje": 8,
-          "imagen": "Verde Hoja"
         }
       ],
       "especial": [
@@ -1950,21 +1950,7 @@ const diamante = {
           "numero": 113,
           "nivel": "18-20",
           "porcentaje": 5
-        }
-      ],
-      "radar": [
-        {
-          "numero": 128,
-          "nivel": 18,
-          "porcentaje": 20
         },
-        {
-          "numero": 241,
-          "nivel": 20,
-          "porcentaje": 2
-        }
-      ],
-      "cartucho": [
         {
           "numero": 273,
           "nivel": 18,
@@ -1982,6 +1968,18 @@ const diamante = {
           "nivel": "18-20",
           "porcentaje": 8,
           "imagen": "Esmeralda"
+        }
+      ],
+      "radar": [
+        {
+          "numero": 128,
+          "nivel": 18,
+          "porcentaje": 20
+        },
+        {
+          "numero": 241,
+          "nivel": 20,
+          "porcentaje": 2
         }
       ]
     },
@@ -2009,6 +2007,12 @@ const diamante = {
         {
         	"numero": 402,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 20, "porcentaje": 10}, "dia": {"nivel": 20, "porcentaje": 10}, "noche": {"nivel": "20-22", "porcentaje": 30}}
+        },
+        {
+          "numero": 207,
+          "nivel": 22,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -2023,14 +2027,6 @@ const diamante = {
         	"numero": 96,
         	"nivel": "20-22",
         	"porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 207,
-        	"nivel": 22,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
         }
       ]
     },
@@ -2063,6 +2059,18 @@ const diamante = {
         {
         	"numero": 402,
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 24, "porcentaje": 5}, "dia": {"nivel": 24, "porcentaje": 5}, "noche": {"nivel": "23-24", "porcentaje": 25}}
+        },
+        {
+          "numero": 207,
+          "nivel": 24,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
+        },
+        {
+          "numero": 37,
+          "nivel": 24,
+          "porcentaje": 8,
+          "imagen": "Verde hoja"
         }
       ],
       "surf": [
@@ -2087,10 +2095,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -2107,20 +2117,6 @@ const diamante = {
           "numero": 325,
           "nivel": "22-23",
           "porcentaje": 40
-        }
-      ],
-      "cartucho":[
-        {
-        	"numero": 207,
-        	"nivel": 24,
-        	"porcentaje": 8,
-        	"imagen": "Esmeralda"
-        },
-        {
-        	"numero": 37,
-        	"nivel": 24,
-        	"porcentaje": 8,
-        	"imagen": "Verde hoja"
         }
       ]
     },
@@ -2278,14 +2274,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 319,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         }
@@ -2326,10 +2325,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -2391,14 +2392,12 @@ const diamante = {
             {
             	"numero": 164,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 26, "porcentaje": 10}}
-            }
-          ],
-          "cartucho": [
+            },
             {
-            	"numero": 24,
-            	"nivel": "24-26",
-            	"porcentaje": 8,
-            	"imagen": "Rojo fuego"
+              "numero": 24,
+              "nivel": "24-26",
+              "porcentaje": 8,
+              "imagen": "Rojo fuego"
             }
           ]
         },
@@ -2451,9 +2450,7 @@ const diamante = {
             {
             	"numero": 163,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "22-24", "porcentaje": 20}}
-            }
-          ],
-          "cartucho": [
+            },
             {
             	"numero": 24,
             	"nivel": "24-26",
@@ -2506,9 +2503,7 @@ const diamante = {
             {
             	"numero": 163,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 20}}
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 24,
               "nivel": "20-22",
@@ -2566,9 +2561,7 @@ const diamante = {
             {
             	"numero": 163,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 20}}
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 24,
               "nivel": "20-22",
@@ -2610,14 +2603,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 5}, "super":{"nivel": "40-55","porcentaje": 15}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "28-55","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 318,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "15-30","porcentaje": 45}}
         }
@@ -2758,6 +2754,18 @@ const diamante = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "34-36", "porcentaje": 20}}
+        },
+        {
+          "numero": 338,
+          "nivel": 35,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 337,
+          "nivel": 35,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -2782,10 +2790,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -2802,20 +2812,6 @@ const diamante = {
           "numero": 108,
           "nivel": "34-36",
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 338,
-          "nivel": 35,
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 337,
-          "nivel": 35,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -2852,6 +2848,18 @@ const diamante = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
+        },
+        {
+          "numero": 335,
+          "nivel": 26,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 336,
+          "nivel": 26,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -2876,10 +2884,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -2889,20 +2899,6 @@ const diamante = {
           "numero": 352,
           "nivel": "25-26",
           "porcentaje": 22
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 335,
-          "nivel": 26,
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 336,
-          "nivel": 26,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -2931,18 +2927,22 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         },
         {
+          "pokedex": "*",
           "numero": 341,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 342,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 5}}
         }
@@ -2978,6 +2978,12 @@ const diamante = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": "27-28",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -2985,14 +2991,6 @@ const diamante = {
           "numero": 333,
           "nivel": "27-28",
           "porcentaje": 22
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 216,
-          "nivel": "27-28",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3046,10 +3044,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -3085,6 +3085,12 @@ const diamante = {
         {
           "numero": 163,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 14, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": "12-14",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar":[
@@ -3092,14 +3098,6 @@ const diamante = {
           "numero": 236,
           "nivel": "12-14",
           "porcentaje": 22
-        }
-      ],
-      "cartucho":[
-        {
-          "numero": 216,
-          "nivel": "12-14",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3125,6 +3123,24 @@ const diamante = {
             {
               "numero": 402,
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 10}, "dia": {"nivel": 18, "porcentaje": 10}, "noche": {"nivel": "18-19", "porcentaje": 30}}
+            },
+            {
+              "numero": 23,
+              "nivel": "18-20",
+              "porcentaje": 8,
+              "imagen": "Rojo fuego"
+            },
+            {
+              "numero": 270,
+              "nivel": 18,
+              "porcentaje": 4,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 271,
+              "nivel": 20,
+              "porcentaje": 4,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -3149,10 +3165,12 @@ const diamante = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 340,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -3162,26 +3180,6 @@ const diamante = {
               "numero": 88,
               "nivel": "18-20",
               "porcentaje": 22
-            }
-          ],
-          "cartucho": [
-            {
-              "numero": 23,
-              "nivel": "18-20",
-              "porcentaje": 8,
-              "imagen": "Rojo fuego"
-            },
-            {
-              "numero": 270,
-              "nivel": 18,
-              "porcentaje": 4,
-              "imagen": "Zafiro"
-            },
-            {
-              "numero": 271,
-              "nivel": 20,
-              "porcentaje": 4,
-              "imagen": "Zafiro"
             }
           ]
         },
@@ -3234,10 +3232,12 @@ const diamante = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 119,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -3440,10 +3440,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -3498,14 +3500,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "10-35","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 120,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -3548,14 +3553,17 @@ const diamante = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 60}}
             },
             {
+              "pokedex": "*",
               "numero": 457,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 211,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 5}}
             }
@@ -3613,20 +3621,18 @@ const diamante = {
               "numero": 95,
               "nivel": "32-33",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
-            {
-            	"numero": 302,
-            	"nivel": "30-33",
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
             },
             {
-            	"numero": 303,
-            	"nivel": "30-33",
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
+              "numero": 302,
+              "nivel": "30-33",
+              "porcentaje": 8,
+              "imagen": "Zafiro"
+            },
+            {
+              "numero": 303,
+              "nivel": "30-33",
+              "porcentaje": 8,
+              "imagen": "Rubí"
             }
           ]
         },
@@ -3652,9 +3658,7 @@ const diamante = {
               "numero": 95,
               "nivel": "31-33",
               "porcentaje": 30
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3696,9 +3700,7 @@ const diamante = {
               "numero": 208,
               "nivel": "33-34",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3746,9 +3748,7 @@ const diamante = {
               "numero": 208,
               "nivel": "33-34",
               "porcentaje": 10
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 302,
               "nivel": "30-33",
@@ -3833,6 +3833,12 @@ const diamante = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 10}}
+        },
+        {
+          "numero": 217,
+          "nivel": "33-34",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3847,14 +3853,6 @@ const diamante = {
           "numero": 225,
           "nivel": 32,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 217,
-          "nivel": "33-34",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3891,6 +3889,12 @@ const diamante = {
         {
           "numero": 164,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 35, "porcentaje": 10}}
+        },
+        {
+          "numero": 217,
+          "nivel": "35-36",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3905,14 +3909,6 @@ const diamante = {
           "numero": 220,
           "nivel": 34,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 217,
-          "nivel": "35-36",
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -3949,6 +3945,12 @@ const diamante = {
         {
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 35, "porcentaje": 10}}
+        },
+        {
+          "numero": 216,
+          "nivel": 36,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "radar": [
@@ -3956,14 +3958,6 @@ const diamante = {
         	"numero": 361,
         	"nivel": "34-36",
         	"porcentaje": 12
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 216,
-        	"nivel": 36,
-        	"porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -4001,6 +3995,24 @@ const diamante = {
         {
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "34-36", "porcentaje": 20}}
+        },
+        {
+          "numero": 217,
+          "nivel": "34-36",
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
+        },
+        {
+          "numero": 338,
+          "nivel": "34-36",
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 337,
+          "nivel": "34-36",
+          "porcentaje": 8,
+          "imagen": "Zafiro"
         }
       ],
       "surf": [
@@ -4025,10 +4037,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 119,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 45}}
         }
@@ -4045,26 +4059,6 @@ const diamante = {
         	"numero": 202,
         	"nivel": "34-36",
         	"porcentaje": 22
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 217,
-        	"nivel": "34-36",
-        	"porcentaje": 8,
-          "imagen": "Esmeralda"
-        },
-        {
-        	"numero": 338,
-        	"nivel": "34-36",
-        	"porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-        	"numero": 337,
-        	"nivel": "34-36",
-        	"porcentaje": 8,
-          "imagen": "Zafiro"
         }
       ]
     },
@@ -4113,20 +4107,18 @@ const diamante = {
               "numero": 436,
               "nivel": 36,
               "porcentaje": 5
-            }
-          ],
-          "cartucho":[
-            {
-            	"numero": 338,
-            	"nivel": "36-37",
-            	"porcentaje": 8,
-            	"imagen": "Rubí"
             },
             {
-            	"numero": 337,
-            	"nivel": "36-37",
-            	"porcentaje": 8,
-            	"imagen": "Zafiro"
+              "numero": 338,
+              "nivel": "36-37",
+              "porcentaje": 8,
+              "imagen": "Rubí"
+            },
+            {
+              "numero": 337,
+              "nivel": "36-37",
+              "porcentaje": 8,
+              "imagen": "Zafiro"
             }
           ],
           "surf": [
@@ -4151,14 +4143,17 @@ const diamante = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 147,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "15-20","porcentaje": 30}}
             },
             {
+              "pokedex": "*",
               "numero": 148,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "15-40","porcentaje": 5}}
             }
@@ -4276,16 +4271,7 @@ const diamante = {
             {
             	"numero": 164,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 39, "porcentaje": 10}}
-            }
-          ],
-          "radar": [
-            {
-            	"numero": 294,
-            	"nivel": "39-40",
-            	"porcentaje": 12
-            }
-          ],
-          "cartucho":[
+            },
             {
               "numero": 338,
               "nivel": "38-39",
@@ -4297,6 +4283,13 @@ const diamante = {
               "nivel": "38-39",
               "porcentaje": 8,
               "imagen": "Zafiro"
+            }
+          ],
+          "radar": [
+            {
+            	"numero": 294,
+            	"nivel": "39-40",
+            	"porcentaje": 12
             }
           ]
         }
@@ -4363,14 +4356,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 366,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4403,25 +4399,29 @@ const diamante = {
       "pesca":[
         {
           "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
         },
         {
           "numero": 456,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 15}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 5}}
         },
         {
+          "pokedex": "*",
           "numero": 170,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "15-25","porcentaje": 40}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "15-25","porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 171,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-45","porcentaje": 5}}
         }
@@ -4519,14 +4519,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 457,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 366,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4591,14 +4594,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 319,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 5}}
         }
@@ -4648,14 +4654,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 120,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-40","porcentaje": 15}}
         }
@@ -4690,18 +4699,22 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 320,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 321,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "35-55","porcentaje": 5}}
         }
@@ -4827,6 +4840,7 @@ const diamante = {
               "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 100}}
             }
@@ -4858,14 +4872,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-25" ,"porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 5}}
         }
@@ -4948,18 +4965,22 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 320,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
         },
         {
+          "pokedex": "*",
           "numero": 321,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "35-55","porcentaje": 5}}
         }
@@ -5027,6 +5048,24 @@ const diamante = {
         {
           "numero": 168,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 52, "porcentaje": 20}}
+        },
+        {
+          "numero": 274,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Rubí"
+        },
+        {
+          "numero": 271,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 204,
+          "nivel": 20,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf": [
@@ -5047,6 +5086,7 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 100}}
         }
@@ -5068,26 +5108,6 @@ const diamante = {
           "numero": 16,
           "nivel": 51,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 274,
-          "nivel": 20,
-          "porcentaje": 8,
-          "imagen": "Rubí"
-        },
-        {
-          "numero": 271,
-          "nivel": 20,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
-        },
-        {
-          "numero": 204,
-          "nivel": 20,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -5120,6 +5140,12 @@ const diamante = {
           "numero": 331,
           "nivel": "23-25",
           "porcentaje": 5
+        },
+        {
+          "numero": 28,
+          "nivel": 23,
+          "porcentaje": 8,
+          "imagen": "Verde hoja"
         }
       ],
       "surf": [
@@ -5144,10 +5170,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         }
@@ -5169,14 +5197,6 @@ const diamante = {
           "numero": 374,
           "nivel": 53,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 28,
-          "nivel": 23,
-          "porcentaje": 8,
-          "imagen": "Verde hoja"
         }
       ]
     },
@@ -5228,6 +5248,18 @@ const diamante = {
         {
           "numero": 354,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
+        },
+        {
+          "numero": 207,
+          "nivel": 22,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
+        },
+        {
+          "numero": 240,
+          "nivel": 22,
+          "porcentaje": 8,
+          "imagen": "Verde hoja"
         }
       ],
       "surf": [
@@ -5252,10 +5284,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 340,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
         }
@@ -5272,20 +5306,6 @@ const diamante = {
           "numero": 327,
           "nivel": 55,
           "porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 207,
-          "nivel": 22,
-          "porcentaje": 8,
-          "imagen": "Esmeralda"
-        },
-        {
-          "numero": 240,
-          "nivel": 22,
-          "porcentaje": 8,
-          "imagen": "Verde hoja"
         }
       ]
     },
@@ -5340,16 +5360,7 @@ const diamante = {
             {
             	"numero": 354,
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
-            }
-          ],
-          "radar": [
-            {
-            	"numero": 324,
-            	"nivel": "51-56",
-            	"porcentaje": 22
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 207,
               "nivel": 22,
@@ -5361,6 +5372,13 @@ const diamante = {
               "nivel": 22,
               "porcentaje": 8,
               "imagen": "Verde hoja"
+            }
+          ],
+          "radar": [
+            {
+            	"numero": 324,
+            	"nivel": "51-56",
+            	"porcentaje": 22
             }
           ]
         },
@@ -5411,9 +5429,7 @@ const diamante = {
             	"numero": 323,
             	"nivel": "54-56",
             	"porcentaje": 5
-            }
-          ],
-          "cartucho": [
+            },
             {
               "numero": 240,
               "nivel": 27,
@@ -5502,14 +5518,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 117,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 369,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "40-50","porcentaje": 15}}
         }
@@ -5598,10 +5617,12 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
         },
         {
+          "pokedex": "*",
           "numero": 61,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
         }
@@ -5672,6 +5693,12 @@ const diamante = {
           "variedad": 0,
         	"nivel": 23,
         	"porcentaje": 1
+        },
+        {
+          "numero": 213,
+          "nivel": 23,
+          "porcentaje": 8,
+          "imagen": "Esmeralda"
         }
       ],
       "surf":[
@@ -5696,14 +5723,17 @@ const diamante = {
           "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 130,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
+          "pokedex": "*",
           "numero": 224,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
         },
         {
+          "pokedex": "*",
           "numero": 370,
           "probabilidad": {"tipo":"cania", "super":{"nivel": "20-30","porcentaje": 15}}
         }
@@ -5725,14 +5755,6 @@ const diamante = {
         	"numero": 177,
         	"nivel": 53,
         	"porcentaje": 40
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 213,
-        	"nivel": 23,
-        	"porcentaje": 8,
-          "imagen": "Esmeralda"
         }
       ]
     },
@@ -5762,6 +5784,18 @@ const diamante = {
         {
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "52-54", "porcentaje": 20}}
+        },
+        {
+          "numero": 337,
+          "nivel": 52,
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 338,
+          "nivel": 52,
+          "porcentaje": 8,
+          "imagen": "Rubí"
         }
       ],
       "surf": [
@@ -5781,26 +5815,14 @@ const diamante = {
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25", "porcentaje": 45}}
         },
         {
+          "pokedex": "*",
         	"numero": 130,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "30-55", "porcentaje": 55}}
         },
         {
+          "pokedex": "*",
         	"numero": 119,
         	"probabilidad": {"tipo":"cania", "super":{"nivel": "20-50", "porcentaje": 45}}
-        }
-      ],
-      "cartucho": [
-        {
-          "numero": 337,
-          "nivel": 52,
-          "porcentaje": 8,
-          "imagen": "Zafiro"
-        },
-        {
-          "numero": 338,
-          "nivel": 52,
-          "porcentaje": 8,
-          "imagen": "Rubí"
         }
       ]
     },
@@ -5826,20 +5848,18 @@ const diamante = {
         	"numero": 437,
         	"nivel": "45-66",
         	"porcentaje": 35
-        }
-      ],
-      "cartucho": [
-        {
-        	"numero": 337,
-        	"nivel": "44-66",
-        	"porcentaje": 8,
-        	"imagen": "Zafiro"
         },
         {
-        	"numero": 338,
-        	"nivel": "44-66",
-        	"porcentaje": 8,
-        	"imagen": "Rubí"
+          "numero": 337,
+          "nivel": "44-66",
+          "porcentaje": 8,
+          "imagen": "Zafiro"
+        },
+        {
+          "numero": 338,
+          "nivel": "44-66",
+          "porcentaje": 8,
+          "imagen": "Rubí"
         }
       ],
       "legendario": [

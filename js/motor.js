@@ -178,11 +178,6 @@ function procesarLugares(lugares, num_pok, num_variedad){
          lugar: '',
          planta: '',
       },
-      cartucho : {
-         porcentaje: 0,
-         lugar: '',
-         planta: '',
-      },
       hierbaoscura : {
          porcentaje: 0,
          lugar: '',
@@ -459,6 +454,8 @@ function leerLugares(json){
   document.getElementById("titulo").classList=json.nombre;
   document.getElementById("btnArriba").classList="boton "+json.nombre;
 
+  document.getElementById("cuerpo").prepend(dibujarFiltros(json.filtros));
+
   if(document.getElementsByClassName("marcador").length > 0){
     document.getElementsByClassName("marcador")[0].scrollIntoView();
   }
@@ -477,6 +474,34 @@ function dibujarMapa(){
 
   return mapa;
 
+}
+
+function dibujarFiltros(filtros){
+  var divFiltros = document.createElement("DIV");
+  divFiltros.classList = "divFiltros";
+
+  if(filtros){
+    for(f of filtros){
+      var imgFiltro = document.createElement("IMG");
+      imgFiltro.title=f.nombre;
+      imgFiltro.src = 'img/'+f.imagen;
+      imgFiltro.alt = f.nombre;
+      imgFiltro.classList = "imgFiltro boton";
+      imgFiltro.setAttribute("filtro",f.filtro);
+      if(!f.defecto){
+        let divs = document.querySelectorAll('[obtencion="'+f.filtro+'"]');
+        divs.forEach(d=>{d.classList.add("oculto");});
+        imgFiltro.classList.add("seleccionado");
+      }
+      imgFiltro.onclick = function(){
+        let divs = document.querySelectorAll('[obtencion="'+this.getAttribute("filtro")+'"]');
+        divs.forEach(d=>{d.classList.toggle("oculto");});
+        this.classList.toggle("seleccionado");
+      }
+      divFiltros.append(imgFiltro);
+    }
+  }
+  return divFiltros;
 }
 
 function dibujarLugar(lugar){
@@ -649,8 +674,8 @@ function dibujarPok(div, pok){
 
     let imgPokedex = document.createElement("IMG");
     imgPokedex.src = 'img/otros/pokedex.png';
-    imgPokedex.title = 'Necesita Pokédex Nacional'
-    imgPokedex.alt = 'Necesita Pokédex Nacional'
+    imgPokedex.title = 'Pokédex Nacional'
+    imgPokedex.alt = 'Pokédex Nacional'
     imgPokedex.classList.add('pokedex');
 
     divDatos.append(imgPokedex);
