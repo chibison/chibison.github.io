@@ -2,6 +2,26 @@ const rojofuego =	{
 	"nombre": "rojofuego",
 	"titulo": "Rojo Fuego",
 	"gen": 3,
+	"filtros":[
+		{
+			"nombre": "Pesca",
+			"imagen": "cania/vieja.png",
+			"filtro": "pesca",
+			"defecto": false
+		},
+		{
+			"nombre": "Surf",
+			"imagen": "otros/MT.png",
+			"filtro": "surf",
+			"defecto": false
+		},
+		{
+			"nombre": "Golpe roca",
+			"imagen": "otros/MT.png",
+			"filtro": "roca",
+			"defecto": false
+		}
+	],
 	"lugares": [{
 			"nombre": "Pueblo Paleta",
 			"inicial": [

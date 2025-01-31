@@ -2,6 +2,20 @@ const amarillo = {
 	"nombre":"amarillo",
 	"titulo": "Amarillo",
 	"gen":1,
+	"filtros":[
+		{
+			"nombre": "Pesca",
+			"imagen": "cania/vieja.png",
+			"filtro": "pesca",
+			"defecto": false
+		},
+		{
+			"nombre": "Surf",
+			"imagen": "otros/MT.png",
+			"filtro": "surf",
+			"defecto": false
+		}
+	],
 	"lugares": [
 		{
 			"nombre": "Pueblo Paleta",

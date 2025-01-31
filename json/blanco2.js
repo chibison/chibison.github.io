@@ -2,6 +2,20 @@ const blanco2 = {
 	"nombre":"blanco2",
 	"titulo": "Blanco 2",
 	"gen":5,
+	"filtros":[
+		{
+			"nombre": "Pesca",
+			"imagen": "cania/vieja.png",
+			"filtro": "pesca",
+			"defecto": false
+		},
+		{
+			"nombre": "Surf",
+			"imagen": "otros/MT.png",
+			"filtro": "surf",
+			"defecto": false
+		}
+	],
 	"lugares": [
     {
       "nombre": "Ciudad Engobe",

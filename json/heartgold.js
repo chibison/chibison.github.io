@@ -2,6 +2,38 @@ const heartgold = {
 	"nombre":"heartgold",
 	"titulo": "Oro HeartGold",
 	"gen":4,
+	"filtros":[
+		{
+			"nombre": "Pesca",
+			"imagen": "cania/vieja.png",
+			"filtro": "pesca",
+			"defecto": false
+		},
+		{
+			"nombre": "Surf",
+			"imagen": "otros/MT.png",
+			"filtro": "surf",
+			"defecto": false
+		},
+		{
+			"nombre": "Golpe cabeza",
+			"imagen": "otros/MT.png",
+			"filtro": "cabeza",
+			"defecto": false
+		},
+		{
+			"nombre": "Golpe roca",
+			"imagen": "otros/MT.png",
+			"filtro": "roca",
+			"defecto": false
+		},
+		{
+			"nombre": "Sonidos de Hoenn y Sinnoh",
+			"imagen": "otros/pokedex.png",
+			"filtro": "sonidos",
+			"defecto": false
+		}
+	],
   "lugares": [
 		{
 			"nombre": "Pueblo Primavera",
@@ -1894,6 +1926,205 @@ const heartgold = {
 					"probabilidad": {"tipo":"hora", "noche": {"nivel": "10-14", "porcentaje": 100}}
 				}
 			],
+			"concurso": [
+				{
+					"numero": 10,
+					"nivel": "7-18",
+					"porcentaje": 20
+				},
+				{
+					"numero": 10,
+					"nivel": "24-36",
+					"porcentaje": 20,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 13,
+					"nivel": "7-18",
+					"porcentaje": 20
+				},
+				{
+					"numero": 13,
+					"nivel": "24-26",
+					"porcentaje": 20,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 11,
+					"nivel": "9-18",
+					"porcentaje": 10
+				},
+				{
+					"numero": 11,
+					"nivel": "26-36",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 14,
+					"nivel": "9-18",
+					"porcentaje": 10
+				},
+				{
+					"numero": 14,
+					"nivel": "26-36",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 48,
+					"nivel": "10-16",
+					"porcentaje": 10
+				},
+				{
+					"numero": 48,
+					"nivel": "25-32",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 46,
+					"nivel": "10-17",
+					"porcentaje": 10
+				},
+				{
+					"numero": 46,
+					"nivel": "27-34",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 12,
+					"nivel": "12-15",
+					"porcentaje": 5
+				},
+				{
+					"numero": 12,
+					"nivel": "27-30",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 15,
+					"nivel": "12-15",
+					"porcentaje": 5
+				},
+				{
+					"numero": 15,
+					"nivel": "27-30",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Martes"
+				},
+				{
+					"numero": 123,
+					"nivel": "13-14",
+					"porcentaje": 5
+				},
+				{
+					"numero": 123,
+					"nivel": "27-28",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Martes, Jueves, Sábado"
+				},
+				{
+					"numero": 127,
+					"nivel": "13-14",
+					"porcentaje": 5
+				},
+				{
+					"numero": 127,
+					"nivel": "27-28",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Martes, Jueves, Sábado"
+				},
+				{
+					"numero": 265,
+					"nivel": "24-36",
+					"porcentaje": 20,
+					"pokedex": "*",
+					"observaciones": "Jueves, Sábado"
+				},
+				{
+					"numero": 290,
+					"nivel": "26-36",
+					"porcentaje": 20,
+					"pokedex": "*",
+					"observaciones": "Jueves, Sábado"
+				},
+				{
+					"numero": 266,
+					"nivel": "24-36",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Jueves"
+				},
+				{
+					"numero": 313,
+					"nivel": "26-36",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Jueves"
+				},
+				{
+					"numero": 401,
+					"nivel": "27-30",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Jueves, Sábado"
+				},
+				{
+					"numero": 402,
+					"nivel": "27-30",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Jueves, Sábado"
+				},
+				{
+					"numero": 269,
+					"nivel": "25-32",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Jueves"
+				},
+				{
+					"numero": 415,
+					"nivel": "27-34",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Jueves, Sábado"
+				},
+				{
+					"numero": 268,
+					"nivel": "24-36",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Sábado"
+				},
+				{
+					"numero": 314,
+					"nivel": "26-36",
+					"porcentaje": 10,
+					"pokedex": "*",
+					"observaciones": "Sábado"
+				},
+				{
+					"numero": 267,
+					"nivel": "25-32",
+					"porcentaje": 5,
+					"pokedex": "*",
+					"observaciones": "Sábado"
+				}
+			],
 			"cabeza":[
 				{
 					"numero": 163,
@@ -1945,208 +2176,7 @@ const heartgold = {
 				}
 			]
 		},
-		{
-			"nombre": "Concurso captura bichos",
-			"hierba": [
-				{
-					"numero": 10,
-					"nivel": "7-18",
-					"porcentaje": 20
-				},
-				{
-					"numero": 10,
-					"nivel": "24-36",
-					"porcentaje": 20,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 13,
-					"nivel": "7-18",
-					"porcentaje": 20
-				},
-				{
-					"numero": 13,
-					"nivel": "24-26",
-					"porcentaje": 20,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 11,
-					"nivel": "9-18",
-					"porcentaje": 10
-				},
-				{
-					"numero": 11,
-					"nivel": "26-36",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 14,
-					"nivel": "9-18",
-					"porcentaje": 10
-				},
-				{
-					"numero": 14,
-					"nivel": "26-36",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 48,
-					"nivel": "10-16",
-					"porcentaje": 10
-				},
-				{
-					"numero": 48,
-					"nivel": "25-32",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 46,
-					"nivel": "10-17",
-					"porcentaje": 10
-				},
-				{
-					"numero": 46,
-					"nivel": "27-34",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 12,
-					"nivel": "12-15",
-					"porcentaje": 5
-				},
-				{
-					"numero": 12,
-					"nivel": "27-30",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 15,
-					"nivel": "12-15",
-					"porcentaje": 5
-				},
-				{
-					"numero": 15,
-					"nivel": "27-30",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Martes"
-				},
-				{
-					"numero": 123,
-					"nivel": "13-14",
-					"porcentaje": 5
-				},
-				{
-					"numero": 123,
-					"nivel": "27-28",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Martes, Jueves, Sábado"
-				},
-				{
-					"numero": 127,
-					"nivel": "13-14",
-					"porcentaje": 5
-				},
-				{
-					"numero": 127,
-					"nivel": "27-28",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Martes, Jueves, Sábado"
-				},
-				{
-					"numero": 265,
-					"nivel": "24-36",
-					"porcentaje": 20,
-					"pokedex": "nacional",
-					"observaciones": "Jueves, Sábado"
-				},
-				{
-					"numero": 290,
-					"nivel": "26-36",
-					"porcentaje": 20,
-					"pokedex": "nacional",
-					"observaciones": "Jueves, Sábado"
-				},
-				{
-					"numero": 266,
-					"nivel": "24-36",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Jueves"
-				},
-				{
-					"numero": 313,
-					"nivel": "26-36",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Jueves"
-				},
-				{
-					"numero": 401,
-					"nivel": "27-30",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Jueves, Sábado"
-				},
-				{
-					"numero": 402,
-					"nivel": "27-30",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Jueves, Sábado"
-				},
-				{
-					"numero": 269,
-					"nivel": "25-32",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Jueves"
-				},
-				{
-					"numero": 415,
-					"nivel": "27-34",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Jueves, Sábado"
-				},
-				{
-					"numero": 268,
-					"nivel": "24-36",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Sábado"
-				},
-				{
-					"numero": 314,
-					"nivel": "26-36",
-					"porcentaje": 10,
-					"pokedex": "nacional",
-					"observaciones": "Sábado"
-				},
-				{
-					"numero": 267,
-					"nivel": "25-32",
-					"porcentaje": 5,
-					"pokedex": "nacional",
-					"observaciones": "Sábado"
-				}
-			]
-		},
+
 		{
 			"nombre": "Ruta 37",
 			"hierba": [
@@ -2985,76 +3015,76 @@ const heartgold = {
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "5 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 335,
 							"nivel": 46,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45, "porcentaje": 10}, "dia": {"nivel": 45, "porcentaje": 10}, "noche": {"nivel": 43, "porcentaje": 10}},
 							"observaciones": "12 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 46,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "3 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 22,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "5 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 126,
 							"nivel": 41,
 							"probabilidad": {"tipo": "hora", "maniana": {"porcentaje": 10}, "dia": {"porcentaje": 10}},
 							"observaciones": "10 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 202,
 							"nivel": 41,
 							"probabilidad": {"tipo": "hora", "noche": {"porcentaje": 10}},
 							"observaciones": "10 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 305,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "24 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 80,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "5 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 436,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45, "porcentaje": 10}, "dia": {"nivel": 45, "porcentaje": 10}, "noche": {"nivel": 46, "porcentaje": 10}},
 							"observaciones": "7 bloques bosque + 18 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 363,
 							"nivel": "44-45",
 							"porcentaje": 10,
 							"observaciones": "18 bloques agua (40 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 288,
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie + 19 bloques bosque (60 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3098,69 +3128,69 @@ const heartgold = {
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "2 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 283,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "6 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 271,
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "14 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 83,
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "3 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 417,
 							"nivel": 43,
 							"porcentaje": 10,
 							"observaciones": "8 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 84,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "4 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 55,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "5 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 132,
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "15 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 418,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45, "porcentaje": 10}, "dia": {"nivel": 45, "porcentaje": 10}, "noche": {"nivel": 44, "porcentaje": 10}},
 							"observaciones": "18 bloques agua (40 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 372,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "21 bloques roca (70 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"surf": [
@@ -3187,14 +3217,14 @@ const heartgold = {
 						{
 							"numero": 55,
 							"probabilidad": [{"nivel": 37, "porcentaje": 10, "observaciones": "4 bloques agua"}, {"nivel": 45, "porcentaje": 10, "observaciones": "6 bloques agua"}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 195,
 							"nivel": 37,
 							"porcentaje": 10,
 							"observaciones": "3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"pesca": [
@@ -3214,19 +3244,19 @@ const heartgold = {
 							"numero": 61,
 							"probabilidad": [{"tipo": "cania", "vieja":{"nivel": 17, "porcentaje": 10, "observaciones": "2 bloques agua"}},
 															 {"tipo": "cania", "vieja":{"nivel": 18, "porcentaje": 10, "observaciones": "3 bloques agua"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 341,
 							"probabilidad": [{"tipo": "cania", "buena":{"nivel": 26, "porcentaje": 10, "observaciones": "10 bloques agua"}},
 															 {"tipo": "cania", "buena":{"nivel": 28, "porcentaje": 10, "observaciones": "14 bloques agua"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 130,
 							"probabilidad": [{"tipo": "cania", "super":{"nivel": "44-45", "porcentaje": 10, "observaciones": "6 bloques agua"}},
 															 {"tipo": "cania", "super":{"nivel": "47-48", "porcentaje": 10, "observaciones": "9 bloques agua"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3264,70 +3294,70 @@ const heartgold = {
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "3 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 406,
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "24 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 200,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "4 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 125,
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "4 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 108,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 399,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "10 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 283,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "24 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 353,
 							"porcentaje": 10,
 							"probabilidad": {"tipo":"hora", "maniana":{"nivel": 46}, "dia":{"nivel": 46}, "noche":{"nivel": 47}},
 							"observaciones": "18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 374,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "21 bloques roca (70 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 437,
 							"porcentaje": 10,
 							"probabilidad": {"tipo":"hora", "maniana":{"nivel": 46}, "dia":{"nivel": 45}, "noche":{"nivel": 45}},
 							"observaciones": "9 bloques bosque + 19 bloques roca (110 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3369,70 +3399,70 @@ const heartgold = {
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "3 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 313,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 433,
 							"nivel": 38,
 							"porcentaje": 10,
 							"observaciones": "10 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 307,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 44}, "dia": {"nivel": 43}, "noche": {"nivel": 43}},
 							"observaciones": "20 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 246,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "5 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 337,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "15 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 98,
 							"nivel": 43,
 							"porcentaje": 10,
 							"observaciones": "3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 356,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45}, "dia": {"nivel": 45}, "noche": {"nivel": 46}},
 							"observaciones": "18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 375,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "28 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 364,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "7 bloques roca + 17 bloques agua (80 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3467,61 +3497,61 @@ const heartgold = {
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 309,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 179,
 							"nivel": 43,
 							"porcentaje": 10,
 							"observaciones": "5 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 310,
 							"nivel": 37,
 							"porcentaje": 10,
 							"observaciones": "10 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 406,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "18 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 80,
 							"porcentaje": 10,
 							"probabilidad": [{"nivel": 42, "observaciones": "3 bloques roca"}, {"nivel": 37, "observaciones": "5 bloques agua"}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 99,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "8 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 304,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45, "porcentaje": 10}, "dia": {"nivel": 45, "porcentaje": 10}, "noche": {"nivel": 44, "porcentaje": 10}},
 							"observaciones": "24 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 443,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "13 bloques planicie + 17 bloques roca (100 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"surf": [
@@ -3551,7 +3581,7 @@ const heartgold = {
 															 {"tipo": "hora", "maniana": {"nivel": 42, "porcentaje": 10}, "dia": {"nivel": 42, "porcentaje": 10}, "noche": {"nivel": 41, "porcentaje": 10}, "observaciones": "14 bloques agua"},
 														 	 {"tipo": "hora", "maniana": {"nivel": 47, "porcentaje": 10}, "dia": {"nivel": 47, "porcentaje": 10}, "noche": {"nivel": 46, "porcentaje": 10}, "observaciones": "18 bloques agua"}],
 
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"pesca":[
@@ -3578,18 +3608,18 @@ const heartgold = {
 						{
 							"numero": 98,
 							"probabilidad": {"tipo": "cania", "vieja": {"nivel": "17/18", "porcentaje": 10, "observaciones": "2/3 bloques agua"}},
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 99,
 							"probabilidad": {"tipo": "cania", "buena": {"nivel": "26/27", "porcentaje": 10, "observaciones": "5/8 bloques agua"}},
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 341,
 							"probabilidad": [{"tipo": "cania", "super": {"nivel": 46, "porcentaje": 10, "observaciones": "15 bloques agua"}},
 															 {"tipo": "cania", "super": {"nivel": 48, "porcentaje": 10, "observaciones": "20 bloques agua"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3626,60 +3656,60 @@ const heartgold = {
 							"nivel": 40,
 							"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 10}, "dia": {"porcentaje": 10}},
 							"observaciones": "3 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 403,
 							"probabilidad": {"tipo":"hora", "maniana": {"nivel": 43, "porcentaje": 10}, "dia": {"nivel": 43, "porcentaje": 10}, "noche": {"nivel": 44, "porcentaje": 10}},
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 310,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "15 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 235,
 							"nivel": 41,
 							"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 10}, "dia": {"porcentaje": 10}},
 							"observaciones": "3 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 263,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "15 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 77,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "5 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 270,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "12 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 283,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "28 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 234,
 							"probabilidad": [{"tipo": "hora", "noche": {"nivel": 40, "porcentaje": 10, "observaciones": "3 bloques planicie"}}, {"tipo": "hora", "noche": {"nivel": 41, "porcentaje": 10, "observaciones": "3 bloques bosque"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3716,84 +3746,84 @@ const heartgold = {
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "3 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 162,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "5 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 417,
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 98,
 							"nivel": 37,
 							"porcentaje": 10,
 							"observaciones": "5 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 97,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "noche": {"nivel": 37}},
 							"observaciones": "5 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 198,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 37}, "dia": {"nivel": 37}},
 							"observaciones": "5 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 70,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "8 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 358,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 46}, "dia": {"nivel": 46}, "noche": {"nivel": 47}},
 							"observaciones": "15 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 100,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "10 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 355,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "28 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 419,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "10 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 371,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45}, "dia": {"nivel": 45}, "noche": {"nivel": 44}},
 							"observaciones": "9 bloques bosque + 19 bloques roca (110 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"surf":[
@@ -3812,21 +3842,21 @@ const heartgold = {
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "4 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 198,
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "10 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 355,
 							"nivel": 48,
 							"porcentaje": 10,
 							"observaciones": "35 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"pesca":[
@@ -3850,24 +3880,24 @@ const heartgold = {
 							"numero": 118,
 							"probabilidad": {"tipo": "cania", "vieja":{"nivel": 17, "porcentaje": 10}},
 							"observaciones": "4 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 119,
 							"probabilidad": {"tipo": "cania", "vieja":{"nivel": 17, "porcentaje": 10, "observaciones": "3 bloques agua"}, "buena": {"nivel": 27, "porcentaje": 10, "observaciones": "6 bloques agua"}},
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 147,
 							"probabilidad": {"tipo": "cania", "buena":{"nivel": 29, "porcentaje": 10}},
 							"observaciones": "10 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 148,
 							"porcentaje": 10,
 							"probabilidad": [{"tipo": "cania", "super":{"nivel": 42, "observaciones": "15 bloques agua"}},{"tipo": "cania", "super":{"nivel": 45, "observaciones": "20 bloques agua"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -3908,66 +3938,66 @@ const heartgold = {
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "5 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 113,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "12 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 188,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "8 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 274,
 							"probabilidad": [{"nivel": 38, "porcentaje": 10, "observaciones": "28 bloques boque"}, {"nivel": 48, "porcentaje": 10, "observaciones": "35 bloques boque"}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 74,
 							"probabilidad": {"tipo": "hora", "maniana":{"nivel": 45, "porcentaje": 10}, "dia": {"nivel": 45, "porcentaje": 10}},
 							"observaciones": "3 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 35,
 						  "probabilidad": {"tipo": "hora", "noche":{"nivel": 42, "porcentaje": 10}},
 							"observaciones": "3 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 194,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 273,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "18 bloques planicie (10 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 299,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "18 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 447,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 45}, "dia": {"nivel": 46}, "noche": {"nivel": 45}},
 							"observaciones": "10 bloques bosque + 14 bloques roca (70 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 
 					],
@@ -3992,12 +4022,12 @@ const heartgold = {
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 284,
 							"probabilidad": [{"nivel":"42", "porcentaje": 10, "observaciones":"10 bloques agua"}, {"nivel":"46", "porcentaje": 10, "observaciones":"14 bloques agua"}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"pesca":[
@@ -4016,12 +4046,12 @@ const heartgold = {
 						{
 							"numero": 61,
 							"probabilidad": {"tipo":"cania", "vieja":{"nivel": "15-16", "porcentaje": 10, "observaciones": "2-3 bloques agua"}, "buena":{"nivel": 27, "porcentaje": 10, "observaciones": "5 bloques agua"}},
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 130,
 							"probabilidad": {"tipo":"cania", "buena":{"nivel": 28, "porcentaje": 10, "observaciones": "7 bloques agua"}, "super":{"nivel": "42-45", "porcentaje": 10, "observaciones": "10-14 bloques agua"}},
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -4058,68 +4088,68 @@ const heartgold = {
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "3 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 314,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 69,
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "3 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 67,
 							"nivel": 40,
 							"porcentaje": 10,
 							"observaciones": "5 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 451,
 							"probabilidad": {"tipo":"hora", "maniana": {"nivel": 44, "porcentaje": 10}, "dia": {"nivel": 44, "porcentaje": 10}, "noche": {"nivel": 45, "porcentaje": 10}},
 							"observaciones": "28 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 55,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 99,
 							"nivel": 48,
 							"porcentaje": 10,
 							"observaciones": "10 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 308,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 286,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "21 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 338,
 							"probabilidad": {"tipo":"hora", "maniana": {"nivel": 45, "porcentaje": 10}, "dia": {"nivel": 46, "porcentaje": 10}, "noche": {"nivel": 45, "porcentaje": 10}},
 							"observaciones": "21 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -4152,67 +4182,67 @@ const heartgold = {
 							"numero": 22,
 							"probabilidad": [{"tipo": "hora", "todo": {"nivel": 38, "porcentaje": 10, "observaciones": "3 bloques planicie"}},
 							                 {"tipo": "hora", "noche": {"nivel": 41, "porcentaje": 10, "observaciones": "6 bloques roca"}}],
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 105,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 41, "porcentaje": 10} ,"dia": {"nivel": 41, "porcentaje": 10}},
 							"observaciones": "6 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 327,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "14 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 449,
 							"nivel": 43,
 							"porcentaje": 10,
 							"observaciones": "28 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 270,
 							"nivel": 38,
 							"porcentaje": 10,
 							"observaciones": "8 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 455,
 							"nivel": 48,
 							"porcentaje": 10,
 							"observaciones": "25 bloques planicie (10 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 331,
 							"nivel": 35,
 							"porcentaje": 10,
 							"observaciones": "18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 329,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 44, "porcentaje": 10},"dia": {"nivel": 45, "porcentaje": 10}, "noche": {"nivel": 44, "porcentaje": 10}},
 							"observaciones": "25 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 328,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 46, "porcentaje": 10},"dia": {"nivel": 47, "porcentaje": 10}, "noche": {"nivel": 46, "porcentaje": 10}},
 							"observaciones": "25 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 332,
 							"nivel": 48,
 							"porcentaje": 10,
 							"observaciones": "21 bloques agua (40 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -4256,68 +4286,68 @@ const heartgold = {
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "5 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 112,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "10 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 128,
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "5 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 228,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "4 bloques bosque",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 263,
 							"nivel": 38,
 							"porcentaje": 10,
 							"observaciones": "10 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 285,
 							"nivel": 45,
 							"porcentaje": 10,
 							"observaciones": "6 bloques planicie + 18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 298,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "5 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 324,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 46, "porcentaje": 10}, "dia": {"nivel": 47, "porcentaje": 10}, "noche": {"nivel": 47, "porcentaje": 10}},
 							"observaciones": "18 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 332,
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 404,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 46, "porcentaje": 10}, "dia": {"nivel": 46, "porcentaje": 10}, "noche": {"nivel": 45, "porcentaje": 10}},
 							"observaciones": "24 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				},
@@ -4362,84 +4392,84 @@ const heartgold = {
 							"nivel": 42,
 							"porcentaje": 10,
 							"observaciones": "2 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 189,
 							"nivel": 38,
 							"porcentaje": 10,
 							"observaciones": "5 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 50,
 							"nivel": 43,
 							"porcentaje": 10,
 							"observaciones": "5 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 213,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "8 bloques roca",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 89,
 							"nivel": 35,
 							"porcentaje": 10,
 							"observaciones": "8 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 336,
 							"nivel": 48,
 							"porcentaje": 10,
 							"observaciones": "18 bloques planicie (10 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 455,
 							"nivel": 41,
 							"porcentaje": 10,
 							"observaciones": "18 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 453,
 							"nivel": 44,
 							"porcentaje": 10,
 							"observaciones": "21 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 315,
 							"nivel": 46,
 							"porcentaje": 10,
 							"observaciones": "25 bloques bosque (20 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 354,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "hora", "maniana": {"nivel": 44}, "dia": {"nivel": 44}, "noche": {"nivel": 45}},
 							"observaciones": "25 bloques roca (30 días)",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 189,
 							"nivel": 38,
 							"porcentaje": 10,
 							"observaciones": "5 bloques planicie",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 89,
 							"nivel": 38,
 							"porcentaje": 10,
 							"observaciones": "8 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"surf": [
@@ -4463,21 +4493,21 @@ const heartgold = {
 							"nivel": 48,
 							"porcentaje": 10,
 							"observaciones": "16 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 189,
 							"nivel": 47,
 							"porcentaje": 10,
 							"observaciones": "10 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 195,
 							"nivel": 43,
 							"porcentaje": 10,
 							"observaciones": "13 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					],
 					"pesca":[
@@ -4502,21 +4532,21 @@ const heartgold = {
 							"porcentaje": 10,
 							"probabilidad": {"tipo":"cania", "vieja":{"nivel": "16-18"}},
 							"observaciones": "2-3 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 130,
 							"porcentaje": 10,
 							"probabilidad": {"tipo":"cania", "buena":{"nivel": "26-29"}},
 							"observaciones": "3-4 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						},
 						{
 							"numero": 339,
 							"porcentaje": 10,
 							"probabilidad": {"tipo": "cania", "super":{"nivel": "42-45"}},
 							"observaciones": "4-5 bloques agua",
-							"pokedex": "nacional"
+							"pokedex": "*"
 						}
 					]
 				}

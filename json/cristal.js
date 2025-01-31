@@ -2,6 +2,32 @@ const cristal={
   "nombre":"cristal",
 	"titulo": "Cristal",
   "gen":2,
+  "filtros":[
+    {
+      "nombre": "Pesca",
+      "imagen": "cania/vieja.png",
+      "filtro": "pesca",
+      "defecto": false
+    },
+    {
+      "nombre": "Surf",
+      "imagen": "otros/MT.png",
+      "filtro": "surf",
+      "defecto": false
+    },
+    {
+      "nombre": "Golpe cabeza",
+      "imagen": "otros/MT.png",
+      "filtro": "cabeza",
+      "defecto": false
+    },
+    {
+      "nombre": "Golpe roca",
+      "imagen": "otros/MT.png",
+      "filtro": "roca",
+      "defecto": false
+    }
+  ],
   "lugares": [
     {
       "nombre": "Pueblo Primavera",

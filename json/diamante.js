@@ -2,6 +2,32 @@ const diamante = {
   "nombre": "diamante",
 	"titulo": "Diamante",
   "gen": 4,
+  "filtros":[
+    {
+      "nombre": "Pesca",
+      "imagen": "cania/vieja.png",
+      "filtro": "pesca",
+      "defecto": false
+    },
+    {
+      "nombre": "Surf",
+      "imagen": "otros/MT.png",
+      "filtro": "surf",
+      "defecto": false
+    },
+    {
+      "nombre": "Miel",
+      "imagen": "otros/miel.png",
+      "filtro": "miel",
+      "defecto": false
+    },
+    {
+      "nombre": "Pokéradar",
+      "imagen": "otros/pokeradar.png",
+      "filtro": "radar",
+      "defecto": false
+    }
+  ],
   "lugares":[
     {
       "nombre": "Pueblo Hojaverde",
@@ -1143,7 +1169,7 @@ const diamante = {
         {
           "numero": 479,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 15}},
-          "pokedex": "nacional"
+          "pokedex": "*"
         }
       ]
     },
@@ -1506,7 +1532,7 @@ const diamante = {
         {
         	"numero": 133,
         	"nivel": 5,
-          "pokedex": "nacional",
+          "pokedex": "*",
         	"observaciones": "Casa de Tecla."
         }
       ],
@@ -2683,49 +2709,49 @@ const diamante = {
           "numero": 46,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 102,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 115,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 193,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 285,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 316,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 452,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 454,
           "nivel": "22-26",
           "porcentaje": 10,
-          "pokedex": "nacional"
+          "pokedex": "*"
         }
       ]
     },
@@ -3283,97 +3309,97 @@ const diamante = {
         	"numero": 137,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 133,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 173,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 35,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 174,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 39,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 52,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
         	"numero": 440,
         	"nivel": "16-22",
         	"porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 113,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 439,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 298,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 183,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 438,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 311,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 312,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         },
         {
           "numero": 351,
           "nivel": "16-22",
           "porcentaje": 5,
-          "pokedex": "nacional"
+          "pokedex": "*"
         }
       ]
     },

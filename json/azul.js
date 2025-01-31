@@ -2,6 +2,14 @@ const azul = {
 	"nombre":"azul",
 	"titulo": "Azul",
 	"gen":1,
+	"filtros":[
+		{
+			"nombre": "Pesca",
+			"imagen": "cania/vieja.png",
+			"filtro": "pesca",
+			"defecto": false
+		}
+	],
 	"lugares": [
 		{
 			"nombre": "Pueblo Paleta",
