@@ -238,6 +238,10 @@ div.pok p {
   margin: 0 0.5em 0 0;
 }
 
+div.pok.veneno, div.pok.lucha, div.pok.dragon {
+  color: #FFF;
+}
+
 #cuerpo.nacional > div.pok {
   display: block;
 }
@@ -247,6 +251,53 @@ div.datos{
   align-items: center;
   justify-content: space-around;
 }
+
+div.divObt{
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+}
+
+div[obtencion="inicial"], div[obtencion="escoger"]{
+  background-color: #fff176;
+}
+
+div[obtencion="hierba"]{
+  background-color: #66bb6a;
+}
+
+div[obtencion="caminando"]{
+  background-color: #d35400;
+}
+
+div[obtencion="pesca"]{
+  background-color: #bbdefb;
+}
+
+div[obtencion="surf"]{
+  background-color: #1565c0;
+}
+
+div[obtencion="intercambio"]{
+  background-color: #f8bbd0;
+}
+
+div[obtencion="regalo"], div[obtencion="especial"]{
+  background-color: #e1bee7;
+}
+
+div[obtencion="casino"], div[obtencion="comprar"]{
+  background-color: #ffccbc;
+}
+
+div[obtencion="fosil"]{
+  background-color: #795548;
+}
+
+div[obtencion="legendario"]{
+  background-color: #78909c;
+}
+
 
 div.evo{
   width: 70%;
@@ -261,8 +312,8 @@ div.pok svg{
   padding: 0.5em;
 }
 
-div.datos img{
-
+img.imgGen, img.imgPok{
+  width: 2.5em;
 }
 
 div.forma {
@@ -388,31 +439,31 @@ div.trofeo > p, div.trofeoEstatico > p {
 .singular{border: 5px solid gold;}
 
 
-/*@media screen and (min-width: 480px) and (max-width: 799px) {
+@media screen and (min-width: 480px) and (max-width: 799px) {
   #cuerpo {
     width: 95%;
   }
-  h1{
+  /*h1{
 	font-size: 4rem;
   }
 
   h2{
 	font-size: 3rem;
-  }
+  }*/
 }
 
 @media screen and (min-width: 800px) and (max-width: 1919px) {
   #cuerpo {
     width: 80%;
   }
-  h1{
+  /*h1{
 	font-size: 3rem;
   }
 
   h2{
 	font-size: 2rem;
-  }
-}*/
+  }*/
+}
 
 @media screen and (min-width: 1920px) {
   #cuerpo {

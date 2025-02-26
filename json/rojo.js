@@ -198,6 +198,13 @@ const rojo = {
 					"nivel":"3-7",
 					"porcentaje":10
 				}
+			],
+			"comprar": [
+				{
+					"numero": 129,
+					"nivel": 5,
+					"precio": 500
+				}
 			]
 		},
 		{
@@ -297,13 +304,6 @@ const rojo = {
 					"numero": 23,
 					"nivel": "6-12",
 					"porcentaje": 25
-				}
-			],
-			"comprar": [
-				{
-					"numero": 129,
-					"nivel": 5,
-					"precio": 500
 				}
 			]
 		},
