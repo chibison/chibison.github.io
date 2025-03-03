@@ -1014,13 +1014,28 @@ function dibujarEvo(div, evo, variedad){
 function dibujarImagen(div, numero, variedad){
   let imgPok = document.createElement("IMG");
 
-  let juegoT = juego=='amarillo'?'Amarillo':'RojoAzul';
-  let extT = juego=='amarillo'?'.gif':'.png';
+  let src="img/pok/gen"+generacion+"/";
+  let ext=".png";
+
+  switch(juego){
+    case 'amarillo': src+="amarillo/"; ext=".gif"; break;
+    case 'oro': src+="oro/"; break;
+    case 'plata': src+="plata/"; break;
+    case 'cristal': src+="cristal/"; ext=".gif"; break;
+    case 'esmeralda': src+="esmeralda/"; ext=".gif"; break;
+    case 'rojofuego':
+    case 'verdehoja': src+="rfvh/"; break;
+    case 'platino': src+="platino/"; break;
+    case 'heartgold':
+    case 'soulsilver': src+="hgss/"; break;
+    case 'blanco':
+    case 'negro':
+    case 'blanco2':
+    case 'negro2': ext=".gif"; break;
+  }
 
   if(pk.listado[numero-1].variedades===undefined) {
-    //imgPok.src="img/"+pk.listado[numero-1].nombre+ "_icon.png";
-    //imgPok.src="img/pok/gen"+generacion+"/"+pk.listado[numero-1].nombre+".png";
-    imgPok.src="img/pok/gen"+generacion+"/"+juegoT+"/"+pk.listado[numero-1].nombre+ extT;
+    imgPok.src = src+pk.listado[numero-1].nombre+ext;
     imgPok.alt=pk.listado[numero-1].nombre;
     imgPok.title=pk.listado[numero-1].nombre;
     imgPok.classList.add("imgPok");
@@ -1029,7 +1044,7 @@ function dibujarImagen(div, numero, variedad){
   else {
     try
     {
-      imgPok.src="img/pok/gen"+generacion+"/"+juegoT+"/"+(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre.replace('?','QM')) + "_icon.png";
+      imgPok.src = src+(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre.replace('?','QM'))+ext;
       imgPok.alt=(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre);
       imgPok.title=(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre);
       div.append(imgPok);
@@ -1048,7 +1063,7 @@ function dibujarImagen(div, numero, variedad){
         divCont.classList = "forma "+pk.listado[numero-1].formas[i].tipo;
 
         let imgPok = document.createElement("IMG");
-        imgPok.src="img/"+(pk.listado[numero-1].formas[i].nombre)+"_icon.png";
+        imgPok.src = src+pk.listado[numero-1].nombre+ext;
         imgPok.alt=pk.listado[numero-1].formas[i].nombre;
         imgPok.title=pk.listado[numero-1].formas[i].nombre;
 
@@ -1057,7 +1072,7 @@ function dibujarImagen(div, numero, variedad){
       }
       else{
         let imgPok = document.createElement("IMG");
-        imgPok.src="img/"+(pk.listado[numero-1].formas[i].nombre)+"_icon.png";
+        imgPok.src = src+(pk.listado[numero-1].formas[i].nombre)+ext;
         imgPok.alt=pk.listado[numero-1].formas[i].nombre;
         imgPok.title=pk.listado[numero-1].formas[i].nombre;
 
@@ -1191,7 +1206,6 @@ function dibujarArbol(tipo, probabilidad, div, grupo){
     divElemento.append(dibujarProbabilidad(probabilidad.porcentaje,"#000"));
   }
   divElemento.append(imgArbol);
-
 
   div.append(divElemento);
 }
