@@ -4538,27 +4538,27 @@ const pk = {
   "formas": [
     {
       "gen": 4,
-      "nombre": "Rotom calor",
+      "nombre": "Rotom (calor)",
       "tipo": "electrico fuego"
     },
     {
       "gen": 4,
-      "nombre": "Rotom lavado",
+      "nombre": "Rotom (lavado)",
       "tipo": "electrico agua"
     },
     {
       "gen": 4,
-      "nombre": "Rotom frío",
+      "nombre": "Rotom (frío)",
       "tipo": "electrico hielo"
     },
     {
       "gen": 4,
-      "nombre": "Rotom ventilador",
+      "nombre": "Rotom (ventilador)",
       "tipo": "electrico volador"
     },
     {
       "gen": 4,
-      "nombre": "Rotom corte",
+      "nombre": "Rotom (corte)",
       "tipo": "electrico planta"
     }
   ]
@@ -4609,7 +4609,14 @@ const pk = {
   "nombre": "Giratina",
   "gen": 4,
   "tipo": "fantasma dragon",
-  "legendario": true
+  "legendario": true,
+  "formas": [
+    {
+      "gen": 4,
+      "nombre": "Giratina (origen)",
+      "tipo": "fantasma dragon"
+    }
+  ]
 },
 {
   "nombre": "Cresselia",
@@ -4908,12 +4915,12 @@ const pk = {
   "variedades": [
     {
       "gen": 5,
-      "nombre": "Unfezant macho",
+      "nombre": "Unfezant (macho)",
       "tipo": "normal volador"
     },
     {
       "gen": 5,
-      "nombre": "Unfezant hembra",
+      "nombre": "Unfezant (hembra)",
       "tipo": "normal volador"
     }
   ]
@@ -5244,7 +5251,7 @@ const pk = {
   "formas": [
     {
       "gen": 5,
-      "nombre": "Darmanitan daruma",
+      "nombre": "Darmanitan (daruma)",
       "tipo": "fuego psiquico"
     }
   ]
@@ -5508,17 +5515,17 @@ const pk = {
   "formas": [
     {
       "gen": 5,
-      "nombre": "Deerling verano",
+      "nombre": "Deerling (verano)",
       "tipo": "normal planta"
     },
     {
       "gen": 5,
-      "nombre": "Deerling otoño",
+      "nombre": "Deerling (otoño)",
       "tipo": "normal planta"
     },
     {
       "gen": 5,
-      "nombre": "Deerling invierno",
+      "nombre": "Deerling (invierno)",
       "tipo": "normal planta"
     }
   ],
@@ -5537,17 +5544,17 @@ const pk = {
   "formas": [
     {
       "gen": 5,
-      "nombre": "Sawsbuck verano",
+      "nombre": "Sawsbuck (verano)",
       "tipo": "normal planta"
     },
     {
       "gen": 5,
-      "nombre": "Sawsbuck otoño",
+      "nombre": "Sawsbuck (otoño)",
       "tipo": "normal planta"
     },
     {
       "gen": 5,
-      "nombre": "Sawsbuck invierno",
+      "nombre": "Sawsbuck (invierno)",
       "tipo": "normal planta"
     }
   ]
@@ -5598,12 +5605,12 @@ const pk = {
   "variedades": [
     {
       "gen": 5,
-      "nombre": "Frillish hembra",
+      "nombre": "Frillish (hembra)",
       "tipo": "agua fantasma"
     },
     {
       "gen": 5,
-      "nombre": "Frillish macho",
+      "nombre": "Frillish (macho)",
       "tipo": "agua fantasma"
     }
   ],
@@ -5622,12 +5629,12 @@ const pk = {
   "variedades": [
     {
       "gen": 5,
-      "nombre": "Jellicent hembra",
+      "nombre": "Jellicent (hembra)",
       "tipo": "agua fantasma"
     },
     {
       "gen": 5,
-      "nombre": "Jellicent macho",
+      "nombre": "Jellicent (macho)",
       "tipo": "agua fantasma"
     }
   ]
@@ -6024,7 +6031,7 @@ const pk = {
   "sublegendario": true,
   "formas": [
   	{
-  		"nombre": "Tornadus tótem",
+  		"nombre": "Tornadus (tótem)",
   		"tipo": "volador"
   	}
   ]
@@ -6036,7 +6043,7 @@ const pk = {
   "sublegendario": true,
   "formas": [
 	{
-		"nombre": "Thundurus tótem",
+		"nombre": "Thundurus (tótem)",
 		"tipo": "electrico volador"
 	}
 ]
@@ -6060,7 +6067,7 @@ const pk = {
   "sublegendario": true,
   "formas": [
   	{
-  		"nombre": "Landorus tótem",
+  		"nombre": "Landorus (tótem)",
   		"tipo": "tierra volador"
   	}
   ]
@@ -6072,11 +6079,11 @@ const pk = {
   "legendario": true,
   "formas": [
   {
-	  "nombre": "Kyurem blanco",
+	  "nombre": "Kyurem (blanco)",
 	  "tipo": "dragon hielo"
   },
   {
-	  "nombre": "Kyurem negro",
+	  "nombre": "Kyurem (negro)",
 	  "tipo": "dragon hielo"
   }
  ]
@@ -6489,11 +6496,6 @@ const pk = {
   "gen": 6,
   "formas":[
       {
-        "nombre": "Aegislash (escudo)",
-        "tipo": "acero fantasma",
-        "gen": 6
-      },
-      {
         "nombre": "Aegislash (filo)",
         "tipo": "acero fantasma",
         "gen": 6
@@ -6778,7 +6780,13 @@ const pk = {
   "nombre": "Xerneas",
   "tipo": "hada",
   "legendario": true,
-  "gen": 6
+  "gen": 6,
+  "formas":[
+      {
+        "nombre": "Xerneas (activo)",
+        "tipo": "hada"
+      }
+  ]
 },
 {
   "nombre": "Yveltal",
@@ -6790,7 +6798,19 @@ const pk = {
   "nombre": "Zygarde",
   "tipo": "dragon tierra",
   "legendario": true,
-  "gen": 6
+  "gen": 6,
+  "formas": [
+    {
+      "nombre": "Zygarde (50%)",
+      "gen": 6,
+      "tipo": "dragon tierra"
+    },
+    {
+      "nombre": "Zygarde (completo)",
+      "gen": 6,
+      "tipo": "dragon tierra"
+    }
+  ]
 },
 {
   "nombre": "Diancie",
@@ -6802,7 +6822,14 @@ const pk = {
   "nombre": "Hoopa",
   "tipo": "psiquico fantasma",
   "singular": true,
-  "gen": 6
+  "gen": 6,
+  "formas": [
+    {
+      "nombre": "Hoopa (desatado)",
+      "tipo": "psiquico siniestro",
+      "gen": 6
+    }
+  ]
 },
 {
   "nombre": "Volcanion",

@@ -2812,7 +2812,7 @@ const amarillo = {
 		},
 		{
 			"nombre": "Evento",
-			"otros": [
+			"legendario": [
 				{
 					"numero": 151
 				}

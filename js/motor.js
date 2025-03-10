@@ -352,7 +352,8 @@ function leerNacional(){
 function dibujarPokNacional(div, p, numero, variedad){
     let divPok = document.createElement("DIV");
     let tipo = obtenerTipo(numero+1, variedad);
-    divPok.classList="pok";
+
+    divPok.classList="pok "+tipo;
     divPok.style.background = devolverCSS(tipo);
 
     darBorde(divPok, p);
@@ -722,19 +723,10 @@ function dibujarPok(div, pok){
 
     divDatos.append(imgCable);
 
-
     if (pok.necesita!=""){
       let pNecesita = document.createElement("P");
-      let imgNecesita = document.createElement("IMG");
-      //imgNecesita.src="img/"+pk.listado[pok.necesita-1].nombre+"_icon.png";
-      let juegoT = juego=='amarillo'?'Amarillo':'RojoAzul';
-      imgNecesita.src="img/pok/gen"+generacion+"/"+juegoT+"/"+pk.listado[pok.necesita-1].nombre+".png";
-      imgNecesita.alt=pk.listado[pok.necesita-1].nombre;
-      imgNecesita.title=pk.listado[pok.necesita-1].nombre;
-
       pNecesita.innerHTML =pk.listado[pok.necesita-1].nombre;
-
-      divDatos.append(imgNecesita);
+      dibujarImagen(divDatos, pok.necesita-1, undefined);
       divDatos.append(pNecesita);
     }
   }
@@ -857,7 +849,7 @@ function dibujarEvo(div, evo, variedad){
   let divEvo = document.createElement("DIV");
   let tipo = obtenerTipo(evo.en, variedad);
 
-  divEvo.classList="pok evo";
+  divEvo.classList="pok evo "+tipo;
   divEvo.style.background = devolverCSS(tipo);
   divEvo.setAttribute("num",pk.listado[evo.en-1].variedades!==undefined ? evo.en+'_'+variedad : evo.en);
 
@@ -990,7 +982,6 @@ function dibujarEvo(div, evo, variedad){
     imgHora.title = evo.hora;
 
     divEvo.append(imgHora);
-
   }
 
   if(evo.hasOwnProperty("localizacion")){
@@ -1032,6 +1023,7 @@ function dibujarImagen(div, numero, variedad){
     case 'negro':
     case 'blanco2':
     case 'negro2': ext=".gif"; break;
+    case 'nacional': src="img/pok/home/"; break;
   }
 
   if(pk.listado[numero-1].variedades===undefined) {
@@ -1047,6 +1039,7 @@ function dibujarImagen(div, numero, variedad){
       imgPok.src = src+(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre.replace('?','QM'))+ext;
       imgPok.alt=(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre);
       imgPok.title=(variedad===undefined ? pk.listado[numero-1].nombre : pk.listado[numero-1].variedades[variedad].nombre);
+      imgPok.classList.add("imgPok")
       div.append(imgPok);
     }
     catch(e){
@@ -1058,23 +1051,26 @@ function dibujarImagen(div, numero, variedad){
   if(pk.listado[numero-1].formas){
     for(let i=0; i<pk.listado[numero-1].formas.length; i++){
       let tipoForma = pk.listado[numero-1].formas[i].tipo;
-      if(tipoPrincipal != tipoForma) {
+      if((tipoForma!=undefined) && (tipoPrincipal != tipoForma)) {
         let divCont = document.createElement("DIV");
-        divCont.classList = "forma "+pk.listado[numero-1].formas[i].tipo;
+        divCont.classList = "pok forma "+tipoForma;
+        divCont.style.background = devolverCSS(tipoForma);
 
         let imgPok = document.createElement("IMG");
-        imgPok.src = src+pk.listado[numero-1].nombre+ext;
+        imgPok.src = src+pk.listado[numero-1].formas[i].nombre+ext;
         imgPok.alt=pk.listado[numero-1].formas[i].nombre;
         imgPok.title=pk.listado[numero-1].formas[i].nombre;
+        imgPok.classList ="imgPok";
 
         divCont.append(imgPok);
         div.append(divCont);
       }
       else{
         let imgPok = document.createElement("IMG");
-        imgPok.src = src+(pk.listado[numero-1].formas[i].nombre)+ext;
+        imgPok.src = src+pk.listado[numero-1].formas[i].nombre+ext;
         imgPok.alt=pk.listado[numero-1].formas[i].nombre;
         imgPok.title=pk.listado[numero-1].formas[i].nombre;
+        imgPok.classList ="imgPok";
 
         div.append(imgPok);
       }

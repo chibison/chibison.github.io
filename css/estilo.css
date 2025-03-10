@@ -238,7 +238,7 @@ div.pok p {
   margin: 0 0.5em 0 0;
 }
 
-div.pok.veneno, div.pok.lucha, div.pok.dragon, div.pok.siniestro {
+div.pok.veneno, div.pok.lucha, div.pok.dragon, div.pok.siniestro, div.pok.fantasma {
   color: #FFF;
 }
 
@@ -282,7 +282,7 @@ div[obtencion="intercambio"]{
   background-color: #f8bbd0;
 }
 
-div[obtencion="regalo"], div[obtencion="especial"]{
+div[obtencion="regalo"], div[obtencion="especial"], div[obtencion="huevo"]{
   background-color: #e1bee7;
 }
 
@@ -298,6 +298,17 @@ div[obtencion="legendario"]{
   background-color: #78909c;
 }
 
+div[obtencion="masiva"]{
+  background-color: #FDD835;
+}
+
+div[obtencion="roca"]{
+  background-color: #CFD8DC;
+}
+
+div[obtencion="cabeza"]{
+  background-color: #C8E6C9;
+}
 
 div.evo{
   width: 70%;

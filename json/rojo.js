@@ -2829,7 +2829,7 @@ const rojo = {
 		},
 		{
 			"nombre": "Evento",
-			"otros": [
+			"legendario": [
 				{
 					"numero": 151
 				}

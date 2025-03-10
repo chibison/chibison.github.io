@@ -2831,7 +2831,7 @@ const azul = {
 		},
 		{
 			"nombre": "Evento",
-			"otros": [
+			"legendario": [
 				{
 					"numero": 151
 				}
