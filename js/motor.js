@@ -616,19 +616,16 @@ function devolverTexto(tipo){
 }
 
 function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
-  //let h2Lugar = document.createElement("H2");
-  //if(texto !== undefined){
-  //  h2Lugar.append(document.createElement("HR"));
-
+  let h2Lugar = document.createElement("H2");
+  if(texto !== undefined){
     //h2Lugar.innerHTML =  texto;
-
-  //}
+  }
 
   let divObtencion = document.createElement("DIV");
   divObtencion.classList.add("divObt");
   divObtencion.setAttribute("obtencion",tipo_obt);
 
-  //divLugar.append(h2Lugar);
+  //divContenedor.append(h2Lugar);
 
   //ordenarListado(listado);
   for(let i=0; i<listado.length; i++){
@@ -709,9 +706,23 @@ function dibujarPok(div, pok){
   }
 
   if(pok.hasOwnProperty("fichas")){
+    let divFichas= document.createElement("DIV");
+    divFichas.classList.add("fichas");
+
     let pFichas = document.createElement("P");
-    pFichas.innerHTML = pok.fichas+"<img src='img/otros/token.png' alt='Fichas' title='Fichas' class='ficha'>";
-    divDatos.append(pFichas);
+    pFichas.innerHTML = pok.fichas;
+
+    let imgFichas=document.createElement("IMG");
+    imgFichas.src="img/otros/token.png";
+    imgFichas.alt="Fichas";
+    imgFichas.title="Fichas"
+    imgFichas.classList.add('ficha');
+
+    divFichas.append(pFichas);
+    divFichas.append(imgFichas);
+
+    divDatos.append(divFichas);
+    //divDatos.append(imgFichas);
   }
 
   if(pok.hasOwnProperty("necesita")){
@@ -726,7 +737,7 @@ function dibujarPok(div, pok){
     if (pok.necesita!=""){
       let pNecesita = document.createElement("P");
       pNecesita.innerHTML =pk.listado[pok.necesita-1].nombre;
-      dibujarImagen(divDatos, pok.necesita-1, undefined);
+      dibujarImagen(divDatos, pok.necesita, undefined);
       divDatos.append(pNecesita);
     }
   }

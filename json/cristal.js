@@ -26,12 +26,6 @@ const cristal={
       "imagen": "otros/MT.png",
       "filtro": "roca",
       "defecto": false
-    },
-    {
-      "nombre": "Pokédex nacional",
-      "imagen": "otros/pokedex.png",
-      "filtro": "manada",
-      "defecto": false
     }
   ],
   "lugares": [
@@ -489,19 +483,16 @@ const cristal={
           ],
           "masiva": [
             {
-              "pokedex": "*",
             	"numero": 74,
             	"nivel": "2-3",
             	"porcentaje": 40
             },
             {
-              "pokedex": "*",
             	"numero": 41,
             	"nivel": 2,
             	"porcentaje": 20
             },
             {
-              "pokedex": "*",
             	"numero": 206,
             	"nivel": "2-4",
             	"porcentaje": 40
@@ -1003,12 +994,12 @@ const cristal={
       ],
       "masiva":[
         {
-          "pokedex": "*",
+
           "numero": 129,
           "probabilidad": {"tipo": "cania", "vieja":{"nivel": 10, "porcentaje": 85}, "buena":{"nivel": 20, "porcentaje":35}}
         },
         {
-          "pokedex": "*",
+
           "numero": 211,
           "probabilidad": {"tipo": "cania", "vieja":{"nivel":"5-10", "porcentaje": 15}, "buena":{"nivel":20, "porcentaje":65}, "super": {"nivel": 40, "porcentaje":100}}
         }
@@ -1756,37 +1747,37 @@ const cristal={
 ],
       "masiva": [
         {
-          "pokedex": "*",
+
           "numero": 32,
           "nivel": 12,
           "porcentaje": 30
         },
         {
-          "pokedex": "*",
-          "pokedex": "*",
+
+
           "numero": 29,
           "nivel": 12,
           "porcentaje": 30
         },
         {
-          "pokedex": "*",
+
           "numero": 193,
           "nivel": "12-14",
           "porcentaje": 30
         },
         {
-          "pokedex": "*",
+
           "numero": 16,
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": 14, "porcentaje": 5 }, "dia": {"nivel": 14, "porcentaje": 5 }}
         },
         {
-          "pokedex": "*",
+
           "numero": 132,
           "nivel": 10,
           "porcentaje": 5
         },
         {
-          "pokedex": "*",
+
           "numero": 163,
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 14, "porcentaje": 5}}
         }
@@ -2733,21 +2724,21 @@ const cristal={
       ],
       "masiva": [
         {
-          "pokedex": "*",
+
           "numero": 79,
           "nivel": "20-24",
           "porcentaje": 30,
           "observaciones": "Haciendo surf"
         },
         {
-          "pokedex": "*",
+
           "numero": 118,
           "nivel": "20-24",
           "porcentaje": 60,
           "observaciones": "Haciendo surf"
         },
         {
-          "pokedex": "*",
+
           "numero": 119,
           "nivel": "20-24",
           "porcentaje": 10,

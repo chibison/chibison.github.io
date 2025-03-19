@@ -282,6 +282,16 @@ div[obtencion="intercambio"]{
   background-color: #f8bbd0;
 }
 
+div[obtencion="regalo"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/regalo.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
+}
+
 div[obtencion="regalo"], div[obtencion="especial"], div[obtencion="huevo"]{
   background-color: #e1bee7;
 }
@@ -298,8 +308,28 @@ div[obtencion="legendario"]{
   background-color: #78909c;
 }
 
+div[obtencion="masiva"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/masiva.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
+}
+
 div[obtencion="masiva"]{
-  background-color: #FDD835;
+  background-color: #FF9800;
+}
+
+div[obtencion="roca"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/Gen2 Roca.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
 }
 
 div[obtencion="roca"]{
@@ -354,7 +384,7 @@ div.arbol p {
   padding: 0 0.5em;
 }
 
-div.cania > div, div.hora > div, div.arbol > div, div.estacion > div, div.probabilidad > div {
+div.cania > div, div.hora > div, div.arbol > div, div.estacion > div, div.probabilidad > div, div.fichas {
   display: flex;
   align-items: center;
   justify-content: center;;
@@ -375,7 +405,6 @@ img.pokecuarto{
 
 img.ficha{
   width: 25px;
-  padding: 0 0 0 0.5em !important;
 }
 
 img.sonidos{

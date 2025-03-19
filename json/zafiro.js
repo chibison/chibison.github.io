@@ -26,6 +26,12 @@ const zafiro = {
 			"imagen": "otros/MT.png",
 			"filtro": "buceo",
 			"defecto": false
+		},
+		{
+			"nombre": "Pokédex nacional",
+			"imagen": "otros/pokedex.png",
+			"filtro": "masiva",
+			"defecto": false
 		}
 	],
 	"lugares": [

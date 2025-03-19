@@ -1029,7 +1029,8 @@ const amarillo = {
 			"regalo":[
 				{
 					"numero":133,
-					"nivel": 25
+					"nivel": 25,
+					"observaciones": "Azotea de la Mansión Azulona, entrando por la parte posterior."
 				}
 			],
 			"casino":[
@@ -1097,7 +1098,8 @@ const amarillo = {
 			"especial":[
 				{
 					"numero":143,
-					"nivel":30
+					"nivel":30,
+					"observaciones": "Durmiendo en el camino"
 				}
 			]
 		},
@@ -1282,7 +1284,8 @@ const amarillo = {
 			"especial":[
 				{
 					"numero":143,
-					"nivel":30
+					"nivel":30,
+					"observaciones": "Durmiendo en el camino"
 				}
 			]
 		},
