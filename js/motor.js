@@ -3,6 +3,7 @@ var obtenidos;
 var generacion;
 var juego;
 var ultimo;
+var filtrosMarcados;
 
 function inicializar(){
   if(window.localStorage.getItem("obtenidos")){
@@ -24,6 +25,13 @@ function inicializar(){
   }
   else {
     trofeosObtenidos = [];
+  }
+
+  if(window.localStorage.getItem("filtrosMarcados")){
+    filtrosMarcados = JSON.parse(window.localStorage.getItem("filtrosMarcados"));
+  }
+  else {
+    filtrosMarcados = jsonFiltros;
   }
 
   cargarEstadisticas();
@@ -489,7 +497,7 @@ function dibujarFiltros(filtros){
       imgFiltro.alt = f.nombre;
       imgFiltro.classList = "imgFiltro boton";
       imgFiltro.setAttribute("filtro",f.filtro);
-      if(!f.defecto){
+      if((!f.defecto) && !(filtrosMarcados[juego].includes(f.filtro))) {
         let divs = document.querySelectorAll('[obtencion="'+f.filtro+'"]');
         divs.forEach(d=>{d.classList.add("oculto");});
         imgFiltro.classList.add("seleccionado");
@@ -498,6 +506,7 @@ function dibujarFiltros(filtros){
         let divs = document.querySelectorAll('[obtencion="'+this.getAttribute("filtro")+'"]');
         divs.forEach(d=>{d.classList.toggle("oculto");});
         this.classList.toggle("seleccionado");
+        guardarFiltro(this.getAttribute("filtro"));
       }
       divFiltros.append(imgFiltro);
     }
@@ -700,9 +709,22 @@ function dibujarPok(div, pok){
   }
 
   if(pok.hasOwnProperty("precio")){
+    let divPrecio= document.createElement("DIV");
+    divPrecio.classList.add("precio");
+
     let pPrecio = document.createElement("P");
-    pPrecio.innerHTML = pok.precio+"<img src='img/otros/pokecuarto.png' class='pokecuarto'>";
-    divDatos.append(pPrecio);
+    pPrecio.innerHTML = pok.precio;
+
+    let imgPrecio=document.createElement("IMG");
+    imgPrecio.src="img/otros/pokecuarto.png";
+    imgPrecio.alt="Pokécuarto";
+    imgPrecio.title="Pokécuarto"
+    imgPrecio.classList.add('pokecuarto');
+
+    divPrecio.append(pPrecio);
+    divPrecio.append(imgPrecio);
+
+    divDatos.append(divPrecio);
   }
 
   if(pok.hasOwnProperty("fichas")){
@@ -1435,6 +1457,20 @@ function guardar(numero){
   window.localStorage.setItem("obtenidos",JSON.stringify(obtenidos));
 }
 
+function guardarFiltro(filtro){
+  if(!filtrosMarcados[juego].includes(filtro)){
+    filtrosMarcados[juego].push(filtro);
+  }
+  else{
+    for(let i=0; i<filtrosMarcados[juego].length; i++){
+      if(filtrosMarcados[juego][i]==filtro){
+        filtrosMarcados[juego].splice(i,1);
+      }
+    }
+  }
+  window.localStorage.setItem("filtrosMarcados",JSON.stringify(filtrosMarcados));
+}
+
 function ordenarListado(listado){
   listado.sort(function(a,b){
     //if((a.numero) && (b.numero))
@@ -1458,7 +1494,9 @@ function borrar(){
   if(juego!='nacional') {
     if(confirm("¿Quieres borrar los datos de "+juego+"?")==true){
       obtenidos[juego]=[];
+      filtrosMarcados[juego]=[];
       window.localStorage.setItem("obtenidos",JSON.stringify(obtenidos));
+      window.localStorage.setItem("filtrosMarcados",JSON.stringify(filtrosMarcados));
       window.location.reload();
     }
   }

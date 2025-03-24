@@ -3265,7 +3265,7 @@ const cristal={
       ]
     },
     {
-      "nombre": "Torre Campana",
+      "nombre": "Torre Hojalata",
       "caminando":[
         {
           "numero": 19,
@@ -3298,53 +3298,6 @@ const cristal={
         {
           "numero": 244,
           "nivel": 40
-        }
-      ]
-    },
-    {
-      "nombre": "Cataratas Tohjo",
-      "caminando": [
-        {
-          "numero": 41,
-          "nivel":  22,
-          "porcentaje": 30
-        },
-        {
-          "numero": 20,
-          "nivel":  22,
-          "porcentaje": 30
-        },
-        {
-          "numero": 42,
-          "nivel":  24,
-          "porcentaje": 20
-        },
-        {
-          "numero": 79,
-          "nivel":  "21-23",
-          "porcentaje": 15
-        },
-        {
-          "numero": 19,
-          "nivel":  20,
-          "porcentaje": 5
-        }
-      ],
-      "surf":[
-        {
-          "numero": 118,
-          "nivel":  "20-24",
-          "porcentaje": 60
-        },
-        {
-          "numero": 79,
-          "nivel":  "20-24",
-          "porcentaje": 30
-        },
-        {
-          "numero": 119,
-          "nivel":  "20-24",
-          "porcentaje": 10
         }
       ]
     },
@@ -3440,6 +3393,53 @@ const cristal={
           "numero": 24,
           "nivel":  10,
           "probabilidad": {"tipo": "arbol", "normal":{"porcentaje": 15}}
+        }
+      ]
+    },
+    {
+      "nombre": "Cataratas Tohjo",
+      "caminando": [
+        {
+          "numero": 41,
+          "nivel":  22,
+          "porcentaje": 30
+        },
+        {
+          "numero": 20,
+          "nivel":  22,
+          "porcentaje": 30
+        },
+        {
+          "numero": 42,
+          "nivel":  24,
+          "porcentaje": 20
+        },
+        {
+          "numero": 79,
+          "nivel":  "21-23",
+          "porcentaje": 15
+        },
+        {
+          "numero": 19,
+          "nivel":  20,
+          "porcentaje": 5
+        }
+      ],
+      "surf":[
+        {
+          "numero": 118,
+          "nivel":  "20-24",
+          "porcentaje": 60
+        },
+        {
+          "numero": 79,
+          "nivel":  "20-24",
+          "porcentaje": 30
+        },
+        {
+          "numero": 119,
+          "nivel":  "20-24",
+          "porcentaje": 10
         }
       ]
     },

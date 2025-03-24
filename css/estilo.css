@@ -258,11 +258,11 @@ div.divObt{
   margin-bottom: 0.5em;
 }
 
-div[obtencion="inicial"], div[obtencion="escoger"]{
+div[obtencion="inicial"], div[obtencion="escoger"], div[obtencion="errante"]{
   background-color: #fff176;
 }
 
-div[obtencion="hierba"]{
+div[obtencion="hierba"], div[obtencion="concurso"]{
   background-color: #66bb6a;
 }
 
@@ -285,6 +285,16 @@ div[obtencion="intercambio"]{
 div[obtencion="regalo"]::before{
   margin-top: 0.5em;
   background-image:url('../img/otros/regalo.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
+}
+
+div[obtencion="huevo"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/huevo.png');
   background-size: 16px 16px;
   display: inline-block;
   width: 16px;
@@ -384,7 +394,7 @@ div.arbol p {
   padding: 0 0.5em;
 }
 
-div.cania > div, div.hora > div, div.arbol > div, div.estacion > div, div.probabilidad > div, div.fichas {
+div.cania > div, div.hora > div, div.arbol > div, div.estacion > div, div.probabilidad > div, div.fichas, div.precio {
   display: flex;
   align-items: center;
   justify-content: center;;
@@ -400,7 +410,6 @@ img.cablelink{
 
 img.pokecuarto{
   width: 15px;
-  padding: 0 0 0 0.5em !important;
 }
 
 img.ficha{
