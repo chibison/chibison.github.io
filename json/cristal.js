@@ -1,3 +1,4 @@
+"Te lo quedas si subes la amistad"
 const cristal={
   "nombre":"cristal",
 	"titulo": "Cristal",
@@ -2379,7 +2380,7 @@ const cristal={
         {
           "numero": 213,
           "nivel": 15,
-          "observaciones": "Te lo quedas si te quiere"
+          "observaciones": "Te lo quedas si subes la amistad"
         }
       ]
     },
@@ -3302,7 +3303,7 @@ const cristal={
       ]
     },
     {
-      "nombre": "Ruta 27 (Kanto)",
+      "nombre": "Ruta 27",
       "hierba": [
         {
           "numero": 20,
@@ -3444,7 +3445,7 @@ const cristal={
       ]
     },
     {
-      "nombre": "Ruta 26 (Kanto)",
+      "nombre": "Ruta 26",
       "hierba": [
         {
           "numero":28,
@@ -3687,76 +3688,527 @@ const cristal={
       ]
     },
     {
-      "nombre": "Ruta 5",
-      "hierba":[
+      "nombre": "Ruta 7",
+      "hierba": [
         {
-          "numero": 16,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 13, "porcentaje": 30}, "dia": {"nivel": 13, "porcentaje": 30}}
+          "numero": 21,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 17, "porcentaje": 30}, "dia": {"nivel": 17, "porcentaje": 30}}
+        },
+        {
+          "numero": 19,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 17, "porcentaje": 30}, "dia": {"nivel": 17, "porcentaje": 30}}
         },
         {
           "numero": 209,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 13, "porcentaje": 30}, "dia": {"nivel": 13, "porcentaje": 30}}
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 20}, "dia": {"nivel": 18, "porcentaje": 20}}
         },
         {
-          "numero": 63,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "12-14", "porcentaje": 15}, "dia": {"nivel": "12-14", "porcentaje": 15}, "noche": {"nivel": "12-14", "porcentaje": 15}}
-        },
-        {
-          "numero": 17,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 20}, "dia": {"nivel": 15, "porcentaje": 20}}
+          "numero": 20,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 10}, "dia": {"nivel": 18, "porcentaje": 10}}
         },
         {
           "numero": 39,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 14, "porcentaje": 5}, "dia": {"nivel": 14, "porcentaje": 5}, "noche": {"nivel": 14, "porcentaje": 5}}
+          "nivel": 18,
+          "porcentaje": 5
+        },
+        {
+          "numero": 63,
+          "nivel": 16,
+          "porcentaje": 5
+        },
+        {
+          "numero": 198,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 30}}
+        },
+        {
+          "numero": 228,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 18, "porcentaje": 20}}
         },
         {
           "numero": 52,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 13, "porcentaje": 30}}
-        },
-        {
-          "numero": 163,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 13, "porcentaje": 30}}
-        },
-        {
-          "numero": 164,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 20}}
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 30}}
         }
       ]
     },
     {
-      "nombre": "Ciudad Celeste",
+      "nombre": "Ciudad Azulona",
       "surf": [
         {
-        	"numero": 118,
-        	"nivel": "5-14",
+        	"numero": 88,
+        	"nivel": "15-24",
         	"porcentaje": 90
         },
         {
-        	"numero": 119,
-        	"nivel": "10-14",
+        	"numero": 89,
+        	"nivel": "15-19",
         	"porcentaje": 10
         }
       ],
-      "pesca":[
+      "casino": [
         {
-          "numero": 98,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20,"porcentaje": 55}, "super":{"nivel":40,"porcentaje": 60}}
+        	"numero": 25,
+        	"nivel": 25,
+        	"fichas": 2222
         },
+        {
+        	"numero": 137,
+        	"nivel": 15,
+        	"fichas": 5555
+        },
+        {
+        	"numero": 246,
+        	"nivel": 40,
+        	"fichas": 8888
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 16",
+      "hierba": [
+        {
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "27-29", "porcentaje": 45}, "dia": {"nivel": "27-29", "porcentaje": 40}}
+        },
+        {
+          "numero": 88,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "26-28", "porcentaje": 50}, "dia": {"nivel": "26-28", "porcentaje": 50}, "noche": {"nivel": "26-28", "porcentaje": 80}}
+        },
+        {
+          "numero": 89,
+          "nivel": 30,
+          "porcentaje": 5
+        },
+        {
+          "numero": 218,
+          "probabilidad": {"tipo":"hora", "dia": {"nivel": 29, "porcentaje": 5}}
+        },
+        {
+          "numero": 198,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 29, "porcentaje": 15}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 17",
+      "hierba": [
+        {
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "30-32", "porcentaje": 40}, "dia": {"nivel": "30-32", "porcentaje": 40}}
+        },
+        {
+          "numero": 88,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "29-33", "porcentaje": 55}, "dia": {"nivel": "29", "porcentaje": 20}, "noche": {"nivel": "29-33", "porcentaje": 95}}
+        },
+        {
+          "numero": 89,
+          "nivel": 33,
+          "porcentaje": 5
+        },
+        {
+          "numero": 218,
+          "probabilidad": {"tipo":"hora", "dia": {"nivel": "29-32", "porcentaje": 35}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 18",
+      "hierba": [
+        {
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "27-29", "porcentaje": 45}, "dia": {"nivel": "27-29", "porcentaje": 40}}
+        },
+        {
+          "numero": 88,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "26-28", "porcentaje": 50}, "dia": {"nivel": "26-28", "porcentaje": 50}, "noche": {"nivel": "26-29", "porcentaje": 95}}
+        },
+        {
+          "numero": 89,
+          "nivel": 30,
+          "porcentaje": 5
+        },
+        {
+          "numero": 218,
+          "probabilidad": {"tipo":"hora", "dia": {"nivel": 27, "porcentaje": 5}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 8",
+      "hierba": [
+        {
+        	"numero": 17,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 19, "porcentaje": 30}, "dia": {"nivel": 19, "porcentaje": 30}}
+        },
+        {
+          "numero": 209,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 17, "porcentaje": 30}, "dia": {"nivel": 17, "porcentaje": 30}}
+        },
+        {
+        	"numero": 58,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 17, "porcentaje": 10}, "dia": {"nivel": 17, "porcentaje": 10}}
+        },
+        {
+        	"numero": 63,
+          "nivel": 16,
+          "porcentaje": 20
+        },
+        {
+          "numero": 64,
+          "nivel": 18,
+          "porcentaje": 5
+        },
+        {
+          "numero": 39,
+          "nivel": 16,
+          "porcentaje": 5
+        },
+        {
+        	"numero": 164,
+        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 20, "porcentaje": 30}}
+        },
+        {
+        	"numero": 93,
+        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 10}}
+        },
+        {
+          "numero": 52,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 30}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 13",
+      "hierba": [
+        {
+          "numero": 17,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 25, "porcentaje": 20}, "dia": {"nivel": 25, "porcentaje": 20}}
+        },
+        {
+          "numero": 30,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
+        },
+        {
+          "numero": 33,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
+        },
+        {
+          "numero": 113,
+          "nivel": 25,
+          "porcentaje": 1
+        },
+        {
+          "numero": 187,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "25-27", "porcentaje": 19}, "dia": {"nivel": "25-27", "porcentaje": 19}}
+        },
+        {
+          "numero": 195,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "23-25", "porcentaje": 39}}
+        },
+        {
+          "numero": 164,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 20}}
+        },
+        {
+          "numero": 48,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 23, "porcentaje": 30}}
+        },
+        {
+          "numero": 49,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
+        }
+      ],
+      "surf": [
+        {
+          "numero": 72,
+          "nivel": "25-29",
+          "porcentaje": 60
+        },
+        {
+          "numero": 73,
+          "nivel": "25-29",
+          "porcentaje": 10
+        },
+        {
+          "numero": 195,
+          "nivel": "25-29",
+          "porcentaje": 30
+        }
+      ],
+      "pesca": [
         {
           "numero": 129,
-          "probabilidad": {"tipo": "cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20, "porcentaje": 35}}
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
         },
         {
-          "numero": 222,
-          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "maniana": 10, "dia": 10}, "super":{"nivel":40, "maniana": 30, "dia": 30}}
+          "numero": 72,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
         },
         {
-          "numero": 99,
-          "probabilidad": {"tipo": "cania", "super":{"nivel":40, "porcentaje":10}}
+          "numero": 211,
+          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 14",
+      "hierba": [
+        {
+          "numero": 17,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 28, "porcentaje": 20}, "dia": {"nivel": 28, "porcentaje": 20}}
         },
         {
-          "numero": 120,
-          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "noche": 10}, "super":{"nivel":40, "noche": 30}}
+          "numero": 30,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 26, "porcentaje": 30}, "dia": {"nivel": 26, "porcentaje": 30}}
+        },
+        {
+          "numero": 33,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 26, "porcentaje": 30}, "dia": {"nivel": 26, "porcentaje": 30}}
+        },
+        {
+          "numero": 113,
+          "nivel": 28,
+          "porcentaje": 1
+        },
+        {
+          "numero": 187,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 28, "porcentaje": 10}, "dia": {"nivel": 28, "porcentaje": 10}}
+        },
+        {
+          "numero": 188,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 30, "porcentaje": 9}, "dia": {"nivel": 30, "porcentaje": 9}}
+        },
+        {
+          "numero": 195,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "26-28", "porcentaje": 39}}
+        },
+        {
+          "numero": 164,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 20}}
+        },
+        {
+          "numero": 48,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 26, "porcentaje": 30}}
+        },
+        {
+          "numero": 49,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
+        }
+      ],
+      "intercambio": [
+        {
+          "numero": 142,
+          "necesita": 113
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 15",
+      "hierba": [
+        {
+          "numero": 17,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 25, "porcentaje": 20}, "dia": {"nivel": 25, "porcentaje": 20}}
+        },
+        {
+          "numero": 30,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
+        },
+        {
+          "numero": 33,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
+        },
+        {
+          "numero": 113,
+          "nivel": 25,
+          "porcentaje": 1
+        },
+        {
+          "numero": 187,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "25-27", "porcentaje": 19}, "dia": {"nivel": "25-27", "porcentaje": 19}}
+        },
+        {
+          "numero": 195,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "23-25", "porcentaje": 39}}
+        },
+        {
+          "numero": 164,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 20}}
+        },
+        {
+          "numero": 48,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 23, "porcentaje": 30}}
+        },
+        {
+          "numero": 49,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ciudad Fucsia",
+      "surf": [
+        {
+          "numero": 129,
+          "nivel": "10-24",
+          "porcentaje": 100
+        }
+      ],
+      "pesca": [
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": 10, "porcentaje": 100}, "buena":{"nivel": 20, "porcentaje": 90}, "super":{"nivel": 40, "porcentaje": 70}}
+        },
+        {
+          "numero": 130,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": 20, "porcentaje": 10}, "super":{"nivel": 40, "porcentaje": 30}}
+        },
+      ]
+    },
+    {
+      "nombre": "Ruta 10",
+      "hierba": [
+        {
+          "numero": 21,
+          "nivel": 15,
+          "probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 30}, "dia": {"porcentaje": 30}}
+        },
+        {
+          "numero": 20,
+          "nivel": 15,
+          "porcentaje": 20
+        },
+        {
+          "numero": 22,
+          "nivel": 15,
+          "probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 10}, "dia": {"porcentaje": 10}}
+        },
+        {
+          "numero": 105,
+          "nivel": 15,
+          "probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 5}, "dia": {"porcentaje": 5}}
+        },
+        {
+          "numero": 125,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 16, "porcentaje": 5}, "dia": {"nivel": 18, "porcentaje": 5}, "noche": {"nivel": 18, "porcentaje": 5}}
+        },
+        {
+          "numero": 100,
+          "nivel": 17,
+          "porcentaje": 30
+        }
+      ],
+      "surf": [
+        {
+          "numero": 118,
+          "nivel": "10-19",
+          "porcentaje": 90
+        },
+        {
+          "numero": 119,
+          "nivel": "15-19",
+          "porcentaje": 10
+        },
+        {
+          "numero": 48,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 30}}
+        },
+        {
+          "numero": 49,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
+        },
+        {
+          "numero": 41,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 5}}
+        }
+      ],
+      "pesca": [
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
+        },
+        {
+          "numero": 118,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
+        },
+        {
+          "numero": 119,
+          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
+        }
+      ]
+    },
+    {
+      "nombre": "Túnel Roca",
+      "plantas": [
+        {
+          "nombre": "Planta baja",
+          "caminando": [
+            {
+              "numero": 104,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 10, "porcentaje": 30}, "dia": {"nivel": 10, "porcentaje": 30}}
+            },
+            {
+              "numero": 74,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 11, "porcentaje": 30}, "dia": {"nivel": 11, "porcentaje": 30}, "noche": {"nivel": "11-12", "porcentaje": 50}}
+            },
+            {
+              "numero": 41,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 10}, "dia": {"nivel": 12, "porcentaje": 10}, "noche": {"nivel": "12-15", "porcentaje": 40}}
+            },
+            {
+              "numero": 67,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 5}, "dia": {"nivel": 15, "porcentaje": 5}}
+            },
+            {
+              "numero": 66,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 20}, "dia": {"nivel": 12, "porcentaje": 20}}
+            },
+            {
+              "numero": 105,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 5}, "dia": {"nivel": 12, "porcentaje": 5}}
+            },
+            {
+              "numero": 93,
+              "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 10}}
+            }
+          ]
+        },
+        {
+          "nombre": "Sótano",
+          "caminando": [
+            {
+              "numero": 104,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 30}, "dia": {"nivel": 12, "porcentaje": 30}}
+            },
+            {
+              "numero": 74,
+              "nivel": 14,
+              "porcentaje": 30
+            },
+            {
+              "numero": 95,
+              "nivel": 16,
+              "porcentaje": 20
+            },
+            {
+              "numero": 41,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 10}, "dia": {"nivel": 12, "porcentaje": 10}, "noche": {"nivel": "12-15", "porcentaje": 40}}
+            },
+            {
+              "numero": 105,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 5}, "dia": {"nivel": 15, "porcentaje": 5}}
+            },
+            {
+              "numero": 115,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 5}, "dia": {"nivel": 15, "porcentaje": 5}}
+            },
+            {
+              "numero": 93,
+              "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 5}}
+            },
+            {
+              "numero": 42,
+              "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 5}}
+            }
+          ]
         }
       ]
     },
@@ -3834,71 +4286,108 @@ const cristal={
       ]
     },
     {
+      "nombre": "Ciudad Celeste",
+      "surf": [
+        {
+          "numero": 118,
+          "nivel": "5-14",
+          "porcentaje": 90
+        },
+        {
+          "numero": 119,
+          "nivel": "10-14",
+          "porcentaje": 10
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 98,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20,"porcentaje": 55}, "super":{"nivel":40,"porcentaje": 60}}
+        },
+        {
+          "numero": 129,
+          "probabilidad": {"tipo": "cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20, "porcentaje": 35}}
+        },
+        {
+          "numero": 222,
+          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "maniana": 10, "dia": 10}, "super":{"nivel":40, "maniana": 30, "dia": 30}}
+        },
+        {
+          "numero": 99,
+          "probabilidad": {"tipo": "cania", "super":{"nivel":40, "porcentaje":10}}
+        },
+        {
+          "numero": 120,
+          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "noche": 10}, "super":{"nivel":40, "noche": 30}}
+        }
+      ]
+    },
+    {
       "nombre": "Ruta 24",
       "hierba": [
         {
-        	"numero": 69,
+          "numero": 69,
           "nivel": 10,
-        	"porcentaje": 5
+          "porcentaje": 5
         },
         {
-        	"numero": 10,
+          "numero": 10,
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": "8-10", "porcentaje": 60}, "dia": {"nivel": "8-10", "porcentaje": 50}}
         },
         {
-        	"numero": 11,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 20}}
+          "numero": 11,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 20}}
         },
         {
-        	"numero": 63,
+          "numero": 63,
           "nivel": 12,
-        	"porcentaje": 10
+          "porcentaje": 10
         },
         {
-        	"numero": 12,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 14, "porcentaje": 5}, "dia": {"nivel": 14, "porcentaje": 5}}
+          "numero": 12,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 14, "porcentaje": 5}, "dia": {"nivel": 14, "porcentaje": 5}}
         },
         {
-        	"numero": 191,
-        	"probabilidad": {"tipo":"hora", "dia": {"nivel": 12, "porcentaje": 30}}
+          "numero": 191,
+          "probabilidad": {"tipo":"hora", "dia": {"nivel": 12, "porcentaje": 30}}
         },
         {
-        	"numero": 48,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 10, "porcentaje": 30}}
+          "numero": 48,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 10, "porcentaje": 30}}
         },
         {
-        	"numero": 43,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "10-12", "porcentaje": 50}}
+          "numero": 43,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "10-12", "porcentaje": 50}}
         },
         {
-        	"numero": 44,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 14, "porcentaje": 5}}
+          "numero": 44,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 14, "porcentaje": 5}}
         }
       ],
       "surf": [
         {
-        	"numero": 118,
-        	"nivel": "5-14",
-        	"porcentaje": 90
+          "numero": 118,
+          "nivel": "5-14",
+          "porcentaje": 90
         },
         {
-        	"numero": 119,
-        	"nivel": "10-14",
-        	"porcentaje": 10
+          "numero": 119,
+          "nivel": "10-14",
+          "porcentaje": 10
         }
       ],
       "pesca": [
         {
-        	"numero": 129,
-        	"probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
         },
         {
-        	"numero": 118,
-        	"probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
+          "numero": 118,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
         },
         {
-        	"numero": 119,
-        	"probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
+          "numero": 119,
+          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
         }
       ]
     },
@@ -3975,227 +4464,39 @@ const cristal={
       ]
     },
     {
-      "nombre": "Ruta 10",
-      "hierba": [
+      "nombre": "Ruta 5",
+      "hierba":[
         {
-        	"numero": 21,
-          "nivel": 15,
-        	"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 30}, "dia": {"porcentaje": 30}}
-        },
-        {
-        	"numero": 20,
-          "nivel": 15,
-        	"porcentaje": 20
-        },
-        {
-        	"numero": 22,
-          "nivel": 15,
-        	"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 10}, "dia": {"porcentaje": 10}}
-        },
-        {
-          "numero": 105,
-          "nivel": 15,
-          "probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 5}, "dia": {"porcentaje": 5}}
-        },
-        {
-        	"numero": 125,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 16, "porcentaje": 5}, "dia": {"nivel": 18, "porcentaje": 5}, "noche": {"nivel": 18, "porcentaje": 5}}
-        },
-        {
-        	"numero": 100,
-          "nivel": 17,
-        	"porcentaje": 30
-        }
-      ],
-      "surf": [
-        {
-          "numero": 118,
-          "nivel": "10-19",
-          "porcentaje": 90
-        },
-        {
-          "numero": 119,
-          "nivel": "15-19",
-          "porcentaje": 10
-        },
-        {
-        	"numero": 48,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 30}}
-        },
-        {
-        	"numero": 49,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
-        },
-        {
-        	"numero": 41,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 5}}
-        }
-      ],
-      "pesca": [
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
-        },
-        {
-          "numero": 118,
-          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
-        },
-        {
-          "numero": 119,
-          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
-        }
-      ]
-    },
-    {
-      "nombre": "Túnel Roca",
-      "plantas": [
-        {
-          "nombre": "Planta baja",
-          "caminando": [
-            {
-              "numero": 104,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 10, "porcentaje": 30}, "dia": {"nivel": 10, "porcentaje": 30}}
-            },
-            {
-              "numero": 74,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 11, "porcentaje": 30}, "dia": {"nivel": 11, "porcentaje": 30}, "noche": {"nivel": "11-12", "porcentaje": 50}}
-            },
-            {
-              "numero": 41,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 10}, "dia": {"nivel": 12, "porcentaje": 10}, "noche": {"nivel": "12-15", "porcentaje": 40}}
-            },
-            {
-              "numero": 67,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 5}, "dia": {"nivel": 15, "porcentaje": 5}}
-            },
-            {
-              "numero": 66,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 20}, "dia": {"nivel": 12, "porcentaje": 20}}
-            },
-            {
-              "numero": 105,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 5}, "dia": {"nivel": 12, "porcentaje": 5}}
-            },
-            {
-            	"numero": 93,
-            	"probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 10}}
-            }
-          ]
-        },
-        {
-          "nombre": "Sótano",
-          "caminando": [
-            {
-              "numero": 104,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 30}, "dia": {"nivel": 12, "porcentaje": 30}}
-            },
-            {
-              "numero": 74,
-              "nivel": 14,
-              "porcentaje": 30
-            },
-            {
-              "numero": 95,
-              "nivel": 16,
-              "porcentaje": 20
-            },
-            {
-              "numero": 41,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 12, "porcentaje": 10}, "dia": {"nivel": 12, "porcentaje": 10}, "noche": {"nivel": "12-15", "porcentaje": 40}}
-            },
-            {
-              "numero": 105,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 5}, "dia": {"nivel": 15, "porcentaje": 5}}
-            },
-            {
-              "numero": 115,
-              "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 5}, "dia": {"nivel": 15, "porcentaje": 5}}
-            },
-            {
-            	"numero": 93,
-            	"probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 5}}
-            },
-            {
-            	"numero": 42,
-            	"probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 5}}
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 7",
-      "hierba": [
-        {
-          "numero": 21,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 17, "porcentaje": 30}, "dia": {"nivel": 17, "porcentaje": 30}}
-        },
-        {
-          "numero": 19,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 17, "porcentaje": 30}, "dia": {"nivel": 17, "porcentaje": 30}}
+          "numero": 16,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 13, "porcentaje": 30}, "dia": {"nivel": 13, "porcentaje": 30}}
         },
         {
           "numero": 209,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 20}, "dia": {"nivel": 18, "porcentaje": 20}}
-        },
-        {
-          "numero": 20,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 10}, "dia": {"nivel": 18, "porcentaje": 10}}
-        },
-        {
-          "numero": 39,
-          "nivel": 18,
-          "porcentaje": 5
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 13, "porcentaje": 30}, "dia": {"nivel": 13, "porcentaje": 30}}
         },
         {
           "numero": 63,
-          "nivel": 16,
-          "porcentaje": 5
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "12-14", "porcentaje": 15}, "dia": {"nivel": "12-14", "porcentaje": 15}, "noche": {"nivel": "12-14", "porcentaje": 15}}
         },
         {
-        	"numero": 198,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 30}}
+          "numero": 17,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 20}, "dia": {"nivel": 15, "porcentaje": 20}}
         },
         {
-        	"numero": 228,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 18, "porcentaje": 20}}
+          "numero": 39,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 14, "porcentaje": 5}, "dia": {"nivel": 14, "porcentaje": 5}, "noche": {"nivel": 14, "porcentaje": 5}}
         },
         {
           "numero": 52,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 30}}
-        }
-      ]
-    },
-
-    {
-      "nombre": "Ciudad Azulona",
-      "surf": [
-        {
-        	"numero": 88,
-        	"nivel": "15-24",
-        	"porcentaje": 90
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 13, "porcentaje": 30}}
         },
         {
-        	"numero": 89,
-        	"nivel": "15-19",
-        	"porcentaje": 10
-        }
-      ],
-      "casino": [
-        {
-        	"numero": 25,
-        	"nivel": 25,
-        	"fichas": 2222
+          "numero": 163,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 13, "porcentaje": 30}}
         },
         {
-        	"numero": 137,
-        	"nivel": 15,
-        	"fichas": 5555
-        },
-        {
-        	"numero": 246,
-        	"nivel": 40,
-        	"fichas": 8888
+          "numero": 164,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 20}}
         }
       ]
     },
@@ -4238,6 +4539,40 @@ const cristal={
         {
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 10}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 12",
+      "surf": [
+        {
+          "numero": 72,
+          "nivel": "25-29",
+          "porcentaje": 60
+        },
+        {
+          "numero": 73,
+          "nivel": "25-29",
+          "porcentaje": 10
+        },
+        {
+          "numero": 195,
+          "nivel": "25-29",
+          "porcentaje": 30
+        }
+      ],
+      "pesca": [
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
+        },
+        {
+          "numero": 72,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
+        },
+        {
+          "numero": 211,
+          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
         }
       ]
     },
@@ -4313,344 +4648,136 @@ const cristal={
       ]
     },
     {
-      "nombre": "Ruta 12",
-      "surf": [
+      "nombre": "Ciudad Verde",
+      "surf":[
         {
-          "numero": 72,
-          "nivel": "25-29",
-          "porcentaje": 60
+          "numero": 60,
+          "nivel": "5-14",
+          "porcentaje": 90
         },
         {
-          "numero": 73,
-          "nivel": "25-29",
+          "numero": 61,
+          "nivel": "10-14",
           "porcentaje": 10
-        },
-        {
-          "numero": 195,
-          "nivel": "25-29",
-          "porcentaje": 30
-        }
-      ],
-      "pesca": [
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
-        },
-        {
-          "numero": 72,
-          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
-        },
-        {
-          "numero": 211,
-          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 13",
-      "hierba": [
-        {
-        	"numero": 17,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 25, "porcentaje": 20}, "dia": {"nivel": 25, "porcentaje": 20}}
-        },
-        {
-        	"numero": 30,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
-        },
-        {
-        	"numero": 33,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
-        },
-        {
-        	"numero": 113,
-        	"nivel": 25,
-        	"porcentaje": 1
-        },
-        {
-        	"numero": 187,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "25-27", "porcentaje": 19}, "dia": {"nivel": "25-27", "porcentaje": 19}}
-        },
-        {
-        	"numero": 195,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "23-25", "porcentaje": 39}}
-        },
-        {
-        	"numero": 164,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 20}}
-        },
-        {
-        	"numero": 48,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 23, "porcentaje": 30}}
-        },
-        {
-        	"numero": 49,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
-        }
-      ],
-      "surf": [
-        {
-          "numero": 72,
-          "nivel": "25-29",
-          "porcentaje": 60
-        },
-        {
-          "numero": 73,
-          "nivel": "25-29",
-          "porcentaje": 10
-        },
-        {
-          "numero": 195,
-          "nivel": "25-29",
-          "porcentaje": 30
-        }
-      ],
-      "pesca": [
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
-        },
-        {
-          "numero": 72,
-          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
-        },
-        {
-          "numero": 211,
-          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 14",
-      "hierba": [
-        {
-        	"numero": 17,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 28, "porcentaje": 20}, "dia": {"nivel": 28, "porcentaje": 20}}
-        },
-        {
-        	"numero": 30,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 26, "porcentaje": 30}, "dia": {"nivel": 26, "porcentaje": 30}}
-        },
-        {
-        	"numero": 33,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 26, "porcentaje": 30}, "dia": {"nivel": 26, "porcentaje": 30}}
-        },
-        {
-        	"numero": 113,
-        	"nivel": 28,
-        	"porcentaje": 1
-        },
-        {
-        	"numero": 187,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 28, "porcentaje": 10}, "dia": {"nivel": 28, "porcentaje": 10}}
-        },
-        {
-        	"numero": 188,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 30, "porcentaje": 9}, "dia": {"nivel": 30, "porcentaje": 9}}
-        },
-        {
-        	"numero": 195,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "26-28", "porcentaje": 39}}
-        },
-        {
-        	"numero": 164,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 20}}
-        },
-        {
-        	"numero": 48,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 26, "porcentaje": 30}}
-        },
-        {
-        	"numero": 49,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
-        }
-      ],
-      "intercambio": [
-        {
-        	"numero": 142,
-        	"necesita": 113
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 15",
-      "hierba": [
-        {
-        	"numero": 17,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 25, "porcentaje": 20}, "dia": {"nivel": 25, "porcentaje": 20}}
-        },
-        {
-        	"numero": 30,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
-        },
-        {
-        	"numero": 33,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 23, "porcentaje": 30}, "dia": {"nivel": 23, "porcentaje": 30}}
-        },
-        {
-        	"numero": 113,
-        	"nivel": 25,
-        	"porcentaje": 1
-        },
-        {
-        	"numero": 187,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "25-27", "porcentaje": 19}, "dia": {"nivel": "25-27", "porcentaje": 19}}
-        },
-        {
-        	"numero": 195,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "23-25", "porcentaje": 39}}
-        },
-        {
-        	"numero": 164,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 20}}
-        },
-        {
-        	"numero": 48,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 23, "porcentaje": 30}}
-        },
-        {
-        	"numero": 49,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ciudad Fucsia",
-      "surf": [
-        {
-          "numero": 129,
-          "nivel": "10-24",
-          "porcentaje": 100
-        }
-      ],
-      "pesca": [
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": 10, "porcentaje": 100}, "buena":{"nivel": 20, "porcentaje": 90}, "super":{"nivel": 40, "porcentaje": 70}}
-        },
-        {
-          "numero": 130,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": 20, "porcentaje": 10}, "super":{"nivel": 40, "porcentaje": 30}}
-        },
-      ]
-    },
-    {
-      "nombre": "Ruta 16",
-      "hierba": [
-        {
-          "numero": 22,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "27-29", "porcentaje": 45}, "dia": {"nivel": "27-29", "porcentaje": 40}}
-        },
-        {
-          "numero": 88,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "26-28", "porcentaje": 50}, "dia": {"nivel": "26-28", "porcentaje": 50}, "noche": {"nivel": "26-28", "porcentaje": 80}}
-        },
-        {
-          "numero": 89,
-          "nivel": 30,
-          "porcentaje": 5
-        },
-        {
-          "numero": 218,
-          "probabilidad": {"tipo":"hora", "dia": {"nivel": 29, "porcentaje": 5}}
-        },
-        {
-          "numero": 198,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 29, "porcentaje": 15}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 17",
-      "hierba": [
-        {
-          "numero": 22,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "30-32", "porcentaje": 40}, "dia": {"nivel": "30-32", "porcentaje": 40}}
-        },
-        {
-          "numero": 88,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "29-33", "porcentaje": 55}, "dia": {"nivel": "29", "porcentaje": 20}, "noche": {"nivel": "29-33", "porcentaje": 95}}
-        },
-        {
-          "numero": 89,
-          "nivel": 33,
-          "porcentaje": 5
-        },
-        {
-          "numero": 218,
-          "probabilidad": {"tipo":"hora", "dia": {"nivel": "29-32", "porcentaje": 35}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 18",
-      "hierba": [
-        {
-          "numero": 22,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "27-29", "porcentaje": 45}, "dia": {"nivel": "27-29", "porcentaje": 40}}
-        },
-        {
-          "numero": 88,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "26-28", "porcentaje": 50}, "dia": {"nivel": "26-28", "porcentaje": 50}, "noche": {"nivel": "26-29", "porcentaje": 95}}
-        },
-        {
-          "numero": 89,
-          "nivel": 30,
-          "porcentaje": 5
-        },
-        {
-          "numero": 218,
-          "probabilidad": {"tipo":"hora", "dia": {"nivel": 27, "porcentaje": 5}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 19",
-      "surf": [
-        {
-        	"numero": 72,
-        	"nivel": "15-24",
-        	"porcentaje": 90
-        },
-        {
-        	"numero": 73,
-        	"nivel": "20-24",
-        	"porcentaje": 10
         }
       ],
       "pesca":[
         {
-          "numero": 98,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20,"porcentaje": 55}, "super":{"nivel":40,"porcentaje": 60}}
-        },
-        {
           "numero": 129,
-          "probabilidad": {"tipo": "cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20, "porcentaje": 35}}
+          "probabilidad": {"tipo": "cania", "vieja":{"nivel": 10, "porcentaje": 85}, "buena":{"nivel": 20, "porcentaje":35}, "super": {"nivel":40, "porcentaje":20}}
         },
         {
-          "numero": 222,
-          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "maniana": 10, "dia": 10}, "super":{"nivel":40, "maniana": 30, "dia": 30}}
+          "numero": 60,
+          "probabilidad": {"tipo": "cania", "vieja":{"nivel": 10, "porcentaje": 15}, "buena":{"nivel":20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje":70}}
         },
         {
-          "numero": 99,
-          "probabilidad": {"tipo": "cania", "super":{"nivel":40, "porcentaje":10}}
-        },
-        {
-          "numero": 120,
-          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "noche": 10}, "super":{"nivel":40, "noche": 30}}
+          "numero": 61,
+          "probabilidad": {"tipo": "cania", "super": {"nivel": 40, "porcentaje":10}}
         }
       ]
     },
     {
-      "nombre": "Ruta 20",
-      "surf": [
+      "nombre": "Ruta 1",
+      "hierba": [
+        {
+        	"numero": 16,
+          "nivel": "2-4",
+        	"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 45}, "dia": {"porcentaje": 45}}
+        },
+        {
+        	"numero": 19,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 2, "porcentaje": 30}, "dia": {"nivel": 2, "porcentaje": 30}, "noche": {"nivel": "2-3", "porcentaje": 50}}
+        },
+        {
+        	"numero": 20,
+        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 5}}
+        },
+        {
+        	"numero": 161,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 20}, "dia": {"nivel": 3, "porcentaje": 20}}
+        },
+        {
+        	"numero": 162,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 6, "porcentaje": 5}, "dia": {"nivel": 6, "porcentaje": 5}}
+        },
+        {
+        	"numero": 163,
+        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "2-4", "porcentaje": 45}}
+        }
+      ]
+    },
+    {
+      "nombre": "Pueblo Paleta",
+      "surf":[
         {
           "numero": 72,
-          "nivel": "15-24",
+          "nivel": "30-39",
           "porcentaje": 90
         },
         {
           "numero": 73,
-          "nivel": "20-24",
+          "nivel": "35-39",
+          "porcentaje": 10
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 72,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20, "porcentaje":35}}
+        },
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20, "porcentaje":35}}
+        },
+        {
+          "numero": 90,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel":20, "porcentaje":10}, "super":{"nivel":40, "porcentaje": 30}}
+        },
+        {
+          "numero": 170,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel":20, "porcentaje":20}, "super":{"nivel":40, "porcentaje":40}}
+        },
+        {
+          "numero": 73,
+          "probabilidad": {"tipo":"cania", "super":{"nivel":40, "porcentaje":20}}
+        },
+        {
+          "numero": 171,
+          "probabilidad": {"tipo":"cania", "super":{"nivel":40, "porcentaje":10}}
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 21",
+      "hierba": [
+        {
+          "numero": 114,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "30-35", "porcentaje": 50}, "dia": {"nivel": "30-35", "porcentaje": 50}, "noche": {"nivel": "28-35", "porcentaje": 60}}
+        },
+        {
+          "numero": 122,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "28-30", "porcentaje": 10}, "dia": {"nivel": "28-30", "porcentaje": 10}}
+        },
+        {
+          "numero": 19,
+          "nivel": 25,
+          "porcentaje": 30
+        },
+        {
+          "numero": 20,
+          "nivel": 20,
+          "porcentaje": 10
+        }
+      ],
+      "surf":[
+        {
+          "numero": 72,
+          "nivel": "30-39",
+          "porcentaje": 90
+        },
+        {
+          "numero": 73,
+          "nivel": "35-39",
           "porcentaje": 10
         }
       ],
@@ -4723,36 +4850,16 @@ const cristal={
       ]
     },
     {
-      "nombre": "Ruta 21",
-      "hierba": [
-        {
-        	"numero": 114,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "30-35", "porcentaje": 50}, "dia": {"nivel": "30-35", "porcentaje": 50}, "noche": {"nivel": "28-35", "porcentaje": 60}}
-        },
-        {
-        	"numero": 122,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "28-30", "porcentaje": 10}, "dia": {"nivel": "28-30", "porcentaje": 10}}
-        },
-        {
-        	"numero": 19,
-          "nivel": 25,
-          "porcentaje": 30
-        },
-        {
-        	"numero": 20,
-          "nivel": 20,
-          "porcentaje": 10
-        }
-      ],
-      "surf":[
+      "nombre": "Ruta 20",
+      "surf": [
         {
           "numero": 72,
-          "nivel": "30-39",
+          "nivel": "15-24",
           "porcentaje": 90
         },
         {
           "numero": 73,
-          "nivel": "35-39",
+          "nivel": "20-24",
           "porcentaje": 10
         }
       ],
@@ -4784,79 +4891,68 @@ const cristal={
       ]
     },
     {
-      "nombre": "Pueblo Paleta",
-      "surf":[
+      "nombre": "Ruta 19",
+      "surf": [
         {
-          "numero": 72,
-          "nivel": "30-39",
-          "porcentaje": 90
+        	"numero": 72,
+        	"nivel": "15-24",
+        	"porcentaje": 90
         },
         {
-          "numero": 73,
-          "nivel": "35-39",
-          "porcentaje": 10
+        	"numero": 73,
+        	"nivel": "20-24",
+        	"porcentaje": 10
         }
       ],
       "pesca":[
         {
-          "numero": 72,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20, "porcentaje":35}}
+          "numero": 98,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20,"porcentaje": 55}, "super":{"nivel":40,"porcentaje": 60}}
         },
         {
           "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20, "porcentaje":35}}
+          "probabilidad": {"tipo": "cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20, "porcentaje": 35}}
         },
         {
-          "numero": 90,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel":20, "porcentaje":10}, "super":{"nivel":40, "porcentaje": 30}}
+          "numero": 222,
+          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "maniana": 10, "dia": 10}, "super":{"nivel":40, "maniana": 30, "dia": 30}}
         },
         {
-          "numero": 170,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel":20, "porcentaje":20}, "super":{"nivel":40, "porcentaje":40}}
+          "numero": 99,
+          "probabilidad": {"tipo": "cania", "super":{"nivel":40, "porcentaje":10}}
         },
         {
-          "numero": 73,
-          "probabilidad": {"tipo":"cania", "super":{"nivel":40, "porcentaje":20}}
-        },
-        {
-          "numero": 171,
-          "probabilidad": {"tipo":"cania", "super":{"nivel":40, "porcentaje":10}}
+          "numero": 120,
+          "probabilidad": {"tipo": "cania", "buena": {"nivel": 20, "noche": 10}, "super":{"nivel":40, "noche": 30}}
         }
       ]
     },
     {
-      "nombre": "Ruta 1",
+      "nombre": "Ruta 22",
       "hierba": [
         {
-        	"numero": 16,
-          "nivel": "2-4",
-        	"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 45}, "dia": {"porcentaje": 45}}
-        },
-        {
         	"numero": 19,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 2, "porcentaje": 30}, "dia": {"nivel": 2, "porcentaje": 30}, "noche": {"nivel": "2-3", "porcentaje": 50}}
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 30}, "dia": {"nivel": 3, "porcentaje": 30}, "noche": {"nivel": "3-7", "porcentaje": 60}}
         },
         {
-        	"numero": 20,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 5}}
+        	"numero": 21,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "3-5", "porcentaje": 50}, "dia": {"nivel": "3-5", "porcentaje": 50}}
         },
         {
-        	"numero": 161,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 20}, "dia": {"nivel": 3, "porcentaje": 20}}
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 7, "porcentaje": 5}, "dia": {"nivel": 7, "porcentaje": 5}}
         },
         {
-        	"numero": 162,
-        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 6, "porcentaje": 5}, "dia": {"nivel": 6, "porcentaje": 5}}
+          "numero": 77,
+          "nivel": 6,
+          "porcentaje": 5
         },
         {
-        	"numero": 163,
-        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "2-4", "porcentaje": 45}}
-        }
-      ]
-    },
-    {
-      "nombre": "Ciudad Verde",
-      "surf":[
+          "numero": 60,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "3-4", "porcentaje": 40}}
+        },
+      ],
+      "surf": [
         {
           "numero": 60,
           "nivel": "5-14",
@@ -4871,15 +4967,15 @@ const cristal={
       "pesca":[
         {
           "numero": 129,
-          "probabilidad": {"tipo": "cania", "vieja":{"nivel": 10, "porcentaje": 85}, "buena":{"nivel": 20, "porcentaje":35}, "super": {"nivel":40, "porcentaje":20}}
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20,"porcentaje": 35}, "super":{"nivel":40,"porcentaje": 20}}
         },
         {
           "numero": 60,
-          "probabilidad": {"tipo": "cania", "vieja":{"nivel": 10, "porcentaje": 15}, "buena":{"nivel":20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje":70}}
+          "probabilidad": {"tipo": "cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20, "porcentaje": 65}, "super":{"nivel":40,"porcentaje": 70}}
         },
         {
           "numero": 61,
-          "probabilidad": {"tipo": "cania", "super": {"nivel": 40, "porcentaje":10}}
+          "probabilidad": {"tipo": "cania", "super":{"nivel":40,"porcentaje": 10}}
         }
       ]
     },

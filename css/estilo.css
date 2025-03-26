@@ -242,6 +242,11 @@ div.pok.veneno, div.pok.lucha, div.pok.dragon, div.pok.siniestro, div.pok.fantas
   color: #FFF;
 }
 
+div.pok.veneno svg path, div.pok.veneno svg text,
+div.pok.lucha svg path, div.pok.lucha svg text{
+  stroke: #FFF;
+}
+
 #cuerpo.nacional > div.pok {
   display: block;
 }
@@ -253,36 +258,86 @@ div.datos{
 }
 
 div.divObt{
-  border: 1px solid #EEE;
-  border-radius: 5px;
+/*  border: 1px solid #CCC;
+  border-radius: 5px;*/
   margin-bottom: 0.5em;
 }
 
-div[obtencion="inicial"], div[obtencion="escoger"], div[obtencion="errante"]{
+/*div[obtencion="inicial"], div[obtencion="escoger"], div[obtencion="errante"]{
   background-color: #fff176;
+}*/
+
+div[obtencion="hierba"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/gen1hierba.png');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content:"";
 }
 
-div[obtencion="hierba"], div[obtencion="concurso"]{
+/*div[obtencion="hierba"], div[obtencion="concurso"]{
   background-color: #66bb6a;
+}*/
+
+div[obtencion="caminando"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/gen1cueva.png');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content:"";
 }
 
-div[obtencion="caminando"]{
+/*div[obtencion="caminando"]{
   background-color: #d35400;
+}*/
+
+div[obtencion="pesca"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/cania/vieja.png');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content:"";
 }
 
-div[obtencion="pesca"]{
+/*div[obtencion="pesca"]{
   background-color: #bbdefb;
+}*/
+
+div[obtencion="surf"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/gen1surf.png');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content:"";
 }
 
-div[obtencion="surf"]{
+/*div[obtencion="surf"]{
   background-color: #1565c0;
+}*/
+
+div[obtencion="intercambio"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/cable.png');
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content:"";
 }
 
-div[obtencion="intercambio"]{
+/*div[obtencion="intercambio"]{
   background-color: #f8bbd0;
-}
+}*/
 
-div[obtencion="regalo"]::before{
+div[obtencion="inicial"]::before, div[obtencion="regalo"]::before, div[obtencion="especial"]::before, div[obtencion="escoger"]::before{
   margin-top: 0.5em;
   background-image:url('../img/otros/regalo.png');
   background-size: 16px 16px;
@@ -302,21 +357,51 @@ div[obtencion="huevo"]::before{
   content:"";
 }
 
-div[obtencion="regalo"], div[obtencion="especial"], div[obtencion="huevo"]{
+/*div[obtencion="regalo"], div[obtencion="especial"], div[obtencion="huevo"]{
   background-color: #e1bee7;
+}*/
+
+div[obtencion="casino"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/token.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
 }
 
-div[obtencion="casino"], div[obtencion="comprar"]{
+div[obtencion="comprar"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/pokecuarto.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
+}
+
+/*div[obtencion="casino"], div[obtencion="comprar"]{
   background-color: #ffccbc;
+}*/
+
+div[obtencion="fosil"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/gen1fosil.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
 }
 
-div[obtencion="fosil"]{
+/*div[obtencion="fosil"]{
   background-color: #795548;
 }
 
 div[obtencion="legendario"]{
   background-color: #78909c;
-}
+}*/
 
 div[obtencion="masiva"]::before{
   margin-top: 0.5em;
@@ -328,9 +413,9 @@ div[obtencion="masiva"]::before{
   content:"";
 }
 
-div[obtencion="masiva"]{
+/*div[obtencion="masiva"]{
   background-color: #FF9800;
-}
+}*/
 
 div[obtencion="roca"]::before{
   margin-top: 0.5em;
@@ -342,13 +427,13 @@ div[obtencion="roca"]::before{
   content:"";
 }
 
-div[obtencion="roca"]{
+/*div[obtencion="roca"]{
   background-color: #CFD8DC;
 }
 
 div[obtencion="cabeza"]{
   background-color: #C8E6C9;
-}
+}*/
 
 div.evo{
   width: 70%;
@@ -405,7 +490,7 @@ div.cania img{
 }
 
 img.cablelink{
-  width: 45px;
+  width: 20px;
 }
 
 img.pokecuarto{

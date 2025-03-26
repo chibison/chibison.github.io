@@ -2214,7 +2214,7 @@ const oro={
         {
           "numero": 213,
           "nivel": 15,
-          "observaciones": "Te lo quedas si te quiere"
+          "observaciones": "Te lo quedas si subes la amistad"
         }
       ]
     },
@@ -2996,11 +2996,11 @@ const oro={
         },
         {
           "numero": 147,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel":20,"porcentaje": 10}, "super":{"nivel":40,"porcentaje": 30}}
+          "probabilidad": {"tipo":"cania", "buena":{"nivel":10,"porcentaje": 10}, "super":{"nivel":10,"porcentaje": 30}}
         },
         {
           "numero": 148,
-          "probabilidad": {"tipo":"cania", "super":{"nivel":40,"porcentaje": 10}}
+          "probabilidad": {"tipo":"cania", "super":{"nivel":10,"porcentaje": 10}}
         }
       ],
       "cabeza":[
@@ -3059,7 +3059,7 @@ const oro={
       ]
     },
     {
-      "nombre": "Ruta 27 (Kanto)",
+      "nombre": "Ruta 27",
       "hierba": [
         {
           "numero": 20,
@@ -3198,7 +3198,7 @@ const oro={
       ]
     },
     {
-      "nombre": "Ruta 26 (Kanto)",
+      "nombre": "Ruta 26",
       "hierba": [
         {
           "numero":28 ,
@@ -3294,7 +3294,7 @@ const oro={
       ]
     },
     {
-      "nombre": "Calle Victoria (Kanto)",
+      "nombre": "Calle Victoria",
       "caminando": [
         {
         	"numero": 75,
@@ -3555,39 +3555,33 @@ const oro={
       ]
     },
     {
-      "nombre": "Ruta 8"
-    },
-    {
-      "nombre": "Ruta 12",
-      "surf": [
+      "nombre": "Ruta 8",
+      "hierba": [
         {
-        	"numero": 72,
-        	"nivel": "25-29",
-        	"porcentaje": 60
+        	"numero": 17,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "17-19", "porcentaje": 65}, "dia": {"nivel": "17-19", "porcentaje": 65}}
         },
         {
-        	"numero": 73,
-        	"nivel": "25-29",
-        	"porcentaje": 10
+        	"numero": 58,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 10}, "dia": {"nivel": 18, "porcentaje": 10}, "noche": {"nivel": 18, "porcentaje": 5}}
         },
         {
-        	"numero": 195,
-        	"nivel": "25-29",
-        	"porcentaje": 30
-        }
-      ],
-      "pesca": [
-        {
-        	"numero": 129,
-        	"probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
+        	"numero": 63,
+          "nivel": 15,
+          "porcentaje": 20
         },
         {
-        	"numero": 72,
-        	"probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
+          "numero": 64,
+          "nivel": 15,
+          "porcentaje": 5
         },
         {
-        	"numero": 211,
-        	"probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
+        	"numero": 164,
+        	"probabilidad": {"tipo":"hora", "noche": {"nivel": "17-19", "porcentaje": 40}}
+        },
+        {
+        	"numero": 93,
+        	"probabilidad": {"tipo":"hora", "noche": {"nivel": 20, "porcentaje": 30}}
         }
       ]
     },
@@ -3946,9 +3940,6 @@ const oro={
       ]
     },
     {
-      "nombre": "Central Eléctrica"
-    },
-    {
       "nombre": "Ciudad Celeste",
       "surf": [
         {
@@ -4161,7 +4152,38 @@ const oro={
       ]
     },
     {
-      "nombre": "Ruta 12"
+      "nombre": "Ruta 12",
+      "surf": [
+        {
+          "numero": 72,
+          "nivel": "25-29",
+          "porcentaje": 60
+        },
+        {
+          "numero": 73,
+          "nivel": "25-29",
+          "porcentaje": 10
+        },
+        {
+          "numero": 195,
+          "nivel": "25-29",
+          "porcentaje": 30
+        }
+      ],
+      "pesca": [
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 85}, "buena": {"nivel": 20, "porcentaje": 35}, "super": {"nivel": 40, "porcentaje": 20}}
+        },
+        {
+          "numero": 72,
+          "probabilidad": {"tipo":"cania", "vieja": {"nivel": 10, "porcentaje": 15}, "buena": {"nivel": 20, "porcentaje": 65}, "super": {"nivel": 40, "porcentaje": 70}}
+        },
+        {
+          "numero": 211,
+          "probabilidad": {"tipo":"cania", "super": {"nivel": 40, "porcentaje": 10}}
+        }
+      ]
     },
     {
       "nombre": "Cueva Diglett",
@@ -4463,9 +4485,6 @@ const oro={
       ]
     },
     {
-      "nombre": "Isla Espuma"
-    },
-    {
       "nombre": "Ruta 19",
       "surf": [
         {
@@ -4503,7 +4522,52 @@ const oro={
       ]
     },
     {
-      "nombre": "Ruta 22"
+      "nombre": "Ruta 22",
+      "hierba": [
+        {
+        	"numero": 19,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 30}, "dia": {"nivel": 3, "porcentaje": 30}, "noche": {"nivel": "3-7", "porcentaje": 95}}
+        },
+        {
+        	"numero": 21,
+        	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "3-5", "porcentaje": 50}, "dia": {"nivel": "3-5", "porcentaje": 50}}
+        },
+        {
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 7, "porcentaje": 5}, "dia": {"nivel": 7, "porcentaje": 5}}
+        },
+        {
+          "numero": 77,
+          "nivel": 6,
+          "porcentaje": 5
+        }
+      ],
+      "surf": [
+        {
+          "numero": 60,
+          "nivel": "5-14",
+          "porcentaje": 90
+        },
+        {
+          "numero": 61,
+          "nivel": "10-14",
+          "porcentaje": 10
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel":10, "porcentaje":85}, "buena":{"nivel":20,"porcentaje": 35}, "super":{"nivel":40,"porcentaje": 20}}
+        },
+        {
+          "numero": 60,
+          "probabilidad": {"tipo": "cania", "vieja":{"nivel":10, "porcentaje":15}, "buena":{"nivel":20, "porcentaje": 65}, "super":{"nivel":40,"porcentaje": 70}}
+        },
+        {
+          "numero": 61,
+          "probabilidad": {"tipo": "cania", "super":{"nivel":40,"porcentaje": 10}}
+        }
+      ]
     },
     {
       "nombre": "Ruta 28",
