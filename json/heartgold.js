@@ -37,6 +37,7 @@ const heartgold = {
   "lugares": [
 		{
 			"nombre": "Pueblo Primavera",
+			"lema": "El pueblo donde soplan vientos de un nuevo amanecer.",
 			"inicial": [
 				{
 					"numero": 152,
@@ -169,6 +170,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Cerezo",
+			"lema": "La ciudad de las flores bonitas y fragantes.",
 			"cabeza":[
 				{
 					"numero": 163,
@@ -512,6 +514,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Malva",
+			"lema": "La ciudad de los aromas nostálgicos.",
 			"cabeza":[
 				{
 					"numero": 163,
@@ -589,6 +592,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Torre Bellsprout",
+			"lema": "Vive la vida Pokémon.",
 			"caminando": [
 				{
 					"numero": 19,
@@ -700,6 +704,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ruinas Alfa",
+			"lema": "La autoridad en las Ruinas Alfa.",
 			"plantas": [
 				{
 					"nombre": "Exterior",
@@ -1388,6 +1393,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Pueblo Azalea",
+			"lema": "Donde la gente y los Pokémon viven en feliz armonía.",
 			"cabeza":[
 				{
 					"numero": 21,
@@ -1756,6 +1762,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Trigal",
+			"lema": "La alegre ciudad de rico encanto.",
 			"intercambio": [
 				{
 					"numero": 66,
@@ -2247,6 +2254,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Iris",
+			"lema": "Una ciudad donde conviven el pasado y el presente.",
 			"cabeza":[
 				{
 					"numero": 163,
@@ -2556,6 +2564,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Olivo",
+			"lema": "El puerto a tierras lejanas.",
 			"surf": [
 				{
 					"numero": 72,
@@ -4989,6 +4998,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Endrino",
+			"lema": "Un tranquilo refugio de montaña.",
 			"surf": [
 				{
 					"numero": 129,

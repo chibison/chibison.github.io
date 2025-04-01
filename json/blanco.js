@@ -19,6 +19,7 @@ const blanco = {
 	"lugares": [
     {
       "nombre": "Pueblo Arcilla",
+			"lema": "Un pueblo de lo más variopinto.",
       "inicial":[
         {
         	"numero": 495,
@@ -163,6 +164,7 @@ const blanco = {
     },
     {
       "nombre": "Ciudad Gres",
+			"lema": "En su escudo, verás tres.",
       "surf":[
         {
           "numero": 550,
@@ -535,6 +537,7 @@ const blanco = {
 		},
 		{
 			"nombre": "Ciudad Esmalte",
+			"lema": "El esmalte es la octava maravilla.",
 			"fosil":[
 				{
 					"numero": 138,
@@ -782,6 +785,7 @@ const blanco = {
 		},
 		{
 			"nombre": "Ciudad Porcelana",
+			"lema": "Todas las nubes son de felicidad",
 			"regalo": [
 				{
 					"numero": 569,
@@ -1330,6 +1334,7 @@ const blanco = {
 		},
 		{
 			"nombre": "Ciudad Fayenza",
+			"lema": "Los habitantes de Ciudad Fayenza son unos trabajadores natos.",
 			"surf": [
 				{
 					"numero": 591,
@@ -1932,6 +1937,7 @@ const blanco = {
 		},
 		{
 			"nombre": "Ciudad Teja",
+			"lema": "Donde la nieve reluce.",
 			"charco":[
 				{
 					"numero": 536,
@@ -3779,6 +3785,7 @@ const blanco = {
 		},
 		{
 			"nombre": "Pueblo Arenisca",
+			"lema": "Cuna del rumor y el vaivén de las olas.",
 			"surf":[
 				{
 					"numero": 278,

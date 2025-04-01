@@ -2122,7 +2122,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Guarida Magma",
-			"caminando": [
+			"especial": [
 				{
 					"numero": 101,
 					"nivel": 30,

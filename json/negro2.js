@@ -19,6 +19,7 @@ const negro2 = {
 	"lugares": [
     {
       "nombre": "Ciudad Engobe",
+			"lema": "Donde nacen nuevos horizontes.",
       "inicial": [
         {
         	"numero": 495,
@@ -152,6 +153,7 @@ const negro2 = {
     },
     {
       "nombre": "Pueblo Ocre",
+			"lema": "Gente campechana y paisaje campestre.",
       "regalo":[
         {
         	"numero": 443,
@@ -431,6 +433,7 @@ const negro2 = {
     },
     {
       "nombre": "Ciudad Hormigón",
+			"lema": "Trabajo duro y rock duro.",
       "surf": [
         {
         	"numero": 592,
@@ -641,6 +644,7 @@ const negro2 = {
     },
     {
       "nombre": "Ciudad Porcelana",
+			"lema": "Todas las nubes son de felicidad",
       "regalo": [
         {
         	"numero": 133,
@@ -1147,6 +1151,7 @@ const negro2 = {
 		},
 		{
 			"nombre": "Ciudad Mayólica",
+			"lema": "Ciudad fulgurante como un relámpago.",
 			"intercambio": [
 				{
 					"numero": 52,
@@ -1596,6 +1601,7 @@ const negro2 = {
 		},
 		{
 			"nombre": "Ciudad Fayenza",
+			"lema": "Los habitantes de Ciudad Fayenza son unos trabajadores natos.",
 			"regalo": [
 				{
 					"numero": 570,
@@ -2453,6 +2459,7 @@ const negro2 = {
 		},
 		{
 			"nombre": "Pueblo Arenisca",
+			"lema": "Cuna del rumor y el vaivén de las olas.",
 			"surf": [
 				{
 					"numero": 592,
@@ -3357,6 +3364,7 @@ const negro2 = {
 		},
 		{
 			"nombre": "Ciudad Marga",
+			"lema": "Aguas tranquilas y cristalinas.",
 			"surf": [
 				{
 					"numero": 592,
@@ -4771,6 +4779,7 @@ const negro2 = {
 		},
 		{
 			"nombre": "Ciudad Esmalte",
+			"lema": "El esmalte es la octava maravilla.",
 			"fosil": [
 				{
 					"numero": 138,
@@ -5015,6 +5024,7 @@ const negro2 = {
 		},
 		{
 			"nombre": "Ciudad Gres",
+			"lema": "En su escudo, verás tres.",
 			"surf": [
 				{
 					"numero": 550,

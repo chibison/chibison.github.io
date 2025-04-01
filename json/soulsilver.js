@@ -37,6 +37,7 @@ const soulsilver = {
   "lugares": [
 		{
 			"nombre": "Pueblo Primavera",
+			"lema": "El pueblo donde soplan vientos de un nuevo amanecer.",
 			"inicial": [
 				{
 					"numero": 152,
@@ -169,6 +170,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ciudad Cerezo",
+			"lema": "La ciudad de las flores bonitas y fragantes.",
 			"cabeza":[
 				{
 					"numero": 163,
@@ -513,6 +515,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ciudad Malva",
+			"lema": "La ciudad de los aromas nostálgicos.",
 			"cabeza":[
 				{
 					"numero": 163,
@@ -590,6 +593,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Torre Bellsprout",
+			"lema": "Vive la vida Pokémon.",
 			"caminando": [
 				{
 					"numero": 19,
@@ -701,6 +705,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ruinas Alfa",
+			"lema": "La autoridad en las Ruinas Alfa.",
 			"plantas": [
 				{
 					"nombre": "Exterior",
@@ -1383,6 +1388,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Pueblo Azalea",
+			"lema": "Donde la gente y los Pokémon viven en feliz armonía.",
 			"cabeza":[
 				{
 					"numero": 21,
@@ -1751,6 +1757,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ciudad Trigal",
+			"lema": "La alegre ciudad de rico encanto.",
 			"intercambio": [
 				{
 					"numero": 66,
@@ -2241,6 +2248,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ciudad Iris",
+			"lema": "Una ciudad donde conviven el pasado y el presente.",
 			"cabeza":[
 				{
 					"numero": 163,
@@ -2550,6 +2558,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ciudad Olivo",
+			"lema": "El puerto a tierras lejanas.",
 			"surf": [
 				{
 					"numero": 72,
@@ -4983,6 +4992,7 @@ const soulsilver = {
 		},
 		{
 			"nombre": "Ciudad Endrino",
+			"lema": "Un tranquilo refugio de montaña.",
 			"surf": [
 				{
 					"numero": 129,

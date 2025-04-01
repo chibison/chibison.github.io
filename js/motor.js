@@ -748,13 +748,13 @@ function dibujarPok(div, pok){
   }
 
   if(pok.hasOwnProperty("necesita")){
-    let imgCable = document.createElement("IMG");
+    /*let imgCable = document.createElement("IMG");
     imgCable.src="img/otros/cable.png";
     imgCable.alt="Cable link";
     imgCable.title="Cable link";
     imgCable.classList.add('cablelink');
 
-    divDatos.append(imgCable);
+    divDatos.append(imgCable);*/
 
     if (pok.necesita!=""){
       let pNecesita = document.createElement("P");

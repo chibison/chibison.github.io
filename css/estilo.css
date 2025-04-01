@@ -337,7 +337,7 @@ div[obtencion="intercambio"]::before{
   background-color: #f8bbd0;
 }*/
 
-div[obtencion="inicial"]::before, div[obtencion="regalo"]::before, div[obtencion="especial"]::before, div[obtencion="escoger"]::before{
+div[obtencion="inicial"]::before, div[obtencion="regalo"]::before, div[obtencion="especial"]::before, div[obtencion="escoger"]::before, div[obtencion="concurso"]::before{
   margin-top: 0.5em;
   background-image:url('../img/otros/regalo.png');
   background-size: 16px 16px;
@@ -420,6 +420,16 @@ div[obtencion="masiva"]::before{
 div[obtencion="roca"]::before{
   margin-top: 0.5em;
   background-image:url('../img/otros/Gen2 Roca.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content:"";
+}
+
+div[obtencion="cabeza"]::before{
+  margin-top: 0.5em;
+  background-image:url('../img/otros/arbol_normal.png');
   background-size: 16px 16px;
   display: inline-block;
   width: 16px;

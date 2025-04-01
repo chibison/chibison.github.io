@@ -22,8 +22,11 @@ const verdehoja =	{
 			"defecto": false
 		}
 	],
-	"lugares": [{
+	"lugares":
+	[
+	  {
 			"nombre": "Pueblo Paleta",
+			"lema": "¡Un lienzo en blanco de tu viaje!",
 			"inicial": [
 				{
 					"numero": 1,
@@ -143,11 +146,13 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Ciudad Verde",
+			"lema":"El paraíso del eterno verdor.",
 			"surf": [{
 				"numero": 79,
 				"nivel": "20-40",
 				"porcentaje": 100
-			}],
+			}
+		],
 			"pesca": [
 			{
 				"numero": 129,
@@ -554,6 +559,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Ciudad Celeste",
+			"lema": "¡Una misteriosa aura azulada la rodea!",
 			"surf": [
 				{
 					"numero": 72,
@@ -968,6 +974,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Ciudad Carmín",
+			"lema": "El puerto de los ocasos exquisitos.",
 			"surf": [{
 				"numero": 72,
 				"nivel": "5-40",
@@ -1381,6 +1388,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Ciudad Azulona",
+			"lema": "La ciudad de los sueños de arco iris.",
 			"surf": [
 				{
 					"numero": 79,
@@ -1796,6 +1804,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Ciudad Fucsia",
+			"lema": "¡La ciudad rosa!",
 			"surf": [{
 				"numero": 79,
 				"nivel": "20-40",
@@ -1873,6 +1882,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Zona Safari",
+			"lema": "¡Atrapa Pokémon!",
 			"plantas": [{
 					"nombre": "Zona Central",
 					"hierba": [{
@@ -2274,7 +2284,8 @@ const verdehoja =	{
 				},
 				{
 					"nombre": "Zona 3",
-					"hierba": [{
+					"hierba": [
+						{
 							"numero": 29,
 							"nivel": 22,
 							"porcentaje": 20
@@ -2499,6 +2510,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Ciudad Azafrán",
+			"lema": "La brillante y dorada tierra del comercio.",
 			"escoger": [{
 					"numero": 106,
 					"nivel": 25
@@ -3071,6 +3083,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Canela",
+			"lema": "La feroz ciudad del ardiente deseo.",
 			"surf": [{
 				"numero": 72,
 				"nivel": "5-40",
@@ -3267,6 +3280,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Prima",
+			"lema": "Punto de encuentro para todos.",
 			"surf":[
 				{
 					"numero": 72,
@@ -3793,6 +3807,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Secunda",
+			"lema": "Isla ideal para dos.",
 			"plantas":[
 				{
 					"nombre": "Cabo Extremo",
@@ -3925,6 +3940,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Tera",
+			"lema": "Isla familiar para familiares.",
 			"plantas":[
 				{
 					"nombre":"Puerto Isla Tera",
@@ -4484,6 +4500,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Quarta",
+			"lema": "La isla cálida, azul y rara.",
 			"surf":[
 				{
 					"numero": 79,
@@ -4852,6 +4869,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Inta",
+			"lema": "Isla que marca el paso del tiempo.",
 			"surf":[
 				{
 					"numero": 72,
@@ -5420,6 +5438,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Exta",
+			"lema": "Isla de la fortuna y el saber.",
 			"plantas": [
 				{
 					"nombre": "Bosquejo",
@@ -5889,6 +5908,7 @@ const verdehoja =	{
 		},
 		{
 			"nombre": "Isla Sétima",
+			"lema": "Isla de aventura infinita.",
 			"plantas": [
 				{
 					"nombre": "Entrada al Cañon",
