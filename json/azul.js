@@ -14,7 +14,7 @@ const azul = {
 		{
 			"nombre": "Pueblo Paleta",
 			"lema": "¡Un lienzo en blanco de tu viaje!",
-			"inicial": [
+			"regalo": [
 				{
 					"numero": 1,
 					"nivel": 5

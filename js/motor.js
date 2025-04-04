@@ -161,6 +161,11 @@ function procesarLugares(lugares, num_pok, num_variedad){
          lugar: '',
          planta: '',
       },
+      manada : {
+         porcentaje: 0,
+         lugar: '',
+         planta: '',
+      },
       concurso : {
          porcentaje: 0,
          lugar: '',
@@ -604,6 +609,7 @@ function devolverTexto(tipo){
     case 'cabeza': return 'Golpe cabeza';
     case 'concurso': return 'Concurso de bichos';
     case 'masiva': return 'Aparición masiva';
+    case 'manada': return 'Manada Pokémon';
     case 'roca': return 'Golpe roca';
     case 'fosil': return 'Revivir fósil';
     case 'buceo': return 'Buceo';
@@ -625,16 +631,27 @@ function devolverTexto(tipo){
 }
 
 function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
-  let h2Lugar = document.createElement("H2");
-  if(texto !== undefined){
-    //h2Lugar.innerHTML =  texto;
-  }
+  //let h2Lugar = document.createElement("H2");
 
   let divObtencion = document.createElement("DIV");
   divObtencion.classList.add("divObt");
-  divObtencion.setAttribute("obtencion",tipo_obt);
 
-  //divContenedor.append(h2Lugar);
+  if(texto !== undefined){
+    //h2Lugar.innerHTML =  texto;
+    divObtencion.setAttribute("obtencion",tipo_obt);
+
+    let imgObtencion = document.createElement("IMG");
+    imgObtencion.src = "img/otros/gen"+generacion+"/"+tipo_obt+".png";
+    imgObtencion.title = texto;
+    imgObtencion.alt = texto;
+    imgObtencion.classList.add('obtencion');
+
+    divContenedor.append(imgObtencion);
+    //divContenedor.append(h2Lugar);
+  }
+
+
+
 
   //ordenarListado(listado);
   for(let i=0; i<listado.length; i++){
@@ -716,7 +733,7 @@ function dibujarPok(div, pok){
     pPrecio.innerHTML = pok.precio;
 
     let imgPrecio=document.createElement("IMG");
-    imgPrecio.src="img/otros/pokecuarto.png";
+    imgPrecio.src="img/otros/gen1/comprar.png";
     imgPrecio.alt="Pokécuarto";
     imgPrecio.title="Pokécuarto"
     imgPrecio.classList.add('pokecuarto');

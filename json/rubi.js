@@ -30,7 +30,7 @@ const rubi = {
 		{
 			"nombre": "Pokédex nacional",
 			"imagen": "otros/pokedex.png",
-			"filtro": "masiva",
+			"filtro": "manada",
 			"defecto": false
 		}
 	],
@@ -185,7 +185,7 @@ const rubi = {
 			    "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"25-45" ,"porcentaje": 100}}
 			  }
 			],
-			"masiva": [
+			"manada": [
 				{
 					"numero": 270,
 					"nivel": "3-4",
@@ -906,7 +906,7 @@ const rubi = {
 						"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
 					}
 				],
-				"masiva":[
+				"manada":[
 					{
 						"numero": 270,
 						"nivel":15 ,

@@ -20,7 +20,7 @@ const amarillo = {
 		{
 			"nombre": "Pueblo Paleta",
 			"lema": "¡Un lienzo en blanco de tu viaje!",
-			"inicial": [
+			"regalo": [
 				{
 					"numero": 25,
 					"nivel": 5

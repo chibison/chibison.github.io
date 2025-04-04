@@ -30,7 +30,7 @@ const esmeralda = {
 		{
 			"nombre": "Pokédex nacional",
 			"imagen": "otros/pokedex.png",
-			"filtro": "masiva",
+			"filtro": "manada",
 			"defecto": false
 		}
 	],
@@ -185,14 +185,9 @@ const esmeralda = {
 			    "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"25-45" ,"porcentaje": 100}}
 			  }
 			],
-			"masiva": [
+			"manada": [
 				{
 					"numero": 273,
-					"nivel": "3-4",
-					"porcentaje": 50
-				},
-				{
-					"numero": 283,
 					"nivel": "3-4",
 					"porcentaje": 50
 				}
@@ -931,7 +926,7 @@ const esmeralda = {
 						"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
 					}
 				],
-				"masiva":[
+				"manada":[
 					{
 						"numero": 274,
 						"nivel":15 ,

@@ -10,9 +10,21 @@ const blanco2 = {
 			"defecto": false
 		},
 		{
+			"nombre": "Pesca en sombra",
+			"imagen": "cania/vieja.png",
+			"filtro": "pescasombra",
+			"defecto": false
+		},
+		{
 			"nombre": "Surf",
 			"imagen": "otros/MT.png",
 			"filtro": "surf",
+			"defecto": false
+		},
+		{
+			"nombre": "Surf en sombra",
+			"imagen": "otros/MT.png",
+			"filtro": "surfsombra",
 			"defecto": false
 		}
 	],
@@ -20,7 +32,7 @@ const blanco2 = {
     {
       "nombre": "Ciudad Engobe",
 			"lema": "Donde nacen nuevos horizontes.",
-      "inicial": [
+      "regalo": [
         {
           "numero": 495,
           "nivel": 5
@@ -157,7 +169,8 @@ const blanco2 = {
       "regalo":[
         {
         	"numero": 147,
-        	"nivel": 1
+        	"nivel": 1,
+					"observaciones": "Tras vencer a Benga en Cavernogal Blanco."
         }
       ]
     },
