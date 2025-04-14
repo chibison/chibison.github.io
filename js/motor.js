@@ -631,13 +631,16 @@ function devolverTexto(tipo){
 }
 
 function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
-  //let h2Lugar = document.createElement("H2");
+  let h2Lugar = document.createElement("H2");
 
   let divObtencion = document.createElement("DIV");
   divObtencion.classList.add("divObt");
 
   if(texto !== undefined){
-    //h2Lugar.innerHTML =  texto;
+    let divTitulo = document.createElement("DIV");
+    divTitulo.classList.add("divTit");
+
+    h2Lugar.innerHTML =  texto;
     divObtencion.setAttribute("obtencion",tipo_obt);
 
     let imgObtencion = document.createElement("IMG");
@@ -646,12 +649,11 @@ function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
     imgObtencion.alt = texto;
     imgObtencion.classList.add('obtencion');
 
-    divContenedor.append(imgObtencion);
-    //divContenedor.append(h2Lugar);
+    divTitulo.append(imgObtencion);
+    divTitulo.append(h2Lugar);
+
+    divObtencion.append(divTitulo);
   }
-
-
-
 
   //ordenarListado(listado);
   for(let i=0; i<listado.length; i++){

@@ -5,7 +5,7 @@ const rojo = {
 	"filtros":[
 		{
 			"nombre": "Pesca",
-			"imagen": "cania/vieja.png",
+			"imagen": "otros/gen1/pesca.png",
 			"filtro": "pesca",
 			"defecto": false
 		}
@@ -1672,7 +1672,7 @@ const rojo = {
 		{
 			"nombre":"Ciudad Azafrán",
 			"lema":"La brillante y dorada tierra del comercio.",
-			"escoger": [
+			"regalo": [
 				{
 					"numero": 106,
 					"nivel":30,

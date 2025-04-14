@@ -5,25 +5,25 @@ const oro={
   "filtros":[
     {
       "nombre": "Pesca",
-      "imagen": "cania/vieja.png",
+      "imagen": "otros/gen2/pesca.png",
       "filtro": "pesca",
       "defecto": false
     },
     {
       "nombre": "Surf",
-      "imagen": "otros/MT.png",
+      "imagen": "otros/gen2/surf.png",
       "filtro": "surf",
       "defecto": false
     },
     {
       "nombre": "Golpe cabeza",
-      "imagen": "otros/MT.png",
+      "imagen": "otros/gen2/cabeza.png",
       "filtro": "cabeza",
       "defecto": false
     },
     {
       "nombre": "Golpe roca",
-      "imagen": "otros/MT.png",
+      "imagen": "otros/gen2/roca.png",
       "filtro": "roca",
       "defecto": false
     }
@@ -32,7 +32,7 @@ const oro={
     {
       "nombre": "Pueblo Primavera",
       "lema": "El pueblo donde soplan vientos de un nuevo amanecer.",
-      "inicial":[
+      "regalo":[
         {
           "numero": 152,
           "nivel": 5

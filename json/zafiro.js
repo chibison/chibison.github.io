@@ -30,14 +30,14 @@ const zafiro = {
 		{
 			"nombre": "Pokédex nacional",
 			"imagen": "otros/pokedex.png",
-			"filtro": "manada",
+			"filtro": "masiva",
 			"defecto": false
 		}
 	],
 	"lugares": [
 		{
 			"nombre": "Ruta 101",
-			"inicial":[
+			"regalo":[
 				{
 					"numero": 252,
 					"nivel": 5
@@ -185,7 +185,7 @@ const zafiro = {
 			    "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"25-45" ,"porcentaje": 100}}
 			  }
 			],
-			"manada": [
+			"masiva": [
 				{
 					"numero": 273,
 					"nivel": "3-4",
@@ -700,7 +700,7 @@ const zafiro = {
 					"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
 				}
 			],
-			"manada":[
+			"masiva":[
 				{
 					"numero": 273,
 					"nivel":15,
@@ -915,7 +915,7 @@ const zafiro = {
 						"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
 					}
 				],
-				"manada":[
+				"masiva":[
 					{
 						"numero": 283,
 						"nivel":15 ,

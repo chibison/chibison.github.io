@@ -5,39 +5,39 @@ const rubi = {
 	"filtros":[
 		{
 			"nombre": "Pesca",
-			"imagen": "cania/vieja.png",
+			"imagen": "otros/gen3/pesca.png",
 			"filtro": "pesca",
 			"defecto": false
 		},
 		{
 			"nombre": "Surf",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/surf.png",
 			"filtro": "surf",
 			"defecto": false
 		},
 		{
 			"nombre": "Golpe roca",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/roca.png",
 			"filtro": "roca",
 			"defecto": false
 		},
 		{
 			"nombre": "Buceo",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/buceo.png",
 			"filtro": "buceo",
 			"defecto": false
 		},
 		{
 			"nombre": "Pokédex nacional",
-			"imagen": "otros/pokedex.png",
-			"filtro": "manada",
+			"imagen": "otros/gen3/masiva.png",
+			"filtro": "masiva",
 			"defecto": false
 		}
 	],
 	"lugares": [
 		{
 			"nombre": "Ruta 101",
-			"inicial":[
+			"regalo":[
 				{
 					"numero": 252,
 					"nivel": 5
@@ -185,7 +185,7 @@ const rubi = {
 			    "probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"25-45" ,"porcentaje": 100}}
 			  }
 			],
-			"manada": [
+			"masiva": [
 				{
 					"numero": 270,
 					"nivel": "3-4",
@@ -906,7 +906,7 @@ const rubi = {
 						"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
 					}
 				],
-				"manada":[
+				"masiva":[
 					{
 						"numero": 270,
 						"nivel":15 ,
