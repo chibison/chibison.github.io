@@ -5,19 +5,19 @@ const verdehoja =	{
 	"filtros":[
 		{
 			"nombre": "Pesca",
-			"imagen": "cania/vieja.png",
+			"imagen": "otros/gen3/pesca.png",
 			"filtro": "pesca",
 			"defecto": false
 		},
 		{
 			"nombre": "Surf",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/surf.png",
 			"filtro": "surf",
 			"defecto": false
 		},
 		{
 			"nombre": "Golpe roca",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/roca.png",
 			"filtro": "roca",
 			"defecto": false
 		}
@@ -27,7 +27,7 @@ const verdehoja =	{
 	  {
 			"nombre": "Pueblo Paleta",
 			"lema": "¡Un lienzo en blanco de tu viaje!",
-			"inicial": [
+			"regalo": [
 				{
 					"numero": 1,
 					"nivel": 5
@@ -2511,7 +2511,7 @@ const verdehoja =	{
 		{
 			"nombre": "Ciudad Azafrán",
 			"lema": "La brillante y dorada tierra del comercio.",
-			"escoger": [{
+			"regalo": [{
 					"numero": 106,
 					"nivel": 25
 				},

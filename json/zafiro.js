@@ -3195,7 +3195,7 @@ const zafiro = {
 		{
 			"nombre": "Villa Raíz",
 			"lema": "Un pueblo poco colorido.",
-			"escoger": [
+			"regalo": [
 				{
 					"numero": 152,
 					"nivel": 5,

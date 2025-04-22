@@ -621,7 +621,7 @@ function devolverTexto(tipo){
     case 'nacional': return 'Tras obtener la Pokédex Nacional';
     case 'miel': return 'Miel';
     case 'polvo': return 'Nube de polvo';
-    case 'sombre': return 'En sombra';
+    case 'sombra': return 'En sombra';
     case 'charco': return 'En los charcos';
     case 'claro': return 'En el claro oculto';
     case 'legendario': return 'Legendario';

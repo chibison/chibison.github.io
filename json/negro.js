@@ -20,7 +20,7 @@ const negro = {
     {
       "nombre": "Pueblo Arcilla",
 			"lema": "Un pueblo de lo más variopinto.",
-      "inicial":[
+      "regalo":[
         {
         	"numero": 495,
         	"nivel": 5
@@ -289,7 +289,7 @@ const negro = {
 							"porcentaje": 5
 						}
 					],
-					"escoger":[
+					"regalo":[
 						{
 							"numero": 511,
 							"nivel": 10
@@ -578,8 +578,8 @@ const negro = {
 			],
 			"intercambio": [
 				{
-					"numero": 548,
-					"necesita": 546
+					"numero": 546,
+					"necesita": 548
 				}
 			]
 		},
@@ -882,7 +882,7 @@ const negro = {
 					"porcentaje": 5
 				}
 			],
-			"masivo": [
+			"masiva": [
 				{
 					"numero": 449,
 					"nivel": "15-55",

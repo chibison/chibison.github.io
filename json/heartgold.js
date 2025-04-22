@@ -5,31 +5,31 @@ const heartgold = {
 	"filtros":[
 		{
 			"nombre": "Pesca",
-			"imagen": "cania/vieja.png",
+			"imagen": "otros/gen4/pesca.png",
 			"filtro": "pesca",
 			"defecto": false
 		},
 		{
 			"nombre": "Surf",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen4/surf.png",
 			"filtro": "surf",
 			"defecto": false
 		},
 		{
 			"nombre": "Golpe cabeza",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen4/cabeza.png",
 			"filtro": "cabeza",
 			"defecto": false
 		},
 		{
 			"nombre": "Golpe roca",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen4/roca.png",
 			"filtro": "roca",
 			"defecto": false
 		},
 		{
 			"nombre": "Sonidos de Hoenn y Sinnoh",
-			"imagen": "otros/pokedex.png",
+			"imagen": "otros/gen4/sonidos.png",
 			"filtro": "sonidos",
 			"defecto": false
 		}
@@ -38,7 +38,7 @@ const heartgold = {
 		{
 			"nombre": "Pueblo Primavera",
 			"lema": "El pueblo donde soplan vientos de un nuevo amanecer.",
-			"inicial": [
+			"regalo": [
 				{
 					"numero": 152,
 					"nivel": 5
@@ -5875,7 +5875,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Ciudad Azafrán",
-			"escoger": [
+			"regalo": [
 				{
 					"numero": 252,
 					"nivel": 5,
@@ -7548,7 +7548,7 @@ const heartgold = {
 		},
 		{
 			"nombre": "Pueblo Paleta",
-			"escoger": [
+			"regalo": [
 				{
 					"numero": 1,
 					"nivel": 5,

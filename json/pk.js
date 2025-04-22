@@ -5509,7 +5509,7 @@ const pk = {
   "gen": 5
 },
 {
-  "nombre": "Deerling",
+  "nombre": "Deerling (primavera)",
   "gen": 5,
   "tipo": "normal planta",
   "formas": [
@@ -5538,7 +5538,7 @@ const pk = {
   ]
 },
 {
-  "nombre": "Sawsbuck",
+  "nombre": "Sawsbuck (primavera)",
   "tipo": "normal planta",
   "gen": 5,
   "formas": [

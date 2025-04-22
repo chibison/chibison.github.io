@@ -5,25 +5,25 @@ const perla = {
   "filtros":[
     {
       "nombre": "Pesca",
-      "imagen": "cania/vieja.png",
+      "imagen": "otros/gen4/pesca.png",
       "filtro": "pesca",
       "defecto": false
     },
     {
       "nombre": "Surf",
-      "imagen": "otros/MT.png",
+      "imagen": "otros/gen4/surf.png",
       "filtro": "surf",
       "defecto": false
     },
     {
       "nombre": "Miel",
-      "imagen": "otros/miel.png",
+      "imagen": "otros/gen4/miel.png",
       "filtro": "miel",
       "defecto": false
     },
     {
       "nombre": "Pokéradar",
-      "imagen": "otros/pokeradar.png",
+      "imagen": "otros/gen4/radar.png",
       "filtro": "radar",
       "defecto": false
     }
@@ -107,7 +107,7 @@ const perla = {
     },
     {
       "nombre": "Lago Veraz",
-      "escoger":[
+      "regalo":[
         {
           "numero": 387,
           "nivel": 5
