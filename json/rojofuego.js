@@ -5356,7 +5356,7 @@ const rojofuego =	{
 					"nombre": "Cueva Perdida",
 					"plantas": [
 						{
-							"nombre": "Entrada y salas 1 a 10",
+							"nombre": "Entrada y salas de paso",
 							"caminando": [
 								{
 									"numero": 93,
@@ -5386,7 +5386,7 @@ const rojofuego =	{
 							]
 						},
 						{
-							"nombre": "Salas 11 a 14",
+							"nombre": "Salas con ítem",
 							"caminando": [
 								{
 									"numero": 93,
@@ -6684,6 +6684,50 @@ const rojofuego =	{
 			]
 		},
 		{
+			"nombre": "Cueva Cambiante",
+			"caminando": [
+				{
+					"numero": 41,
+					"nivel": "6-16",
+					"porcentaje": 100
+				}
+			],
+			"evento": [
+				{
+					"numero": 179,
+					"nivel": "3-13"
+				},
+				{
+					"numero": 190,
+					"nivel": "18-28"
+				},
+				{
+					"numero": 204,
+					"nivel": "19-29"
+				},
+				{
+					"numero": 213,
+					"nivel": "18-28"
+				},
+				{
+					"numero": 216,
+					"nivel": "18-28"
+				},
+				{
+					"numero": 228,
+					"nivel": "12-20"
+				},
+				{
+					"numero": 234,
+					"nivel": "18-28"
+				},
+				{
+					"numero": 235,
+					"nivel": "18-28"
+				}
+			]
+		},
+		{
 			"nombre": "Evolución",
 			"otros": [
 				{
@@ -7174,50 +7218,6 @@ const rojofuego =	{
 				},
 				{
 					"numero": 385
-				}
-			]
-		},
-		{
-			"nombre": "Cueva Cambiante",
-			"caminando": [
-				{
-					"numero": 41,
-					"nivel": "6-16",
-					"porcentaje": 100
-				}
-			],
-			"evento": [
-				{
-					"numero": 179,
-					"nivel": "3-13"
-				},
-				{
-					"numero": 190,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 204,
-					"nivel": "19-29"
-				},
-				{
-					"numero": 213,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 216,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 228,
-					"nivel": "12-20"
-				},
-				{
-					"numero": 234,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 235,
-					"nivel": "18-28"
 				}
 			]
 		}

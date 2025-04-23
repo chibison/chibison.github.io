@@ -5,31 +5,31 @@ const esmeralda = {
 	"filtros":[
 		{
 			"nombre": "Pesca",
-			"imagen": "cania/vieja.png",
+			"imagen": "otros/gen3/pesca.png",
 			"filtro": "pesca",
 			"defecto": false
 		},
 		{
 			"nombre": "Surf",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/surf.png",
 			"filtro": "surf",
 			"defecto": false
 		},
 		{
 			"nombre": "Golpe roca",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/roca.png",
 			"filtro": "roca",
 			"defecto": false
 		},
 		{
 			"nombre": "Buceo",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/buceo.png",
 			"filtro": "buceo",
 			"defecto": false
 		},
 		{
-			"nombre": "Pokédex nacional",
-			"imagen": "otros/pokedex.png",
+			"nombre": "Aparición masiva",
+			"imagen": "otros/gen3/masiva.png",
 			"filtro": "masiva",
 			"defecto": false
 		}
@@ -358,6 +358,13 @@ const esmeralda = {
 					"numero": 63,
 					"nivel": 7,
 					"porcentaje":10
+				}
+			],
+			"masiva":[
+				{
+					"numero": 300,
+					"nivel": 8,
+					"porcentaje":50
 				}
 			]
 		},
@@ -701,6 +708,13 @@ const esmeralda = {
 				{
 					"numero": 341,
 					"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
+				}
+			],
+			"masiva": [
+				{
+					"numero": 273,
+					"nivel": 13,
+					"porcentaje": 50
 				}
 			]
 		},
@@ -1665,6 +1679,13 @@ const esmeralda = {
 					"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
 				}
 			],
+			"masiva": [
+				{
+					"numero": 273,
+					"nivel": 25,
+					"porcentaje": 50
+				}
+			],
 			"especial": [
 				{
 					"numero": 352,
@@ -1964,41 +1985,49 @@ const esmeralda = {
 					"nombre": "Extensión Norte",
 					"hierba": [
 						{
+							"pokedex": "*",
 							"numero": 190,
 							"nivel": "33-35",
 							"porcentaje": 30
 						},
 						{
+							"pokedex": "*",
 							"numero": 216,
 							"nivel": "34-36",
 							"porcentaje": 30
 						},
 						{
+							"pokedex": "*",
 							"numero": 165,
 							"nivel": 33,
 							"porcentaje": 10
 						},
 						{
+							"pokedex": "*",
 							"numero": 191,
 							"nivel": 34,
 							"porcentaje": 10
 						},
 						{
+							"pokedex": "*",
 							"numero": 163,
 							"nivel": 35,
 							"porcentaje": 5
 						},
 						{
+							"pokedex": "*",
 							"numero": 204,
 							"nivel": 34,
 							"porcentaje": 5
 						},
 						{
+							"pokedex": "*",
 							"numero": 228,
 							"nivel": "36-39",
 							"porcentaje": 5
 						},
 						{
+							"pokedex": "*",
 							"numero": 241,
 							"nivel": "37-40",
 							"porcentaje": 5
@@ -2006,6 +2035,7 @@ const esmeralda = {
 					],
 					"roca":[
 						{
+							"pokedex": "*",
 							"numero": 213,
 							"nivel": "20-40",
 							"porcentaje": 100
@@ -2016,41 +2046,49 @@ const esmeralda = {
 					"nombre": "Extensión Sur",
 					"hierba": [
 						{
+							"pokedex": "*",
 							"numero": 179,
 							"nivel": "34-36",
 							"porcentaje": 30
 						},
 						{
+							"pokedex": "*",
 							"numero": 191,
 							"nivel": "33-35",
 							"porcentaje": 30
 						},
 						{
+							"pokedex": "*",
 							"numero": 167,
 							"nivel": 33,
 							"porcentaje": 10
 						},
 						{
+							"pokedex": "*",
 							"numero": 190,
 							"nivel": 34,
 							"porcentaje": 10
 						},
 						{
+							"pokedex": "*",
 							"numero": 163,
 							"nivel": 35,
 							"porcentaje": 5
 						},
 						{
+							"pokedex": "*",
 							"numero": 207,
 							"nivel": "37-40",
 							"porcentaje": 5
 						},
 						{
+							"pokedex": "*",
 							"numero": 209,
 							"nivel": 34,
 							"porcentaje": 5
 						},
 						{
+							"pokedex": "*",
 							"numero": 234,
 							"nivel": "36-39",
 							"porcentaje": 5
@@ -2058,16 +2096,19 @@ const esmeralda = {
 					],
 					"surf": [
 						{
+							"pokedex": "*",
 							"numero": 194,
 							"nivel": "25-30",
 							"porcentaje": 60
 						},
 						{
+							"pokedex": "*",
 							"numero": 183,
 							"nivel": "25-35",
 							"porcentaje": 39
 						},
 						{
+							"pokedex": "*",
 							"numero": 195,
 							"nivel": "35-40",
 							"porcentaje": 1
@@ -2075,18 +2116,22 @@ const esmeralda = {
 					],
 					"pesca":[
 						{
+							"pokedex": "*",
 							 "numero": 129,
 							 "probabilidad": {"tipo":"cania", "vieja":{"nivel": "5-10","porcentaje": 70} ,"buena":{"nivel":"10-30" ,"porcentaje":60}}
 						},
 						{
+							"pokedex": "*",
 							"numero": 118,
 							"probabilidad": {"tipo":"cania", "vieja":{"nivel":"5-10" ,"porcentaje":30 } ,"buena":{"nivel":"10-30" ,"porcentaje":20}, "super":{"nivel":"25-30" ,"porcentaje":40}}
 						},
 						{
+							"pokedex": "*",
 							"numero": 223,
 							"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-35" ,"porcentaje":20 } ,"super":{"nivel":"25-35" ,"porcentaje": 59}}
 						},
 						{
+							"pokedex": "*",
 							"numero": 224,
 							"probabilidad": {"tipo":"cania", "super":{"nivel":"35-40" ,"porcentaje": 1}}
 						}
@@ -3320,12 +3365,12 @@ const esmeralda = {
 						{
 							"numero": 74,
 							"nivel": "30-40",
-							"porcentaje": 70
+							"porcentaje": 30
 						},
 						{
 							"numero": 75,
 							"nivel": "30-40",
-							"porcentaje":10
+							"porcentaje":70
 						}
 					]
 				},
@@ -3491,6 +3536,84 @@ const esmeralda = {
 			"nombre": "Evolución",
 			"otros": [
 				{
+					"numero": 27
+				},
+				{
+					"numero": 37
+				},
+				{
+					"numero": 41
+				},
+				{
+					"numero": 43
+				},
+				{
+					"numero": 54
+				},
+				{
+					"numero": 63
+				},
+				{
+					"numero": 66
+				},
+				{
+					"numero": 72
+				},
+				{
+					"numero": 74
+				},
+				{
+					"numero": 81
+				},
+				{
+					"numero": 84
+				},
+				{
+					"numero": 88
+				},
+				{
+					"numero": 100
+				},
+				{
+					"numero": 109
+				},
+				{
+					"numero": 111
+				},
+				{
+					"numero": 116
+				},
+				{
+					"numero": 118
+				},
+				{
+					"numero": 120
+				},
+				{
+					"numero": 129
+				},
+				{
+					"numero": 163
+				},
+				{
+					"numero": 170
+				},
+				{
+					"numero": 172
+				},
+				{
+					"numero": 174
+				},
+				{
+					"numero": 178
+				},
+				{
+					"numero": 218
+				},
+				{
+					"numero": 231
+				},
+				{
 					"numero": 252
 				},
 				{
@@ -3530,9 +3653,6 @@ const esmeralda = {
 					"numero": 287
 				},
 				{
-					"numero": 63
-				},
-				{
 					"numero": 290
 				},
 				{
@@ -3542,46 +3662,16 @@ const esmeralda = {
 					"numero": 296
 				},
 				{
-					"numero": 118
-				},
-				{
-					"numero": 129
-				},
-				{
 					"numero": 298
-				},
-				{
-					"numero": 74
 				},
 				{
 					"numero": 300
 				},
 				{
-					"numero": 41
-				},
-				{
-					"numero": 72
-				},
-				{
 					"numero": 304
 				},
 				{
-					"numero": 66
-				},
-				{
 					"numero": 309
-				},
-				{
-					"numero": 81
-				},
-				{
-					"numero": 100
-				},
-				{
-					"numero": 43
-				},
-				{
-					"numero": 84
 				},
 				{
 					"numero": 316
@@ -3596,19 +3686,7 @@ const esmeralda = {
 					"numero": 322
 				},
 				{
-					"numero": 218
-				},
-				{
-					"numero": 88
-				},
-				{
-					"numero": 109
-				},
-				{
 					"numero": 325
-				},
-				{
-					"numero": 27
 				},
 				{
 					"numero": 328
@@ -3635,13 +3713,7 @@ const esmeralda = {
 					"numero": 347
 				},
 				{
-					"numero": 174
-				},
-				{
 					"numero": 349
-				},
-				{
-					"numero": 120
 				},
 				{
 					"numero": 353
@@ -3650,25 +3722,7 @@ const esmeralda = {
 					"numero": 355
 				},
 				{
-					"numero": 37
-				},
-				{
-					"numero": 172
-				},
-				{
-					"numero": 54
-				},
-				{
 					"numero": 360
-				},
-				{
-					"numero": 178
-				},
-				{
-					"numero": 231
-				},
-				{
-					"numero": 111
 				},
 				{
 					"numero": 361
@@ -3678,12 +3732,6 @@ const esmeralda = {
 				},
 				{
 					"numero": 366
-				},
-				{
-					"numero": 170
-				},
-				{
-					"numero": 116
 				},
 				{
 					"numero": 371
@@ -3896,9 +3944,6 @@ const esmeralda = {
 					"numero": 167
 				},
 				{
-					"numero": 173
-				},
-				{
 					"numero": 175
 				},
 				{
@@ -3930,22 +3975,124 @@ const esmeralda = {
 					"variedad": 0
 				},
 				{
+					"numero": 201,
+					"variedad": 1
+				},
+				{
+					"numero": 201,
+					"variedad": 2
+				},
+				{
+					"numero": 201,
+					"variedad": 3
+				},
+				{
+					"numero": 201,
+					"variedad": 4
+				},
+				{
+					"numero": 201,
+					"variedad": 5
+				},
+				{
+					"numero": 201,
+					"variedad": 6
+				},
+				{
+					"numero": 201,
+					"variedad": 7
+				},
+				{
+					"numero": 201,
+					"variedad": 8
+				},
+				{
+					"numero": 201,
+					"variedad": 9
+				},
+				{
+					"numero": 201,
+					"variedad": 10
+				},
+				{
+					"numero": 201,
+					"variedad": 11
+				},
+				{
+					"numero": 201,
+					"variedad": 12
+				},
+				{
+					"numero": 201,
+					"variedad": 13
+				},
+				{
+					"numero": 201,
+					"variedad": 14
+				},
+				{
+					"numero": 201,
+					"variedad": 15
+				},
+				{
+					"numero": 201,
+					"variedad": 16
+				},
+				{
+					"numero": 201,
+					"variedad": 17
+				},
+				{
+					"numero": 201,
+					"variedad": 18
+				},
+				{
+					"numero": 201,
+					"variedad": 19
+				},
+				{
+					"numero": 201,
+					"variedad": 20
+				},
+				{
+					"numero": 201,
+					"variedad": 21
+				},
+				{
+					"numero": 201,
+					"variedad": 22
+				},
+				{
+					"numero": 201,
+					"variedad": 23
+				},
+				{
+					"numero": 201,
+					"variedad": 24
+				},
+				{
+					"numero": 201,
+					"variedad": 25
+				},
+				{
+					"numero": 201,
+					"variedad": 26
+				},
+				{
+					"numero": 201,
+					"variedad": 27
+				},
+				{
 					"numero": 204
 				},
 				{
 					"numero": 206
 				},
 				{
-					"numero": 207
-				},
-				{
 					"numero": 209
 				},
 				{
 					"numero": 211
-				},
-				{
-					"numero": 213
 				},
 				{
 					"numero": 215

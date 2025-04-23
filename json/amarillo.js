@@ -11,7 +11,7 @@ const amarillo = {
 		},
 		{
 			"nombre": "Surf",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen1/surf.png",
 			"filtro": "surf",
 			"defecto": false
 		}

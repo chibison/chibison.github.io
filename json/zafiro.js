@@ -5,31 +5,31 @@ const zafiro = {
 	"filtros":[
 		{
 			"nombre": "Pesca",
-			"imagen": "cania/vieja.png",
+			"imagen": "otros/gen3/pesca.png",
 			"filtro": "pesca",
 			"defecto": false
 		},
 		{
 			"nombre": "Surf",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/surf.png",
 			"filtro": "surf",
 			"defecto": false
 		},
 		{
 			"nombre": "Golpe roca",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/roca.png",
 			"filtro": "roca",
 			"defecto": false
 		},
 		{
 			"nombre": "Buceo",
-			"imagen": "otros/MT.png",
+			"imagen": "otros/gen3/buceo.png",
 			"filtro": "buceo",
 			"defecto": false
 		},
 		{
-			"nombre": "Pokédex nacional",
-			"imagen": "otros/pokedex.png",
+			"nombre": "Aparición masiva",
+			"imagen": "otros/gen3/masiva.png",
 			"filtro": "masiva",
 			"defecto": false
 		}
@@ -187,7 +187,7 @@ const zafiro = {
 			],
 			"masiva": [
 				{
-					"numero": 273,
+					"numero": 283,
 					"nivel": "3-4",
 					"porcentaje": 50
 				}
@@ -350,6 +350,13 @@ const zafiro = {
 					"numero": 300,
 					"nivel": "7-8",
 					"porcentaje":2
+				}
+			],
+			"masiva":[
+				{
+					"numero": 300,
+					"nivel": 15,
+					"porcentaje":50
 				}
 			]
 		},
@@ -702,7 +709,7 @@ const zafiro = {
 			],
 			"masiva":[
 				{
-					"numero": 273,
+					"numero": 283,
 					"nivel":15,
 					"porcentaje": 50
 				}
@@ -1607,6 +1614,13 @@ const zafiro = {
 				{
 					"numero": 339,
 					"probabilidad": {"tipo":"cania", "buena":{"nivel":"10-30" ,"porcentaje":20 } ,"super":{"nivel":"20-45" ,"porcentaje": 100}}
+				}
+			],
+			"masiva": [
+				{
+					"numero": 283,
+					"nivel": 28,
+					"porcentaje": 50
 				}
 			],
 			"especial": [
@@ -3131,12 +3145,12 @@ const zafiro = {
 						{
 							"numero": 74,
 							"nivel": "30-40",
-							"porcentaje": 70
+							"porcentaje": 30
 						},
 						{
 							"numero": 75,
 							"nivel": "30-40",
-							"porcentaje":10
+							"porcentaje":70
 						}
 					]
 				},
@@ -3236,6 +3250,60 @@ const zafiro = {
 			"nombre": "Evolución",
 			"otros": [
 				{
+					"numero": 27
+				},
+				{
+					"numero": 37
+				},
+				{
+					"numero": 41
+				},
+				{
+					"numero": 43
+				},
+				{
+					"numero": 63
+				},
+				{
+					"numero": 66
+				},
+				{
+					"numero": 75
+				},
+				{
+					"numero": 88
+				},
+				{
+					"numero": 109
+				},
+				{
+					"numero": 111
+				},
+				{
+					"numero": 116
+				},
+				{
+					"numero": 120
+				},
+				{
+					"numero": 152
+				},
+				{
+					"numero": 155
+				},
+				{
+					"numero": 158
+				},
+				{
+					"numero": 170
+				},
+				{
+					"numero": 218
+				},
+				{
+					"numero": 231
+				},
+				{
 					"numero": 252
 				},
 				{
@@ -3330,60 +3398,6 @@ const zafiro = {
 				},
 				{
 					"numero": 374
-				},
-				{
-					"numero": 152
-				},
-				{
-					"numero": 155
-				},
-				{
-					"numero": 158
-				},
-				{
-					"numero": 27
-				},
-				{
-					"numero": 37
-				},
-				{
-					"numero": 43
-				},
-				{
-					"numero": 63
-				},
-				{
-					"numero": 66
-				},
-				{
-					"numero": 75
-				},
-				{
-					"numero": 88
-				},
-				{
-					"numero": 109
-				},
-				{
-					"numero": 111
-				},
-				{
-					"numero": 116
-				},
-				{
-					"numero": 120
-				},
-				{
-					"numero": 41
-				},
-				{
-					"numero": 170
-				},
-				{
-					"numero": 218
-				},
-				{
-					"numero": 231
 				}
 			]
 		},
@@ -3590,9 +3604,6 @@ const zafiro = {
 					"numero": 167
 				},
 				{
-					"numero": 173
-				},
-				{
 					"numero": 175
 				},
 				{
@@ -3625,6 +3636,114 @@ const zafiro = {
 				{
 					"numero": 201,
 					"variedad": 0
+				},
+				{
+					"numero": 201,
+					"variedad": 1
+				},
+				{
+					"numero": 201,
+					"variedad": 2
+				},
+				{
+					"numero": 201,
+					"variedad": 3
+				},
+				{
+					"numero": 201,
+					"variedad": 4
+				},
+				{
+					"numero": 201,
+					"variedad": 5
+				},
+				{
+					"numero": 201,
+					"variedad": 6
+				},
+				{
+					"numero": 201,
+					"variedad": 7
+				},
+				{
+					"numero": 201,
+					"variedad": 8
+				},
+				{
+					"numero": 201,
+					"variedad": 9
+				},
+				{
+					"numero": 201,
+					"variedad": 10
+				},
+				{
+					"numero": 201,
+					"variedad": 11
+				},
+				{
+					"numero": 201,
+					"variedad": 12
+				},
+				{
+					"numero": 201,
+					"variedad": 13
+				},
+				{
+					"numero": 201,
+					"variedad": 14
+				},
+				{
+					"numero": 201,
+					"variedad": 15
+				},
+				{
+					"numero": 201,
+					"variedad": 16
+				},
+				{
+					"numero": 201,
+					"variedad": 17
+				},
+				{
+					"numero": 201,
+					"variedad": 18
+				},
+				{
+					"numero": 201,
+					"variedad": 19
+				},
+				{
+					"numero": 201,
+					"variedad": 20
+				},
+				{
+					"numero": 201,
+					"variedad": 21
+				},
+				{
+					"numero": 201,
+					"variedad": 22
+				},
+				{
+					"numero": 201,
+					"variedad": 23
+				},
+				{
+					"numero": 201,
+					"variedad": 24
+				},
+				{
+					"numero": 201,
+					"variedad": 25
+				},
+				{
+					"numero": 201,
+					"variedad": 26
+				},
+				{
+					"numero": 201,
+					"variedad": 27
 				},
 				{
 					"numero": 204

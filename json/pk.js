@@ -1294,12 +1294,14 @@ const pk = {
       {
         "gen":2,
         "amistad":"Día",
-        "en":196
+        "en":196,
+        "excepto": "rojofuego, verdehoja"
       },
       {
         "gen":2,
         "amistad":"noche",
-        "en":197
+        "en":197,
+        "excepto": "rojofuego, verdehoja"
       },
       {
         "gen":4,
