@@ -4254,6 +4254,41 @@ const oro={
       ]
     },
     {
+      "nombre": "Mt. Moon",
+      "caminando":[
+        {
+        	"numero": 41,
+          "nivel": 6,
+        	"porcentaje": 30
+        },
+        {
+        	"numero": 27,
+        	"nivel": 8,
+        	"porcentaje": 20
+        },
+        {
+        	"numero": 74,
+        	"nivel": 8,
+        	"porcentaje": 30
+        },
+        {
+          "numero": 28,
+          "nivel": 10,
+          "porcentaje": 5
+        },
+        {
+          "numero": 46,
+          "nivel": 12,
+          "porcentaje": 10
+        },
+        {
+          "numero": 35,
+          "nivel": 8,
+          "porcentaje": 5
+        }
+      ]
+    },
+    {
       "nombre": "Ciudad Verde",
       "surf":[
         {
@@ -5184,10 +5219,10 @@ const oro={
         	"numero": 179
         },
         {
-        	"numero": 183
+        	"numero": 60
         },
         {
-        	"numero": 60
+          "numero": 183
         },
         {
         	"numero": 187

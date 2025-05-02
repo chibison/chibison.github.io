@@ -4283,6 +4283,31 @@ const plata={
       ]
     },
     {
+      "nombre": "Mt. Moon",
+      "caminando":[
+        {
+          "numero": 41,
+          "nivel": "6-8",
+          "porcentaje": 50
+        },
+        {
+          "numero": 74,
+          "nivel": "8-10",
+          "porcentaje": 35
+        },
+        {
+          "numero": 46,
+          "nivel": 12,
+          "porcentaje": 10
+        },
+        {
+          "numero": 35,
+          "nivel": 8,
+          "porcentaje": 5
+        }
+      ]
+    },
+    {
       "nombre": "Ciudad Verde",
       "surf":[
         {
@@ -5135,9 +5160,6 @@ const plata={
         	"numero": 16
         },
         {
-        	"numero": 23
-        },
-        {
         	"numero": 27
         },
         {
@@ -5154,9 +5176,6 @@ const plata={
         },
         {
         	"numero": 63
-        },
-        {
-        	"numero": 58
         },
         {
         	"numero": 66
@@ -5198,12 +5217,6 @@ const plata={
         	"numero": 158
         },
         {
-        	"numero": 161
-        },
-        {
-        	"numero": 165
-        },
-        {
         	"numero": 44
         },
         {
@@ -5222,10 +5235,10 @@ const plata={
         	"numero": 69
         },
         {
-        	"numero": 183
+        	"numero": 60
         },
         {
-        	"numero": 60
+          "numero": 183
         },
         {
         	"numero": 187

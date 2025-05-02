@@ -3319,10 +3319,7 @@ const zafiro = {
 					"numero": 265
 				},
 				{
-					"numero": 271
-				},
-				{
-					"numero": 273
+					"numero": 270
 				},
 				{
 					"numero": 280
@@ -3379,9 +3376,6 @@ const zafiro = {
 					"numero": 349
 				},
 				{
-					"numero": 353
-				},
-				{
 					"numero": 355
 				},
 				{
@@ -3436,7 +3430,7 @@ const zafiro = {
 			]
 		},
 		{
-			"nombre": "Otros juegos",
+			"nombre": "Intercambiar de otros juegos",
 			"otros":[
 				{
 					"numero": 1
@@ -3470,6 +3464,9 @@ const zafiro = {
 				},
 				{
 					"numero": 32
+				},
+				{
+					"numero": 173
 				},
 				{
 					"numero": 46

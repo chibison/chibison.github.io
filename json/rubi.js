@@ -3317,9 +3317,6 @@ const rubi = {
 					"numero": 265
 				},
 				{
-					"numero": 270
-				},
-				{
 					"numero": 273
 				},
 				{
@@ -3411,8 +3408,11 @@ const rubi = {
 			]
 		},
 		{
-			"nombre": "Intercambiar de Zafiro",
+			"nombre": "Intercambiar de Zafiro o Esmeralda",
 			"otros":[
+				{
+					"numero": 270
+				},
 				{
 					"numero": 302
 				},
@@ -3462,6 +3462,9 @@ const rubi = {
 				},
 				{
 					"numero": 32
+				},
+				{
+					"numero": 173
 				},
 				{
 					"numero": 46

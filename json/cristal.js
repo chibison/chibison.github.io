@@ -4646,6 +4646,35 @@ const cristal={
       ]
     },
     {
+      "nombre": "Mt. Moon",
+      "caminando":[
+        {
+          "numero": 41,
+          "nivel": 6,
+          "porcentaje": 30
+        },
+        {
+          "numero": 27,
+          "nivel": 8,
+          "probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 20}, "dia": {"porcentaje": 20}}
+        },
+        {
+          "numero": 74,
+          "nivel": "8-10",
+          "porcentaje": 35
+        },
+        {
+          "numero": 46,
+          "nivel": 12,
+          "porcentaje": 10
+        },
+        {
+          "numero": 35,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 8, "porcentaje": 5}, "dia": {"nivel": 8, "porcentaje": 5}, "noche": {"nivel": "8-12", "porcentaje": 25}}
+        }
+      ]
+    },
+    {
       "nombre": "Ciudad Verde",
       "surf":[
         {
@@ -5504,22 +5533,10 @@ const cristal={
         	"numero": 16
         },
         {
-        	"numero": 23
-        },
-        {
-        	"numero": 27
-        },
-        {
         	"numero": 29
         },
         {
         	"numero": 32
-        },
-        {
-        	"numero": 37
-        },
-        {
-        	"numero": 46
         },
         {
         	"numero": 63
@@ -5537,9 +5554,6 @@ const cristal={
         	"numero": 74
         },
         {
-        	"numero": 81
-        },
-        {
           "numero": 86
         },
         {
@@ -5550,9 +5564,6 @@ const cristal={
         },
         {
         	"numero": 102
-        },
-        {
-        	"numero": 109
         },
         {
         	"numero": 120
@@ -5570,12 +5581,6 @@ const cristal={
         	"numero": 158
         },
         {
-        	"numero": 161
-        },
-        {
-        	"numero": 165
-        },
-        {
         	"numero": 44
         },
         {
@@ -5583,12 +5588,6 @@ const cristal={
         },
         {
         	"numero": 175
-        },
-        {
-        	"numero": 177
-        },
-        {
-        	"numero": 179
         },
         {
         	"numero": 69
@@ -5621,16 +5620,10 @@ const cristal={
         	"numero": 123
         },
         {
-        	"numero": 209
-        },
-        {
         	"numero": 218
         },
         {
         	"numero": 220
-        },
-        {
-        	"numero": 223
         },
         {
         	"numero": 228
@@ -5676,7 +5669,7 @@ const cristal={
       ]
     },
     {
-      "nombre": "Otros juegos",
+      "nombre": "Intercambiar de otros juegos",
       "otros":[
         {
           "numero":1

@@ -611,7 +611,6 @@ function devolverTexto(tipo){
     case 'fosil': return 'Revivir fósil';
     case 'buceo': return 'Buceo';
     case 'radar': return 'Pokéradar';
-    case 'cartucho': return 'Cartucho GBA';
     case 'sonidos': return 'Sonidos de Hoenn y Sinnoh';
     case 'observatorio': return 'Observatorio';
     case 'walker': return 'Poké Walker';
@@ -621,7 +620,6 @@ function devolverTexto(tipo){
     case 'sombra': return 'En sombra';
     case 'charco': return 'En los charcos';
     case 'claro': return 'En el claro oculto';
-    case 'legendario': return 'Legendario';
     case 'cambio': return 'Cambia cada día';
     default: return undefined;
   }
@@ -658,11 +656,11 @@ function dibujarContenedor(divContenedor, listado, texto, tipo_obt){
     if(texto===undefined){
       if(evoluciona(listado[i].numero)){
         for(let j=0; j<pk.listado[listado[i].numero-1].evo.length; j++) {
-          if(esGenMenor(pk.listado[listado[i].numero-1].evo[j].en))
+          if(esGenMenor(pk.listado[listado[i].numero-1].evo[j].en) && noExcepcion(pk.listado[listado[i].numero-1].evo[j]))
             dibujarEvo(divObtencion, pk.listado[listado[i].numero-1].evo[j], listado[i].variedad);
           if(evoluciona(pk.listado[listado[i].numero-1].evo[j].en))
             for(let k=0; k<pk.listado[pk.listado[listado[i].numero-1].evo[j].en-1].evo.length; k++)
-              if(esGenMenor(pk.listado[pk.listado[listado[i].numero-1].evo[j].en-1].evo[k].en))
+              if(esGenMenor(pk.listado[pk.listado[listado[i].numero-1].evo[j].en-1].evo[k].en) && noExcepcion(pk.listado[pk.listado[listado[i].numero-1].evo[j].en-1].evo[k]))
                 dibujarEvo(divObtencion, pk.listado[pk.listado[listado[i].numero-1].evo[j].en-1].evo[k], listado[i].variedad);
         }
       }
@@ -862,11 +860,17 @@ function dibujarPok(div, pok){
 }
 
 function devolverCSS(tipo){
-  if(!tipo.includes(' ')){
+  try
+  {
+    if(!tipo.includes(' ')){
     return devolverColor(tipo);
   }
   else{
     return "linear-gradient(90deg,"+devolverColor(tipo.substring(0,tipo.indexOf(" ")))+","+devolverColor(tipo.substring((tipo.indexOf(" ")+1)))+")";
+  }
+}
+  catch(e){
+    console.log(e);
   }
 }
 
@@ -1099,29 +1103,32 @@ function dibujarImagen(div, numero, variedad){
   let tipoPrincipal =pk.listado[numero-1].tipo;
   if(pk.listado[numero-1].formas){
     for(let i=0; i<pk.listado[numero-1].formas.length; i++){
-      let tipoForma = pk.listado[numero-1].formas[i].tipo;
-      if((tipoForma!=undefined) && (tipoPrincipal != tipoForma)) {
-        let divCont = document.createElement("DIV");
-        divCont.classList = "pok forma "+tipoForma;
-        divCont.style.background = devolverCSS(tipoForma);
+      if(noExcepcion(pk.listado[numero-1].formas[i])) {
 
-        let imgPok = document.createElement("IMG");
-        imgPok.src = src+pk.listado[numero-1].formas[i].nombre+ext;
-        imgPok.alt=pk.listado[numero-1].formas[i].nombre;
-        imgPok.title=pk.listado[numero-1].formas[i].nombre;
-        imgPok.classList ="imgPok";
+        let tipoForma = pk.listado[numero-1].formas[i].tipo;
+        if((tipoForma!=undefined) && (tipoPrincipal != tipoForma)) {
+          let divCont = document.createElement("DIV");
+          divCont.classList = "pok forma "+tipoForma;
+          divCont.style.background = devolverCSS(tipoForma);
 
-        divCont.append(imgPok);
-        div.append(divCont);
-      }
-      else{
-        let imgPok = document.createElement("IMG");
-        imgPok.src = src+pk.listado[numero-1].formas[i].nombre+ext;
-        imgPok.alt=pk.listado[numero-1].formas[i].nombre;
-        imgPok.title=pk.listado[numero-1].formas[i].nombre;
-        imgPok.classList ="imgPok";
+          let imgPok = document.createElement("IMG");
+          imgPok.src = src+pk.listado[numero-1].formas[i].nombre+ext;
+          imgPok.alt=pk.listado[numero-1].formas[i].nombre;
+          imgPok.title=pk.listado[numero-1].formas[i].nombre;
+          imgPok.classList ="imgPok";
 
-        div.append(imgPok);
+          divCont.append(imgPok);
+          div.append(divCont);
+        }
+        else{
+          let imgPok = document.createElement("IMG");
+          imgPok.src = src+pk.listado[numero-1].formas[i].nombre+ext;
+          imgPok.alt=pk.listado[numero-1].formas[i].nombre;
+          imgPok.title=pk.listado[numero-1].formas[i].nombre;
+          imgPok.classList ="imgPok";
+
+          div.append(imgPok);
+        }
       }
     }
   }
@@ -1552,6 +1559,17 @@ function esGenMenor(numero){
     return false;
 }
 
+function noExcepcion(elemento){
+  if (elemento.hasOwnProperty("excepto")){
+    if(elemento.excepto.includes(juego))
+      return false;
+    else
+      return true;
+  }
+  else
+    return true;
+}
+
 function obtenerTipo(numero, variedad) {
   let tipo;
 
@@ -1627,6 +1645,14 @@ function construirArrayObtenidos(pJuego){
 
 function comprobarTrofeos(){
   if (obtenidos) {
+
+    /* Comprobar que no falten */
+    /*for(let i=1; i<=obtenidos[juego].length; i++){
+      console.log(i+": "+i.toString()+" "+obtenidos[juego].includes(i.toString()));
+    }*/
+
+
+
     let divJuego = document.querySelector("#juegosGen [juego="+juego+"]");
     let arrayObtenidos = construirArrayObtenidos(divJuego);
     let nJuegos =0;

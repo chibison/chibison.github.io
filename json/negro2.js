@@ -2711,8 +2711,7 @@ const negro2 = {
 					"nivel": 37,
 					"porcentaje": 5
 				}
-			],
-			,
+			],			
 			"caminando": [
 				{
 					"numero": 638,

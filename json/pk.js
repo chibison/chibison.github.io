@@ -1295,13 +1295,13 @@ const pk = {
         "gen":2,
         "amistad":"Día",
         "en":196,
-        "excepto": "rojofuego, verdehoja"
+        "excepto": ["rojofuego","verdehoja"]
       },
       {
         "gen":2,
         "amistad":"noche",
         "en":197,
-        "excepto": "rojofuego, verdehoja"
+        "excepto": ["rojofuego","verdehoja"]
       },
       {
         "gen":4,
@@ -2169,7 +2169,16 @@ const pk = {
   },
   {
     "nombre":"Granbull",
-    "tipo":"hada",
+    "tipo":[
+      {
+        "gen": 2,
+        "tipo": "normal"
+      },
+      {
+        "gen": 6,
+        "tipo": "hada"
+      }
+    ],
     "gen": 2
   },
   {
@@ -4541,27 +4550,32 @@ const pk = {
     {
       "gen": 4,
       "nombre": "Rotom (calor)",
-      "tipo": "electrico fuego"
+      "tipo": "electrico fuego",
+      "excepto": ["perla","diamante"]
     },
     {
       "gen": 4,
       "nombre": "Rotom (lavado)",
-      "tipo": "electrico agua"
+      "tipo": "electrico agua",
+      "excepto": ["perla","diamante"]
     },
     {
       "gen": 4,
       "nombre": "Rotom (frío)",
-      "tipo": "electrico hielo"
+      "tipo": "electrico hielo",
+      "excepto": ["perla","diamante"]
     },
     {
       "gen": 4,
       "nombre": "Rotom (ventilador)",
-      "tipo": "electrico volador"
+      "tipo": "electrico volador",
+      "excepto": ["perla","diamante"]
     },
     {
       "gen": 4,
       "nombre": "Rotom (corte)",
-      "tipo": "electrico planta"
+      "tipo": "electrico planta",
+      "excepto": ["perla","diamante"]
     }
   ]
 },
@@ -4616,14 +4630,16 @@ const pk = {
     {
       "gen": 4,
       "nombre": "Giratina (origen)",
-      "tipo": "fantasma dragon"
+      "tipo": "fantasma dragon",
+      "excepto": ["diamante","perla"]
     }
   ]
 },
 {
   "nombre": "Cresselia",
   "tipo": "psiquico",
-  "gen": 4
+  "gen": 4,
+  "legendario": true
 },
 {
   "nombre": "Phione",
@@ -4652,7 +4668,8 @@ const pk = {
     {
       "gen": 4,
       "nombre": "Shaymin (cielo)",
-      "tipo": "planta volador"
+      "tipo": "planta volador",
+      "excepto": ["perla","diamante"]
     }
   ]
 },
