@@ -4323,7 +4323,7 @@ const diamante = {
     },
     {
       "nombre": "Columnas Lanza",
-      "legendario": [
+      "caminando": [
         {
           "numero": 483,
           "nivel": 47
@@ -4332,7 +4332,7 @@ const diamante = {
     },
     {
       "nombre": "Caverna Agudeza",
-      "legendario": [
+      "caminando": [
         {
           "numero": 480,
           "nivel": 50
@@ -4341,7 +4341,7 @@ const diamante = {
     },
     {
       "nombre": "Caverna Valor",
-      "legendario": [
+      "caminando": [
         {
           "numero": 482,
           "nivel": 50
@@ -5466,7 +5466,7 @@ const diamante = {
         },
         {
           "nombre": "Sala final",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 485,
             	"nivel": 70
@@ -5886,9 +5886,7 @@ const diamante = {
           "nivel": "44-66",
           "porcentaje": 8,
           "imagen": "Rubí"
-        }
-      ],
-      "legendario": [
+        },
         {
           "numero": 487,
           "nivel": 70
@@ -5980,12 +5978,10 @@ const diamante = {
               "numero": 75,
               "nivel": "50-56",
               "porcentaje": 10
-            }
-          ],
-          "legendario": [
+            },
             {
-            	"numero": 486,
-            	"nivel": 70
+              "numero": 486,
+              "nivel": 70
             }
           ]
         }
@@ -6628,7 +6624,7 @@ const diamante = {
       "plantas": [
         {
           "nombre": "Isla Lunanueva",
-          "legendario": [
+          "caminando": [
             {
               "numero": 491,
               "nivel": 40
@@ -6637,7 +6633,7 @@ const diamante = {
         },
         {
           "nombre": "Paraíso Floral",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 492,
             	"nivel": 30
@@ -6646,7 +6642,7 @@ const diamante = {
         },
         {
           "nombre": "Sala del Origen",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 493,
             	"nivel": 80
@@ -6654,9 +6650,10 @@ const diamante = {
           ]
         }
       ],
-      "legendario": [
+      "especial": [
         {
-          "numero": 490
+          "numero": 490,
+          "observaciones": "Transferir huevo de Manaphy de Pokémon Ranger"
         }
       ]
     }

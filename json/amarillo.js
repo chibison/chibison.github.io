@@ -315,11 +315,11 @@ const amarillo = {
 					"porcentaje": 15
 				}
 			],
-			"comprar": [
+			"especial": [
 				{
 					"numero": 129,
 					"nivel": 5,
-					"precio": 500
+					"observaciones": "Comprar por 500P"
 				}
 			]
 		},
@@ -1782,6 +1782,10 @@ const amarillo = {
 				"numero": 89,
 				"nivel": "33-37",
 				"porcentaje": 5
+			},
+			{
+				"numero": 145,
+				"nivel":50
 			}
 		],
 		"especial":[
@@ -1794,12 +1798,6 @@ const amarillo = {
 				"numero": 101,
 				"nivel":43,
 				"observaciones": "2 camuflados como objetos"
-			}
-		],
-		"legendario": [
-			{
-				"numero": 145,
-				"nivel":50
 			}
 		]
 	},
@@ -2106,6 +2104,10 @@ const amarillo = {
 							"numero": 87,
 							"nivel": "30-34",
 							"porcentaje":5
+						},
+						{
+							"numero": 144,
+							"nivel": 50
 						}
 					],
 					"surf":[
@@ -2144,12 +2146,6 @@ const amarillo = {
 						{
 							"numero":99,
 							"probabilidad": {"tipo": "cania", "super":{"nivel":35, "porcentaje":20}}
-						}
-					],
-					"legendario": [
-						{
-							"numero": 144,
-							"nivel": 50
 						}
 					]
 				}
@@ -2485,9 +2481,7 @@ const amarillo = {
 							"numero": 75,
 							"nivel": "41-47",
 							"porcentaje": 15
-						}
-					],
-					"legendario":[
+						},
 						{
 							"numero": 146,
 							"nivel": 50
@@ -2669,6 +2663,10 @@ const amarillo = {
 							"numero": 132,
 							"nivel":"60-65",
 							"porcentaje":15
+						},
+						{
+							"numero":150,
+							"nivel": 70
 						}
 					],
 					"pesca":[
@@ -2687,12 +2685,6 @@ const amarillo = {
 						{
 							"numero": 119,
 							"probabilidad": {"tipo": "cania", "super":{"nivel":"35-55", "porcentaje":60}}
-						}
-					],
-					"legendario":[
-						{
-							"numero":150,
-							"nivel": 70
 						}
 					]
 				}
@@ -2815,7 +2807,7 @@ const amarillo = {
 		},
 		{
 			"nombre": "Evento",
-			"legendario": [
+			"otros": [
 				{
 					"numero": 151
 				}

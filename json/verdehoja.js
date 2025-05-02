@@ -551,10 +551,10 @@ const verdehoja =	{
 					}
 				}
 			],
-			"comprar": [{
+			"especial": [{
 				"numero": 129,
 				"nivel": 5,
-				"precio": 500
+				"observaciones": "Comprar por 500P"
 			}]
 		},
 		{
@@ -2903,6 +2903,10 @@ const verdehoja =	{
 							"numero": 87,
 							"nivel": "34-36",
 							"porcentaje": 10
+						},
+						{
+							"numero": 144,
+							"nivel": 50
 						}
 					],
 					"surf": [{
@@ -2988,12 +2992,6 @@ const verdehoja =	{
 									"porcentaje": 4
 								}
 							}
-						}
-					],
-					"legendario": [
-						{
-							"numero": 144,
-							"nivel": 50
 						}
 					]
 				}
@@ -3713,7 +3711,7 @@ const verdehoja =	{
 						},
 						{
 							"nombre": "Cima",
-							"legendario":[
+							"caminando":[
 								{
 									"numero": 146,
 									"nivel": 50
@@ -4234,17 +4232,15 @@ const verdehoja =	{
 					"numero": 82,
 					"nivel": "31-34",
 					"porcentaje": 15
+				},
+				{
+					"numero": 145,
+					"nivel": 50
 				}
 			],
 			"especial": [{
 					"numero": 101,
 					"nivel": 34
-				}
-			],
-			"legendario": [
-				{
-					"numero": 145,
-					"nivel": 50
 				}
 			]
 		},
@@ -6549,6 +6545,10 @@ const verdehoja =	{
 							"numero": 202,
 							"nivel": 61,
 							"porcentaje": 1
+						},
+						{
+							"numero": 150,
+							"nivel": 70
 						}
 					],
 					"roca": [
@@ -6643,12 +6643,6 @@ const verdehoja =	{
 								}
 							}
 						}
-					],
-					"legendario": [
-						{
-							"numero": 150,
-							"nivel": 70
-						}
 					]
 				}
 			]
@@ -6658,7 +6652,7 @@ const verdehoja =	{
 			"plantas": [
 				{
 					"nombre": "Roca Ombligo",
-					"legendario":[
+					"especial":[
 						{
 							"numero": 249,
 							"nivel": 70,

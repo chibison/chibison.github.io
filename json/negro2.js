@@ -2165,6 +2165,11 @@ const negro2 = {
 				{
 					"numero": 95,
 					"probabilidad": {"tipo": "estacion", "primavera": {"nivel": 57, "porcentaje": 5}, "verano": {"nivel": 57, "porcentaje": 5}, "otoño": {"nivel": 57, "porcentaje": 5}, "invierno": {"nivel": 57, "porcentaje": 5}}
+				},
+				{
+					"numero": 486,
+					"nivel": 68,
+					"observaciones": "Solo con Regis en el equipo"
 				}
 			],
 			"polvo": [
@@ -2182,13 +2187,6 @@ const negro2 = {
 					"numero": 208,
 					"nivel": 57,
 					"porcentaje": 5
-				}
-			],
-			"legendario": [
-				{
-					"numero": 486,
-					"nivel": 68,
-					"observaciones": "Solo con Regis en el equipo"
 				}
 			]
 		},
@@ -2262,9 +2260,7 @@ const negro2 = {
 							"numero": 42,
 							"nivel": 33,
 							"porcentaje": 20
-						}
-					],
-					"legendario": [
+						},
 						{
 							"numero": 481,
 							"nivel": 65
@@ -2451,6 +2447,11 @@ const negro2 = {
 							"numero": 326,
 							"nivel": 35,
 							"porcentaje": 5
+						},
+						{
+							"numero": 485,
+							"nivel": 68,
+							"observaciones": "Requiere Piedra Magma"
 						}
 					],
 					"polvo": [
@@ -2458,13 +2459,6 @@ const negro2 = {
 							"numero": 530,
 							"nivel": "32-35",
 							"porcentaje": 100
-						}
-					],
-					"legendario": [
-						{
-							"numero": 485,
-							"nivel": 68,
-							"observaciones": "Requiere Piedra Magma"
 						}
 					]
 				}
@@ -2718,6 +2712,13 @@ const negro2 = {
 					"porcentaje": 5
 				}
 			],
+			,
+			"caminando": [
+				{
+					"numero": 638,
+					"nivel": 45
+				}
+			],
 			"surf": [
 				{
 					"numero": 592,
@@ -2820,12 +2821,6 @@ const negro2 = {
 					"numero": 277,
 					"nivel": "15-55",
 					"porcentaje": 40
-				}
-			],
-			"legendario": [
-				{
-					"numero": 638,
-					"nivel": 45
 				}
 			]
 		},
@@ -3174,6 +3169,12 @@ const negro2 = {
 					"porcentaje": 5
 				}
 			],
+			"caminando": [
+				{
+					"numero": 640,
+					"nivel": 45
+				}
+			],
 			"surf": [
 				{
 					"numero": 550,
@@ -3248,12 +3249,6 @@ const negro2 = {
 					"numero": 591,
 					"nivel": 47,
 					"observaciones": "Camuflados como pokéballs."
-				}
-			],
-			"legendario": [
-				{
-					"numero": 640,
-					"nivel": 45
 				}
 			]
 		},
@@ -3559,6 +3554,12 @@ const negro2 = {
 					"porcentaje": 5
 				}
 			],
+			"caminando": [
+				{
+					"numero": 639,
+					"nivel": 45
+				}
+			],
 			"surf": [
 				{
 					"numero": 550,
@@ -3650,12 +3651,6 @@ const negro2 = {
 					"numero": 591,
 					"nivel": 47,
 					"observaciones": "Dos como pokéballs"
-				}
-			],
-			"legendario": [
-				{
-					"numero": 639,
-					"nivel": 45
 				}
 			]
 		},
@@ -3967,6 +3962,12 @@ const negro2 = {
 					"porcentaje": 5
 				}
 			],
+			"caminando":[
+				{
+					"numero": 482,
+					"nivel": 65
+				}
+			],
 			"surf": [
 				{
 					"numero": 550,
@@ -4061,12 +4062,6 @@ const negro2 = {
 					"numero": 591,
 					"nivel": 56,
 					"observaciones": "Tres como pokéballs"
-				}
-			],
-			"legendario":[
-				{
-					"numero": 482,
-					"nivel": 65
 				}
 			]
 		},
@@ -4837,7 +4832,7 @@ const negro2 = {
 					"nivel": 1
 				}
 			],
-			"legendario": [
+			"caminando": [
 				{
 					"numero": 480,
 					"nivel": 65
@@ -5192,17 +5187,17 @@ const negro2 = {
 							"porcentaje": 5
 						}
 					],
+					"caminando": [
+						{
+							"numero": 381,
+							"nivel": 68
+						}
+					],
 					"masiva": [
 						{
 							"numero": 97,
 							"nivel": "15-55",
 							"porcentaje": 40
-						}
-					],
-					"legendario": [
-						{
-							"numero": 381,
-							"nivel": 68
 						}
 					]
 				},
@@ -5691,11 +5686,11 @@ const negro2 = {
 					"porcentaje": 100
 				}
 			],
-			"comprar": [
+			"especial": [
 				{
 					"numero": 129,
 					"nivel": 5,
-					"precio": 500
+					"observaciones": "Comprar por 500P"
 				}
 			],
 			"especial": [
@@ -5837,6 +5832,15 @@ const negro2 = {
 					"numero": 95,
 					"nivel": 57,
 					"porcentaje": 5
+				},
+				{
+					"numero": 377,
+					"nivel": 65
+				},
+				{
+					"numero": 379,
+					"nivel": 65,
+					"observaciones": "Después de capturar a Regirock"
 				}
 			],
 			"polvo":[
@@ -5855,30 +5859,344 @@ const negro2 = {
 					"nivel": 57,
 					"porcentaje": 5
 				}
-			],
-			"legendario": [
+			]
+		},
+		{
+			"nombre": "Crianza",
+			"otros":[
 				{
-					"numero": 377,
-					"nivel": 65
-				},
-				{
-					"numero": 379,
-					"nivel": 65,
-					"observaciones": "Después de capturar a Regirock"
+					"numero": 13
 				}
 			]
+		},
+		{
+			"nombre": "Evolución",
+			"otros": [
+					{
+						"numero":495
+					},
+					{
+						"numero":498
+					},
+					{
+						"numero":501
+					},
+					{
+						"numero":504
+					},
+					{
+						"numero":506
+					},
+					{
+						"numero":509
+					},
+					{
+						"numero":519
+					},
+					{
+						"numero":540
+					},
+					{
+						"numero":191
+					},
+					{
+						"numero":506
+					},
+					{
+						"numero":179
+					},
+					{
+						"numero":54
+					},
+					{
+						"numero":298
+					},
+					{
+						"numero":447
+					},
+					{
+						"numero":511
+					},
+					{
+						"numero":513
+					},
+					{
+						"numero":515
+					},
+					{
+						"numero":543
+					},
+					{
+						"numero":109
+					},
+					{
+						"numero":81
+					},
+					{
+						"numero":58
+					},
+					{
+						"numero":240
+					},
+					{
+						"numero":19
+					},
+					{
+						"numero":41
+					},
+					{
+						"numero":88
+					},
+					{
+						"numero":527
+					},
+					{
+						"numero":524
+					},
+					{
+						"numero":95
+					},
+					{
+						"numero":532
+					},
+					{
+						"numero":529
+					},
+					{
+						"numero":427
+					},
+					{
+						"numero":546
+					},
+					{
+						"numero":517
+					},
+					{
+						"numero":173
+					},
+					{
+						"numero":133
+					},
+					{
+						"numero":551
+					},
+					{
+						"numero":554
+					},
+					{
+						"numero":568
+					},
+					{
+						"numero":572
+					},
+					{
+						"numero":627
+					},
+					{
+						"numero":629
+					},
+					{
+						"numero":27
+					},
+					{
+						"numero":557
+					},
+					{
+						"numero":559
+					},
+					{
+						"numero":328
+					},
+					{
+						"numero":562
+					},
+					{
+						"numero":564
+					},
+					{
+						"numero":566
+					},
+					{
+						"numero": 599
+					},
+					{
+						"numero":406
+					},
+					{
+						"numero":574
+					},
+					{
+						"numero":577
+					},
+					{
+						"numero":415
+					},
+					{
+						"numero":522
+					},
+					{
+						"numero":418
+					},
+					{
+						"numero":570
+					},
+					{
+						"numero":580
+					},
+					{
+						"numero":588
+					},
+					{
+						"numero":616
+					},
+					{
+						"numero":585
+					},
+					{
+						"numero":590
+					},
+					{
+						"numero":299
+					},
+					{
+						"numero":304
+					},
+					{
+						"numero":343
+					},
+					{
+						"numero":636
+					},
+					{
+						"numero":595
+					},
+					{
+						"numero":597
+					},
+					{
+						"numero":602
+					},
+					{
+						"numero":595
+					},
+					{
+						"numero":610
+					},
+					{
+						"numero":605
+					},
+					{
+						"numero":607
+					},
+					{
+						"numero":613
+					},
+					{
+						"numero":451
+					},
+					{
+						"numero":325
+					},
+					{
+						"numero":425
+					},
+					{
+						"numero":210
+					},
+					{
+						"numero":278
+					},
+					{
+						"numero":114
+					},
+					{
+						"numero":619
+					},
+					{
+						"numero":207
+					},
+					{
+						"numero":624
+					},
+					{
+						"numero":535
+					},
+					{
+						"numero":618
+					},
+					{
+						"numero":458
+					},
+					{
+						"numero":235
+					},
+					{
+						"numero":120
+					},
+					{
+						"numero":320
+					},
+					{
+						"numero":363
+					},
+					{
+						"numero":333
+					},
+					{
+						"numero":37
+					},
+					{
+						"numero":436
+					},
+					{
+						"numero":215
+					},
+					{
+						"numero":582
+					},
+					{
+						"numero":220
+					},
+					{
+						"numero":374
+					},
+					{
+						"numero":86
+					},
+					{
+						"numero":622
+					},
+					{
+						"numero":633
+					},
+					{
+						"numero":287
+					},
+					{
+						"numero":341
+					},
+					{
+						"numero":174
+					},
+					{
+						"numero":108
+					},
+					{
+						"numero":193
+					},
+					{
+						"numero":543
+					},
+					{
+						"numero":246
+					}
+				]
 		},
 		{
 			"nombre": "Intercambiar de Blanco 2",
 			"otros": [
 				{
 					"numero": 10
-				},
-				{
-					"numero": 122
-				},
-				{
-					"numero": 125
 				},
 				{
 					"numero": 127
@@ -5914,16 +6232,13 @@ const negro2 = {
 					"numero": 439
 				},
 				{
-					"numero": 466
-				},
-				{
 					"numero": 548
 				},
 				{
-					"numero": 578
+					"numero": 577
 				},
 				{
-					"numero": 628
+					"numero": 627
 				},
 				{
 					"numero": 643

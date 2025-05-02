@@ -4314,7 +4314,7 @@ const perla = {
     },
     {
       "nombre": "Columnas Lanza",
-      "legendario": [
+      "caminando": [
         {
           "numero": 484,
           "nivel": 47
@@ -4323,7 +4323,7 @@ const perla = {
     },
     {
       "nombre": "Caverna Agudeza",
-      "legendario":[
+      "caminando":[
         {
           "numero": 480,
           "nivel": 50
@@ -4332,7 +4332,7 @@ const perla = {
     },
     {
       "nombre": "Caverna Valor",
-      "legendario": [
+      "caminando": [
         {
           "numero": 482,
           "nivel": 50
@@ -5457,7 +5457,7 @@ const perla = {
         },
         {
           "nombre": "Sala final",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 485,
             	"nivel": 70
@@ -5877,9 +5877,7 @@ const perla = {
           "nivel": "44-66",
           "porcentaje": 8,
           "imagen": "Rubí"
-        }
-      ],
-      "legendario": [
+        },
         {
           "numero": 487,
           "nivel": 70
@@ -5971,12 +5969,10 @@ const perla = {
               "numero": 75,
               "nivel": "50-56",
               "porcentaje": 10
-            }
-          ],
-          "legendario": [
+            },
             {
-            	"numero": 486,
-            	"nivel": 70
+              "numero": 486,
+              "nivel": 70
             }
           ]
         }
@@ -6621,7 +6617,7 @@ const perla = {
       "plantas": [
         {
           "nombre": "Isla Lunanueva",
-          "legendario": [
+          "caminando": [
             {
               "numero": 491,
               "nivel": 40
@@ -6630,7 +6626,7 @@ const perla = {
         },
         {
           "nombre": "Paraíso Floral",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 492,
             	"nivel": 30
@@ -6639,7 +6635,7 @@ const perla = {
         },
         {
           "nombre": "Sala del Origen",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 493,
             	"nivel": 80
@@ -6647,9 +6643,10 @@ const perla = {
           ]
         }
       ],
-      "legendario": [
+      "especial": [
         {
-          "numero": 490
+          "numero": 490,
+          "observaciones": "Transferir huevo de Manaphy de Pokémon Ranger"
         }
       ]
     }

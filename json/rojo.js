@@ -199,11 +199,11 @@ const rojo = {
 					"porcentaje":10
 				}
 			],
-			"comprar": [
+			"especial": [
 				{
 					"numero": 129,
 					"nivel": 5,
-					"precio": 500
+					"observaciones": "Comprar por 500P"
 				}
 			]
 		},
@@ -1648,6 +1648,10 @@ const rojo = {
 					"numero": 125,
 					"nivel": "33-36",
 					"porcentaje": 5
+				},
+				{
+					"numero": 145,
+					"nivel":50
 				}
 			],
 			"especial":[
@@ -1660,12 +1664,6 @@ const rojo = {
 					"numero": 101,
 					"nivel":43,
 					"observaciones": "2 camuflados como objetos"
-				}
-			],
-			"legendario": [
-				{
-					"numero": 145,
-					"nivel":50
 				}
 			]
 		},
@@ -1985,6 +1983,10 @@ const rojo = {
 							"numero": 42,
 							"nivel": 32,
 							"porcentaje":1
+						},
+						{
+							"numero": 144,
+							"nivel": 50
 						}
 					],
 					"pesca":[
@@ -2011,12 +2013,6 @@ const rojo = {
 						{
 							"numero":120,
 							"probabilidad": {"tipo": "cania", "super":{"nivel":15, "porcentaje":25}}
-						}
-					],
-					"legendario": [
-						{
-							"numero": 144,
-							"nivel": 50
 						}
 					]
 				}
@@ -2443,9 +2439,7 @@ const rojo = {
 							"numero": 75,
 							"nivel": 43,
 							"porcentaje": 5
-						}
-					],
-					"legendario":[
+						},
 						{
 							"numero": 146,
 							"nivel": 50
@@ -2679,6 +2673,10 @@ const rojo = {
 							"numero": 132,
 							"nivel": "63-67",
 							"porcentaje":10
+						},
+						{
+							"numero":150,
+							"nivel": 70
 						}
 					],
 					"pesca":[
@@ -2709,12 +2707,6 @@ const rojo = {
 						{
 							"numero": 119,
 							"probabilidad": {"tipo": "cania", "super":{"nivel":23, "porcentaje":25}}
-						}
-					],
-					"legendario":[
-						{
-							"numero":150,
-							"nivel": 70
 						}
 					]
 				}
@@ -2831,7 +2823,7 @@ const rojo = {
 		},
 		{
 			"nombre": "Evento",
-			"legendario": [
+			"otros": [
 				{
 					"numero": 151
 				}

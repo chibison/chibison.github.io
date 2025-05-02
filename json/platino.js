@@ -3560,7 +3560,7 @@ const platino = {
     },
     {
       "nombre": "Ruinas Hierro",
-      "legendario": [
+      "caminando": [
         {
           "numero": 379,
           "nivel": 30
@@ -4049,7 +4049,7 @@ const platino = {
         },
         {
           "nombre": "Ruinas Iceberg",
-          "legendario": [
+          "caminando": [
             {
               "numero": 378,
               "nivel": 30
@@ -4060,7 +4060,7 @@ const platino = {
     },
     {
       "nombre": "Columnas Lanza",
-      "legendario": [
+      "caminando": [
         {
           "numero": 483,
           "nivel": 70
@@ -4082,7 +4082,7 @@ const platino = {
     },
     {
       "nombre": "Caverna Agudeza",
-      "legendario":[
+      "caminando":[
         {
           "numero": 480,
           "nivel": 50
@@ -4091,7 +4091,7 @@ const platino = {
     },
     {
       "nombre": "Caverna Valor",
-      "legendario": [
+      "caminando": [
         {
           "numero": 482,
           "nivel": 50
@@ -5155,7 +5155,7 @@ const platino = {
         },
         {
           "nombre": "Sala final",
-          "legendario": [
+          "caminando": [
             {
             	"numero": 485,
             	"nivel": 50
@@ -5649,7 +5649,7 @@ const platino = {
         },
         {
           "nombre": "Tras el tercer pilar",
-          "legendario": [
+          "caminando": [
             {
               "numero": 487,
               "nivel": 47,
@@ -5719,12 +5719,10 @@ const platino = {
               "numero": 124,
               "nivel": "47-51",
               "porcentaje": 10
-            }
-          ],
-          "legendario": [
+            },
             {
-            	"numero": 486,
-            	"nivel": 1
+              "numero": 486,
+              "nivel": 1
             }
           ]
         }
@@ -5735,7 +5733,7 @@ const platino = {
       "plantas": [
         {
           "nombre": "Isla Lunanueva",
-          "legendario": [
+          "caminando": [
             {
               "numero": 491,
               "nivel": 40
@@ -5744,7 +5742,7 @@ const platino = {
         },
         {
           "nombre": "Paraíso Floral",
-          "legendario": [
+          "caminando": [
             {
               "numero": 492,
               "nivel": 30
@@ -5753,7 +5751,7 @@ const platino = {
         },
         {
           "nombre": "Sala del Origen",
-          "legendario": [
+          "caminando": [
             {
               "numero": 493,
               "nivel": 80
@@ -6365,9 +6363,10 @@ const platino = {
     },
     {
       "nombre": "Evento",
-      "otros": [
+      "especial": [
         {
-          "numero": 490
+          "numero": 490,
+          "observaciones": "Transferir huevo de Manaphy de Pokémon Ranger"
         }
       ]
     }

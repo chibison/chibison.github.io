@@ -588,8 +588,6 @@ function dibujarLugar(lugar){
 
 function devolverTexto(tipo){
   switch(tipo){
-    case 'inicial': return 'Pokémon inicial';
-    case 'escoger': return 'Escoger entre';
     case 'hierba': return 'Hierba';
     case 'hierbaoscura': return 'Hierba oscura';
     case 'movimiento': return 'Hierba que se mueve';
@@ -598,7 +596,6 @@ function devolverTexto(tipo){
     case 'surfsombra': return 'Surf en sombra de agua';
     case 'pesca': return 'Pesca';
     case 'pescasombra': return 'Pesca en sombra de agua';
-    case 'comprar': return 'Comprar';
     case 'intercambio': return 'Intercambio';
     case 'regalo': return 'Regalo';
     case 'huevo': return 'Huevo';
@@ -617,7 +614,7 @@ function devolverTexto(tipo){
     case 'cartucho': return 'Cartucho GBA';
     case 'sonidos': return 'Sonidos de Hoenn y Sinnoh';
     case 'observatorio': return 'Observatorio';
-    case 'walker': return '';
+    case 'walker': return 'Poké Walker';
     case 'nacional': return 'Tras obtener la Pokédex Nacional';
     case 'miel': return 'Miel';
     case 'polvo': return 'Nube de polvo';
@@ -727,7 +724,7 @@ function dibujarPok(div, pok){
     divDatos.append(dibujarProbabilidad(pok.porcentaje,"#000"));
   }
 
-  if(pok.hasOwnProperty("precio")){
+/*  if(pok.hasOwnProperty("precio")){
     let divPrecio= document.createElement("DIV");
     divPrecio.classList.add("precio");
 
@@ -744,7 +741,7 @@ function dibujarPok(div, pok){
     divPrecio.append(imgPrecio);
 
     divDatos.append(divPrecio);
-  }
+  }*/
 
   if(pok.hasOwnProperty("fichas")){
     let divFichas= document.createElement("DIV");

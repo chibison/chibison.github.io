@@ -779,7 +779,7 @@ const rubi = {
 				},
 				{
 					"nombre": "Ruinas del Desierto",
-					"legendario": [
+					"caminando": [
 						{
 							"numero": 377,
 							"nivel": 40
@@ -1135,7 +1135,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Cueva Insular",
-			"legendario":[
+			"caminando":[
 				{
 					"numero": 378,
 					"nivel": 40
@@ -1631,7 +1631,7 @@ const rubi = {
 		},
 		{
 			"nombre": "Tumba antigua",
-			"legendario":[
+			"caminando":[
 				{
 					"numero": 379,
 					"nivel": 40
@@ -2616,7 +2616,7 @@ const rubi = {
 				},
 				{
 					"nombre": "Sótano 6",
-					"legendario":[
+					"caminando":[
 						{
 							"numero": 383,
 							"nivel": 45
@@ -2839,7 +2839,7 @@ const rubi = {
 				},
 				{
 					"nombre": "Azotea",
-					"legendario":[
+					"caminando":[
 						{
 							"numero": 384,
 							"nivel": 70

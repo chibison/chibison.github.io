@@ -3045,9 +3045,7 @@ const plata={
         {
           "numero": 92,
           "probabilidad": {"tipo":"hora", "noche":{"nivel": "22-24", "porcentaje": 20}}
-        }
-      ],
-      "legendario": [
+        },
         {
           "numero": 250,
           "nivel": 70
@@ -5082,6 +5080,10 @@ const plata={
               "numero": 41,
               "nivel": 25,
               "porcentaje": 30
+            },
+            {
+              "numero": 249,
+              "nivel": 40
             }
           ],
           "surf": [
@@ -5121,12 +5123,6 @@ const plata={
             {
               "numero": 117,
               "probabilidad": {"tipo":"cania", "super":{"nivel": 40, "porcentaje": 10}}
-            }
-          ],
-          "legendario": [
-            {
-            	"numero": 249,
-            	"nivel": 40
             }
           ]
         }
@@ -5367,7 +5363,7 @@ const plata={
     },
     {
       "nombre": "Evento",
-      "legendario": [
+      "otros": [
         {
           "numero": 251,
           "nivel": 30,

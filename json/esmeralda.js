@@ -799,7 +799,7 @@ const esmeralda = {
 				},
 				{
 					"nombre": "Ruinas del Desierto",
-					"legendario": [
+					"caminando": [
 						{
 							"numero": 377,
 							"nivel": 40
@@ -1200,7 +1200,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Cueva Insular",
-			"legendario":[
+			"caminando":[
 				{
 					"numero": 378,
 					"nivel": 40
@@ -1696,7 +1696,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Tumba antigua",
-			"legendario":[
+			"caminando":[
 				{
 					"numero": 379,
 					"nivel": 40
@@ -3066,7 +3066,7 @@ const esmeralda = {
 				},
 				{
 					"nombre": "Azotea",
-					"legendario":[
+					"caminando":[
 						{
 							"numero": 384,
 							"nivel": 70
@@ -3464,7 +3464,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Cueva Terrena",
-			"legendario": [
+			"caminando": [
 				{
 					"numero": 383,
 					"nivel": 70
@@ -3473,7 +3473,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Cueva Marina",
-			"legendario": [
+			"caminando": [
 				{
 					"numero": 382,
 					"nivel": 70
@@ -3524,7 +3524,7 @@ const esmeralda = {
 		},
 		{
 			"nombre": "Isla Origen",
-			"legendario": [
+			"caminando": [
 				{
 					"numero": 386,
 					"nivel": 30,

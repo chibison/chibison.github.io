@@ -5289,6 +5289,10 @@ const heartgold = {
 				{
 					"numero": 92,
 					"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 80}}
+				},
+				{
+					"numero": 250,
+					"nivel": 45
 				}
 			],
 			"sonidos": [
@@ -5315,12 +5319,6 @@ const heartgold = {
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Sinnoh"
-				}
-			],
-			"legendario":[
-				{
-					"numero": 250,
-					"nivel": 45
 				}
 			]
 		},
@@ -6241,6 +6239,12 @@ const heartgold = {
 					"probabilidad": {"tipo":"hora", "noche": {"nivel": 8, "porcentaje": 20}}
 				}
 			],
+			"caminando":[
+				{
+					"numero": 245,
+					"nivel": 40
+				}
+			],
 			"cabeza":[
 				{
 					"numero": 163,
@@ -6322,12 +6326,6 @@ const heartgold = {
 					"nivel": "8-10",
 					"porcentaje": 20,
 					"region": "Sinnoh"
-				}
-			],
-			"legendario": [
-				{
-					"numero": 245,
-					"nivel": 40
 				}
 			]
 		},
@@ -6507,6 +6505,12 @@ const heartgold = {
 					"probabilidad": {"tipo":"hora", "noche": {"nivel": "16-18", "porcentaje": 40}}
 				},
 			],
+			"caminando":[
+				{
+					"numero": 145,
+					"nivel": 50
+				}
+			],
 			"surf": [
 				{
 					"numero": 118,
@@ -6557,12 +6561,6 @@ const heartgold = {
 					"nivel": "16-17",
 					"porcentaje": 20,
 					"region": "Sinnoh"
-				}
-			],
-			"legendario": [
-				{
-					"numero": 145,
-					"nivel": 50
 				}
 			]
 		},
@@ -8664,6 +8662,10 @@ const heartgold = {
 							"numero": 124,
 							"nivel": "38-40",
 							"porcentaje": 12
+						},
+						{
+							"numero": 144,
+							"nivel": 50
 						}
 					],
 					"surf": [
@@ -8737,12 +8739,6 @@ const heartgold = {
 							"nivel": 34,
 							"porcentaje": 20,
 							"region": "Sinnoh"
-						}
-					],
-					"legendario": [
-						{
-							"numero": 144,
-							"nivel": 50
 						}
 					]
 				}
@@ -9418,6 +9414,10 @@ const heartgold = {
 						{
 							"numero": 200,
 							"probabilidad": {"tipo":"hora", "noche": {"nivel": 45, "porcentaje": 10}}
+						},
+						{
+							"numero": 146,
+							"nivel": 50
 						}
 					],
 					"sonidos":[
@@ -9444,12 +9444,6 @@ const heartgold = {
 							"nivel": "45-48",
 							"porcentaje": 20,
 							"region": "Sinnoh"
-						}
-					],
-					"legendario": [
-						{
-							"numero": 146,
-							"nivel": 50
 						}
 					]
 				}
@@ -10032,6 +10026,10 @@ const heartgold = {
 							"numero": 42,
 							"nivel": 24,
 							"porcentaje": 5
+						},
+						{
+							"numero": 249,
+							"nivel": 70
 						}
 					],
 					"sonidos":[
@@ -10059,19 +10057,13 @@ const heartgold = {
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						}
-					],
-					"legendario":[
-						{
-							"numero": 249,
-							"nivel": 70
-						}
 					]
 				}
 			]
 		},
 		{
 			"nombre": "Torre oculta",
-			"legendario": [
+			"caminando": [
 				{
 					"numero": 382,
 					"nivel": 50

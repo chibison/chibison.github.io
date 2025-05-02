@@ -718,6 +718,12 @@ const negro = {
 							"porcentaje": 5
 						}
 					],
+					"caminando":[
+						{
+							"numero": 639,
+							"nivel": 42
+						}
+					],
 					"surf":[
 						{
 							"numero": 550,
@@ -764,17 +770,11 @@ const negro = {
 							"nivel": "35-70",
 							"porcentaje": 10
 						}
-					],
-					"legendario": [
-						{
-							"numero": 639,
-							"nivel": 42
-						}
 					]
 				},
 				{
 					"nombre": "Claro Filosfía",
-					"legendario": [
+					"caminando": [
 						{
 							"numero": 640,
 							"nivel": 40
@@ -1863,6 +1863,11 @@ const negro = {
 					"numero": 609,
 					"nivel": "30-31",
 					"porcentaje": 20
+				},
+				{
+					"numero": 637,
+					"nivel": 42,
+					"observaciones": "Estancia Orientación"
 				}
 			],
 			"polvo":[
@@ -1870,13 +1875,6 @@ const negro = {
 					"numero": 529,
 					"nivel": "28-31",
 					"porcentaje": 100
-				}
-			],
-			"legendario":[
-				{
-					"numero": 637,
-					"nivel": 42,
-					"observaciones": "Estancia Orientación"
 				}
 			]
 		},
@@ -2644,6 +2642,16 @@ const negro = {
 								"porcentaje": 10
 							}
 						]
+					},
+					{
+						"nombre": "Cámara de Pruebas",
+						"caminando":[
+							{
+								"numero": 638,
+								"nivel": 42,
+								"observaciones": "Sólo uno en Cámara de Pruebas"
+							}
+						]
 					}
 			],
 			"polvo":[
@@ -2703,13 +2711,6 @@ const negro = {
 					"numero": 62,
 					"nivel": "45-70",
 					"porcentaje": 5
-				}
-			],
-			"legendario": [
-				{
-					"numero": 638,
-					"nivel": 42,
-					"observaciones": "Sólo uno en Cámara de Pruebas"
 				}
 			]
 		},
@@ -3851,6 +3852,10 @@ const negro = {
 							"numero": 525,
 							"nivel": 59,
 							"porcentaje": 5
+						},
+						{
+							"numero": 645,
+							"nivel": 75
 						}
 					],
 					"polvo":[
@@ -3925,12 +3930,6 @@ const negro = {
 							"numero": 62,
 							"nivel": "45-70",
 							"porcentaje": 5
-						}
-					],
-					"legendario":[
-						{
-							"numero": 645,
-							"nivel": 75
 						}
 					]
 				}
@@ -4401,11 +4400,11 @@ const negro = {
 					"porcentaje": 100
 				}
 			],
-			"comprar": [
+			"especial": [
 				{
 					"numero": 129,
 					"nivel": 5,
-					"precio": 500
+					"observaciones": "Comprar por 500P"
 				}
 			]
 		},
@@ -4599,7 +4598,7 @@ const negro = {
 		},
 		{
 			"nombre": "Palacio de N",
-			"legendario": [
+			"caminando": [
 				{
 					"numero": 643,
 					"nivel": 50

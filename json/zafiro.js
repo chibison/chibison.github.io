@@ -781,7 +781,7 @@ const zafiro = {
 				},
 				{
 					"nombre": "Ruinas del Desierto",
-					"legendario": [
+					"caminando": [
 						{
 							"numero": 377,
 							"nivel": 40
@@ -1137,7 +1137,7 @@ const zafiro = {
 		},
 		{
 			"nombre": "Cueva Insular",
-			"legendario":[
+			"caminando":[
 				{
 					"numero": 378,
 					"nivel": 40
@@ -1633,7 +1633,7 @@ const zafiro = {
 		},
 		{
 			"nombre": "Tumba antigua",
-			"legendario":[
+			"caminando":[
 				{
 					"numero": 379,
 					"nivel": 40
@@ -2618,7 +2618,7 @@ const zafiro = {
 				},
 				{
 					"nombre": "Sótano 6",
-					"legendario":[
+					"caminando":[
 						{
 							"numero": 382,
 							"nivel": 45
@@ -2841,7 +2841,7 @@ const zafiro = {
 				},
 				{
 					"nombre": "Azotea",
-					"legendario":[
+					"caminando":[
 						{
 							"numero": 384,
 							"nivel": 70
