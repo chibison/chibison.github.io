@@ -2513,17 +2513,20 @@ const verdehoja =	{
 			"lema": "La brillante y dorada tierra del comercio.",
 			"regalo": [{
 					"numero": 106,
-					"nivel": 25
+					"nivel": 25,
+					"observaciones": "En Dojo-Karate"
 				},
 				{
 					"numero": 107,
-					"nivel": 25
+					"nivel": 25,
+					"observaciones": "En Dojo-Karate"
+				},
+				{
+					"numero": 131,
+					"nivel": 15,
+					"observaciones": "En Silph S.A."
 				}
-			],
-			"regalo": [{
-				"numero": 131,
-				"nivel": 15
-			}]
+			]
 		},
 		{
 			"nombre": "Ruta 19",
@@ -6772,13 +6775,7 @@ const verdehoja =	{
 					"numero": 32
 				},
 				{
-					"numero": 35
-				},
-				{
 					"numero": 37
-				},
-				{
-					"numero": 39
 				},
 				{
 					"numero": 41
@@ -6805,16 +6802,10 @@ const verdehoja =	{
 					"numero": 84
 				},
 				{
-					"numero": 88
-				},
-				{
 					"numero": 92
 				},
 				{
 					"numero": 95
-				},
-				{
-					"numero": 98
 				},
 				{
 					"numero": 102
@@ -7015,7 +7006,10 @@ const verdehoja =	{
 					"numero": 222
 				},
 				{
-			 		"numero": 228
+					"numero": 228
+				},
+				{
+			 		"numero": 234
 				},
 				{
 					"numero": 235

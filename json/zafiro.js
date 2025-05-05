@@ -3268,7 +3268,7 @@ const zafiro = {
 					"numero": 66
 				},
 				{
-					"numero": 75
+					"numero": 74
 				},
 				{
 					"numero": 88

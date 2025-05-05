@@ -2509,19 +2509,23 @@ const rojofuego =	{
 		{
 			"nombre": "Ciudad Azafrán",
 			"lema": "La brillante y dorada tierra del comercio.",
-			"regalo": [{
+			"regalo": [
+				{
 					"numero": 106,
-					"nivel": 25
+					"nivel": 25,
+					"observaciones": "En Dojo-Karate"
 				},
 				{
 					"numero": 107,
-					"nivel": 25
+					"nivel": 25,
+					"observaciones": "En Dojo-Karate"
+				},
+				{
+					"numero": 131,
+					"nivel": 15,
+					"observaciones": "En Silph S.A."
 				}
-			],
-			"regalo": [{
-				"numero": 131,
-				"nivel": 15
-			}]
+			]
 		},
 		{
 			"nombre": "Ruta 19",
@@ -6854,9 +6858,6 @@ const rojofuego =	{
 					"numero": 231
 				},
 				{
-					"numero": 236
-				},
-				{
 					"numero": 246
 				}
 			]
@@ -6864,9 +6865,6 @@ const rojofuego =	{
 		{
 			"nombre": "Crianza",
 			"otros": [
-				{
-					"numero": 124
-				},
 				{
 					"numero": 172
 				},
@@ -6884,9 +6882,6 @@ const rojofuego =	{
 				},
 				{
 					"numero": 239
-				},
-				{
-					"numero": 298
 				},
 				{
 					"numero": 360
@@ -6913,6 +6908,9 @@ const rojofuego =	{
 				},
 				{
 					"numero": 127
+				},
+				{
+					"numero": 298
 				},
 				{
 					"numero": 240
@@ -6993,6 +6991,9 @@ const rojofuego =	{
 				},
 				{
 					"numero": 228
+				},
+				{
+					"numero": 234
 				},
 				{
 					"numero": 235

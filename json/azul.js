@@ -1675,9 +1675,7 @@ const azul = {
 					"numero": 107,
 					"nivel":30,
 					"observaciones": "En Dojo-Karate"
-				}
-			],
-			"regalo":	[
+				},
 				{
 					"numero": 131,
 					"nivel":15,

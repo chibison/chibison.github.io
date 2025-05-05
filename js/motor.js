@@ -1646,10 +1646,11 @@ function construirArrayObtenidos(pJuego){
 function comprobarTrofeos(){
   if (obtenidos) {
 
-    /* Comprobar que no falten */
-    /*for(let i=1; i<=obtenidos[juego].length; i++){
-      console.log(i+": "+i.toString()+" "+obtenidos[juego].includes(i.toString()));
-    }*/
+    /* Comprobar que no falten pokemon en la lista*/
+    for(let i=1; i<=obtenidos[juego].length; i++){
+      if(!obtenidos[juego].includes(i.toString()))
+        console.log(i);
+    }
 
 
 

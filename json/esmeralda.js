@@ -3548,7 +3548,7 @@ const esmeralda = {
 					"numero": 43
 				},
 				{
-					"numero": 54
+					"numero": 52
 				},
 				{
 					"numero": 63
@@ -3557,22 +3557,13 @@ const esmeralda = {
 					"numero": 66
 				},
 				{
-					"numero": 72
-				},
-				{
 					"numero": 74
-				},
-				{
-					"numero": 81
 				},
 				{
 					"numero": 84
 				},
 				{
 					"numero": 88
-				},
-				{
-					"numero": 100
 				},
 				{
 					"numero": 109
@@ -3584,31 +3575,40 @@ const esmeralda = {
 					"numero": 116
 				},
 				{
-					"numero": 118
-				},
-				{
 					"numero": 120
-				},
-				{
-					"numero": 129
 				},
 				{
 					"numero": 163
 				},
 				{
+					"numero": 165
+				},
+				{
+					"numero": 167
+				},
+				{
 					"numero": 170
 				},
 				{
-					"numero": 172
+					"numero": 179
 				},
 				{
-					"numero": 174
+					"numero": 191
 				},
 				{
-					"numero": 178
+					"numero": 204
+				},
+				{
+					"numero": 209
+				},
+				{
+					"numero": 216
 				},
 				{
 					"numero": 218
+				},
+				{
+					"numero": 228
 				},
 				{
 					"numero": 231
@@ -3623,12 +3623,6 @@ const esmeralda = {
 					"numero": 258
 				},
 				{
-					"numero": 261
-				},
-				{
-					"numero": 263
-				},
-				{
 					"numero": 265
 				},
 				{
@@ -3636,12 +3630,6 @@ const esmeralda = {
 				},
 				{
 					"numero": 273
-				},
-				{
-					"numero": 276
-				},
-				{
-					"numero": 278
 				},
 				{
 					"numero": 280
@@ -3659,25 +3647,13 @@ const esmeralda = {
 					"numero": 293
 				},
 				{
-					"numero": 296
-				},
-				{
-					"numero": 298
-				},
-				{
 					"numero": 300
 				},
 				{
 					"numero": 304
 				},
 				{
-					"numero": 309
-				},
-				{
 					"numero": 316
-				},
-				{
-					"numero": 318
 				},
 				{
 					"numero": 320
@@ -3695,16 +3671,7 @@ const esmeralda = {
 					"numero": 331
 				},
 				{
-					"numero": 333
-				},
-				{
-					"numero": 339
-				},
-				{
 					"numero": 341
-				},
-				{
-					"numero": 343
 				},
 				{
 					"numero": 345
@@ -3716,13 +3683,7 @@ const esmeralda = {
 					"numero": 349
 				},
 				{
-					"numero": 353
-				},
-				{
 					"numero": 355
-				},
-				{
-					"numero": 360
 				},
 				{
 					"numero": 361
@@ -3776,7 +3737,7 @@ const esmeralda = {
 			]
 		},
 		{
-			"nombre": "Otros juegos",
+			"nombre": "Intercambiar de otros juegos",
 			"otros":[
 				{
 					"numero": 1
@@ -3810,6 +3771,9 @@ const esmeralda = {
 				},
 				{
 					"numero": 32
+				},
+				{
+					"numero": 173
 				},
 				{
 					"numero": 46
@@ -3938,31 +3902,13 @@ const esmeralda = {
 					"numero": 161
 				},
 				{
-					"numero": 165
-				},
-				{
-					"numero": 167
-				},
-				{
 					"numero": 175
-				},
-				{
-					"numero": 179
 				},
 				{
 					"numero": 187
 				},
 				{
-					"numero": 190
-				},
-				{
-					"numero": 191
-				},
-				{
 					"numero": 193
-				},
-				{
-					"numero": 194
 				},
 				{
 					"numero": 198
@@ -4083,13 +4029,7 @@ const esmeralda = {
 					"variedad": 27
 				},
 				{
-					"numero": 204
-				},
-				{
 					"numero": 206
-				},
-				{
-					"numero": 209
 				},
 				{
 					"numero": 211
@@ -4098,22 +4038,13 @@ const esmeralda = {
 					"numero": 215
 				},
 				{
-					"numero": 216
-				},
-				{
 					"numero": 220
-				},
-				{
-					"numero": 223
 				},
 				{
 					"numero": 225
 				},
 				{
 					"numero": 226
-				},
-				{
-					"numero": 228
 				},
 				{
 					"numero": 234
@@ -4129,9 +4060,6 @@ const esmeralda = {
 				},
 				{
 					"numero": 240
-				},
-				{
-					"numero": 241
 				},
 				{
 					"numero": 243
@@ -4153,9 +4081,6 @@ const esmeralda = {
 				},
 				{
 					"numero": 251
-				},
-				{
-					"numero": 386
 				}
 			]
 		},
