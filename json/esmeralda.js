@@ -187,6 +187,7 @@ const esmeralda = {
 			],
 			"masiva": [
 				{
+					"pokedex": "*",
 					"numero": 273,
 					"nivel": "3-4",
 					"porcentaje": 50
@@ -362,6 +363,7 @@ const esmeralda = {
 			],
 			"masiva":[
 				{
+					"pokedex": "*",
 					"numero": 300,
 					"nivel": 8,
 					"porcentaje":50
@@ -712,6 +714,7 @@ const esmeralda = {
 			],
 			"masiva": [
 				{
+					"pokedex": "*",
 					"numero": 273,
 					"nivel": 13,
 					"porcentaje": 50
@@ -942,6 +945,7 @@ const esmeralda = {
 				],
 				"masiva":[
 					{
+						"pokedex": "*",
 						"numero": 274,
 						"nivel":15 ,
 						"porcentaje": 50
@@ -1681,6 +1685,7 @@ const esmeralda = {
 			],
 			"masiva": [
 				{
+					"pokedex": "*",
 					"numero": 273,
 					"nivel": 25,
 					"porcentaje": 50

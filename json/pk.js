@@ -1306,18 +1306,20 @@ const pk = {
       {
         "gen":4,
         "roca":"musgo",
-        "en":470
+        "en":470,
+        "excepto": ["heartgold","soulsilver"]
       },
       {
         "gen":4,
         "roca":"hielo",
-        "en":471
+        "en":471,
+        "excepto": ["heartgold","soulsilver"]
       },
       {
         "gen":6,
         "amistad":"",
         "en":700,
-        "observaciones": "movimiento tipo hada"
+        "observaciones": "Movimiento tipo hada."
       }
     ]
   },

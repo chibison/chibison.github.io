@@ -149,18 +149,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "2-3",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "2-3",
 					"porcentaje": 40,
@@ -302,24 +305,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 4,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 4,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "2-3",
 					"porcentaje": 20,
@@ -402,24 +409,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "3-4",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 4,
 					"porcentaje": 20,
@@ -488,24 +499,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 2,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": "2-3",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 2,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": "2-3",
 					"porcentaje": 20,
@@ -606,24 +621,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 263,
 					"nivel": "3-4",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 327,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 441,
 					"nivel": "3-4",
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 307,
 					"nivel": 5,
 					"porcentaje": 20,
@@ -678,18 +697,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 13,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "2-3",
 					"porcentaje": 40,
@@ -750,7 +772,7 @@ const soulsilver = {
 							"probabilidad": {"tipo":"cania", "vieja":{"nivel": 10, "porcentaje": 5}, "buena":{"nivel": 20, "porcentaje": 40}, "super":{"nivel": 40, "porcentaje": 93}}
 						}
 					],
-					"sonidos": [
+					"": [
 						{
 							"numero": 293,
 							"nivel": "20-22",
@@ -1036,24 +1058,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "4-6",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 6,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 6,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "4-6",
 					"porcentaje": 20,
@@ -1116,24 +1142,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 5,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": 6,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 5,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": 6,
 							"porcentaje": 20,
@@ -1193,24 +1223,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 7,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": 8,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 7,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": 8,
 							"porcentaje": 20,
@@ -1293,24 +1327,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 22,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": 22,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 22,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": 22,
 							"porcentaje": 20,
@@ -1367,18 +1405,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "6-7",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 6,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "6-7",
 					"porcentaje": 40,
@@ -1444,24 +1485,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 7,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "5-6",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 7,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "5-6",
 							"porcentaje": 20,
@@ -1516,24 +1561,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 19,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "21-23",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 19,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "21-23",
 							"porcentaje": 20,
@@ -1620,24 +1669,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 325,
 					"nivel": "5-6",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 322,
 					"nivel": 6,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 406,
 					"nivel": "5-6",
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 455,
 					"nivel": 6,
 					"porcentaje": 20,
@@ -1730,24 +1783,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "10-11",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "10-11",
 					"porcentaje": 20,
@@ -1879,24 +1936,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 12,
 					"porcentaje": 20,
@@ -2159,18 +2220,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 10,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "10-12",
 					"porcentaje": 40,
@@ -2227,18 +2291,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "13-15",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 15,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "13-15",
 					"porcentaje": 40,
@@ -2319,24 +2386,28 @@ const soulsilver = {
 					],
 					"sonidos": [
 						{
+							"pokedex": "*",
 							"numero": 263,
 							"nivel": "13-14",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 327,
 							"nivel": 15,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 307,
 							"nivel": 15,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 441,
 							"nivel": "13-14",
 							"porcentaje": 20,
@@ -2366,24 +2437,28 @@ const soulsilver = {
 					],
 					"sonidos": [
 						{
+							"pokedex": "*",
 							"numero": 263,
 							"nivel": 14,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 327,
 							"nivel": 16,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 307,
 							"nivel": 16,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 441,
 							"nivel": 14,
 							"porcentaje": 20,
@@ -2466,18 +2541,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 16,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 16,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": 16,
 					"porcentaje": 40,
@@ -2537,18 +2615,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "16-17",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 16,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "16-17",
 					"porcentaje": 40,
@@ -2870,24 +2951,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "33-34",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": "31-32",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": "31-32",
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "33-34",
 					"porcentaje": 20,
@@ -2957,18 +3042,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "20-21",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": "22-24",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "20-21",
 					"porcentaje": 40,
@@ -4614,24 +4702,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "13-14",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "13-14",
 					"porcentaje": 20,
@@ -4705,24 +4797,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 15,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 17,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 17,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 15,
 					"porcentaje": 20,
@@ -4852,24 +4948,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "22-23",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "22-23",
 					"porcentaje": 20,
@@ -4909,24 +5009,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 22,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "21-22",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 22,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "21-22",
 							"porcentaje": 20,
@@ -4963,24 +5067,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 23,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "22-24",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 23,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "22-24",
 							"porcentaje": 20,
@@ -5118,24 +5226,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 23,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 24,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 24,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 23,
 					"porcentaje": 20,
@@ -5195,24 +5307,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 25,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": 23,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 25,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": 23,
 					"porcentaje": 20,
@@ -5254,18 +5370,21 @@ const soulsilver = {
 						],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "2-3",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 2,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "2-3",
 					"porcentaje": 40,
@@ -5341,24 +5460,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 24,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "22-23",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 24,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "22-23",
 							"porcentaje": 20,
@@ -5392,24 +5515,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 24,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "22-23",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 24,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "22-23",
 							"porcentaje": 20,
@@ -5482,24 +5609,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 24,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "22-23",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 24,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "22-23",
 							"porcentaje": 20,
@@ -5537,24 +5668,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 25,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "23-24",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 25,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "23-24",
 							"porcentaje": 20,
@@ -5660,24 +5795,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": 22,
 					"porcentaje": 20,
@@ -5747,24 +5886,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": 22,
 					"porcentaje": 20,
@@ -5856,24 +5999,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 32,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 28,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 32,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 28,
 					"porcentaje": 20,
@@ -5924,24 +6071,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 33,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": 32,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 33,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": 32,
 					"porcentaje": 20,
@@ -6091,24 +6242,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 13,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 13,
 					"porcentaje": 20,
@@ -6203,18 +6358,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 17,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 18,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "17-18",
 					"porcentaje": 40,
@@ -6313,18 +6471,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 13,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 14,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "13-14",
 					"porcentaje": 40,
@@ -6436,24 +6597,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "8-10",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 9,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 9,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "8-10",
 					"porcentaje": 20,
@@ -6563,24 +6728,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "8-10",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "8-10",
 					"porcentaje": 20,
@@ -6643,24 +6812,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 13,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": "13-15",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 13,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "13-15",
 					"porcentaje": 20,
@@ -6699,24 +6872,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": 10,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 12,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": 10,
 					"porcentaje": 20,
@@ -6787,24 +6964,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "16-17",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 16,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 16,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "16-17",
 					"porcentaje": 20,
@@ -6872,18 +7053,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "17-19",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 15,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "15-19",
 					"porcentaje": 40,
@@ -6994,18 +7178,21 @@ const soulsilver = {
 						],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "14-15",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 15,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "14-15",
 					"porcentaje": 40,
@@ -7042,24 +7229,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 19,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": "15-17",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 19,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": "15-17",
 					"porcentaje": 20,
@@ -7162,24 +7353,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 23,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 25,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 25,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 23,
 					"porcentaje": 20,
@@ -7324,18 +7519,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 23,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 25,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "23-25",
 					"porcentaje": 40,
@@ -7429,18 +7627,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "26-27",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 28,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "26-28",
 					"porcentaje": 40,
@@ -7475,18 +7676,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "26-27",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 28,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "26-28",
 					"porcentaje": 40,
@@ -7542,18 +7746,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": "26-27",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 28,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "26-28",
 					"porcentaje": 40,
@@ -7772,24 +7979,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "25-30",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 35,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 35,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "25-30",
 					"porcentaje": 20,
@@ -7928,18 +8139,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 2,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "2-3",
 					"porcentaje": 40,
@@ -8054,18 +8268,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "3-5",
 					"porcentaje": 40,
@@ -8145,24 +8362,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 322,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 325,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 406,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 455,
 					"nivel": 5,
 					"porcentaje": 20,
@@ -8232,18 +8453,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "3-5",
 					"porcentaje": 40,
@@ -8374,18 +8598,21 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 311,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 312,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 403,
 					"nivel": "5-8",
 					"porcentaje": 40,
@@ -8419,24 +8646,28 @@ const soulsilver = {
 			],
 			"sonidos":[
 				{
+					"pokedex": "*",
 					"numero": 296,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 359,
 					"nivel": "6-8",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 433,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 436,
 					"nivel": "6-8",
 					"porcentaje": 20,
@@ -8541,24 +8772,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 8,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 5,
 					"porcentaje": 20,
@@ -8635,24 +8870,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": 3,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 5,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": 3,
 					"porcentaje": 20,
@@ -8689,24 +8928,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "30-32",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "28-29",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "30-32",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "28-29",
 							"porcentaje": 20,
@@ -8745,24 +8988,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "32-34",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "28-34",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "32-34",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "28-34",
 							"porcentaje": 20,
@@ -8801,24 +9048,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "33-35",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "30-35",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "33-35",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "30-35",
 							"porcentaje": 20,
@@ -8862,24 +9113,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "34-36",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "32-34",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "34-36",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "32-34",
 							"porcentaje": 20,
@@ -8974,24 +9229,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 38,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": 34,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 38,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": 34,
 							"porcentaje": 20,
@@ -9078,24 +9337,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 293,
 					"nivel": "39-40",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 264,
 					"nivel": 40,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 399,
 					"nivel": 40,
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 418,
 					"nivel": "39-40",
 					"porcentaje": 20,
@@ -9180,24 +9443,28 @@ const soulsilver = {
 					],
 					"sonidos": [
 						{
+							"pokedex": "*",
 							"numero": 293,
 							"nivel": "41-42",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 264,
 							"nivel": 42,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 399,
 							"nivel": 42,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 418,
 							"nivel": "41-42",
 							"porcentaje": 20,
@@ -9255,24 +9522,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 48,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "48-51",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 48,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "48-51",
 							"porcentaje": 20,
@@ -9318,24 +9589,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 47,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "45-48",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 47,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "45-48",
 							"porcentaje": 20,
@@ -9409,24 +9684,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 43,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "42-44",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 43,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "42-44",
 							"porcentaje": 20,
@@ -9478,24 +9757,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "47-48",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "45-46",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "47-48",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "45-46",
 							"porcentaje": 20,
@@ -9547,24 +9830,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "48-50",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "46-48",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "48-50",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "46-48",
 							"porcentaje": 20,
@@ -9611,24 +9898,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 47,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "45-48",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 47,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "45-48",
 							"porcentaje": 20,
@@ -9679,24 +9970,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": "47-48",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "45-48",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": "47-48",
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "45-48",
 							"porcentaje": 20,
@@ -9724,24 +10019,28 @@ const soulsilver = {
 			],
 			"sonidos": [
 				{
+					"pokedex": "*",
 					"numero": 263,
 					"nivel": "20-21",
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 327,
 					"nivel": 22,
 					"porcentaje": 20,
 					"region": "Hoenn"
 				},
 				{
+					"pokedex": "*",
 					"numero": 441,
 					"nivel": "20-21",
 					"porcentaje": 20,
 					"region": "Sinnoh"
 				},
 				{
+					"pokedex": "*",
 					"numero": 307,
 					"nivel": 22,
 					"porcentaje": 20,
@@ -9816,24 +10115,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 14,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "13-15",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 14,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "13-15",
 							"porcentaje": 20,
@@ -9867,24 +10170,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 15,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": 13,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 15,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": 13,
 							"porcentaje": 20,
@@ -9949,24 +10256,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 15,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": 13,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 15,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": 13,
 							"porcentaje": 20,
@@ -10043,24 +10354,28 @@ const soulsilver = {
 					],
 					"sonidos":[
 						{
+							"pokedex": "*",
 							"numero": 296,
 							"nivel": 31,
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 359,
 							"nivel": "31-32",
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
 						{
+							"pokedex": "*",
 							"numero": 433,
 							"nivel": 31,
 							"porcentaje": 20,
 							"region": "Sinnoh"
 						},
 						{
+							"pokedex": "*",
 							"numero": 436,
 							"nivel": "31-32",
 							"porcentaje": 20,

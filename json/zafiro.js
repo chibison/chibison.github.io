@@ -187,6 +187,7 @@ const zafiro = {
 			],
 			"masiva": [
 				{
+					"pokedex": "*",
 					"numero": 283,
 					"nivel": "3-4",
 					"porcentaje": 50
@@ -354,6 +355,7 @@ const zafiro = {
 			],
 			"masiva":[
 				{
+					"pokedex": "*",
 					"numero": 300,
 					"nivel": 15,
 					"porcentaje":50
@@ -709,6 +711,7 @@ const zafiro = {
 			],
 			"masiva":[
 				{
+					"pokedex": "*",
 					"numero": 283,
 					"nivel":15,
 					"porcentaje": 50
@@ -924,6 +927,7 @@ const zafiro = {
 				],
 				"masiva":[
 					{
+						"pokedex": "*",
 						"numero": 283,
 						"nivel":15 ,
 						"porcentaje": 50
@@ -1618,6 +1622,7 @@ const zafiro = {
 			],
 			"masiva": [
 				{
+					"pokedex": "*",
 					"numero": 283,
 					"nivel": 28,
 					"porcentaje": 50

@@ -6708,40 +6708,6 @@ const verdehoja =	{
 					"nivel": "6-16",
 					"porcentaje": 100
 				}
-			],
-			"evento": [
-				{
-					"numero": 179,
-					"nivel": "3-13"
-				},
-				{
-					"numero": 190,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 204,
-					"nivel": "19-29"
-				},
-				{
-					"numero": 213,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 216,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 228,
-					"nivel": "12-20"
-				},
-				{
-					"numero": 234,
-					"nivel": "18-28"
-				},
-				{
-					"numero": 235,
-					"nivel": "18-28"
-				}
 			]
 		},
 		{
@@ -6764,9 +6730,6 @@ const verdehoja =	{
 				},
 				{
 					"numero": 16
-				},
-				{
-					"numero": 25
 				},
 				{
 					"numero": 29
@@ -6860,9 +6823,6 @@ const verdehoja =	{
 				},
 				{
 					"numero": 177
-				},
-				{
-					"numero": 183
 				},
 				{
 					"numero": 187

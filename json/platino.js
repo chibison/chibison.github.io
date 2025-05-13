@@ -26,6 +26,12 @@ const platino = {
       "imagen": "otros/gen4/radar.png",
       "filtro": "radar",
       "defecto": false
+    },
+    {
+      "nombre": "Aparición masiva",
+      "imagen": "otros/gen4/masiva.png",
+      "filtro": "masiva",
+      "defecto": false
     }
   ],
   "lugares":[
@@ -96,6 +102,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 10}, "noche": {"nivel": 3, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 58,
           "nivel": 2,
           "porcentaje": 8,
@@ -104,11 +111,13 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 29,
           "nivel": "2-3",
           "porcentaje": 11
         },
         {
+          "pokedex": "*",
           "numero": 32,
           "nivel": "2-3",
           "porcentaje": 11
@@ -116,6 +125,7 @@ const platino = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 84,
           "nivel": "2-3",
           "porcentaje": 40
@@ -136,12 +146,14 @@ const platino = {
           "porcentaje": 50
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": 4,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": 4,
           "porcentaje": 8,
@@ -182,6 +194,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 202,
           "nivel": 4,
           "porcentaje": 22
@@ -208,6 +221,7 @@ const platino = {
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 3, "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 58,
           "nivel": 2,
           "porcentaje": 8,
@@ -216,6 +230,7 @@ const platino = {
       ],
       "radar":[
         {
+        "pokedex": "*",
       	"numero": 161,
       	"nivel": "2-4",
       	"porcentaje": 22
@@ -223,6 +238,7 @@ const platino = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 263,
         	"nivel": 3,
         	"porcentaje": 40
@@ -257,18 +273,21 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 4, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 273,
           "nivel": 5,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 270,
           "nivel": 5,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": 5,
           "porcentaje": 8,
@@ -309,6 +328,7 @@ const platino = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 104,
         	"nivel": 4,
         	"porcentaje": 40
@@ -410,6 +430,31 @@ const platino = {
     {
       "nombre": "Ciudad Pirita",
       "lema": "Ciudad de la energía.",
+      "fosil": [
+        {
+          "numero": 138
+        },
+        {
+          "numero": 140
+        },
+        {
+          "numero": 142
+        },
+        {
+          "numero": 345
+        },
+        {
+          "numero": 347
+        },
+        {
+          "numero": 408,
+          "observaciones": "última cifra del ID del jugador es impar"
+        },
+        {
+          "numero": 410,
+          "observaciones": "última cifra del ID del jugador es par"
+        }
+      ],
       "intercambio": [
         {
         	"numero": 63,
@@ -493,30 +538,35 @@ const platino = {
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 4, "porcentaje": 10}, "dia": {"nivel": 4, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 273,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 204,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Esmeralda"
             },
             {
+              "pokedex": "*",
               "numero": 10,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Rojo Fuego"
             },
             {
+              "pokedex": "*",
               "numero": 13,
               "nivel": 6,
               "porcentaje": 8,
@@ -588,30 +638,35 @@ const platino = {
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 9, "porcentaje": 10}, "dia": {"nivel": 9, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 273,
               "nivel": 10,
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 10,
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 204,
               "nivel": 10,
               "porcentaje": 8,
               "imagen": "Esmeralda"
             },
             {
+              "pokedex": "*",
               "numero": 10,
               "nivel": 10,
               "porcentaje": 8,
               "imagen": "Rojo Fuego"
             },
             {
+              "pokedex": "*",
               "numero": 13,
               "nivel": 10,
               "porcentaje": 8,
@@ -620,6 +675,7 @@ const platino = {
           ],
           "radar":[
             {
+              "pokedex": "*",
             	"numero": 191,
             	"nivel": "9-11",
             	"porcentaje": 22
@@ -764,6 +820,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 179,
           "nivel": "9-12",
           "porcentaje": 22
@@ -771,6 +828,7 @@ const platino = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 309,
           "nivel": "9-10",
           "porcentaje": 40
@@ -867,6 +925,7 @@ const platino = {
           ],
           "radar":[
             {
+              "pokedex": "*",
             	"numero": 187,
             	"nivel": "9-12",
             	"porcentaje": 22
@@ -905,6 +964,7 @@ const platino = {
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 15, "porcentaje": 1}, "dia": {"nivel": 15, "porcentaje": 1}, "noche": {"nivel": 15, "porcentaje": 1}}
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": "13-14",
               "porcentaje": 8,
@@ -946,6 +1006,7 @@ const platino = {
           ],
           "radar":[
             {
+              "pokedex": "*",
               "numero": 79,
               "nivel": "13-15",
               "porcentaje": 22
@@ -1030,6 +1091,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 304,
           "nivel": "29-31",
           "porcentaje": 22
@@ -1096,36 +1158,42 @@ const platino = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 10, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 10,
           "nivel": 13,
           "porcentaje": 4,
           "imagen": "Rojo Fuego"
         },
         {
+          "pokedex": "*",
           "numero": 11,
           "nivel": 13,
           "porcentaje": 4,
           "imagen": "Rojo Fuego"
         },
         {
+          "pokedex": "*",
           "numero": 13,
           "nivel": 13,
           "porcentaje": 4,
           "imagen": "Verde Hoja"
         },
         {
+          "pokedex": "*",
           "numero": 14,
           "nivel": 13,
           "porcentaje": 4,
           "imagen": "Verde Hoja"
         },
         {
+          "pokedex": "*",
           "numero": 273,
           "nivel": 13,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": 13,
           "porcentaje": 8,
@@ -1134,6 +1202,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 290,
         	"nivel": "11-14",
         	"porcentaje": 22
@@ -1141,6 +1210,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 287,
         	"nivel": "10-12",
         	"porcentaje": 40
@@ -1156,12 +1226,14 @@ const platino = {
           "porcentaje": 100
         },
         {
+          "pokedex": "*",
           "numero": 93,
           "nivel": 16,
           "porcentaje": 4,
           "imagen": "Rubí / Zafiro / Esmeralda / Rojo Fuego / Verde Hoja"
         },
         {
+          "pokedex": "*",
           "numero": 94,
           "nivel": "16-17",
           "porcentaje": 4,
@@ -1254,6 +1326,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 343,
           "nivel": "17-19",
           "porcentaje": 22
@@ -1261,9 +1334,84 @@ const platino = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 246,
           "nivel": "14-16",
           "porcentaje": 40
+        }
+      ]
+    },
+    {
+      "nombre": "Cueva Extravío",
+      "plantas": [
+        {
+          "nombre": "Zona Oscura",
+          "caminando": [
+            {
+              "numero": 41,
+              "nivel": "17-19",
+              "porcentaje": 15
+            },
+            {
+              "numero": 74,
+              "nivel": "17-20",
+              "porcentaje": 40
+            },
+            {
+              "numero": 95,
+              "nivel": "18-20",
+              "porcentaje": 15
+            },
+            {
+              "numero": 436,
+              "nivel": "18-20",
+              "porcentaje": 30
+            },
+            {
+              "pokedex": "*",
+              "numero": 27,
+              "nivel": "17-18",
+              "porcentaje": 8,
+              "imagen": "Verde Hoja"
+            }
+          ]
+        },
+        {
+          "nombre": "Zona Secreta",
+          "caminando": [
+            {
+              "numero": 41,
+              "nivel": "17-19",
+              "porcentaje": 10
+            },
+            {
+              "numero": 74,
+              "nivel": "18-20",
+              "porcentaje": 25
+            },
+            {
+              "numero": 95,
+              "nivel": "18-20",
+              "porcentaje": 15
+            },
+            {
+              "numero": 436,
+              "nivel": "18-20",
+              "porcentaje": 30
+            },
+            {
+              "numero": 443,
+              "nivel": "17-20",
+              "porcentaje": 20
+            },
+            {
+              "pokedex": "*",
+              "numero": 27,
+              "nivel": "18-20",
+              "porcentaje": 8,
+              "imagen": "Verde Hoja"
+            }
+          ]
         }
       ]
     },
@@ -1294,6 +1442,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 234,
         	"nivel": "5-7",
         	"porcentaje": 22
@@ -1301,6 +1450,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 231,
         	"nivel": 5,
         	"porcentaje": 40
@@ -1411,12 +1561,14 @@ const platino = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 19, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 335,
           "nivel": 20,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 336,
           "nivel": 20,
           "porcentaje": 8,
@@ -1457,6 +1609,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 235,
         	"nivel": "18-20",
         	"porcentaje": 22
@@ -1464,6 +1617,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 206,
         	"nivel": 18,
         	"porcentaje": 40
@@ -1516,6 +1670,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 17, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 37,
           "nivel": "17-20",
           "porcentaje": 8,
@@ -1556,6 +1711,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 281,
         	"nivel": "18-20",
         	"porcentaje": 22
@@ -1563,6 +1719,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 209,
         	"nivel": "18-19",
         	"porcentaje": 40
@@ -1571,7 +1728,8 @@ const platino = {
       "especial":[
         {
         	"numero": 442,
-        	"nivel": 25
+        	"nivel": 25,
+          "observaciones": "Interactuar con 32 personas en el subsuelo."
         }
       ]
     },
@@ -1919,18 +2077,21 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 21, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 273,
           "nivel": 18,
           "porcentaje": 4,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 274,
           "nivel": 20,
           "porcentaje": 4,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": "18-20",
           "porcentaje": 8,
@@ -1939,11 +2100,13 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 128,
           "nivel": "19-20",
           "porcentaje": 11
         },
         {
+          "pokedex": "*",
           "numero": 241,
           "nivel": "19-20",
           "porcentaje": 11
@@ -1983,6 +2146,7 @@ const platino = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 96,
         	"nivel": "19-20",
         	"porcentaje": 40
@@ -2023,6 +2187,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 22, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 37,
           "nivel": 24,
           "porcentaje": 8,
@@ -2063,6 +2228,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 261,
         	"nivel": "23-24",
         	"porcentaje": 22
@@ -2070,6 +2236,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 325,
           "nivel": "21-23",
           "porcentaje": 40
@@ -2145,11 +2312,13 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 33,
         	"nivel": 27,
         	"porcentaje": 11
         },
         {
+          "pokedex": "*",
         	"numero": 30,
         	"nivel": 27,
         	"porcentaje": 11
@@ -2180,6 +2349,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 277,
         	"nivel": "21-24",
         	"porcentaje": 22
@@ -2320,6 +2490,7 @@ const platino = {
             	"porcentaje": 5
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": 30,
               "porcentaje": 8,
@@ -2362,6 +2533,7 @@ const platino = {
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 27, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": 29,
               "porcentaje": 8,
@@ -2400,6 +2572,7 @@ const platino = {
               "probabilidad": {"tipo":"hora", "noche": {"nivel": "27-29", "porcentaje": 15}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": 28,
               "porcentaje": 8,
@@ -2438,6 +2611,7 @@ const platino = {
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": "27-30", "porcentaje": 25}, "dia": {"nivel": "27-30", "porcentaje": 25}, "noche": {"nivel": "27-29", "porcentaje": 15}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": 28,
               "porcentaje": 8,
@@ -2598,12 +2772,14 @@ const platino = {
         	"porcentaje": 35
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": "40-41",
           "porcentaje": 8,
            "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": "40-41",
           "porcentaje": 8,
@@ -2644,6 +2820,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 202,
         	"nivel": "38-40",
         	"porcentaje": 22
@@ -2689,12 +2866,14 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 335,
           "nivel": "29-30",
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 336,
           "nivel": "29-30",
           "porcentaje": 8,
@@ -2735,6 +2914,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 371,
           "nivel": "28-29",
           "porcentaje": 22
@@ -2893,6 +3073,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 216,
           "nivel": "12-14",
           "porcentaje": 8,
@@ -2901,6 +3082,7 @@ const platino = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 236,
           "nivel": "12-14",
           "porcentaje": 22
@@ -2935,18 +3117,21 @@ const platino = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 23,
               "nivel": "23-26",
               "porcentaje": 8,
               "imagen": "Rojo Fuego"
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 23,
               "porcentaje": 4,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 271,
               "nivel": 26,
               "porcentaje": 4,
@@ -2999,6 +3184,7 @@ const platino = {
           ],
           "radar": [
             {
+              "pokedex": "*",
               "numero": 88,
               "nivel": "24-26",
               "porcentaje": 22
@@ -3064,6 +3250,7 @@ const platino = {
           ],
           "radar": [
             {
+              "pokedex": "*",
               "numero": 235,
               "nivel": 23,
               "porcentaje": 22
@@ -3265,6 +3452,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 100,
         	"nivel": "28-29",
         	"porcentaje": 40
@@ -3426,12 +3614,14 @@ const platino = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3463,12 +3653,14 @@ const platino = {
               "porcentaje": 30
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3500,12 +3692,14 @@ const platino = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3543,12 +3737,14 @@ const platino = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3642,6 +3838,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 217,
           "nivel": 35,
           "porcentaje": 8,
@@ -3670,6 +3867,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 217,
           "nivel": "35-36",
           "porcentaje": 8,
@@ -3678,6 +3876,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 221,
           "nivel": "30-31",
           "porcentaje": 22
@@ -3685,6 +3884,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 225,
           "nivel": "32-33",
           "porcentaje": 40
@@ -3713,6 +3913,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "32-33", "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 217,
           "nivel": 36,
           "porcentaje": 8,
@@ -3761,6 +3962,7 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "39-40", "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 216,
           "nivel": "40-41",
           "porcentaje": 8,
@@ -3847,12 +4049,14 @@ const platino = {
               "porcentaje": 5
             },
             {
+              "pokedex": "*",
               "numero": 338,
               "nivel": 38,
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 337,
               "nivel": 38,
               "porcentaje": 8,
@@ -4027,12 +4231,14 @@ const platino = {
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 39, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 338,
               "nivel": "38-39",
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 337,
               "nivel": "38-39",
               "porcentaje": 8,
@@ -4041,6 +4247,7 @@ const platino = {
           ],
           "radar": [
             {
+              "pokedex": "*",
               "numero": 294,
               "nivel": "37-40",
               "porcentaje": 12
@@ -4218,11 +4425,13 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 30,
           "nivel": "30-31",
           "porcentaje": 11
         },
         {
+          "pokedex": "*",
           "numero": 33,
           "nivel": "30-31",
           "porcentaje": 11
@@ -4230,6 +4439,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 83,
           "nivel": "28-29",
           "porcentaje": 40
@@ -4362,6 +4572,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 180,
           "nivel": "38-41",
           "porcentaje": 22
@@ -4369,6 +4580,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 300,
           "nivel": "36-40",
           "porcentaje": 40
@@ -4752,6 +4964,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 175,
           "nivel": "48-50",
           "porcentaje": 22
@@ -4759,6 +4972,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 222,
           "nivel": 48,
           "porcentaje": 40
@@ -4806,18 +5020,21 @@ const platino = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 50, "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 274,
           "nivel": 48,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 271,
           "nivel": 48,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": 48,
           "porcentaje": 8,
@@ -4858,11 +5075,13 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 48,
           "nivel": 48,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero": 49,
           "nivel": "47-50",
           "porcentaje": 20
@@ -4870,6 +5089,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 127,
           "nivel": "48-49",
           "porcentaje": 40
@@ -4907,6 +5127,7 @@ const platino = {
           "porcentaje": 5
         },
         {
+          "pokedex": "*",
           "numero": 28,
           "nivel": "49-50",
           "porcentaje": 8,
@@ -4946,6 +5167,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 374,
           "nivel": "51-52",
           "porcentaje": 40
@@ -5042,6 +5264,7 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 324,
           "nivel": "51-53",
           "porcentaje": 22
@@ -5049,6 +5272,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 327,
           "nivel": "53-54",
           "porcentaje": 40
@@ -5107,6 +5331,7 @@ const platino = {
           ],
           "radar": [
             {
+              "pokedex": "*",
             	"numero": 324,
             	"nivel": "51-56",
             	"porcentaje": 22
@@ -5245,11 +5470,13 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 56,
           "nivel": 47,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero": 57,
           "nivel": "51-53",
           "porcentaje": 20
@@ -5257,6 +5484,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 98,
           "nivel": "48-49",
           "porcentaje": 40
@@ -5334,11 +5562,13 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 56,
           "nivel": 47,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero": 57,
           "nivel": "49-50",
           "porcentaje": 20
@@ -5346,6 +5576,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 296,
           "nivel": "48-49",
           "porcentaje": 40
@@ -5406,6 +5637,7 @@ const platino = {
           "porcentaje": 10
         },
         {
+          "pokedex": "*",
           "numero": 213,
           "nivel": 52,
           "porcentaje": 8,
@@ -5457,11 +5689,13 @@ const platino = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 355,
           "nivel": 23,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero":356,
           "nivel": 52,
           "porcentaje": 20
@@ -5469,6 +5703,7 @@ const platino = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 177,
           "nivel": 50,
           "porcentaje": 40
@@ -5505,12 +5740,14 @@ const platino = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 38, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": "39-40",
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": "39-40",
           "porcentaje": 8,
@@ -5605,12 +5842,14 @@ const platino = {
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 38, "porcentaje": 5}, "dia": {"nivel": 38, "porcentaje": 5}, "noche": {"nivel": "36-38", "porcentaje": 15}}
             },
             {
+              "pokedex": "*",
               "numero": 337,
               "nivel": 38,
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 338,
               "nivel": 38,
               "porcentaje": 8,
@@ -5653,7 +5892,7 @@ const platino = {
             {
               "numero": 487,
               "nivel": 47,
-              "observaciones": "Si histe o lo debilitaste en el Mundo Distorsión"
+              "observaciones": "Si huiste o lo debilitaste en el Mundo Distorsión"
             }
           ]
         }
@@ -5866,34 +6105,6 @@ const platino = {
       ]
     },
     {
-      "nombre": "Subsuelo",
-      "fosil": [
-        {
-          "numero": 138
-        },
-        {
-          "numero": 140
-        },
-        {
-          "numero": 142
-        },
-        {
-          "numero": 345
-        },
-        {
-          "numero": 347
-        },
-        {
-          "numero": 408,
-          "observaciones": "última cifra del ID del jugador es impar"
-        },
-        {
-          "numero": 410,
-          "observaciones": "última cifra del ID del jugador es par"
-        }
-      ]
-    },
-    {
       "nombre": "Evolución",
       "otros": [
         {
@@ -6038,9 +6249,6 @@ const platino = {
           "numero": 102
         },
         {
-          "numero": 439
-        },
-        {
           "numero": 138
         },
         {
@@ -6068,15 +6276,6 @@ const platino = {
           "numero": 120
         },
         {
-          "numero": 84
-        },
-        {
-          "numero": 239
-        },
-        {
-          "numero": 240
-        },
-        {
           "numero": 175
         },
         {
@@ -6087,6 +6286,9 @@ const platino = {
         },
         {
           "numero": 133
+        },
+        {
+          "numero": 161
         },
         {
           "numero": 170
@@ -6232,13 +6434,16 @@ const platino = {
           "numero": 109
         },
         {
-          "numero": 161
-        },
-        {
           "numero": 165
         },
         {
           "numero": 167
+        },
+        {
+          "numero": 239
+        },
+        {
+          "numero": 240
         },
         {
           "numero": 276

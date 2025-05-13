@@ -26,6 +26,12 @@ const perla = {
       "imagen": "otros/gen4/radar.png",
       "filtro": "radar",
       "defecto": false
+    },
+    {
+      "nombre": "Aparición masiva",
+      "imagen": "otros/gen4/masiva.png",
+      "filtro": "masiva",
+      "defecto": false
     }
   ],
   "lugares":[
@@ -44,6 +50,7 @@ const perla = {
           "porcentaje": 10
         },
         {
+          "pokedex": "*",
           "numero": 58,
           "nivel": 2,
           "porcentaje": 8,
@@ -87,11 +94,13 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 29,
           "nivel": 2,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero": 32,
           "nivel": 3,
           "porcentaje": 20
@@ -99,6 +108,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 84,
           "nivel": 2,
           "porcentaje": 40
@@ -131,24 +141,28 @@ const perla = {
           "probabilidad": {"tipo":"hora", "maniana": {"nivel": "2-4", "porcentaje": 50}, "dia": {"nivel": "2-4", "porcentaje": 50}, "noche": {"nivel": "2-4", "porcentaje": 60}}
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": 4,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": 4,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 397,
           "nivel": 4,
           "porcentaje": 4,
           "imagen": "Rojo Fuego / Verde Hoja / Esmeralda"
         },
         {
+          "pokedex": "*",
           "numero": 400,
           "nivel": 4,
           "porcentaje": 4,
@@ -189,6 +203,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 283,
           "nivel": 2,
           "porcentaje": 40
@@ -196,6 +211,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 202,
           "nivel": 4,
           "porcentaje": 22
@@ -222,6 +238,7 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "3-4", "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 58,
           "nivel": 2,
           "porcentaje": 8,
@@ -230,6 +247,7 @@ const perla = {
       ],
       "radar":[
         {
+        "pokedex": "*",
       	"numero": 161,
       	"nivel": "2-4",
       	"porcentaje": 22
@@ -237,6 +255,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 263,
         	"nivel": 3,
         	"porcentaje": 40
@@ -271,18 +290,21 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 5, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 273,
           "nivel": 5,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 270,
           "nivel": 5,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": 5,
           "porcentaje": 8,
@@ -323,11 +345,13 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 280,
         	"nivel": "4-6",
         	"porcentaje": 21
         },
         {
+          "pokedex": "*",
         	"numero": 281,
         	"nivel": 6,
         	"porcentaje": 1
@@ -335,6 +359,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 104,
         	"nivel": 4,
         	"porcentaje": 40
@@ -426,6 +451,26 @@ const perla = {
     {
       "nombre": "Ciudad Pirita",
       "lema": "Ciudad de la energía.",
+      "fosil": [
+        {
+          "numero": 138
+        },
+        {
+          "numero": 140
+        },
+        {
+          "numero": 142
+        },
+        {
+          "numero": 345
+        },
+        {
+          "numero": 347
+        },
+        {
+          "numero": 410
+        }
+      ],
       "intercambio": [
         {
         	"numero": 63,
@@ -505,30 +550,35 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 4, "porcentaje": 10}, "noche": {"nivel": 4, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 273,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 204,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Esmeralda"
             },
             {
+              "pokedex": "*",
               "numero": 10,
               "nivel": 6,
               "porcentaje": 8,
               "imagen": "Rojo Fuego"
             },
             {
+              "pokedex": "*",
               "numero": 13,
               "nivel": 6,
               "porcentaje": 8,
@@ -569,11 +619,13 @@ const perla = {
           ],
           "radar":[
             {
+              "pokedex": "*",
             	"numero": 280,
             	"nivel": "4-6",
             	"porcentaje": 21
             },
             {
+              "pokedex": "*",
             	"numero": 281,
             	"nivel": 6,
             	"porcentaje": 1
@@ -608,18 +660,21 @@ const perla = {
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 273,
               "nivel": 8,
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 8,
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 204,
               "nivel": 8,
               "porcentaje": 8,
@@ -628,6 +683,7 @@ const perla = {
           ],
           "radar":[
             {
+              "pokedex": "*",
             	"numero": 191,
             	"nivel": "6-8",
             	"porcentaje": 22
@@ -723,6 +779,7 @@ const perla = {
           "porcentaje": 30
         },
         {
+          "pokedex": "*",
           "numero": 239,
           "nivel": 9,
           "porcentaje": 8,
@@ -778,6 +835,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 179,
           "nivel": "7-9",
           "porcentaje": 22
@@ -785,6 +843,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 309,
           "nivel": "2-7",
           "porcentaje": 40
@@ -827,6 +886,7 @@ const perla = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 239,
               "nivel": 10,
               "porcentaje": 8,
@@ -885,6 +945,7 @@ const perla = {
           ],
           "radar":[
             {
+              "pokedex": "*",
             	"numero": 187,
             	"nivel": "9-10",
             	"porcentaje": 22
@@ -912,6 +973,7 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 11, "porcentaje": 10}, "dia": {"nivel": 11, "porcentaje": 10}, "noche": {"nivel": 11, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 12,
               "porcentaje": 8,
@@ -953,6 +1015,7 @@ const perla = {
           ],
           "radar":[
             {
+              "pokedex": "*",
             	"numero": 79,
             	"nivel": "11-12",
             	"porcentaje": 22
@@ -1051,6 +1114,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 81,
         	"nivel": "28-29",
         	"porcentaje": 40
@@ -1058,11 +1122,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 187,
         	"nivel": 29,
         	"porcentaje": 20
         },
         {
+          "pokedex": "*",
         	"numero": 188,
         	"nivel": 30,
         	"porcentaje": 2
@@ -1100,24 +1166,28 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "10-11", "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 11,
           "nivel": 12,
           "porcentaje": 8,
           "imagen": "Rojo Fuego"
         },
         {
+          "pokedex": "*",
           "numero": 14,
           "nivel": 12,
           "porcentaje": 8,
           "imagen": "Verde Hoja"
         },
         {
+          "pokedex": "*",
           "numero": 273,
           "nivel": 12,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": 12,
           "porcentaje": 8,
@@ -1126,6 +1196,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 290,
         	"nivel": "10-12",
         	"porcentaje": 22
@@ -1133,6 +1204,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 287,
         	"nivel": "10-12",
         	"porcentaje": 40
@@ -1148,12 +1220,14 @@ const perla = {
           "porcentaje": 100
         },
         {
+          "pokedex": "*",
           "numero": 93,
           "nivel": 16,
           "porcentaje": 4,
           "imagen": "Rubí / Zafiro / Esmeralda / Rojo Fuego / Verde Hoja"
         },
         {
+          "pokedex": "*",
           "numero": 94,
           "nivel": "16-17",
           "porcentaje": 4,
@@ -1162,9 +1236,9 @@ const perla = {
       ],
       "especial": [
         {
+          "pokedex": "*",
           "numero": 479,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15}},
-          "pokedex": "*"
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 15}}
         }
       ]
     },
@@ -1239,6 +1313,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 15, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 207,
           "nivel": 15,
           "porcentaje": 8,
@@ -1247,6 +1322,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 343,
         	"nivel": "15-16",
         	"porcentaje": 22
@@ -1254,6 +1330,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
           "numero": 299,
           "nivel": 14,
           "porcentaje": 40
@@ -1282,6 +1359,7 @@ const perla = {
             	"porcentaje": 40
             },
             {
+              "pokedex": "*",
               "numero": 27,
               "nivel": 16,
               "porcentaje": 8,
@@ -1313,6 +1391,7 @@ const perla = {
               "porcentaje": 5
             },
             {
+              "pokedex": "*",
               "numero": 27,
               "nivel": "16-17",
               "porcentaje": 8,
@@ -1343,6 +1422,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 6, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 207,
           "nivel": 7,
           "porcentaje": 8,
@@ -1351,6 +1431,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 234,
         	"nivel": "5-7",
         	"porcentaje": 22
@@ -1358,6 +1439,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 231,
         	"nivel": 5,
         	"porcentaje": 40
@@ -1457,12 +1539,14 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 335,
           "nivel": 18,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 336,
           "nivel": 18,
           "porcentaje": 8,
@@ -1503,6 +1587,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 236,
         	"nivel": "17-18",
         	"porcentaje": 22
@@ -1510,6 +1595,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 206,
         	"nivel": 16,
         	"porcentaje": 40
@@ -1566,6 +1652,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 16, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 37,
           "nivel": 16,
           "porcentaje": 8,
@@ -1606,11 +1693,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 241,
         	"nivel": 18,
         	"porcentaje": 20
         },
         {
+          "pokedex": "*",
         	"numero": 128,
         	"nivel": 16,
         	"porcentaje": 2
@@ -1618,6 +1707,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 209,
         	"nivel": 16,
         	"porcentaje": 40
@@ -1626,7 +1716,8 @@ const perla = {
       "especial":[
         {
         	"numero": 442,
-        	"nivel": 25
+        	"nivel": 25,
+          "observaciones": "Interactuar con 32 personas en el subsuelo."
         }
       ]
     },
@@ -1968,18 +2059,21 @@ const perla = {
           "porcentaje": 5
         },
         {
+          "pokedex": "*",
           "numero": 273,
           "nivel": 18,
           "porcentaje": 4,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 274,
           "nivel": 20,
           "porcentaje": 4,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": "18-20",
           "porcentaje": 8,
@@ -1988,11 +2082,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 241,
           "nivel": 18,
           "porcentaje": 20
         },
         {
+          "pokedex": "*",
           "numero": 128,
           "nivel": 20,
           "porcentaje": 2
@@ -2025,6 +2121,7 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 20, "porcentaje": 10}, "dia": {"nivel": 20, "porcentaje": 10}, "noche": {"nivel": "20-22", "porcentaje": 30}}
         },
         {
+          "pokedex": "*",
           "numero": 207,
           "nivel": 22,
           "porcentaje": 8,
@@ -2033,6 +2130,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 229,
         	"nivel": "20-22",
         	"porcentaje": 22
@@ -2040,6 +2138,7 @@ const perla = {
       ],
       "masiva":[
         {
+          "pokedex": "*",
         	"numero": 96,
         	"nivel": "20-22",
         	"porcentaje": 40
@@ -2077,12 +2176,14 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "maniana": {"nivel": 24, "porcentaje": 5}, "dia": {"nivel": 24, "porcentaje": 5}, "noche": {"nivel": "23-24", "porcentaje": 25}}
         },
         {
+          "pokedex": "*",
           "numero": 207,
           "nivel": 24,
           "porcentaje": 8,
           "imagen": "Esmeralda"
         },
         {
+          "pokedex": "*",
           "numero": 37,
           "nivel": 24,
           "porcentaje": 8,
@@ -2123,6 +2224,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 229,
         	"nivel": "23-24",
         	"porcentaje": 22
@@ -2130,6 +2232,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 325,
           "nivel": "22-23",
           "porcentaje": 40
@@ -2210,11 +2313,13 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 30,
         	"nivel": 22,
         	"porcentaje": 2
         },
         {
+          "pokedex": "*",
         	"numero": 33,
         	"nivel": 22,
         	"porcentaje": 20
@@ -2246,6 +2351,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 359,
         	"nivel": 20,
         	"porcentaje": 40
@@ -2253,6 +2359,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 277,
         	"nivel": 21,
         	"porcentaje": 22
@@ -2410,6 +2517,7 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 26, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": "24-26",
               "porcentaje": 8,
@@ -2468,6 +2576,7 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "22-24", "porcentaje": 20}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": "24-26",
               "porcentaje": 8,
@@ -2521,6 +2630,7 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 20}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": "20-22",
               "porcentaje": 8,
@@ -2579,6 +2689,7 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": "20-22", "porcentaje": 20}}
             },
             {
+              "pokedex": "*",
               "numero": 24,
               "nivel": "20-22",
               "porcentaje": 8,
@@ -2771,12 +2882,14 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "34-36", "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": 35,
           "porcentaje": 8,
            "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": 35,
           "porcentaje": 8,
@@ -2817,6 +2930,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
         	"numero": 202,
         	"nivel": "35-36",
         	"porcentaje": 22
@@ -2824,6 +2938,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 108,
         	"nivel": "34-36",
         	"porcentaje": 40
@@ -2865,12 +2980,14 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 25, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 335,
           "nivel": 26,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 336,
           "nivel": 26,
           "porcentaje": 8,
@@ -2911,6 +3028,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 371,
           "nivel": "25-26",
           "porcentaje": 22
@@ -2995,6 +3113,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 28, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 216,
           "nivel": "27",
           "porcentaje": 8,
@@ -3003,6 +3122,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 333,
           "nivel": "27-28",
           "porcentaje": 22
@@ -3102,6 +3222,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 14, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 216,
           "nivel": "12-14",
           "porcentaje": 8,
@@ -3110,6 +3231,7 @@ const perla = {
       ],
       "radar":[
         {
+          "pokedex": "*",
           "numero": 236,
           "nivel": "12-14",
           "porcentaje": 22
@@ -3140,18 +3262,21 @@ const perla = {
               "probabilidad": {"tipo":"hora", "maniana": {"nivel": 18, "porcentaje": 10}, "dia": {"nivel": 18, "porcentaje": 10}, "noche": {"nivel": "18-19", "porcentaje": 30}}
             },
             {
+              "pokedex": "*",
               "numero": 23,
               "nivel": "18-20",
               "porcentaje": 8,
               "imagen": "Rojo fuego"
             },
             {
+              "pokedex": "*",
               "numero": 270,
               "nivel": 18,
               "porcentaje": 4,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 271,
               "nivel": 20,
               "porcentaje": 4,
@@ -3192,6 +3317,7 @@ const perla = {
           ],
           "radar": [
             {
+              "pokedex": "*",
               "numero": 88,
               "nivel": "18-20",
               "porcentaje": 22
@@ -3259,6 +3385,7 @@ const perla = {
           ],
           "radar": [
             {
+              "pokedex": "*",
             	"numero": 235,
             	"nivel": "17-18",
             	"porcentaje": 22
@@ -3467,6 +3594,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 132,
         	"nivel": "29-30",
         	"porcentaje": 22
@@ -3474,6 +3602,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 100,
         	"nivel": 28,
         	"porcentaje": 40
@@ -3638,12 +3767,14 @@ const perla = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3675,12 +3806,14 @@ const perla = {
               "porcentaje": 30
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3717,12 +3850,14 @@ const perla = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3765,12 +3900,14 @@ const perla = {
               "porcentaje": 10
             },
             {
+              "pokedex": "*",
               "numero": 302,
               "nivel": "30-33",
               "porcentaje": 8,
               "imagen": "Zafiro"
             },
             {
+              "pokedex": "*",
               "numero": 303,
               "nivel": "30-33",
               "porcentaje": 8,
@@ -3850,6 +3987,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 33, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 217,
           "nivel": "33-34",
           "porcentaje": 8,
@@ -3858,6 +3996,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 361,
           "nivel": "33-34",
           "porcentaje": 22
@@ -3865,6 +4004,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 225,
           "nivel": 32,
           "porcentaje": 40
@@ -3906,6 +4046,7 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 35, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 217,
           "nivel": "35-36",
           "porcentaje": 8,
@@ -3914,6 +4055,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 361,
           "nivel": "35-36",
           "porcentaje": 22
@@ -3921,6 +4063,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 220,
           "nivel": 34,
           "porcentaje": 40
@@ -3962,6 +4105,7 @@ const perla = {
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": 35, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 216,
           "nivel": 36,
           "porcentaje": 8,
@@ -3970,6 +4114,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 361,
           "nivel": "34-36",
           "porcentaje": 12
@@ -4012,18 +4157,21 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "34-36", "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 217,
           "nivel": "34-36",
           "porcentaje": 8,
           "imagen": "Esmeralda"
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": "34-36",
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": "34-36",
           "porcentaje": 8,
@@ -4064,6 +4212,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 238,
           "nivel": 35,
           "porcentaje": 40
@@ -4071,6 +4220,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 202,
           "nivel": "34-36",
           "porcentaje": 22
@@ -4124,12 +4274,14 @@ const perla = {
               "porcentaje": 5
             },
             {
+              "pokedex": "*",
               "numero": 338,
               "nivel": "36-37",
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 337,
               "nivel": "36-37",
               "porcentaje": 8,
@@ -4290,12 +4442,14 @@ const perla = {
               "probabilidad": {"tipo":"hora", "noche": {"nivel": 39, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 338,
               "nivel": "38-39",
               "porcentaje": 8,
               "imagen": "Rubí"
             },
             {
+              "pokedex": "*",
               "numero": 337,
               "nivel": "38-39",
               "porcentaje": 8,
@@ -4304,6 +4458,7 @@ const perla = {
           ],
           "radar": [
             {
+              "pokedex": "*",
               "numero": 294,
               "nivel": "39-40",
               "porcentaje": 12
@@ -4482,11 +4637,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 33,
         	"nivel": 29,
         	"porcentaje": 20
         },
         {
+          "pokedex": "*",
         	"numero": 30,
         	"nivel": 30,
         	"porcentaje": 2
@@ -4494,6 +4651,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 83,
         	"nivel": 28,
         	"porcentaje": 40
@@ -4628,6 +4786,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 180,
           "nivel": "41-42",
           "porcentaje": 22
@@ -4635,6 +4794,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 300,
           "nivel": 40,
           "porcentaje": 40
@@ -5004,6 +5164,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 175,
           "nivel": "18-23",
           "porcentaje": 22
@@ -5011,6 +5172,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 222,
           "nivel": 50,
           "porcentaje": 40
@@ -5067,18 +5229,21 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 52, "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 274,
           "nivel": 20,
           "porcentaje": 8,
           "imagen": "Rubí"
         },
         {
+          "pokedex": "*",
           "numero": 271,
           "nivel": 20,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 204,
           "nivel": 20,
           "porcentaje": 8,
@@ -5110,11 +5275,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 48,
         	"nivel": 22,
         	"porcentaje": 2
         },
         {
+          "pokedex": "*",
         	"numero": 49,
         	"nivel": "50-52",
         	"porcentaje": 20
@@ -5122,6 +5289,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 16,
         	"nivel": 51,
         	"porcentaje": 40
@@ -5159,6 +5327,7 @@ const perla = {
         	"porcentaje": 5
         },
         {
+          "pokedex": "*",
           "numero": 28,
           "nivel": 23,
           "porcentaje": 8,
@@ -5199,11 +5368,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 329,
         	"nivel": "52-54",
         	"porcentaje": 20
         },
         {
+          "pokedex": "*",
         	"numero": 328,
         	"nivel": 25,
         	"porcentaje": 2
@@ -5211,6 +5382,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 374,
         	"nivel": 53,
         	"porcentaje": 40
@@ -5267,12 +5439,14 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
         },
         {
+          "pokedex": "*",
           "numero": 207,
           "nivel": 22,
           "porcentaje": 8,
           "imagen": "Esmeralda"
         },
         {
+          "pokedex": "*",
           "numero": 240,
           "nivel": 22,
           "porcentaje": 8,
@@ -5313,6 +5487,7 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 324,
           "nivel": "24-55",
           "porcentaje": 22
@@ -5320,6 +5495,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 327,
           "nivel": 55,
           "porcentaje": 40
@@ -5379,12 +5555,14 @@ const perla = {
             	"probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
             },
             {
+              "pokedex": "*",
               "numero": 207,
               "nivel": 22,
               "porcentaje": 8,
               "imagen": "Esmeralda"
             },
             {
+              "pokedex": "*",
               "numero": 240,
               "nivel": 22,
               "porcentaje": 8,
@@ -5393,6 +5571,7 @@ const perla = {
           ],
           "radar": [
             {
+              "pokedex": "*",
             	"numero": 324,
             	"nivel": "51-56",
             	"porcentaje": 22
@@ -5448,6 +5627,7 @@ const perla = {
             	"porcentaje": 5
             },
             {
+              "pokedex": "*",
               "numero": 240,
               "nivel": 27,
               "porcentaje": 8,
@@ -5552,11 +5732,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 56,
           "nivel": 22,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero": 57,
           "nivel": "51-53",
           "porcentaje": 20
@@ -5564,6 +5746,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 98,
           "nivel": 52,
           "porcentaje": 40
@@ -5646,11 +5829,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
           "numero": 56,
           "nivel": 22,
           "porcentaje": 2
         },
         {
+          "pokedex": "*",
           "numero": 57,
           "nivel": 51,
           "porcentaje": 20
@@ -5658,6 +5843,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
           "numero": 296,
           "nivel": "50-51",
           "porcentaje": 40
@@ -5712,6 +5898,7 @@ const perla = {
         	"porcentaje": 1
         },
         {
+          "pokedex": "*",
           "numero": 213,
           "nivel": 23,
           "porcentaje": 8,
@@ -5757,11 +5944,13 @@ const perla = {
       ],
       "radar": [
         {
+          "pokedex": "*",
         	"numero": 355,
         	"nivel": 23,
         	"porcentaje": 2
         },
         {
+          "pokedex": "*",
         	"numero":356,
         	"nivel": 52,
         	"porcentaje": 20
@@ -5769,6 +5958,7 @@ const perla = {
       ],
       "masiva": [
         {
+          "pokedex": "*",
         	"numero": 177,
         	"nivel": 53,
         	"porcentaje": 40
@@ -5803,12 +5993,14 @@ const perla = {
           "probabilidad": {"tipo":"hora", "noche": {"nivel": "52-54", "porcentaje": 20}}
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": 52,
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": 52,
           "porcentaje": 8,
@@ -5867,12 +6059,14 @@ const perla = {
         	"porcentaje": 35
         },
         {
+          "pokedex": "*",
           "numero": 337,
           "nivel": "44-66",
           "porcentaje": 8,
           "imagen": "Zafiro"
         },
         {
+          "pokedex": "*",
           "numero": 338,
           "nivel": "44-66",
           "porcentaje": 8,
@@ -6087,29 +6281,6 @@ const perla = {
       ]
     },
     {
-      "nombre": "Subsuelo",
-      "fosil": [
-        {
-          "numero": 138
-        },
-        {
-          "numero": 140
-        },
-        {
-          "numero": 142
-        },
-        {
-          "numero": 345
-        },
-        {
-          "numero": 347
-        },
-        {
-          "numero": 410
-        }
-      ]
-    },
-    {
       "nombre": "Evolución",
       "otros": [
         {
@@ -6290,6 +6461,9 @@ const perla = {
         	"numero": 77
         },
         {
+          "numero": 79
+        },
+        {
         	"numero": 84
         },
         {
@@ -6374,9 +6548,6 @@ const perla = {
         	"numero": 263
         },
         {
-        	"numero": 265
-        },
-        {
         	"numero": 270
         },
         {
@@ -6399,9 +6570,6 @@ const perla = {
         },
         {
         	"numero": 300
-        },
-        {
-        	"numero": 304
         },
         {
           "numero": 309
