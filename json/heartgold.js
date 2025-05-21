@@ -28,9 +28,21 @@ const heartgold = {
 			"defecto": false
 		},
 		{
+			"nombre": "Pokédex nacional",
+			"imagen": "otros/gen4/pokedex.png",
+			"filtro": "pokedex",
+			"defecto": false
+		},
+		{
 			"nombre": "Sonidos de Hoenn y Sinnoh",
 			"imagen": "otros/gen4/sonidos.png",
 			"filtro": "sonidos",
+			"defecto": false
+		},
+		{
+			"nombre": "Pokéwalker",
+			"imagen": "otros/gen4/walker.png",
+			"filtro": "walker",
 			"defecto": false
 		}
 	],
@@ -5029,7 +5041,7 @@ const heartgold = {
 							"porcentaje": 20,
 							"region": "Hoenn"
 						},
-						{."pokedex": "*",
+						{"pokedex": "*",
 							"numero": 359,
 							"nivel": "21-22",
 							"porcentaje": 20,
@@ -8244,39 +8256,24 @@ const heartgold = {
 			],
 			"fosil":[
 				{
-					"numero": 142,
-					"nivel": 20,
-					"observaciones": "Ámbar viejo"
-				},
-				{
-					"numero": 140,
-					"nivel": 20,
-					"observaciones": "Fósil Domo"
-				},
-				{
 					"numero": 138,
-					"nivel": 20,
-					"observaciones": "Fósil Hélix"
+					"nivel": 20
 				},
 				{
-					"numero": 345,
-					"nivel": 20,
-					"observaciones": "Fósil Raíz"
+					"numero": 142,
+					"nivel": 20
 				},
 				{
 					"numero": 347,
-					"nivel": 20,
-					"observaciones": "Fósil Garra"
-				},
-				{
-					"numero": 410,
-					"nivel": 20,
-					"observaciones": "Fósil Coraza"
+					"nivel": 20
 				},
 				{
 					"numero": 408,
-					"nivel": 20,
-					"observaciones": "Fósil Cráneo"
+					"nivel": 20
+				},
+				{
+					"numero": 410,
+					"nivel": 20
 				}
 			],
 			"evento": [
@@ -11505,10 +11502,10 @@ const heartgold = {
 					"numero": 7
 				},
 				{
-					"numero": 17
+					"numero": 16
 				},
 				{
-					"numero": 25
+					"numero": 172
 				},
 				{
 					"numero": 29
@@ -11548,9 +11545,6 @@ const heartgold = {
 				},
 				{
 					"numero": 138
-				},
-				{
-					"numero": 140
 				},
 				{
 					"numero": 147
@@ -11629,9 +11623,6 @@ const heartgold = {
 				},
 				{
 					"numero": 343
-				},
-				{
-					"numero": 345
 				},
 				{
 					"numero": 347

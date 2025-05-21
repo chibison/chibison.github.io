@@ -485,7 +485,6 @@ function dibujarMapa(){
   //imagenMapa = mapa;
   //imagenMapa.style.width = "75%"
 
-
   return mapa;
 
 }
@@ -503,13 +502,29 @@ function dibujarFiltros(filtros){
       imgFiltro.classList = "imgFiltro boton";
       imgFiltro.setAttribute("filtro",f.filtro);
       if((!f.defecto) && !(filtrosMarcados[juego].includes(f.filtro))) {
-        let divs = document.querySelectorAll('[obtencion="'+f.filtro+'"]');
-        divs.forEach(d=>{d.classList.add("oculto");});
-        imgFiltro.classList.add("seleccionado");
+        if(f.filtro!='pokedex') {
+          let divs = document.querySelectorAll('[obtencion="'+f.filtro+'"]');
+          divs.forEach(d=>{d.classList.add("oculto");});
+          imgFiltro.classList.add("seleccionado");
+        }
+        else{
+          let poks = document.getElementsByClassName("pokedex");
+          for(let i=0; i<poks.length; i++){
+            poks[i].parentElement.parentElement.classList.toggle("oculto");
+          }
+        }
       }
       imgFiltro.onclick = function(){
-        let divs = document.querySelectorAll('[obtencion="'+this.getAttribute("filtro")+'"]');
-        divs.forEach(d=>{d.classList.toggle("oculto");});
+        if(this.getAttribute("filtro")!='pokedex') {
+          let divs = document.querySelectorAll('[obtencion="'+this.getAttribute("filtro")+'"]');
+          divs.forEach(d=>{d.classList.toggle("oculto");});
+        }
+        else{
+          let poks = document.getElementsByClassName("pokedex");
+          for(let i=0; i<poks.length; i++){
+            poks[i].parentElement.parentElement.classList.toggle("oculto");
+          }
+        }
         this.classList.toggle("seleccionado");
         guardarFiltro(this.getAttribute("filtro"));
       }
@@ -706,6 +721,18 @@ function dibujarPok(div, pok){
     divDatos.append(imgPokedex);
   }
 
+  /*if(pok.hasOwnProperty("radar")){
+    let pPokedex = document.createElement("P");
+
+    let imgPokedex = document.createElement("IMG");
+    imgPokedex.src = 'img/otros/gen4/radar.png';
+    imgPokedex.title = 'Pokéradar'
+    imgPokedex.alt = 'Pokéradar'
+    imgPokedex.classList.add('pokeradar');
+
+    divDatos.append(imgPokedex);
+  }*/
+
   dibujarImagen(divDatos, pok.numero, pok.variedad);
 
   let pPok = document.createElement("P");
@@ -778,14 +805,14 @@ function dibujarPok(div, pok){
     }
   }
 
-  if(pok.hasOwnProperty("imagen")){
-    let imagenes = pok.imagen.split(' / ');
+  if(pok.hasOwnProperty("cartucho")){
+    let imagenes = pok.cartucho.split(' / ');
     for(i of imagenes){
       let img = document.createElement("IMG");
-      img.src = 'img/otros/cartucho_'+i+'.png';
+      img.src = 'img/otros/gen4/cartucho_'+i+'.png';
       img.alt = i;
       img.title = i;
-      img.classList.add("portada")
+      //img.classList.add("portada")
       divDatos.append(img);
     }
   }
@@ -1651,8 +1678,6 @@ function comprobarTrofeos(){
       if(!obtenidos[juego].includes(i.toString()))
         console.log(i);
     }
-
-
 
     let divJuego = document.querySelector("#juegosGen [juego="+juego+"]");
     let arrayObtenidos = construirArrayObtenidos(divJuego);

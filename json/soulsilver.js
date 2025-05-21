@@ -28,9 +28,21 @@ const soulsilver = {
 			"defecto": false
 		},
 		{
+			"nombre": "Pokédex nacional",
+			"imagen": "otros/gen4/pokedex.png",
+			"filtro": "pokedex",
+			"defecto": false
+		},
+		{
 			"nombre": "Sonidos de Hoenn y Sinnoh",
 			"imagen": "otros/gen4/sonidos.png",
 			"filtro": "sonidos",
+			"defecto": false
+		},
+		{
+			"nombre": "Pokéwalker",
+			"imagen": "otros/gen4/walker.png",
+			"filtro": "walker",
 			"defecto": false
 		}
 	],
@@ -8505,16 +8517,11 @@ const soulsilver = {
 			],
 			"fosil":[
 				{
-					"numero": 142,
-					"nivel": 20,
-					"observaciones": "Ámbar viejo"
-				},
-				{
 					"numero": 140,
 					"nivel": 20
 				},
 				{
-					"numero": 138,
+					"numero": 142,
 					"nivel": 20
 				},
 				{
@@ -8522,15 +8529,11 @@ const soulsilver = {
 					"nivel": 20
 				},
 				{
-					"numero": 347,
+					"numero": 408,
 					"nivel": 20
 				},
 				{
 					"numero": 410,
-					"nivel": 20
-				},
-				{
-					"numero": 408,
 					"nivel": 20
 				}
 			],
@@ -11510,10 +11513,10 @@ const soulsilver = {
 					"numero": 7
 				},
 				{
-					"numero": 17
+					"numero": 16
 				},
 				{
-					"numero": 25
+					"numero": 172
 				},
 				{
 					"numero": 29
@@ -11550,9 +11553,6 @@ const soulsilver = {
 				},
 				{
 					"numero": 120
-				},
-				{
-					"numero": 138
 				},
 				{
 					"numero": 140
@@ -11637,9 +11637,6 @@ const soulsilver = {
 				},
 				{
 					"numero": 345
-				},
-				{
-					"numero": 347
 				},
 				{
 					"numero": 349

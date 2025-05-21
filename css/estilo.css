@@ -485,8 +485,12 @@ div.pok svg{
   padding: 0.5em;
 }
 
-img.imgGen, img.imgPok{
+img.imgGen{
   width: 2.5em;
+}
+
+img.imgPok{
+  width: auto;
 }
 
 div.forma {
