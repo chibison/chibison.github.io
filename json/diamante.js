@@ -460,22 +460,27 @@ const diamante = {
       "lema": "Ciudad de la energía.",
       "fosil": [
         {
+          "numero": 408
+        },
+        {
+          "pokedex": "*",
           "numero": 138
         },
         {
+          "pokedex": "*",
           "numero": 140
         },
         {
+          "pokedex": "*",
           "numero": 142
         },
         {
+          "pokedex": "*",
           "numero": 345
         },
         {
+          "pokedex": "*",
           "numero": 347
-        },
-        {
-          "numero": 408
         }
       ],
       "intercambio": [
@@ -4615,10 +4620,12 @@ const diamante = {
               "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
             },
             {
+              "pokedex": "*",
               "numero": 130,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
             },
             {
+              "pokedex": "*",
               "numero": 340,
               "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 35}}
             }
@@ -5094,48 +5101,137 @@ const diamante = {
       ]
     },
     {
-      "nombre": "Ruta 230",
+      "nombre": "Ruta 225",
       "hierba": [
         {
-          "numero": 44,
-          "nivel": 50,
-          "porcentaje": 20
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "50-52", "porcentaje": 40}, "dia": {"nivel": "50-52", "porcentaje": 40}, "noche": {"nivel": "50-52", "porcentaje": 20}}
         },
         {
-          "numero": 70,
-          "nivel": 50,
-          "porcentaje": 20
-        },
-        {
-          "numero": 419,
+          "numero": 20,
           "nivel": "50-52",
-          "porcentaje": 13
+          "porcentaje": 30
         },
         {
-          "numero": 43,
-          "nivel": "18-23",
-          "porcentaje": 11
+          "numero": 435,
+          "nivel": 51,
+          "porcentaje": 10
         },
         {
-          "numero": 69,
-          "nivel": "18-23",
-          "porcentaje": 11
+          "numero": 19,
+          "nivel": "20-22",
+          "porcentaje": 5
+        },
+        {
+          "numero": 21,
+          "nivel": "20-22",
+          "porcentaje": 5
+        },
+        {
+          "numero": 67,
+          "nivel": 51,
+          "porcentaje": 5
+        },
+        {
+          "numero": 315,
+          "nivel": 51,
+          "porcentaje": 5
+        },
+        {
+          "numero": 354,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "50-52", "porcentaje": 20}}
+        }
+      ],
+      "surf": [
+        {
+          "numero": 55,
+          "nivel": "40-55",
+          "porcentaje": 70
+        },
+        {
+          "numero": 61,
+          "nivel": "40-50",
+          "porcentaje": 30
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+        },
+        {
+          "numero": 60,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 130,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 61,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
+        }
+      ],
+      "radar": [
+        {
+          "pokedex": "*",
+          "numero": 56,
+          "nivel": 22,
+          "porcentaje": 2
+        },
+        {
+          "pokedex": "*",
+          "numero": 57,
+          "nivel": 51,
+          "porcentaje": 20
+        }
+      ],
+      "masiva": [
+        {
+          "pokedex": "*",
+          "numero": 296,
+          "nivel": "50-51",
+          "porcentaje": 40
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 226",
+      "hierba": [
+        {
+          "numero": 22,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "51-53", "porcentaje": 40}, "dia": {"nivel": "51-53", "porcentaje": 40}, "noche": {"nivel": "51-53", "porcentaje": 20}}
+        },
+        {
+          "numero": 20,
+          "nivel": "51-52",
+          "porcentaje": 30
         },
         {
           "numero": 55,
-          "nivel": 52,
+          "nivel": "51-53",
           "porcentaje": 10
         },
         {
-          "numero": 267,
-          "nivel": 51,
-          "porcentaje": 10
-        },
-        {
-          "numero": 423,
-          "variedad": 0,
-          "nivel": 51,
+          "numero": 19,
+          "nivel": "20-22",
           "porcentaje": 5
+        },
+        {
+          "numero": 21,
+          "nivel": "20-22",
+          "porcentaje": 5
+        },
+        {
+          "numero": 67,
+          "nivel": 53,
+          "porcentaje": 10
+        },
+        {
+          "numero": 354,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": "51-53", "porcentaje": 20}}
         }
       ],
       "surf": [
@@ -5147,7 +5243,7 @@ const diamante = {
         {
           "numero": 86,
           "nivel": "35-45",
-          "porcentaje":30
+          "porcentaje": 30
         },
         {
           "numero": 73,
@@ -5157,17 +5253,17 @@ const diamante = {
         {
           "numero": 87,
           "nivel": "40-55",
-          "porcentaje":5
+          "porcentaje": 5
         }
       ],
       "pesca":[
         {
           "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
         },
         {
-          "numero": 223,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
+          "numero": 116,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
         },
         {
           "pokedex": "*",
@@ -5176,243 +5272,34 @@ const diamante = {
         },
         {
           "pokedex": "*",
-          "numero": 320,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
+          "numero": 117,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
         },
         {
           "pokedex": "*",
-          "numero": 224,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 321,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "35-55","porcentaje": 5}}
+          "numero": 369,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "40-50","porcentaje": 15}}
         }
       ],
       "radar": [
         {
           "pokedex": "*",
-          "numero": 175,
-          "nivel": "18-23",
-          "porcentaje": 22
-        }
-      ],
-      "masiva": [
-        {
-          "pokedex": "*",
-          "numero": 222,
-          "nivel": 50,
-          "porcentaje": 40
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 229",
-      "hierba": [
-        {
-          "numero": 44,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 51, "porcentaje": 20}, "dia": {"nivel": "51-52", "porcentaje": 30}, "noche": {"nivel": 51, "porcentaje": 20}}
-        },
-        {
-          "numero": 70,
-           "probabilidad": {"tipo":"hora", "maniana": {"nivel": 51, "porcentaje": 20}, "dia": {"nivel": "51-52", "porcentaje": 30}, "noche": {"nivel": 51, "porcentaje": 20}}
-        },
-        {
-          "numero": 166,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 52, "porcentaje": 20}}
-        },
-        {
-          "numero": 314,
-          "nivel": 50,
-          "porcentaje": 10
-        },
-        {
-          "numero": 315,
-          "nivel": 50,
-          "porcentaje": 10
-        },
-        {
-          "numero": 43,
-          "nivel": "20-22",
-          "porcentaje": 5
-        },
-        {
-          "numero": 69,
-          "nivel": "20-22",
-          "porcentaje": 5
-        },
-        {
-          "numero": 123,
-          "nivel": 52,
-          "porcentaje": 5
-        },
-        {
-          "numero": 313,
-          "nivel": 50,
-          "porcentaje": 5
-        },
-        {
-          "numero": 168,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": 52, "porcentaje": 20}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 274,
-          "nivel": 20,
-          "porcentaje": 8,
-          "cartucho": "Rubí"
-        },
-        {
-          "pokedex": "*",
-          "numero": 271,
-          "nivel": 20,
-          "porcentaje": 8,
-          "cartucho": "Zafiro"
-        },
-        {
-          "pokedex": "*",
-          "numero": 204,
-          "nivel": 20,
-          "porcentaje": 8,
-          "cartucho": "Esmeralda"
-        }
-      ],
-      "surf": [
-        {
-          "numero": 278,
-          "nivel": "40-55",
-          "porcentaje": 70
-        },
-        {
-          "numero": 279,
-          "nivel": "45-55",
-          "porcentaje":30
-        }
-      ],
-      "pesca":[
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 100}}
-        }
-      ],
-      "radar": [
-        {
-          "pokedex": "*",
-          "numero": 48,
+          "numero": 56,
           "nivel": 22,
           "porcentaje": 2
         },
         {
           "pokedex": "*",
-          "numero": 49,
-          "nivel": "50-52",
+          "numero": 57,
+          "nivel": "51-53",
           "porcentaje": 20
         }
       ],
       "masiva": [
         {
           "pokedex": "*",
-          "numero": 16,
-          "nivel": 51,
-          "porcentaje": 40
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 228",
-      "hierba": [
-        {
-          "numero": 51,
-          "nivel": "52-54",
-          "porcentaje": 30
-        },
-        {
-          "numero": 112,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "52-53", "porcentaje": 20}, "dia": {"nivel": "52-53", "porcentaje": 20}, "noche": {"nivel": "52-53", "porcentaje": 10}}
-        },
-        {
-          "numero": 332,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 53, "porcentaje": 20}, "dia": {"nivel": 53, "porcentaje": 20}, "noche": {"nivel": "52-53", "porcentaje": 40}}
-        },
-        {
-          "numero": 450,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "52-54", "porcentaje": 20}, "dia": {"nivel": "52-54", "porcentaje": 20}, "noche": {"nivel": "52-54", "porcentaje": 10}}
-        },
-        {
-          "numero": 50,
-          "nivel": "23-25",
-          "porcentaje": 5
-        },
-        {
-          "numero": 331,
-          "nivel": "23-25",
-          "porcentaje": 5
-        },
-        {
-          "pokedex": "*",
-          "numero": 28,
-          "nivel": 23,
-          "porcentaje": 8,
-          "cartucho": "Verde hoja"
-        }
-      ],
-      "surf": [
-        {
-          "numero": 61,
-          "nivel": "40-55",
-          "porcentaje": 70
-        },
-        {
-          "numero": 60,
-          "nivel": "20-30",
-          "porcentaje":30
-        }
-      ],
-      "pesca":[
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
-        },
-        {
-          "numero": 339,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 340,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
-        }
-      ],
-      "radar": [
-        {
-          "pokedex": "*",
-        	"numero": 329,
-        	"nivel": "52-54",
-        	"porcentaje": 20
-        },
-        {
-          "pokedex": "*",
-        	"numero": 328,
-        	"nivel": 25,
-        	"porcentaje": 2
-        }
-      ],
-      "masiva": [
-        {
-          "pokedex": "*",
-          "numero": 374,
-          "nivel": 53,
+          "numero": 98,
+          "nivel": 52,
           "porcentaje": 40
         }
       ]
@@ -5537,50 +5424,50 @@ const diamante = {
           "nombre": "Exterior",
           "caminando": [
             {
-            	"numero": 22,
-            	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "54-55", "porcentaje": 20}, "dia": {"nivel": "54-55", "porcentaje": 20}, "noche": {"nivel": 55, "porcentaje": 10}}
+              "numero": 22,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": "54-55", "porcentaje": 20}, "dia": {"nivel": "54-55", "porcentaje": 20}, "noche": {"nivel": 55, "porcentaje": 10}}
             },
             {
-            	"numero": 112,
-            	"nivel": 55,
-            	"porcentaje": 20
-            },
-            {
-            	"numero": 323,
+              "numero": 112,
               "nivel": 55,
-            	"porcentaje": 20
+              "porcentaje": 20
             },
             {
-            	"numero": 75,
-            	"probabilidad": {"tipo":"hora", "maniana": {"nivel": "54-56", "porcentaje": 15}, "dia": {"nivel": "54-56", "porcentaje": 15}, "noche": {"nivel": 56, "porcentaje": 5}}
+              "numero": 323,
+              "nivel": 55,
+              "porcentaje": 20
             },
             {
-            	"numero": 110,
+              "numero": 75,
+              "probabilidad": {"tipo":"hora", "maniana": {"nivel": "54-56", "porcentaje": 15}, "dia": {"nivel": "54-56", "porcentaje": 15}, "noche": {"nivel": 56, "porcentaje": 5}}
+            },
+            {
+              "numero": 110,
               "nivel": 55,
               "porcentaje": 10
             },
             {
-            	"numero": 227,
-            	"nivel": 56,
-            	"porcentaje": 5
+              "numero": 227,
+              "nivel": 56,
+              "porcentaje": 5
             },
             {
-            	"numero": 322,
-            	"nivel": "22-24",
-            	"porcentaje": 5
+              "numero": 322,
+              "nivel": "22-24",
+              "porcentaje": 5
             },
             {
-            	"numero": 111,
-            	"nivel": "22-24",
-            	"porcentaje": 5
+              "numero": 111,
+              "nivel": "22-24",
+              "porcentaje": 5
             },
             {
-            	"numero": 42,
-            	"probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
+              "numero": 42,
+              "probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
             },
             {
-            	"numero": 354,
-            	"probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
+              "numero": 354,
+              "probabilidad": {"tipo":"hora", "noche": {"nivel": 54, "porcentaje": 10}}
             },
             {
               "pokedex": "*",
@@ -5600,9 +5487,9 @@ const diamante = {
           "radar": [
             {
               "pokedex": "*",
-            	"numero": 324,
-            	"nivel": "51-56",
-            	"porcentaje": 22
+              "numero": 324,
+              "nivel": "51-56",
+              "porcentaje": 22
             }
           ]
         },
@@ -5610,49 +5497,49 @@ const diamante = {
           "nombre": "Interior",
           "caminando": [
             {
-            	"numero": 219,
-            	"nivel": "53-58",
-            	"porcentaje": 30
+              "numero": 219,
+              "nivel": "53-58",
+              "porcentaje": 30
             },
             {
-            	"numero": 75,
-            	"nivel": "51-57",
-            	"porcentaje": 20
+              "numero": 75,
+              "nivel": "51-57",
+              "porcentaje": 20
             },
             {
-            	"numero": 42,
-            	"nivel": "52-56",
-            	"porcentaje": 10
+              "numero": 42,
+              "nivel": "52-56",
+              "porcentaje": 10
             },
             {
-            	"numero": 67,
-            	"nivel": "56-58",
-            	"porcentaje": 10
+              "numero": 67,
+              "nivel": "56-58",
+              "porcentaje": 10
             },
             {
-            	"numero": 110,
-            	"nivel": "51-58",
-            	"porcentaje": 10
+              "numero": 110,
+              "nivel": "51-58",
+              "porcentaje": 10
             },
             {
-            	"numero": 74,
-            	"nivel": "25-29",
-            	"porcentaje": 5
+              "numero": 74,
+              "nivel": "25-29",
+              "porcentaje": 5
             },
             {
-            	"numero": 218,
-            	"nivel": "25-29",
-            	"porcentaje": 5
+              "numero": 218,
+              "nivel": "25-29",
+              "porcentaje": 5
             },
             {
-            	"numero": 95,
-            	"nivel": "54-56",
-            	"porcentaje": 5
+              "numero": 95,
+              "nivel": "54-56",
+              "porcentaje": 5
             },
             {
-            	"numero": 323,
-            	"nivel": "54-56",
-            	"porcentaje": 5
+              "numero": 323,
+              "nivel": "54-56",
+              "porcentaje": 5
             },
             {
               "pokedex": "*",
@@ -5667,48 +5554,266 @@ const diamante = {
           "nombre": "Sala final",
           "caminando": [
             {
-            	"numero": 485,
-            	"nivel": 70
+              "numero": 485,
+              "nivel": 70
             }
           ]
         }
       ]
     },
     {
-      "nombre": "Ruta 226",
+      "nombre": "Ruta 228",
       "hierba": [
         {
-          "numero": 22,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "51-53", "porcentaje": 40}, "dia": {"nivel": "51-53", "porcentaje": 40}, "noche": {"nivel": "51-53", "porcentaje": 20}}
-        },
-        {
-          "numero": 20,
-          "nivel": "51-52",
+          "numero": 51,
+          "nivel": "52-54",
           "porcentaje": 30
         },
         {
-          "numero": 55,
-          "nivel": "51-53",
-          "porcentaje": 10
+          "numero": 112,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "52-53", "porcentaje": 20}, "dia": {"nivel": "52-53", "porcentaje": 20}, "noche": {"nivel": "52-53", "porcentaje": 10}}
         },
         {
-          "numero": 19,
-          "nivel": "20-22",
+          "numero": 332,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 53, "porcentaje": 20}, "dia": {"nivel": 53, "porcentaje": 20}, "noche": {"nivel": "52-53", "porcentaje": 40}}
+        },
+        {
+          "numero": 450,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "52-54", "porcentaje": 20}, "dia": {"nivel": "52-54", "porcentaje": 20}, "noche": {"nivel": "52-54", "porcentaje": 10}}
+        },
+        {
+          "numero": 50,
+          "nivel": "23-25",
           "porcentaje": 5
         },
         {
-          "numero": 21,
-          "nivel": "20-22",
+          "numero": 331,
+          "nivel": "23-25",
           "porcentaje": 5
         },
         {
-          "numero": 67,
+          "pokedex": "*",
+          "numero": 28,
+          "nivel": 23,
+          "porcentaje": 8,
+          "cartucho": "Verde hoja"
+        }
+      ],
+      "surf": [
+        {
+          "numero": 61,
+          "nivel": "40-55",
+          "porcentaje": 70
+        },
+        {
+          "numero": 60,
+          "nivel": "20-30",
+          "porcentaje":30
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
+        },
+        {
+          "numero": 339,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 130,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 55}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 340,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "20-50","porcentaje": 45}}
+        }
+      ],
+      "radar": [
+        {
+          "pokedex": "*",
+          "numero": 329,
+          "nivel": "52-54",
+          "porcentaje": 20
+        },
+        {
+          "pokedex": "*",
+          "numero": 328,
+          "nivel": 25,
+          "porcentaje": 2
+        }
+      ],
+      "masiva": [
+        {
+          "pokedex": "*",
+          "numero": 374,
           "nivel": 53,
+          "porcentaje": 40
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 229",
+      "hierba": [
+        {
+          "numero": 44,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 51, "porcentaje": 20}, "dia": {"nivel": "51-52", "porcentaje": 30}, "noche": {"nivel": 51, "porcentaje": 20}}
+        },
+        {
+          "numero": 70,
+           "probabilidad": {"tipo":"hora", "maniana": {"nivel": 51, "porcentaje": 20}, "dia": {"nivel": "51-52", "porcentaje": 30}, "noche": {"nivel": 51, "porcentaje": 20}}
+        },
+        {
+          "numero": 166,
+          "probabilidad": {"tipo":"hora", "maniana": {"nivel": 52, "porcentaje": 20}}
+        },
+        {
+          "numero": 314,
+          "nivel": 50,
           "porcentaje": 10
         },
         {
-          "numero": 354,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": "51-53", "porcentaje": 20}}
+          "numero": 315,
+          "nivel": 50,
+          "porcentaje": 10
+        },
+        {
+          "numero": 43,
+          "nivel": "20-22",
+          "porcentaje": 5
+        },
+        {
+          "numero": 69,
+          "nivel": "20-22",
+          "porcentaje": 5
+        },
+        {
+          "numero": 123,
+          "nivel": 52,
+          "porcentaje": 5
+        },
+        {
+          "numero": 313,
+          "nivel": 50,
+          "porcentaje": 5
+        },
+        {
+          "numero": 168,
+          "probabilidad": {"tipo":"hora", "noche": {"nivel": 52, "porcentaje": 20}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 274,
+          "nivel": 20,
+          "porcentaje": 8,
+          "cartucho": "Rubí"
+        },
+        {
+          "pokedex": "*",
+          "numero": 271,
+          "nivel": 20,
+          "porcentaje": 8,
+          "cartucho": "Zafiro"
+        },
+        {
+          "pokedex": "*",
+          "numero": 204,
+          "nivel": 20,
+          "porcentaje": 8,
+          "cartucho": "Esmeralda"
+        }
+      ],
+      "surf": [
+        {
+          "numero": 278,
+          "nivel": "40-55",
+          "porcentaje": 70
+        },
+        {
+          "numero": 279,
+          "nivel": "45-55",
+          "porcentaje":30
+        }
+      ],
+      "pesca":[
+        {
+          "numero": 129,
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 100}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 130,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "20-55","porcentaje": 100}}
+        }
+      ],
+      "radar": [
+        {
+          "pokedex": "*",
+          "numero": 48,
+          "nivel": 22,
+          "porcentaje": 2
+        },
+        {
+          "pokedex": "*",
+          "numero": 49,
+          "nivel": "50-52",
+          "porcentaje": 20
+        }
+      ],
+      "masiva": [
+        {
+          "pokedex": "*",
+          "numero": 16,
+          "nivel": 51,
+          "porcentaje": 40
+        }
+      ]
+    },
+    {
+      "nombre": "Ruta 230",
+      "hierba": [
+        {
+          "numero": 44,
+          "nivel": 50,
+          "porcentaje": 20
+        },
+        {
+          "numero": 70,
+          "nivel": 50,
+          "porcentaje": 20
+        },
+        {
+          "numero": 419,
+          "nivel": "50-52",
+          "porcentaje": 13
+        },
+        {
+          "numero": 43,
+          "nivel": "18-23",
+          "porcentaje": 11
+        },
+        {
+          "numero": 69,
+          "nivel": "18-23",
+          "porcentaje": 11
+        },
+        {
+          "numero": 55,
+          "nivel": 52,
+          "porcentaje": 10
+        },
+        {
+          "numero": 267,
+          "nivel": 51,
+          "porcentaje": 10
+        },
+        {
+          "numero": 423,
+          "variedad": 0,
+          "nivel": 51,
+          "porcentaje": 5
         }
       ],
       "surf": [
@@ -5720,7 +5825,7 @@ const diamante = {
         {
           "numero": 86,
           "nivel": "35-45",
-          "porcentaje": 30
+          "porcentaje":30
         },
         {
           "numero": 73,
@@ -5730,17 +5835,17 @@ const diamante = {
         {
           "numero": 87,
           "nivel": "40-55",
-          "porcentaje": 5
+          "porcentaje":5
         }
       ],
       "pesca":[
         {
           "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
+          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 55}}
         },
         {
-          "numero": 116,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
+          "numero": 223,
+          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 45}}
         },
         {
           "pokedex": "*",
@@ -5749,131 +5854,33 @@ const diamante = {
         },
         {
           "pokedex": "*",
-          "numero": 117,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 45}}
+          "numero": 320,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-40","porcentaje": 40}}
         },
         {
           "pokedex": "*",
-          "numero": 369,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "40-50","porcentaje": 15}}
+          "numero": 224,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "40-55","porcentaje": 15}}
+        },
+        {
+          "pokedex": "*",
+          "numero": 321,
+          "probabilidad": {"tipo":"cania", "super":{"nivel": "35-55","porcentaje": 5}}
         }
       ],
       "radar": [
         {
           "pokedex": "*",
-          "numero": 56,
-          "nivel": 22,
-          "porcentaje": 2
-        },
-        {
-          "pokedex": "*",
-          "numero": 57,
-          "nivel": "51-53",
-          "porcentaje": 20
+          "numero": 175,
+          "nivel": "18-23",
+          "porcentaje": 22
         }
       ],
       "masiva": [
         {
           "pokedex": "*",
-          "numero": 98,
-          "nivel": 52,
-          "porcentaje": 40
-        }
-      ]
-    },
-    {
-      "nombre": "Ruta 225",
-      "hierba": [
-        {
-          "numero": 22,
-          "probabilidad": {"tipo":"hora", "maniana": {"nivel": "50-52", "porcentaje": 40}, "dia": {"nivel": "50-52", "porcentaje": 40}, "noche": {"nivel": "50-52", "porcentaje": 20}}
-        },
-        {
-          "numero": 20,
-          "nivel": "50-52",
-          "porcentaje": 30
-        },
-        {
-          "numero": 435,
-          "nivel": 51,
-          "porcentaje": 10
-        },
-        {
-          "numero": 19,
-          "nivel": "20-22",
-          "porcentaje": 5
-        },
-        {
-          "numero": 21,
-          "nivel": "20-22",
-          "porcentaje": 5
-        },
-        {
-          "numero": 67,
-          "nivel": 51,
-          "porcentaje": 5
-        },
-        {
-          "numero": 315,
-          "nivel": 51,
-          "porcentaje": 5
-        },
-        {
-          "numero": 354,
-          "probabilidad": {"tipo":"hora", "noche": {"nivel": "50-52", "porcentaje": 20}}
-        }
-      ],
-      "surf": [
-        {
-          "numero": 55,
-          "nivel": "40-55",
-          "porcentaje": 70
-        },
-        {
-          "numero": 61,
-          "nivel": "40-50",
-          "porcentaje": 30
-        }
-      ],
-      "pesca":[
-        {
-          "numero": 129,
-          "probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10","porcentaje": 100}, "buena":{"nivel":"10-25" ,"porcentaje": 65}}
-        },
-        {
-          "numero": 60,
-          "probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25","porcentaje": 35}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 130,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 65}}
-        },
-        {
-          "pokedex": "*",
-          "numero": 61,
-          "probabilidad": {"tipo":"cania", "super":{"nivel": "30-55","porcentaje": 35}}
-        }
-      ],
-      "radar": [
-        {
-          "pokedex": "*",
-          "numero": 56,
-          "nivel": 22,
-          "porcentaje": 2
-        },
-        {
-          "pokedex": "*",
-          "numero": 57,
-          "nivel": 51,
-          "porcentaje": 20
-        }
-      ],
-      "masiva": [
-        {
-          "pokedex": "*",
-          "numero": 296,
-          "nivel": "50-51",
+          "numero": 222,
+          "nivel": 50,
           "porcentaje": 40
         }
       ]
@@ -5997,26 +6004,31 @@ const diamante = {
       "nombre": "Fuente Despedida",
       "hierba": [
         {
+          "pokemon": "*",
         	"numero": 400,
         	"nivel": "52-54",
         	"porcentaje": 45
         },
         {
+          "pokemon": "*",
         	"numero": 397,
         	"nivel": "52-54",
         	"probabilidad": {"tipo":"hora", "maniana": {"porcentaje": 25}, "dia": {"porcentaje": 25}, "noche": {"porcentaje": 5}}
         },
         {
+          "pokemon": "*",
         	"numero": 55,
         	"nivel": "53-54",
         	"porcentaje": 20
         },
         {
+          "pokemon": "*",
         	"numero": 358,
           "nivel": "52-54",
         	"porcentaje": 10
         },
         {
+          "pokemon": "*",
         	"numero": 164,
         	"probabilidad": {"tipo":"hora", "noche": {"nivel": "52-54", "porcentaje": 20}}
         },
@@ -6037,6 +6049,7 @@ const diamante = {
       ],
       "surf": [
         {
+          "pokemon": "*",
         	"numero": 55,
         	"nivel": "40-55",
         	"porcentaje": 100
@@ -6044,10 +6057,12 @@ const diamante = {
       ],
       "pesca": [
         {
+          "pokemon": "*",
         	"numero": 129,
         	"probabilidad": {"tipo":"cania", "vieja":{"nivel": "3-10", "porcentaje": 100}, "buena":{"nivel": "10-25", "porcentaje": 55}}
         },
         {
+          "pokemon": "*",
         	"numero": 118,
         	"probabilidad": {"tipo":"cania", "buena":{"nivel": "10-25", "porcentaje": 45}}
         },
@@ -6067,21 +6082,25 @@ const diamante = {
       "nombre": "Cueva Retorno",
       "caminando": [
         {
+          "pokemon": "*",
         	"numero": 42,
         	"nivel": "45-66",
         	"porcentaje": 30
         },
         {
+          "pokemon": "*",
         	"numero": 93,
         	"nivel": "44-66",
         	"porcentaje": 30
         },
         {
+          "pokemon": "*",
         	"numero": 436,
         	"nivel": "44-66",
         	"porcentaje": 5
         },
         {
+          "pokemon": "*",
         	"numero": 437,
         	"nivel": "45-66",
         	"porcentaje": 35
@@ -6101,6 +6120,7 @@ const diamante = {
           "cartucho": "Rubí"
         },
         {
+          "pokemon": "*",
           "numero": 487,
           "nivel": 70
         }
